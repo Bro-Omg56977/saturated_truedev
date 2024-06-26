@@ -1,0 +1,32 @@
+{
+    "feature": "bro:oceans/coral_tre",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": 1
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "heightmap",
+            "heightmap": "OCEAN_FLOOR_WG"
+        },
+        {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                    0,
+                    -1,
+                    0
+                ],
+                "blocks": [
+                    "minecraft:sand",
+                    "minecraft:sandstone",
+                    "minecraft:smooth_sandstone"
+                ]
+            }
+        }
+    ]
+}

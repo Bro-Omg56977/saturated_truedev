@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "state": {
+      "Name": "minecraft:smooth_red_sandstone",
+      "Properties": {}
+    },
+    "target": {
+      "Name": "minecraft:dripstone_block",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "radius": {
+      "type": "minecraft:constant",
+      "value": 12
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:netherrack_replace_blobs",
+          "config": {
+            "state": {
+              "Name": "minecraft:red_sandstone"
+            },
+            "target": {
+              "Name": "minecraft:brown_terracotta"
+            },
+            "radius": 12
+          }
+        },
+        "placement": [
+          {
+            "type": "heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "type": "minecraft:netherrack_replace_blobs",
+          "config": {
+            "state": {
+              "Name": "minecraft:cut_red_sandstone"
+            },
+            "target": {
+              "Name": "minecraft:light_gray_terracotta"
+            },
+            "radius": 12
+          }
+        },
+        "placement": [
+          {
+            "type": "heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "type": "minecraft:netherrack_replace_blobs",
+          "config": {
+            "state": {
+              "Name": "minecraft:orange_terracotta"
+            },
+            "target": {
+              "Name": "minecraft:white_terracotta"
+            },
+            "radius": 12
+          }
+        },
+        "placement": [
+          {
+            "type": "heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "type": "minecraft:netherrack_replace_blobs",
+          "config": {
+            "state": {
+              "Name": "minecraft:red_sandstone"
+            },
+            "target": {
+              "Name": "minecraft:yellow_terracotta"
+            },
+            "radius": 12
+          }
+        },
+        "placement": [
+          {
+            "type": "heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "type": "minecraft:netherrack_replace_blobs",
+          "config": {
+            "state": {
+              "Name": "minecraft:cut_red_sandstone"
+            },
+            "target": {
+              "Name": "minecraft:orange_terracotta"
+            },
+            "radius": 12
+          }
+        },
+        "placement": [
+          {
+            "type": "heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "type": "minecraft:netherrack_replace_blobs",
+          "config": {
+            "state": {
+              "Name": "minecraft:red_sandstone"
+            },
+            "target": {
+              "Name": "minecraft:red_terracotta"
+            },
+            "radius": 12
+          }
+        },
+        "placement": [
+          {
+            "type": "heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          }
+        ]
+      },
+      {
+        "feature": {
+          "type": "minecraft:netherrack_replace_blobs",
+          "config": {
+            "state": {
+              "Name": "minecraft:smooth_red_sandstone"
+            },
+            "target": {
+              "Name": "minecraft:terracotta"
+            },
+            "radius": 12
+          }
+        },
+        "placement": [
+          {
+            "type": "heightmap",
+            "heightmap": "MOTION_BLOCKING"
+          }
+        ]
+      }
+    ]
+  }
+}

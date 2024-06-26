@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.5,
+        "feature": "bro:big_glass"
+      },
+      {
+        "chance": 0.5,
+        "feature": "bro:big_glass2"
+      }
+    ],
+    "default": "bro:na"
+  }
+}

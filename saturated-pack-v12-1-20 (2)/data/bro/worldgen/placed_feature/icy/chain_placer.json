@@ -1,0 +1,25 @@
+{
+  "feature": "bro:icy/chain_placer",
+  "placement": [
+    {
+      "type": "heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "weight": 0,
+            "data": 15
+          },
+          {
+            "weight": 100,
+            "data": 20
+          }
+        ]
+      }
+    }
+  ]
+}

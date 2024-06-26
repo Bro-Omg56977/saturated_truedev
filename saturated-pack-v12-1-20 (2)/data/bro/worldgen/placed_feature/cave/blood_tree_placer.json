@@ -1,0 +1,28 @@
+{
+  "feature": "bro:cave/blood_tree_placer",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 15
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "blocks": [
+          "minecraft:smooth_red_sandstone",
+          "minecraft:nether_wart_block",
+          "minecraft:crimson_nylium"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "direction": "down",
+    "allowed_placement": {
+      "type": "minecraft:matching_blocks",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "blocks": [
+        "minecraft:air"
+      ]
+    },
+    "prioritize_tip": true,
+    "layers": [
+      {
+        "height": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 3,
+            "max_inclusive": 5
+          }
+        },
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:cave_vines",
+                "Properties": {
+                  "age": "25",
+                  "berries": "true"
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:cave_vines",
+                "Properties": {
+                  "berries": "false",
+                  "age": "25"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "height": 1,
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 10,
+              "data": {
+                "Name": "minecraft:air"
+              }
+            },
+            {
+              "weight": 4,
+              "data": {
+                "Name": "minecraft:shroomlight"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:spore_blossom"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

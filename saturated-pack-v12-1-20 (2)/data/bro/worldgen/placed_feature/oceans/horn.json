@@ -1,0 +1,9 @@
+{
+  "feature": "bro:oceans/horn",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 128
+    }
+  ]
+}

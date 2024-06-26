@@ -1,0 +1,33 @@
+{
+	"feature": "bro:desert/pillar_large",
+	"placement": [
+		{
+			"type": "minecraft:surface_water_depth_filter",
+			"max_water_depth": 0
+		},
+		{
+			"type": "minecraft:rarity_filter",
+			"chance": 20
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:uniform",
+				"value": {
+					"min_inclusive": 45,
+					"max_inclusive": 70
+				}
+			}
+		},
+		{
+			"type": "minecraft:heightmap",
+			"heightmap": "OCEAN_FLOOR_WG"
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

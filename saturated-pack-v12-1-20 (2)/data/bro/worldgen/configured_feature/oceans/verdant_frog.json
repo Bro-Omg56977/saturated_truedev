@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:netherrack_replace_blobs",
+    "config": {
+      "state": {
+        "Name": "minecraft:verdant_froglight",
+        "Properties": {
+          "axis": "y"
+        }
+      },
+      "target": {
+        "Name": "minecraft:air"
+      },
+      "radius": 0
+    }
+  }
+  

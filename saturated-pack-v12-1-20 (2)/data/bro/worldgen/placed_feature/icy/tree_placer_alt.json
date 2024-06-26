@@ -1,0 +1,28 @@
+{
+  "feature": "bro:icy/tree_placer_alt",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "weight": 90,
+            "data": 6
+          },
+          {
+            "weight": 10,
+            "data": 7
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    }
+  ]
+}

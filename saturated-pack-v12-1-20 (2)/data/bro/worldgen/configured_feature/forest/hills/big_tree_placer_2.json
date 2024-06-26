@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "bro:forest/hills/big_tree_woodier",
+        "chance": 0.7
+      }
+    ],
+    "default": "bro:na"
+  }
+}

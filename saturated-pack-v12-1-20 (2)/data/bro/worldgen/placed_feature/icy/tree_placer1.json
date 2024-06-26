@@ -1,0 +1,46 @@
+{
+	"feature": "bro:icy/tree_placer1",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 50,
+						"data": 9
+					},
+					{
+						"weight": 50,
+						"data": 10
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE_WG"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					-1,
+					0
+				],
+				"blocks": [
+					"minecraft:grass_block",
+					"minecraft:coarse_dirt"
+				]
+			}
+		},
+		{
+			"type": "minecraft:biome"
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"feature": "bro:oceans/ruins/ruins_placer",
+	"placement": [
+		{
+			"type": "minecraft:count",
+			"count": {
+				"type": "minecraft:weighted_list",
+				"distribution": [
+					{
+						"weight": 50,
+						"data": 12
+					},
+					{
+						"weight": 50,
+						"data": 14
+					}
+				]
+			}
+		},
+		{
+			"type": "minecraft:in_square"
+		},
+		{
+			"type": "heightmap",
+			"heightmap": "OCEAN_FLOOR_WG"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					-1,
+					0
+				],
+				"blocks": [
+					"minecraft:gravel",
+					"minecraft:sand",
+                    "minecraft:cobbled_deepslate"
+				]
+			}
+		}
+	]
+}

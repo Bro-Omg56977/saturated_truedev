@@ -1,0 +1,13 @@
+{
+  "feature": "bro:mountain/valley/possible_test",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 2
+    },
+    {
+      "type": "heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    }
+  ]
+}

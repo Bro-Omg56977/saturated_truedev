@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "hat_state": {
+      "Name": "minecraft:air",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "decor_state": {
+      "Name": "minecraft:air"
+    },
+    "stem_state": {
+      "Name": "minecraft:smooth_red_sandstone",
+      "Properties": {
+        "axis": "y"
+      }
+    },
+    "valid_base_block": {
+      "Name": "minecraft:red_sand"
+    },
+    "replaceable_blocks": {
+      "type": "minecraft:matching_block_tag",
+      "tag": "bro:desert_pillar_blocks"
+    },
+    "planted": false
+  }
+}

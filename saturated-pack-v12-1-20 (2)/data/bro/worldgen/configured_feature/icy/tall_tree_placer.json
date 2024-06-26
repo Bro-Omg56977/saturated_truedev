@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "bro:icy/spruce_tall1",
+        "chance": 0.45
+      },
+      {
+        "feature": "bro:icy/spruce_tall2",
+        "chance": 0.45
+      },
+      {
+        "feature": "bro:icy/spruce_tall_glass",
+        "chance": 0.1
+      }
+    ],
+    "default": "bro:na"
+  }
+}

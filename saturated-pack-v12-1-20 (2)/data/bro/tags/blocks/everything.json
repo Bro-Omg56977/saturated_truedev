@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:grass_block",
+    "minecraft:air",
+    "minecraft:cave_air",
+    "minecraft:water",
+    "minecraft:cyan_stained_glass",
+    "minecraft:bedrock",
+    "minecraft:void_air",
+    "minecraft:sea_lantern",
+    "minecraft:oak_leaves",
+    "minecraft:dark_oak_leaves",
+    "minecraft:twisting_vines",
+    "minecraft:warped_wart_block",
+    "minecraft:dark_oak_log",
+    "minecraft:dark_oak_wood",
+    "minecraft:stone",
+    "minecraft:dirt",
+    "minecraft:shroomlight"
+  ]
+}

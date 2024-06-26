@@ -1,0 +1,44 @@
+{
+    "feature": "bro:oceans/ruins/monolith",
+    "placement": [
+      {
+        "type": "minecraft:rarity_filter",
+        "chance": 50
+      },
+      {
+        "type": "minecraft:count",
+        "count": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 1,
+            "max_inclusive": 1
+          }
+        }
+      },
+      {
+          "type": "minecraft:in_square"
+      },
+      {
+          "type": "heightmap",
+          "heightmap": "OCEAN_FLOOR_WG"
+      },
+      {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                  0,
+                  -1,
+                  0
+              ],
+              "blocks": [
+                  "minecraft:gravel",
+                  "minecraft:cobbled_deepslate"
+              ]
+          }
+      },
+      {
+          "type": "minecraft:biome"
+      }
+  ]
+}

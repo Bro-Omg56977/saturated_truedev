@@ -1,0 +1,102 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "surface": "ceiling",
+    "depth": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 2
+      }
+    },
+    "vertical_range": 5,
+    "extra_bottom_block_chance": 0,
+    "extra_edge_column_chance": 0.3,
+    "vegetation_chance": 1,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 1
+      }
+    },
+    "replaceable": "#bro:dark_oak_wood",
+    "ground_state": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dark_oak_wood",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "vegetation_feature": {
+      "feature": {
+        "type": "minecraft:block_column",
+        "config": {
+          "direction": "down",
+          "allowed_placement": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:air"
+            ]
+          },
+          "prioritize_tip": true,
+          "layers": [
+            {
+              "height": {
+                "type": "minecraft:weighted_list",
+                "distribution": [
+                  {
+                    "weight": 1,
+                    "data": {
+                      "type": "minecraft:uniform",
+                      "value": {
+                        "min_inclusive": 9,
+                        "max_inclusive": 23
+                      }
+                    }
+                  }
+                ]
+              },
+              "provider": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "minecraft:chain",
+                      "Properties": {
+                        "waterlogged": "false",
+                        "axis": "y"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "height": 1,
+              "provider": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "minecraft:soul_lantern",
+                      "Properties": {
+                        "hanging": "true",
+                        "waterlogged": "false"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "placement": []
+    }
+  }
+}

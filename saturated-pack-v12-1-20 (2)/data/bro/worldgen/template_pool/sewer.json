@@ -1,0 +1,168 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sewer/hall",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 50,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sewer/hall_open1",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 50,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sewer/hall_open2",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 25,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sewer/hall_fullopen",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 25,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sewer/intersection",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 75,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sewer/t_junction",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 25,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sewer/t_juction_open",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sewer/corner_left",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 50,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sewer/corner_left_open1",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 50,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sewer/corner_left_open2",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 25,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sewer/corner_left_fullopen",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sewer/corner_right",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 50,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sewer/corner_right_open1",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 50,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sewer/corner_right_open2",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 25,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sewer/corner_right_fullopen",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sewer/end1",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sewer/end2",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sewer/enddry",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.1,
+        "feature": "bro:forest/pumpkin_blu"
+      }
+    ],
+    "default": "bro:na"
+  }
+}

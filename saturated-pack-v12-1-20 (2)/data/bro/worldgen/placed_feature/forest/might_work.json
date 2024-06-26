@@ -1,0 +1,18 @@
+{
+  "feature": "bro:forest/might_work",
+  "placement": [
+    {
+      "type": "minecraft:noise_based_count",
+      "noise_to_count_ratio": -1,
+      "noise_factor": 807,
+      "noise_offset": 0.1
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    }
+  ]
+}

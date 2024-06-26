@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.4,
+        "feature": "bro:cave/spore"
+      },
+      {
+        "chance": 0.2,
+        "feature": "bro:cave/blood_tree1"
+      },
+      {
+        "chance": 0.2,
+        "feature": "bro:cave/blood_tree2"
+      },
+      {
+        "chance": 0.2,
+        "feature": "bro:cave/blood_tree3"
+      }
+    ],
+    "default": "bro:na"
+  }
+}

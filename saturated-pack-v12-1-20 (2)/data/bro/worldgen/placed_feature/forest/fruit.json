@@ -1,0 +1,54 @@
+{
+  "feature": "bro:forest/fruit",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 240
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": 64
+        },
+        "max_inclusive": {
+          "absolute": 256
+        }
+      }
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 32,
+      "target_condition": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:warped_wart_block"
+        ]
+      },
+      "allowed_search_condition": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:air",
+          "minecraft:dark_oak_log",
+          "minecraft:oak_leaves",
+          "minecraft:dark_oak_leaves",
+          "minecraft:grass_block",
+          "minecraft:grass",
+          "minecraft:blue_stained_glass",
+          "minecraft:light_blue_stained_glass",
+          "minecraft:sea_lantern"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": 0,
+      "y_spread": 0
+    }
+  ]
+}

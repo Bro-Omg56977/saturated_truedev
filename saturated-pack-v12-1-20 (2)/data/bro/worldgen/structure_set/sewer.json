@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "bro:sewer",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 28,
+    "separation": 20,
+    "salt": 670017525
+  }
+}

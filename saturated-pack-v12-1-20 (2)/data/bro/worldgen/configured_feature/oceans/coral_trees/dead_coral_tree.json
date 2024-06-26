@@ -1,0 +1,80 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "ignore_vines": true,
+    "force_dirt": false,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size"
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:basalt",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:dead_tube_coral_block"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:dead_brain_coral_block"
+          }
+        }
+      ]
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:air"
+          }
+        }
+      ]
+    },
+    "trunk_placer": {
+      "type": "minecraft:upwards_branching_trunk_placer",
+      "base_height": 14,
+      "height_rand_a": 4,
+      "height_rand_b": 8,
+      "extra_branch_steps": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 6,
+          "max_inclusive": 8
+        }
+      },
+      "extra_branch_length": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 6,
+          "max_inclusive": 8
+        }
+      },
+      "place_branch_per_log_probability": 0.5,
+      "can_grow_through": [
+        "minecraft:air",
+        "minecraft:dead_fire_coral_block",
+        "minecraft:dead_bubble_coral_block"
+      ]
+    },
+    "foliage_placer": {
+      "type": "minecraft:fancy_foliage_placer",
+      "radius": 0,
+      "offset": 0,
+      "height": 0
+    },
+    "decorators": []
+  }
+}

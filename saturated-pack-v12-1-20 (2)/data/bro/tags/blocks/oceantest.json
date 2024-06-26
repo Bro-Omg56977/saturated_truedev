@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "snow_block",
+    "smooth_sandstone",
+    "grass_block",
+    "soul_soil"
+  ]
+}

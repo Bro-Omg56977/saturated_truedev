@@ -1,0 +1,15 @@
+{
+  "name": "bro:hallway_end",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bro:hallway_end",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

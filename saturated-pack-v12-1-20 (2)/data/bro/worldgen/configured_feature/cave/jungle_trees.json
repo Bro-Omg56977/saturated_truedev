@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.3,
+        "feature": "bro:cave/jungle_tree_j1"
+      },
+      {
+        "chance": 0.03,
+        "feature": "bro:cave/jungle_tree_j2"
+      },
+      {
+        "chance": 0.3,
+        "feature": "bro:cave/jungle_tree_m1"
+      },
+      {
+        "chance": 0.03,
+        "feature": "bro:cave/jungle_tree_m2"
+      },
+      {
+        "chance": 0.3,
+        "feature": "bro:cave/jungle_tree_o1"
+      },
+      {
+        "chance": 0.03,
+        "feature": "bro:cave/jungle_tree_o2"
+      }
+    ],
+    "default": "bro:na"
+  }
+}

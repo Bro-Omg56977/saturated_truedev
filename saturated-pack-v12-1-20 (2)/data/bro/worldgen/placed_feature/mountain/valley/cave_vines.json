@@ -1,0 +1,57 @@
+{
+  "feature": "bro:mountain/valley/cave_vine2",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 200
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": 64
+        },
+        "max_inclusive": {
+          "absolute": 256
+        }
+      }
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 32,
+      "target_condition": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:moss_block"
+        ]
+      },
+      "allowed_search_condition": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:air",
+          "minecraft:oak_leaves",
+          "minecraft:dark_oak_wood",
+          "minecraft:spruce_wood",
+          "minecraft:stripped_spruce_wood",
+          "minecraft:grass_block",
+          "minecraft:grass",
+          "minecraft:azalea_leaves",
+          "minecraft:flowering_azalea_leaves",
+          "minecraft:lime_stained_glass",
+          "minecraft:green_stained_glass",
+          "minecraft:moss_block"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": 0,
+      "y_spread": 0
+    }
+  ]
+}

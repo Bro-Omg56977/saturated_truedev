@@ -1,0 +1,114 @@
+{
+    "type": "minecraft:tree",
+    "config": {
+      "ignore_vines": true,
+      "force_dirt": false,
+      "minimum_size": {
+        "type": "minecraft:two_layers_feature_size"
+      },
+      "dirt_provider": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:cobbled_deepslate"
+        }
+      },
+      "trunk_provider": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:deepslate_brick_wall",
+              "Properties": {
+                "waterlogged": "true",
+                "east": "none",
+                "north": "none",
+                "south": "none",
+                "west": "none",
+                "up": "true"
+              }
+            }
+          }
+        ]
+      },
+      "foliage_provider": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 120,
+            "data": {
+              "Name": "minecraft:water",
+              "Properties": {
+                "level": "0"
+              }
+            }
+          },
+          {
+            "weight": 10,
+            "data": {
+              "Name": "minecraft:sea_lantern"
+            }
+          },
+          {
+            "weight": 10,
+            "data": {
+              "Name": "minecraft:verdant_froglight",
+              "Properties": {
+                "axis": "y"
+              }
+            }
+          },
+          {
+            "weight": 10,
+            "data": {
+              "Name": "minecraft:pearlescent_froglight",
+              "Properties": {
+                "axis": "y"
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:ancient_debris"
+            }
+          }
+        ]
+      },
+      "trunk_placer": {
+        "type": "minecraft:straight_trunk_placer",
+        "base_height": 1,
+        "height_rand_a": 1,
+        "height_rand_b": 2
+      },
+      "foliage_placer": {
+        "type": "minecraft:fancy_foliage_placer",
+        "radius": 1,
+        "offset": 0,
+        "height": 0
+      },
+      "decorators": [
+        {
+          "type": "minecraft:attached_to_leaves",
+          "probability": 1,
+          "exclusion_radius_xz": 0,
+          "exclusion_radius_y": 0,
+          "required_empty_blocks": 1,
+          "block_provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:deepslate_brick_slab",
+              "Properties": {
+                "type": "bottom",
+                "waterlogged": "true"
+              }
+            }
+          },
+          "directions": [
+            "up"
+          ]
+        }
+      ]
+    }
+  }
+  

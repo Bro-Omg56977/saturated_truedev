@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:red_sandstone",
+    "minecraft:red_sand",
+    "minecraft:smooth_red_sandstone",
+    "minecraft:netherrack",
+    "minecraft:stone",
+    "minecraft:grass_block",
+    "minecraft:dirt"
+  ]
+}

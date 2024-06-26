@@ -1,0 +1,31 @@
+{
+  "feature": "bro:oceans/float",
+  "placement": [
+    {
+      "type": "count",
+      "count": {
+        "type": "minecraft:constant",
+        "value": 2
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 8
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 70
+        },
+        "max_inclusive": {
+          "absolute": 300
+        }
+      }
+    }
+  ]
+}

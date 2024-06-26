@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:block_column",
+  "config": {
+    "direction": "up",
+    "allowed_placement": {
+      "type": "minecraft:matching_blocks",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "blocks": [
+        "minecraft:air"
+      ]
+    },
+    "prioritize_tip": true,
+    "layers": [
+      {
+        "height": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 2,
+            "max_inclusive": 4
+          }
+        },
+        "provider": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:warped_fence",
+            "Properties": {
+              "east": "false",
+              "north": "false",
+              "south": "false",
+              "west": "false",
+              "waterlogged": "false"
+            }
+          }
+        }
+      },
+      {
+        "height": 1,
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:air"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:redstone_lamp",
+                "Properties": {
+                  "lit": "true"
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:redstone_lamp",
+                "Properties": {
+                  "lit": "false"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

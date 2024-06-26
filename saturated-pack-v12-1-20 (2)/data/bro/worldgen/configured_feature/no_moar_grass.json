@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:disk",
+  "config": {
+    "state_provider": {
+      "fallback": {
+        "type": "minecraft:simple_state_provider",
+        "state": {
+          "Name": "minecraft:dirt"
+        }
+      },
+      "rules": []
+    },
+    "target": {
+      "type": "minecraft:matching_blocks",
+      "offset": [
+        0,
+        -1,
+        0
+      ],
+      "blocks": "minecraft:grass_block"
+    },
+    "radius": 8,
+    "half_height": 2
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "feature": "bro:oceans/dead_fan",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 40
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    },
+    {
+      "type": "minecraft:surface_water_depth_filter",
+      "max_water_depth": 0
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "blocks": [
+          "minecraft:dead_bubble_coral_block",
+          "minecraft:dead_fire_coral_block"
+        ]
+      }
+    }
+  ]
+}

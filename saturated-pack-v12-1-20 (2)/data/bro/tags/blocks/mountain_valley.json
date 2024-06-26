@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:grass_block",
+    "minecraft:moss_block",
+    "minecraft:stone",
+    "minecraft:basalt",
+    "minecraft:blackstone",
+    "minecraft:amethyst_block",
+    "minecraft:calcite",
+    "minecraft:smooth_basalt",
+    "minecraft:cyan_stained_glass",
+    "minecraft:light_blue_stained_glass",
+    "minecraft:green_stained_glass",
+    "minecraft:lime_stained_glass"
+  ]
+}

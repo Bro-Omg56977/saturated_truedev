@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:huge_fungus",
+  "config": {
+    "hat_state": {
+      "Name": "minecraft:bubble_coral_block"
+    },
+    "decor_state": {
+      "Name": "minecraft:sea_lantern"
+    },
+    "stem_state": {
+      "Name": "minecraft:prismarine"
+    },
+    "valid_base_block": {
+      "Name": "minecraft:snow_block"
+    },
+    "replaceable_blocks": {
+      "type": "minecraft:any_of",
+      "predicates": [
+        {
+          "type": "minecraft:matching_blocks",
+          "blocks": "minecraft:snow_block"
+        }
+      ]
+    },
+    "planted": false
+  }
+}

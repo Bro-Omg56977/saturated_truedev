@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:netherrack_replace_blobs",
+  "config": {
+    "state": {
+      "Name": "minecraft:azalea_leaves",
+      "Properties": {
+        "distance": "7",
+        "persistent": "true"
+      }
+    },
+    "target": {
+      "Name": "minecraft:vine"
+    },
+    "radius": 12
+  }
+}

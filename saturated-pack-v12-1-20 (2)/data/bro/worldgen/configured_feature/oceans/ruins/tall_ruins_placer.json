@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "chance": 0.75,
+          "feature": "bro:oceans/ruins/kelp"
+        },
+        {
+          "chance": 0.25,
+          "feature": "bro:oceans/ruins/mine"
+        }
+      ],
+      "default": "bro:na"
+    }
+  }
+  

@@ -1,0 +1,28 @@
+{
+  "feature": "bro:forest/hills/shrooms",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "weight": 90,
+            "data": 10
+          },
+          {
+            "weight": 10,
+            "data": 30
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    }
+  ]
+}

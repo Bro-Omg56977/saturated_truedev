@@ -1,0 +1,47 @@
+{
+  "feature": "bro:test",
+  "placement": [
+    {
+      "type": "count",
+      "count": 2
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "target_condition": {
+        "type": "minecraft:solid"
+      },
+      "allowed_search_condition": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:air"
+        ]
+      },
+      "max_steps": 3
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": -16
+        },
+        "max_inclusive": {
+          "absolute": 16
+        }
+      }
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": -16
+        },
+        "max_inclusive": {
+          "absolute": 16
+        }
+      }
+    }
+  ]
+}

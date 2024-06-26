@@ -1,0 +1,2 @@
+title @a actionbar "§2Sometimes the player dreamed it was other things, in other places. Sometimes these dreams were disturbing. Sometimes very beautiful indeed."
+advancement revoke @a only bro:quotes/nether_to_wrld

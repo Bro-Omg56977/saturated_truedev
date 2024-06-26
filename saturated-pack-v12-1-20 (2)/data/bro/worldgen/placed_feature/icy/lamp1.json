@@ -1,0 +1,53 @@
+{
+  "feature": "bro:icy/lamp1",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 5
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "absolute": 63
+        },
+        "max_inclusive": {
+          "absolute": 128
+        }
+      }
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 32,
+      "target_condition": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:grass_block"
+        ]
+      },
+      "allowed_search_condition": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:air",
+          "minecraft:spruce_log",
+          "minecraft:oak_leaves",
+          "minecraft:spruce_leaves",
+          "minecraft:vine",
+          "minecraft:grass",
+          "minecraft:purple_stained_glass",
+          "minecraft:magenta_stained_glass"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": 0,
+      "y_spread": 0
+    }
+  ]
+}

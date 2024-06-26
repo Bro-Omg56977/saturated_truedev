@@ -1,0 +1,122 @@
+{
+  "type": "minecraft:vegetation_patch",
+  "config": {
+    "surface": "ceiling",
+    "depth": 2,
+    "vertical_range": 3,
+    "extra_bottom_block_chance": 1,
+    "extra_edge_column_chance": 1,
+    "vegetation_chance": 1,
+    "xz_radius": {
+      "type": "minecraft:uniform",
+      "value": {
+        "min_inclusive": 1,
+        "max_inclusive": 1
+      }
+    },
+    "replaceable": "#bro:leaves",
+    "ground_state": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:oak_leaves",
+        "Properties": {
+          "distance": "7",
+          "persistent": "true"
+        }
+      }
+    },
+    "vegetation_feature": {
+      "feature": {
+        "type": "minecraft:block_column",
+        "config": {
+          "direction": "down",
+          "allowed_placement": {
+            "type": "minecraft:matching_blocks",
+            "blocks": [
+              "minecraft:air"
+            ]
+          },
+          "prioritize_tip": true,
+          "layers": [
+            {
+              "height": {
+                "type": "minecraft:weighted_list",
+                "distribution": [
+                  {
+                    "weight": 1,
+                    "data": {
+                      "type": "minecraft:uniform",
+                      "value": {
+                        "min_inclusive": 59,
+                        "max_inclusive": 149
+                      }
+                    }
+                  }
+                ]
+              },
+              "provider": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "weight": 1,
+                    "data": {
+                      "Name": "minecraft:chain",
+                      "Properties": {
+                        "waterlogged": "false",
+                        "axis": "y"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "height": 1,
+              "provider": {
+                "type": "minecraft:weighted_state_provider",
+                "entries": [
+                  {
+                    "weight": 5,
+                    "data": {
+                      "Name": "minecraft:shroomlight",
+                      "Properties": {
+                        "axis": "y"
+                      }
+                    }
+                  },
+                  {
+                    "weight": 5,
+                    "data": {
+                      "Name": "minecraft:sea_lantern",
+                      "Properties": {
+                        "axis": "y"
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:count",
+          "count": {
+            "type": "minecraft:weighted_list",
+            "distribution": [
+              {
+                "weight": 0,
+                "data": 100
+              },
+              {
+                "weight": 100,
+                "data": 150
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

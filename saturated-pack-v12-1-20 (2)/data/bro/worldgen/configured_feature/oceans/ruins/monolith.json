@@ -1,0 +1,127 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size"
+    },
+    "dirt_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:gravel"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:cobbled_deepslate"
+          }
+        }
+      ]
+    },
+    "trunk_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 250,
+          "data": {
+            "Name": "minecraft:cracked_deepslate_bricks"
+          }
+        },
+        {
+          "weight": 250,
+          "data": {
+            "Name": "minecraft:cobbled_deepslate"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:sea_lantern"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:pearlescent_froglight",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:verdant_froglight",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:ancient_debris"
+          }
+        }
+      ]
+    },
+    "foliage_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:air"
+      }
+    },
+    "trunk_placer": {
+      "type": "minecraft:giant_trunk_placer",
+      "base_height": 16,
+      "height_rand_a": 6,
+      "height_rand_b": 12
+    },
+    "foliage_placer": {
+      "type": "minecraft:blob_foliage_placer",
+      "radius": 0,
+      "offset": 0,
+      "height": 0
+    },
+    "decorators": [
+      {
+        "type": "minecraft:attached_to_leaves",
+        "probability": 1,
+        "exclusion_radius_xz": 0,
+        "exclusion_radius_y": 0,
+        "required_empty_blocks": 1,
+        "block_provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:cobbled_deepslate_slab",
+                "Properties": {
+                  "waterlogged": "true",
+                  "type": "bottom"
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:deepslate_brick_slab",
+                "Properties": {
+                  "type": "bottom",
+                  "waterlogged": "true"
+                }
+              }
+            }
+          ]
+        },
+        "directions": [
+          "up"
+        ]
+      }
+    ]
+  }
+}

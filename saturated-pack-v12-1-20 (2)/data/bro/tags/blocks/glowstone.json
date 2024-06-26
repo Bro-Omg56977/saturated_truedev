@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:glowstone",
+    "minecraft:netherrack",
+    "minecraft:sandstone",
+    "minecraft:smooth_red_sandstone"
+  ]
+}

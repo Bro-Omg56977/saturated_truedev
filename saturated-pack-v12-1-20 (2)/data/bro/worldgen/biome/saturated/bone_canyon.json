@@ -1,0 +1,167 @@
+{
+  "temperature": 2,
+  "downfall": 0,
+  "temperature_modifier": "none",
+  "effects": {
+    "sky_color": 10967553,
+    "fog_color": 10967553,
+    "water_color": 10967553,
+    "water_fog_color": 3086852,
+    "grass_color": 10967553,
+    "foliage_color": 10967553,
+    "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.warped_forest.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.warped_forest.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "bro:november",
+      "min_delay": 1200,
+      "max_delay": 2400,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:enchant"
+      },
+      "probability": 0.005
+    }
+  },
+  "spawners": {
+    "creature": [
+      {
+        "type": "minecraft:rabbit",
+        "weight": 3,
+        "minCount": 2,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 6,
+        "minCount": 3,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 10,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:sheep",
+        "weight": 8,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 12,
+        "minCount": 2,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 2,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:husk",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:vindicator",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 16,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ],
+    "ambient": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "bro:desert/glass_desert"
+    ],
+    [
+      "bro:desert/pillar_large",
+      "bro:desert/pillar_normal",
+      "bro:desert/pillar_small",
+      "bro:desert/place",
+      "bro:desert/replace"
+    ],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [
+      "minecraft:ore_gravel",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "bro:cave/oil",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava",
+      "minecraft:patch_cactus_desert",
+      "minecraft:patch_dead_bush_badlands"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "has_precipitation": false
+}

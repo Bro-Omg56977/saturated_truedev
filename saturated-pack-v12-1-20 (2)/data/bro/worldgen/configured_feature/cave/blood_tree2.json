@@ -1,0 +1,114 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "ignore_vines": false,
+    "force_dirt": false,
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size"
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:bone_block",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:bone_block",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 25,
+          "data": {
+            "Name": "minecraft:nether_wart_block"
+          }
+        },
+        {
+          "weight": 25,
+          "data": {
+            "Name": "minecraft:dark_oak_leaves",
+            "Properties": {
+              "distance": "7",
+              "persistent": "true",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:shroomlight"
+          }
+        }
+      ]
+    },
+    "trunk_placer": {
+      "type": "minecraft:fancy_trunk_placer",
+      "base_height": 6,
+      "height_rand_a": 2,
+      "height_rand_b": 4
+    },
+    "foliage_placer": {
+      "type": "minecraft:random_spread_foliage_placer",
+      "radius": 2,
+      "offset": 1,
+      "foliage_height": 3,
+      "leaf_placement_attempts": 100
+    },
+    "decorators": [
+      {
+        "type": "minecraft:attached_to_leaves",
+        "probability": 0.25,
+        "exclusion_radius_xz": 0,
+        "exclusion_radius_y": 0,
+        "required_empty_blocks": 1,
+        "block_provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 25,
+              "data": {
+                "Name": "minecraft:nether_wart_block"
+              }
+            },
+            {
+              "weight": 25,
+              "data": {
+                "Name": "minecraft:dark_oak_leaves",
+                "Properties": {
+                  "distance": "7",
+                  "persistent": "true",
+                  "waterlogged": "false"
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:shroomlight"
+              }
+            }
+          ]
+        },
+        "directions": [
+          "up",
+          "down",
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      }
+    ]
+  }
+}

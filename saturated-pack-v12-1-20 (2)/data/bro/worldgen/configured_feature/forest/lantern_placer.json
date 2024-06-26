@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.25,
+        "feature": "bro:forest/fruit"
+      },
+      {
+        "chance": 0.75,
+        "feature": "bro:forest/lantern_wip"
+      }
+    ],
+    "default": "bro:forest/fruit"
+  }
+}

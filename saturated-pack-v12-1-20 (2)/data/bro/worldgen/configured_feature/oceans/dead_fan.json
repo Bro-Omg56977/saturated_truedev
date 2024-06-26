@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:random_patch",
+  "config": {
+    "tries": 4,
+    "xz_spread": 7,
+    "y_spread": 1,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:dead_fire_coral_fan",
+              "Properties": {
+                "waterlogged": "false"
+              }
+            }
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:all_of",
+            "predicates": [
+              {
+                "type": "minecraft:matching_blocks",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:dead_bubble_coral_block",
+                  "minecraft:dead_fire_coral_block"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

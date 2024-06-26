@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.223,
+        "feature": "bro:mountain/crystal_big1"
+      },
+      {
+        "chance": 0.223,
+        "feature": "bro:mountain/crystal_big2"
+      },
+      {
+        "chance": 0.223,
+        "feature": "bro:mountain/crystal_big3"
+      },
+      {
+        "chance": 0.223,
+        "feature": "bro:mountain/crystal_big4"
+      }
+    ],
+    "default": "bro:na"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "feature": "bro:cave/jungle_trees",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 9
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "blocks": [
+          "minecraft:mud",
+          "minecraft:moss_block",
+          "minecraft:grass_block",
+          "minecraft:tuff"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

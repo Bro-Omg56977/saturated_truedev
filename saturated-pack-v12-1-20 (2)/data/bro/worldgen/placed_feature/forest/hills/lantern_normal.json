@@ -1,0 +1,21 @@
+{
+  "feature": "bro:forest/hills/lantern_normal",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "weight": 50,
+            "data": 2
+          },
+          {
+            "weight": 50,
+            "data": 8
+          }
+        ]
+      }
+    }
+  ]
+}

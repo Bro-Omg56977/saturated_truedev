@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "ignore_vines": true,
+    "minimum_size": {
+      "limit": 0,
+      "lower_size": 0,
+      "upper_size": 0,
+      "type": "minecraft:two_layers_feature_size"
+    },
+    "trunk_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dark_oak_log",
+        "Properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "trunk_placer": {
+      "type": "minecraft:straight_trunk_placer",
+      "base_height": 32,
+      "height_rand_a": 22,
+      "height_rand_b": 24
+    },
+    "foliage_placer": {
+      "type": "minecraft:jungle_foliage_placer",
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 4,
+          "max_inclusive": 6
+        }
+      },
+      "offset": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 1,
+          "max_inclusive": 1
+        }
+      },
+      "height": 2
+    },
+    "decorators": [],
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:oak_leaves",
+            "Properties": {
+              "persistent": "true",
+              "distance": "7"
+            }
+          }
+        },
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:air",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        }
+      ]
+    },
+    "force_dirt": false,
+    "sapling_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:oak_sapling",
+        "Properties": {
+          "stage": "0"
+        }
+      }
+    },
+    "dirt_provider": {
+      "state": {
+        "Name": "minecraft:dirt"
+      },
+      "type": "minecraft:simple_state_provider"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "feature": "bro:void_placer",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 80
+    },
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 1,
+          "max_inclusive": 1
+        }
+      }
+    },
+    {
+      "type": "minecraft:heightmap",
+      "heightmap": "WORLD_SURFACE_WG"
+    }
+  ]
+}

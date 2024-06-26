@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:smooth_quartz",
+    "minecraft:white_stained_glass",
+    "minecraft:pink_stained_glass",
+    "minecraft:netherrack"
+  ]
+}

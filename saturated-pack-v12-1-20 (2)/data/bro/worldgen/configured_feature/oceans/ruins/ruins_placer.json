@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "chance": 0.14,
+          "feature": "bro:oceans/ruins/ruins1"
+        },
+        {
+          "chance": 0.14,
+          "feature": "bro:oceans/ruins/ruins2"
+        },
+        {
+          "chance": 0.14,
+          "feature": "bro:oceans/ruins/ruins3"
+        },
+        {
+          "chance": 0.14,
+          "feature": "bro:oceans/ruins/ruins4"
+        },
+        {
+          "chance": 0.14,
+          "feature": "bro:oceans/ruins/ruins5"
+        },
+        {
+          "chance": 0.14,
+          "feature": "bro:oceans/ruins/ruins6"
+        },
+        {
+          "chance": 0.14,
+          "feature": "bro:oceans/ruins/ruins7"
+        }
+      ],
+      "default": "bro:na"
+    }
+  }
+  

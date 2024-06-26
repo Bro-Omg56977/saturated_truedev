@@ -1,0 +1,85 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "ignore_vines": true,
+    "force_dirt": false,
+    "minimum_size": {
+      "type": "minecraft:three_layers_feature_size",
+      "limit": 1,
+      "upper_limit": 1,
+      "lower_size": 1,
+      "middle_size": 1,
+      "upper_size": 2
+    },
+    "sapling_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:stone"
+      }
+    },
+    "dirt_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:stone"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:blackstone"
+          }
+        }
+      ]
+    },
+    "trunk_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 61,
+          "data": {
+            "Name": "minecraft:lime_stained_glass"
+          }
+        }
+      ]
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:glowstone"
+          }
+        },
+        {
+          "weight": 35,
+          "data": {
+            "Name": "minecraft:air"
+          }
+        }
+      ]
+    },
+    "trunk_placer": {
+      "type": "minecraft:giant_trunk_placer",
+      "base_height": 6,
+      "height_rand_a": 6,
+      "height_rand_b": 7
+    },
+    "foliage_placer": {
+      "type": "minecraft:pine_foliage_placer",
+      "radius": {
+        "type": "minecraft:uniform",
+        "value": {
+          "min_inclusive": 0,
+          "max_inclusive": 0
+        }
+      },
+      "offset": 0,
+      "height": 0
+    },
+    "decorators": []
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "feature": "bro:forest/hills/locator_placer",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": {
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "weight": 100,
+            "data": 25
+          },
+          {
+            "weight": 0,
+            "data": 35
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "heightmap",
+      "heightmap": "MOTION_BLOCKING"
+    }
+  ]
+}
