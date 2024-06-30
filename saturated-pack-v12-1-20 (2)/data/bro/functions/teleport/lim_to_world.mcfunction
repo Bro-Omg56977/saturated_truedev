@@ -1,8 +1,15 @@
-execute in minecraft:overworld run forceload add ~ ~
-execute in minecraft:overworld align xz run tp @s ~ 300 ~
-execute at @s run fill ~3 ~1 ~3 ~-3 ~-1 ~-3 air 
-execute at @s[gamemode=!spectator] run setblock ~ 249 ~ minecraft:damaged_anvil keep
-effect give @s slow_falling 45 1 true
+# Do the thing
+execute as @a in minecraft:overworld run tp @s ~ ~ ~
+
+# Schedule teleportation to ensure it happens after dimension change
+schedule function bro:teleport/teleporter 1t
+
+# Weeeeee
+effect give @s slow_falling 30 1 true
+
+# Revoke the advancement bro:lim_to_wrld from all players
 advancement revoke @a only bro:lim_to_wrld
-execute as @s run forceload remove ~ ~
+
+# No lore here, just an end poem quote
+
 title @a actionbar "§2Sometimes it thought itself human, on the thin crust of a spinning globe of molten rock."

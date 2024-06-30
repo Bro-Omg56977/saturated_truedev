@@ -1,10 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": [
-    "bro:saturated/moss_basin",
-    "bro:saturated/stranger_flats",
-    "bro:saturated/the_enchanted"
-  ],
+  "biomes": [],
   "step": "surface_structures",
   "spawn_overrides": {},
   "start_pool": "bro:sewer_main",

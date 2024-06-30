@@ -1,8 +1,15 @@
-execute in bro:saturated run forceload add ~ ~
-execute in bro:saturated align xz run tp @s ~ 300 ~
-execute at @s run fill ~3 ~1 ~3 ~-3 ~-1 ~-3 air 
-execute at @s[gamemode=!spectator] run setblock ~ 249 ~ minecraft:gravel keep
-effect give @s slow_falling 45 1 true
-advancement revoke @a only bro:lim_to_sat
-execute as @s run forceload remove ~ ~
+# Do the thing
+execute as @a in bro:saturated run tp @s ~ ~ ~
+
+# Schedule teleportation to ensure it happens after dimension change
+schedule function bro:teleport/teleporter 1t
+
+# Weeeeee
+effect give @s slow_falling 30 1 true
+
+# Revoke the advancement bro:lim_to_wrld from all players
+advancement revoke @a only bro:lim_to_wrld
+
+# No lore here, just an end poem quote
+
 title @a actionbar "§3Sometimes the player dreamed it was lost in a story."
