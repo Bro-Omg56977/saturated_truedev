@@ -2,11 +2,18 @@
   "type": "minecraft:tree",
   "config": {
     "ignore_vines": true,
+    "force_dirt": false,
     "minimum_size": {
+      "type": "minecraft:two_layers_feature_size",
       "limit": 0,
       "lower_size": 0,
-      "upper_size": 0,
-      "type": "minecraft:two_layers_feature_size"
+      "upper_size": 0
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
     },
     "trunk_provider": {
       "type": "minecraft:simple_state_provider",
@@ -17,31 +24,6 @@
         }
       }
     },
-    "trunk_placer": {
-      "type": "minecraft:straight_trunk_placer",
-      "base_height": 32,
-      "height_rand_a": 22,
-      "height_rand_b": 24
-    },
-    "foliage_placer": {
-      "type": "minecraft:jungle_foliage_placer",
-      "radius": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 4,
-          "max_inclusive": 6
-        }
-      },
-      "offset": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 1,
-          "max_inclusive": 1
-        }
-      },
-      "height": 2
-    },
-    "decorators": [],
     "foliage_provider": {
       "type": "minecraft:weighted_state_provider",
       "entries": [
@@ -59,28 +41,31 @@
           "weight": 2,
           "data": {
             "Name": "minecraft:air",
-            "Properties": {
-              "axis": "y"
-            }
+            "Properties": {}
           }
         }
       ]
     },
-    "force_dirt": false,
-    "sapling_provider": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "minecraft:oak_sapling",
-        "Properties": {
-          "stage": "0"
-        }
-      }
+    "trunk_placer": {
+      "type": "minecraft:straight_trunk_placer",
+      "base_height": 32,
+      "height_rand_a": 22,
+      "height_rand_b": 24
     },
-    "dirt_provider": {
-      "state": {
-        "Name": "minecraft:dirt"
+    "foliage_placer": {
+      "type": "minecraft:jungle_foliage_placer",
+      "radius": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 4,
+        "max_inclusive": 6
       },
-      "type": "minecraft:simple_state_provider"
-    }
+      "offset": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 1,
+        "max_inclusive": 1
+      },
+      "height": 2
+    },
+    "decorators": []
   }
 }

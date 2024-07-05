@@ -1,10 +1,7 @@
 {
+  "type": "minecraft:cave",
   "config": {
     "probability": 0.1,
-    "lava_level": {
-      "above_bottom": 10
-    },
-    "aquifers_enabled": false,
     "y": {
       "type": "minecraft:biased_to_bottom",
       "min_inclusive": {
@@ -16,10 +13,12 @@
       "inner": 8
     },
     "yScale": 0.5,
+    "lava_level": {
+      "above_bottom": 10
+    },
+    "replaceable": "#minecraft:overworld_carver_replaceables",
     "horizontal_radius_multiplier": 1,
     "vertical_radius_multiplier": 1,
-    "floor_level": -0.7,
-    "replaceable": "#minecraft:overworld_carver_replaceables"
-  },
-  "type": "minecraft:cave"
+    "floor_level": -0.7
+  }
 }

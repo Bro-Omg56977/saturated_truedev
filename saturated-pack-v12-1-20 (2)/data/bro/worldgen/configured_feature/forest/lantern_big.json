@@ -4,10 +4,8 @@
     "surface": "ceiling",
     "depth": {
       "type": "minecraft:uniform",
-      "value": {
         "min_inclusive": 1,
         "max_inclusive": 2
-      }
     },
     "vertical_range": 5,
     "extra_bottom_block_chance": 0,
@@ -15,10 +13,8 @@
     "vegetation_chance": 1,
     "xz_radius": {
       "type": "minecraft:uniform",
-      "value": {
         "min_inclusive": 1,
         "max_inclusive": 1
-      }
     },
     "replaceable": "#bro:dark_oak_wood",
     "ground_state": {
@@ -51,10 +47,8 @@
                     "weight": 1,
                     "data": {
                       "type": "minecraft:uniform",
-                      "value": {
                         "min_inclusive": 9,
                         "max_inclusive": 23
-                      }
                     }
                   }
                 ]

@@ -1,5 +1,4 @@
 {
-  "name": "bro:hallway_end",
   "fallback": "minecraft:empty",
   "elements": [
     {
@@ -8,6 +7,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:hallway_end",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     }

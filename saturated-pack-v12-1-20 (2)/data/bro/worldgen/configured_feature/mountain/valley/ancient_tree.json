@@ -1,65 +1,136 @@
 {
   "type": "minecraft:tree",
   "config": {
-    "ignore_vines": true,
     "minimum_size": {
-      "limit": 0,
-      "lower_size": 0,
-      "upper_size": 0,
       "type": "minecraft:two_layers_feature_size"
     },
-    "trunk_provider": {
+    "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
-        "Name": "minecraft:spruce_log",
-        "Properties": {
-          "axis": "y"
-        }
+        "Name": "minecraft:moss_block"
       }
+    },
+    "trunk_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 2,
+          "data": {
+            "Name": "minecraft:spruce_wood",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:stripped_spruce_wood",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        }
+      ]
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 50,
+          "data": {
+            "Name": "minecraft:flowering_azalea_leaves",
+            "Properties": {
+              "distance": "7",
+              "persistent": "true",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:azalea_leaves",
+            "Properties": {
+              "persistent": "true",
+              "distance": "7",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:moss_block"
+          }
+        },
+        {
+          "weight": 20,
+          "data": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:shroomlight"
+          }
+        }
+      ]
     },
     "trunk_placer": {
       "type": "minecraft:fancy_trunk_placer",
-      "base_height": 32,
-      "height_rand_a": 23,
-      "height_rand_b": 24
+      "base_height": 16,
+      "height_rand_a": 11,
+      "height_rand_b": 13
     },
     "foliage_placer": {
       "type": "minecraft:fancy_foliage_placer",
-      "radius": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 12,
-          "max_inclusive": 14
-        }
-      },
+      "radius": 1,
       "offset": {
-        "type": "minecraft:uniform",
-        "value": {
-          "min_inclusive": 1,
-          "max_inclusive": 1
-        }
+        "type": "minecraft:weighted_list",
+        "distribution": [
+          {
+            "weight": 10,
+            "data": 0
+          },
+          {
+            "weight": 1,
+            "data": 1
+          }
+        ]
       },
-      "height": 2
+      "height": 1
     },
     "decorators": [
+      {
+        "type": "minecraft:leave_vine",
+        "probability": 0.25
+      },
       {
         "type": "minecraft:alter_ground",
         "provider": {
           "type": "minecraft:weighted_state_provider",
           "entries": [
             {
-              "weight": 1,
+              "weight": 8,
               "data": {
-                "Name": "minecraft:spruce_log",
+                "Name": "minecraft:grass_block",
                 "Properties": {
-                  "axis": "z"
+                  "snowy": "false"
                 }
+              }
+            },
+            {
+              "weight": 4,
+              "data": {
+                "Name": "minecraft:moss_block"
               }
             },
             {
               "weight": 1,
               "data": {
-                "Name": "minecraft:spruce_log",
+                "Name": "minecraft:spruce_wood",
                 "Properties": {
                   "axis": "x"
                 }
@@ -68,84 +139,33 @@
             {
               "weight": 1,
               "data": {
-                "Name": "minecraft:grass_block",
+                "Name": "minecraft:spruce_wood",
                 "Properties": {
-                  "snowy": "false"
+                  "axis": "z"
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:stripped_spruce_wood",
+                "Properties": {
+                  "axis": "z"
+                }
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:stripped_spruce_wood",
+                "Properties": {
+                  "axis": "x"
                 }
               }
             }
           ]
         }
-      },
-      {
-        "type": "minecraft:leave_vine",
-        "probability": 0.25
       }
-    ],
-    "foliage_provider": {
-      "type": "minecraft:weighted_state_provider",
-      "entries": [
-        {
-          "weight": 3,
-          "data": {
-            "Name": "minecraft:flowering_azalea_leaves",
-            "Properties": {
-              "distance": "7",
-              "persistent": "true"
-            }
-          }
-        },
-        {
-          "weight": 3,
-          "data": {
-            "Name": "minecraft:moss_block"
-          }
-        },
-        {
-          "weight": 3,
-          "data": {
-            "Name": "minecraft:shroomlight"
-          }
-        },
-        {
-          "weight": 3,
-          "data": {
-            "Name": "minecraft:air"
-          }
-        },
-        {
-          "weight": 7,
-          "data": {
-            "Name": "minecraft:moss_block"
-          }
-        },
-        {
-          "weight": 3,
-          "data": {
-            "Name": "minecraft:oak_leaves",
-            "Properties": {
-              "distance": "7",
-              "persistent": "true"
-            }
-          }
-        }
-      ]
-    },
-    "force_dirt": false,
-    "sapling_provider": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "minecraft:oak_sapling",
-        "Properties": {
-          "stage": "0"
-        }
-      }
-    },
-    "dirt_provider": {
-      "state": {
-        "Name": "minecraft:dirt"
-      },
-      "type": "minecraft:simple_state_provider"
-    }
+    ]
   }
 }

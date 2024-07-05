@@ -1,5 +1,4 @@
 {
-  "name": "bro:pool_center",
   "fallback": "minecraft:empty",
   "elements": [
     {
@@ -8,6 +7,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:pools_center",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     }

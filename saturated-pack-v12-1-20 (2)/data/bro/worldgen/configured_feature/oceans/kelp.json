@@ -17,10 +17,8 @@
             {
               "height": {
                 "type": "minecraft:biased_to_bottom",
-                "value": {
                   "min_inclusive": 20,
                   "max_inclusive": 40
-                }
               },
               "provider": {
                 "state": {

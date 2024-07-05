@@ -1,6 +1,7 @@
 {
   "temperature": 0,
   "downfall": 0.5,
+  "has_precipitation": true,
   "effects": {
     "sky_color": 43690,
     "fog_color": 43690,
@@ -18,12 +19,6 @@
     "additions_sound": {
       "sound": "minecraft:ambient.warped_forest.additions",
       "tick_chance": 0.0111
-    },
-    "music": {
-      "sound": "bro:winter",
-      "min_delay": 12000,
-      "max_delay": 24000,
-      "replace_current_music": true
     },
     "particle": {
       "options": {
@@ -157,6 +152,5 @@
     [
       "minecraft:freeze_top_layer"
     ]
-  ],
-  "has_precipitation": true
+  ]
 }

@@ -1,6 +1,7 @@
 {
   "temperature": 2,
   "downfall": 0,
+  "has_precipitation": false,
   "temperature_modifier": "none",
   "effects": {
     "sky_color": 13133593,
@@ -118,7 +119,8 @@
     [
       "bro:cave/blood_tree_placer",
       "bro:cave/replace_water",
-      "minecraft:crimson_forest_vegetation"
+      "minecraft:crimson_forest_vegetation",
+      "bro:cave/desert_grass"
     ],
     [
       "minecraft:monster_room",
@@ -164,6 +166,5 @@
     [
       "minecraft:freeze_top_layer"
     ]
-  ],
-  "has_precipitation": false
+  ]
 }
