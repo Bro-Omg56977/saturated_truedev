@@ -119,8 +119,7 @@
     [
       "bro:cave/blood_tree_placer",
       "bro:cave/replace_water",
-      "minecraft:crimson_forest_vegetation",
-      "bro:cave/desert_grass"
+      "minecraft:crimson_forest_vegetation"
     ],
     [
       "minecraft:monster_room",
