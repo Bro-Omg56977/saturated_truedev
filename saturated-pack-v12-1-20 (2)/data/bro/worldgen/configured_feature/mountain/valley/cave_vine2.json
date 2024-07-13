@@ -4,10 +4,8 @@
     "surface": "ceiling",
     "depth": {
       "type": "minecraft:uniform",
-      "value": {
         "min_inclusive": 1,
         "max_inclusive": 1
-      }
     },
     "vertical_range": 1,
     "extra_bottom_block_chance": 0,
@@ -37,10 +35,8 @@
             {
               "height": {
                 "type": "minecraft:uniform",
-                "value": {
                   "min_inclusive": 6,
                   "max_inclusive": 10
-                }
               },
               "provider": {
                 "type": "minecraft:weighted_state_provider",

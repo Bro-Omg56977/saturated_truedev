@@ -3,7 +3,7 @@
   "config": {
     "features": [
       {
-        "feature": "bro:mountain/valley/ancient_treed",
+        "feature": "bro:mountain/valley/ancient_tree",
         "chance": 0.135
       }
     ],

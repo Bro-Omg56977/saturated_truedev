@@ -1,16 +1,15 @@
 {
-    "name": "bro:sewer/entrance",
-    "fallback": "minecraft:empty",
-    "elements": [
-      {
-        "weight": 1,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "bro:sewer/entrance",
-          "processors": "minecraft:empty"
-        }
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bro:sewer/entrance",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
       }
-    ]
-  }
-  
+    }
+  ]
+}

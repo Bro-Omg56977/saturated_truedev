@@ -11,15 +11,6 @@
       "middle_size": 1,
       "upper_size": 2
     },
-    "sapling_provider": {
-      "type": "minecraft:simple_state_provider",
-      "state": {
-        "Name": "minecraft:oak_sapling",
-        "Properties": {
-          "stage": "0"
-        }
-      }
-    },
     "dirt_provider": {
       "type": "minecraft:simple_state_provider",
       "state": {
@@ -52,18 +43,14 @@
           "weight": 1,
           "data": {
             "Name": "minecraft:purple_terracotta",
-            "Properties": {
-              "axis": "y"
-            }
+            "Properties": {}
           }
         },
         {
           "weight": 40,
           "data": {
             "Name": "minecraft:air",
-            "Properties": {
-              "axis": "y"
-            }
+            "Properties": {}
           }
         }
       ]
@@ -77,8 +64,8 @@
     "foliage_placer": {
       "type": "minecraft:blob_foliage_placer",
       "radius": 16,
-      "height": 3,
-      "offset": 1
+      "offset": 1,
+      "height": 3
     },
     "decorators": []
   }

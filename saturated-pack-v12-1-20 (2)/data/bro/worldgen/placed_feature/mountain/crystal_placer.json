@@ -4,29 +4,17 @@
     {
       "type": "minecraft:count",
       "count": {
-        "type": "minecraft:weighted_list",
-        "distribution": [
-          {
-            "weight": 10,
-            "data": 10
-          },
-          {
-            "weight": 10,
-            "data": 11
-          }
-        ]
+        "type": "minecraft:uniform",
+        "min_inclusive": 10,
+        "max_inclusive": 11
       }
     },
     {
       "type": "minecraft:in_square"
     },
     {
-      "type": "minecraft:surface_water_depth_filter",
-      "max_water_depth": 0
-    },
-    {
       "type": "minecraft:heightmap",
-      "heightmap": "OCEAN_FLOOR_WG"
+      "heightmap": "WORLD_SURFACE_WG"
     },
     {
       "type": "minecraft:biome"

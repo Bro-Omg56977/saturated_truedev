@@ -1,81 +1,22 @@
 {
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "has_precipitation": true,
+  "temperature_modifier": "none",
   "effects": {
-    "mood_sound": {
-      "sound": "minecraft:ambient.cave",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
-    },
     "sky_color": 9075455,
     "fog_color": 9010909,
     "water_color": 8812495,
     "water_fog_color": 2168894,
     "grass_color": 10251977,
-    "foliage_color": 15703807
+    "foliage_color": 15703807,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    }
   },
-  "carvers": {
-    "air": [
-      "minecraft:cave",
-      "minecraft:cave_extra_underground",
-      "minecraft:canyon"
-    ]
-  },
-  "particle": {
-    "options": {
-      "type": "minecraft:spore_blossom_air"
-    },
-    "probability": 0.005
-  },
-  "features": [
-    [
-      "bro:glass_plains"
-    ],
-    [
-      "bro:bush",
-      "bro:big_glass_placer"
-    ],
-    [],
-    [],
-    [
-      "minecraft:monster_room",
-      "minecraft:monster_room_deep"
-    ],
-    [],
-    [],
-    [
-      "minecraft:ore_gravel",
-      "minecraft:ore_andesite_upper",
-      "minecraft:ore_andesite_lower",
-      "minecraft:ore_tuff",
-      "minecraft:ore_coal_upper",
-      "minecraft:ore_coal_lower",
-      "minecraft:ore_iron_upper",
-      "minecraft:ore_iron_middle",
-      "minecraft:ore_iron_small",
-      "minecraft:ore_gold",
-      "minecraft:ore_gold_lower",
-      "minecraft:ore_redstone",
-      "minecraft:ore_redstone_lower",
-      "minecraft:ore_diamond",
-      "minecraft:ore_diamond_large",
-      "minecraft:ore_diamond_buried",
-      "minecraft:ore_lapis",
-      "minecraft:ore_lapis_buried",
-      "minecraft:ore_copper",
-      "minecraft:underwater_magma",
-      "minecraft:disk_sand",
-      "minecraft:disk_clay",
-      "minecraft:disk_gravel"
-    ],
-    [
-      "minecraft:spring_water",
-      "minecraft:patch_tall_grass_2",
-      "minecraft:patch_grass_plain"
-    ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
-  ],
   "spawners": {
     "monster": [
       {
@@ -192,8 +133,61 @@
     "misc": []
   },
   "spawn_costs": {},
-  "temperature": 0.8,
-  "downfall": 0.4,
-  "temperature_modifier": "none",
-  "has_precipitation": true
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+      "bro:glass_plains"
+    ],
+    [
+      "bro:bush",
+      "bro:big_glass_placer"
+    ],
+    [],
+    [],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_gravel",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
+      "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
+      "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
+      "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
+      "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel"
+    ],
+    [
+      "minecraft:spring_water",
+      "minecraft:patch_tall_grass_2",
+      "minecraft:patch_grass_plain"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
 }

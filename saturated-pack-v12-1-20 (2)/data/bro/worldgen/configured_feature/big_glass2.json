@@ -55,10 +55,8 @@
       "type": "minecraft:bush_foliage_placer",
       "radius": {
         "type": "minecraft:uniform",
-        "value": {
           "min_inclusive": 2,
           "max_inclusive": 4
-        }
       },
       "offset": 5,
       "height": 5

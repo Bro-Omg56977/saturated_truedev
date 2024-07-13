@@ -1,5 +1,4 @@
 {
-  "name": "general",
   "fallback": "minecraft:empty",
   "elements": [
     {
@@ -8,6 +7,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:art_room1",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -17,6 +17,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:art_room2",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -26,6 +27,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:art_room3",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -35,6 +37,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:art_room4",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -44,6 +47,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:art_room5",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -53,6 +57,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:art_room6",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -62,6 +67,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:art_room7",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -71,6 +77,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:art_room8",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -80,6 +87,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:art_room9",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -89,6 +97,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:art_room10",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -98,6 +107,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:art_room11",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -107,6 +117,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:entrance",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -116,6 +127,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:confusing_birch",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -125,6 +137,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:neon",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -134,6 +147,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:dark_pools",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -143,6 +157,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:fake_drop",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -152,6 +167,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:fake_house",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -161,6 +177,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:glass_cage",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -170,6 +187,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:hallway",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -179,6 +197,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:level_0",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -188,6 +207,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:level_2",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -197,6 +217,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:pools_normal",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -206,6 +227,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:ominous",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -215,6 +237,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:room_furnished1",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -224,6 +247,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:room_furnished2",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -233,6 +257,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:room_furnished3",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -242,6 +267,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:room_furnished4",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -251,6 +277,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:room_furnished5",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -260,6 +287,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:room_furnished6",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -269,6 +297,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:room_furnished7",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -278,6 +307,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:room_furnished8",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -287,6 +317,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:room_furnished9",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -296,6 +327,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:room_furnished10",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -305,6 +337,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:room_furnished11",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -314,6 +347,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:waiting_room1",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -323,6 +357,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:waiting_room2",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -332,6 +367,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:waiting_room3",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -341,6 +377,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:waiting_room4",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -350,6 +387,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:waiting_room5",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -359,6 +397,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:waiting_room6",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -368,6 +407,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:waiting_room7",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -377,6 +417,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:waiting_room8",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -386,6 +427,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:waiting_room9",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -395,6 +437,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:waiting_room10",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     },
@@ -404,6 +447,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "bro:waiting_room11",
+        "override_liquid_settings": "ignore_waterlogging",
         "processors": "minecraft:empty"
       }
     }

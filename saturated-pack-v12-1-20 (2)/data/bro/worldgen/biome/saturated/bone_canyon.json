@@ -1,6 +1,7 @@
 {
   "temperature": 2,
   "downfall": 0,
+  "has_precipitation": false,
   "temperature_modifier": "none",
   "effects": {
     "sky_color": 10967553,
@@ -19,12 +20,6 @@
     "additions_sound": {
       "sound": "minecraft:ambient.warped_forest.additions",
       "tick_chance": 0.0111
-    },
-    "music": {
-      "sound": "bro:november",
-      "min_delay": 1200,
-      "max_delay": 2400,
-      "replace_current_music": false
     },
     "particle": {
       "options": {
@@ -162,6 +157,5 @@
     [
       "minecraft:freeze_top_layer"
     ]
-  ],
-  "has_precipitation": false
+  ]
 }

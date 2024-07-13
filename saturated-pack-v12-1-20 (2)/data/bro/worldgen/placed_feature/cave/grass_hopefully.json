@@ -1,5 +1,5 @@
 {
-    "feature": "bro:oceans/pickles",
+    "feature": "minecraft:patch_grass_jungle",
     "placement": [
         {
             "type": "minecraft:count_on_every_layer",
@@ -18,9 +18,9 @@
                     0
                 ],
                 "blocks": [
-                    "minecraft:sand",
-                    "minecraft:sandstone",
-                    "minecraft:smooth_sandstone"
+                    "minecraft:dirt",
+                    "minecraft:grass_block",
+                    "minecraft:moss_block"
                 ]
             }
         },

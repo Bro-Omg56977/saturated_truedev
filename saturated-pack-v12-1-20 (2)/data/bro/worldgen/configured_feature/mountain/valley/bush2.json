@@ -59,10 +59,8 @@
       "type": "minecraft:acacia_foliage_placer",
       "radius": {
         "type": "minecraft:uniform",
-        "value": {
           "min_inclusive": 1,
           "max_inclusive": 2
-        }
       },
       "offset": {
         "type": "minecraft:weighted_list",

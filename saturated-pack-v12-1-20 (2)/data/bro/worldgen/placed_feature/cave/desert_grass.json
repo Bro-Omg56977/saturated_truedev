@@ -1,5 +1,5 @@
 {
-    "feature": "bro:oceans/pickles",
+    "feature": "minecraft:patch_crimson_roots",
     "placement": [
         {
             "type": "minecraft:count_on_every_layer",
@@ -18,9 +18,9 @@
                     0
                 ],
                 "blocks": [
-                    "minecraft:sand",
-                    "minecraft:sandstone",
-                    "minecraft:smooth_sandstone"
+                    "minecraft:crimson_nylium",
+                    "minecraft:nether_wart_block",
+                    "minecraft:netherrack"
                 ]
             }
         },
