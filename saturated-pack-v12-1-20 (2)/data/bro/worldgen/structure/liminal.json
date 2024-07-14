@@ -1,14 +1,19 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "bro:void/void",
+  "biomes": [
+    "bro:void/void",
+    "bro:void/void_below",
+    "bro:void/void_inverse",
+    "bro:void/void_inverse_below"
+  ],
   "step": "surface_structures",
   "spawn_overrides": {},
   "start_pool": "bro:pool_center",
-  "size": 7,
+  "size": 20,
   "start_height": {
     "absolute": 33
   },
-  "max_distance_from_center": 80,
+  "max_distance_from_center": 128,
   "use_expansion_hack": false,
   "liquid_settings": "ignore_waterlogging"
 }
