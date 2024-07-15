@@ -61,7 +61,7 @@
     },
     "continents": "minecraft:overworld/continents",
     "erosion": "minecraft:overworld/erosion",
-    "depth": "minecraft:overworld/depth",
+    "depth": "bro:void/depth",
     "ridges": "minecraft:overworld/ridges",
     "initial_density_without_jaggedness": {
       "type": "minecraft:mul",
@@ -70,10 +70,10 @@
         "type": "minecraft:quarter_negative",
         "argument": {
           "type": "minecraft:mul",
-          "argument1": "minecraft:overworld/depth",
+          "argument1": "bro:void/depth",
           "argument2": {
             "type": "minecraft:cache_2d",
-            "argument": "minecraft:overworld/factor"
+            "argument": "bro:void/factor"
           }
         }
       }
@@ -117,12 +117,12 @@
                           "type": "minecraft:add",
                           "argument1": {
                             "type": "minecraft:range_choice",
-                            "input": "minecraft:overworld/sloped_cheese",
+                            "input": "bro:void/sloped_cheese",
                             "min_inclusive": -1000000,
                             "max_exclusive": 1.5625,
                             "when_in_range": {
                               "type": "minecraft:min",
-                              "argument1": "minecraft:overworld/sloped_cheese",
+                              "argument1": "bro:void/sloped_cheese",
                               "argument2": {
                                 "type": "minecraft:mul",
                                 "argument1": 5,
@@ -175,7 +175,7 @@
                                           "argument2": {
                                             "type": "minecraft:mul",
                                             "argument1": -0.64,
-                                            "argument2": "minecraft:overworld/sloped_cheese"
+                                            "argument2": "bro:void/sloped_cheese"
                                           }
                                         },
                                         "min": 0,
@@ -383,3 +383,5 @@
     ]
   }
 }
+
+

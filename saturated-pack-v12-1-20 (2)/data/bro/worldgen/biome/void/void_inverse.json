@@ -9,7 +9,7 @@
       "grass_color": 16777215,
       "foliage_color": 16777215,
       "mood_sound": {
-        "sound": "minecraft:entity.player.breath",
+        "sound": "minecraft:entity.creeper.primed",
         "tick_delay": 6000,
         "block_search_extent": 8,
         "offset": 2
