@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "chance": 0.25,
+        "feature": "bro:ivoid_pillar"
+      },
+      {
+        "chance": 0.25,
+        "feature": "bro:ivoid_pillar0"
+      },
+      {
+        "chance": 0.25,
+        "feature": "bro:ivoid_pillar1"
+      },
+      {
+        "chance": 0.25,
+        "feature": "bro:ivoid_pillar2"
+      }
+    ],
+    "default": "bro:na"
+  }
+}

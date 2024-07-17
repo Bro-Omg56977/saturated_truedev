@@ -2,8 +2,8 @@
     "feature": "bro:oceans/pickles",
     "placement": [
         {
-            "type": "minecraft:count_on_every_layer",
-            "count": 3
+            "type": "minecraft:count",
+            "count": 5
         },
         {
             "type": "minecraft:in_square"
