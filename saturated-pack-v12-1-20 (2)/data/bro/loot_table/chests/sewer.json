@@ -1,94 +1,153 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
-      {
-        "rolls": 10,
-        "bonus_rolls": 5,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:copper_ingot",
-            "weight": 16
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:iron_ingot",
-            "weight": 8
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:emerald",
-            "weight": 4
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:leather",
-            "weight": 8
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:diamond",
-            "weight": 3
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:netherite_scrap",
-            "weight": 1
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:string",
-            "weight": 8
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:glow_berries",
-            "weight": 8
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:moss_block",
-            "weight": 8
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:moss_carpet",
-            "weight": 8
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:lingering_potion",
-            "weight": 1,
-            "functions": [
-              {
-                "function": "minecraft:set_potion",
-                "id": "minecraft:poison"
-              }
-            ]
-          },
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:lingering_potion",
-            "weight": 1,
-            "functions": [
-              {
-                "function": "minecraft:set_potion",
-                "id": "minecraft:healing"
-              }
-            ]
-          }
-        ],
-        "functions": [
-          {
-            "function": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "min": 1,
-              "max": 5
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 10,
+      "bonus_rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot",
+          "weight": 32,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 16,
+          "quality": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 8,
+          "quality": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather",
+          "weight": 16,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 6,
+          "quality": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 3,
+          "quality": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "weight": 26,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glow_berries",
+          "weight": 16,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:moss_block",
+          "weight": 16,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:moss_carpet",
+          "weight": 16,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "weight": 1,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{CustomPotionEffects:[{Id:7,Amplifier:9,Duration:-1},{Id:20,Duration:9600}],CustomPotionColor:4007019}"
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_harming"
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:long_poison"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Arrow of Obliteration"
             }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{CustomPotionEffects:[{Id:5,Amplifier:5,Duration:6000},{Id:7,Amplifier:2,Duration:-1}],CustomPotionColor:10119699}"
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:harming"
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_strength"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Sacrifice of Strength"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "weight": 1,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{CustomPotionEffects:[{Id:26,Amplifier:2,Duration:6000},{Id:31,Duration:-1}],CustomPotionColor:5282323}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Potion of Reverse Luck-mosis"
+            },
+            {
+              "function": "minecraft:set_ominous_bottle_amplifier",
+              "amplifier": 2
+            },
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:luck"
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "type": "minecraft:uniform",
+            "min": 1,
+            "max": 5
           }
-        ]
-      }
-    ]
-  }
-  
+        }
+      ]
+    }
+  ]
+}

@@ -5,7 +5,7 @@ execute as @a in minecraft:overworld run tp @s ~ ~ ~
 schedule function bro:teleport/teleporter 1t
 
 # Weeeeee
-effect give @s slow_falling 30 1 true
+effect give @a slow_falling 30 1 true
 
 # Revoke the advancement bro:lim_to_wrld from all players
 advancement revoke @a only bro:lim_to_wrld

@@ -1,2 +1,2 @@
-title @a actionbar "§2And the game was over and the player woke up from the dream. And the player began a new dream. And the player dreamed again, dreamed better. And the player was the universe. And the player was love."
+title @s actionbar "§2And the game was over and the player woke up from the dream. And the player began a new dream. And the player dreamed again, dreamed better. And the player was the universe. And the player was love."
 advancement revoke @a only bro:quotes/end_to_wrld
