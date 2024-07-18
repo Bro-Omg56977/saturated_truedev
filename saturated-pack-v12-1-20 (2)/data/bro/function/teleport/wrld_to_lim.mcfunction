@@ -5,4 +5,4 @@ advancement revoke @a only bro:overworld_to_lim0
 advancement revoke @a only bro:overworld_to_lim1
 advancement revoke @a only bro:overworld_to_lim2
 
-title @a actionbar "§2Sometimes the player dreamed it was a miner, on the surface of a world that was flat, and infinite."
+title @s actionbar "§2the player dreamed it was a miner, on the surface of a world that was flat, and infinite."

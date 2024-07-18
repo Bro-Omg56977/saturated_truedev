@@ -1,15 +1,15 @@
 # Do the thing
-execute as @a in minecraft:overworld run tp @s ~ ~ ~
+execute as @s in minecraft:overworld run tp @s ~ 320 ~
 
-# Schedule teleportation to ensure it happens after dimension change
-schedule function bro:teleport/teleporter 1t
+# sets scoreboard to teleport after 3 seconds
+scoreboard players set @s wrldtp 2
 
 # Weeeeee
-effect give @a slow_falling 30 1 true
+effect give @s slow_falling 30 1 true
 
 # Revoke the advancement bro:lim_to_wrld from all players
-advancement revoke @a only bro:lim_to_wrld
+advancement revoke @s only bro:lim_to_wrld
 
 # No lore here, just an end poem quote
 
-title @a actionbar "§2Sometimes it thought itself human, on the thin crust of a spinning globe of molten rock."
+title @s actionbar "§it thought itself human, on the thin crust of a spinning globe..."
