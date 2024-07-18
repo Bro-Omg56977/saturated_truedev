@@ -1,0 +1,956 @@
+{
+  "dimensionName": "minecraft:overworld",
+  "continentalnesses": [
+    -1.2,
+    -1.05,
+    -0.455,
+    -0.19,
+    -0.11,
+    0.03,
+    0.3,
+    0.8,
+    1
+  ],
+  "erosions": [
+    -1,
+    -0.78,
+    -0.375,
+    -0.2225,
+    0.05,
+    0.45,
+    0.55,
+    1
+  ],
+  "weirdnesses": [
+    -1,
+    -0.93333334,
+    -0.7666667,
+    -0.56666666,
+    -0.4,
+    -0.26666668,
+    -0.05,
+    0.05,
+    0.26666668,
+    0.4,
+    0.56666666,
+    0.7666667,
+    0.93333334,
+    1
+  ],
+  "temperatures": [
+    -1,
+    -0.45,
+    -0.15,
+    0.2,
+    0.55,
+    1
+  ],
+  "humidities": [
+    -1,
+    -0.35,
+    -0.1,
+    0.1,
+    0.3,
+    0.7,
+    1
+  ],
+  "depths": [
+    0,
+    0,
+    0.2,
+    0.9,
+    1,
+    1,
+    1.1,
+    1.1
+  ],
+  "dimension": {
+    "key": "dimension",
+    "name": "Biomes",
+    "array": [
+      [
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03"
+      ],
+      [
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03",
+        "layout_lylviv03"
+      ],
+      [
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc"
+      ],
+      [
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc"
+      ],
+      [
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc"
+      ],
+      [
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc"
+      ],
+      [
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc",
+        "layout_lylvjebc"
+      ]
+    ]
+  },
+  "modes": [
+    "A",
+    "A",
+    "A",
+    "A",
+    "A",
+    "A",
+    "B",
+    "B",
+    "B",
+    "B",
+    "B",
+    "B",
+    "B"
+  ],
+  "layouts": [
+    {
+      "key": "layout_lylvj0it",
+      "name": "above",
+      "array": [
+        [
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw"
+        ],
+        [
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw"
+        ],
+        [
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw"
+        ],
+        [
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw"
+        ],
+        [
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw"
+        ]
+      ]
+    },
+    {
+      "key": "layout_lylvj70q",
+      "name": "below",
+      "array": [
+        [
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft"
+        ],
+        [
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft"
+        ],
+        [
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft"
+        ],
+        [
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft"
+        ],
+        [
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft"
+        ]
+      ]
+    }
+  ],
+  "slices": [
+    {
+      "key": "layout_lylviv03",
+      "name": "above",
+      "array": [
+        [
+          "biome_lylvi1ef",
+          "biome_lylvi1ef",
+          "biome_lylvi1ef",
+          "biome_lylvi1ef",
+          "biome_lylvi1ef",
+          "biome_lylvi1ef",
+          "biome_lylvi1ef"
+        ],
+        [
+          "biome_lylvi1ef",
+          "biome_lylvi1ef",
+          "biome_lylvi1ef",
+          "biome_lylvi1ef",
+          "biome_lylvi1ef",
+          "biome_lylvi1ef",
+          "biome_lylvi1ef"
+        ],
+        [
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw"
+        ],
+        [
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw"
+        ],
+        [
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw"
+        ],
+        [
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw"
+        ],
+        [
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw",
+          "biome_lylvhenw"
+        ],
+        [
+          "biome_lylvi1ef",
+          "biome_lylvi1ef",
+          "biome_lylvi1ef",
+          "biome_lylvi1ef",
+          "biome_lylvi1ef",
+          "biome_lylvi1ef",
+          "biome_lylvi1ef"
+        ]
+      ]
+    },
+    {
+      "key": "layout_lylvjebc",
+      "name": "below",
+      "array": [
+        [
+          "biome_lylvicfg",
+          "biome_lylvicfg",
+          "biome_lylvicfg",
+          "biome_lylvicfg",
+          "biome_lylvicfg",
+          "biome_lylvicfg",
+          "biome_lylvicfg"
+        ],
+        [
+          "biome_lylvicfg",
+          "biome_lylvicfg",
+          "biome_lylvicfg",
+          "biome_lylvicfg",
+          "biome_lylvicfg",
+          "biome_lylvicfg",
+          "biome_lylvicfg"
+        ],
+        [
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft"
+        ],
+        [
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft"
+        ],
+        [
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft"
+        ],
+        [
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft"
+        ],
+        [
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft",
+          "biome_lylvhpft"
+        ],
+        [
+          "biome_lylvicfg",
+          "biome_lylvicfg",
+          "biome_lylvicfg",
+          "biome_lylvicfg",
+          "biome_lylvicfg",
+          "biome_lylvicfg",
+          "biome_lylvicfg"
+        ]
+      ]
+    }
+  ],
+  "biomes": [
+    {
+      "key": "biome_lylvhenw",
+      "name": "bro:void/void",
+      "color": "#000000"
+    },
+    {
+      "key": "biome_lylvhpft",
+      "name": "bro:void/void_below",
+      "color": "#2e2e2e"
+    },
+    {
+      "key": "biome_lylvi1ef",
+      "name": "bro:void/void_inverse",
+      "color": "#ffffff"
+    },
+    {
+      "key": "biome_lylvicfg",
+      "name": "bro:void/void_inverse_below",
+      "color": "#c0bfbf"
+    }
+  ],
+  "targetVersion": "1_19",
+  "exportSplines": true,
+  "exportBiomeColors": false,
+  "noiseSettingsName": "minecraft:overworld",
+  "dimensionTypeName": "minecraft:overworld",
+  "splines": {
+    "offset": {
+      "continentalnesses": [
+        -1.1,
+        -1.02,
+        -0.51,
+        -0.44,
+        -0.18,
+        -0.16,
+        -0.15,
+        -0.1,
+        0.25,
+        1
+      ],
+      "erosions": [
+        -0.85,
+        -0.7,
+        -0.4,
+        -0.35,
+        -0.1,
+        0.2,
+        0.4,
+        0.45,
+        0.55,
+        0.58,
+        0.7
+      ],
+      "splines": [
+        [
+          {
+            "coordinate": "weirdness",
+            "points": [
+              {
+                "location": 0,
+                "value": -0.051268107129877505,
+                "derivative": 0
+              }
+            ]
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          {
+            "coordinate": "weirdness",
+            "points": [
+              {
+                "location": 0,
+                "value": -0.051268107129877505,
+                "derivative": 0
+              }
+            ]
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          {
+            "coordinate": "weirdness",
+            "points": [
+              {
+                "location": 0,
+                "value": -0.051268107129877505,
+                "derivative": 0
+              }
+            ]
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          {
+            "coordinate": "weirdness",
+            "points": [
+              {
+                "location": 0,
+                "value": -0.051268107129877505,
+                "derivative": 0
+              }
+            ]
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          {
+            "coordinate": "weirdness",
+            "points": [
+              {
+                "location": 0,
+                "value": -0.051268107129877505,
+                "derivative": 0
+              }
+            ]
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          {
+            "coordinate": "weirdness",
+            "points": [
+              {
+                "location": 0,
+                "value": -0.051268107129877505,
+                "derivative": 0
+              }
+            ]
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          {
+            "coordinate": "weirdness",
+            "points": [
+              {
+                "location": 0,
+                "value": -0.051268107129877505,
+                "derivative": 0
+              }
+            ]
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          {
+            "coordinate": "weirdness",
+            "points": [
+              {
+                "location": 0,
+                "value": -0.051268107129877505,
+                "derivative": 0
+              }
+            ]
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          {
+            "coordinate": "weirdness",
+            "points": [
+              {
+                "location": 0,
+                "value": -0.051268107129877505,
+                "derivative": 0
+              }
+            ]
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          {
+            "coordinate": "weirdness",
+            "points": [
+              {
+                "location": 0,
+                "value": -0.051268107129877505,
+                "derivative": 0
+              }
+            ]
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "factor": {
+      "continentalnesses": [
+        -0.19,
+        -0.15,
+        -0.1,
+        0.03,
+        0.06
+      ],
+      "erosions": [
+        -0.6,
+        -0.5,
+        -0.35,
+        -0.25,
+        -0.1,
+        0.03,
+        0.05,
+        0.35,
+        0.4,
+        0.45,
+        0.55,
+        0.58,
+        0.62
+      ],
+      "splines": [
+        [
+          {
+            "coordinate": "weirdness",
+            "points": [
+              {
+                "location": -0.2,
+                "value": 6.3,
+                "derivative": 0
+              },
+              {
+                "location": 0.2,
+                "value": 6.3,
+                "derivative": 0
+              }
+            ]
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          {
+            "coordinate": "weirdness",
+            "points": [
+              {
+                "location": -0.2,
+                "value": 6.3,
+                "derivative": 0
+              },
+              {
+                "location": 0.2,
+                "value": 6.3,
+                "derivative": 0
+              }
+            ]
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          {
+            "coordinate": "weirdness",
+            "points": [
+              {
+                "location": -0.2,
+                "value": 6.3,
+                "derivative": 0
+              },
+              {
+                "location": 0.2,
+                "value": 6.3,
+                "derivative": 0
+              }
+            ]
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          {
+            "coordinate": "weirdness",
+            "points": [
+              {
+                "location": -0.2,
+                "value": 6.3,
+                "derivative": 0
+              },
+              {
+                "location": 0.2,
+                "value": 6.3,
+                "derivative": 0
+              }
+            ]
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        [
+          {
+            "coordinate": "weirdness",
+            "points": [
+              {
+                "location": -0.2,
+                "value": 6.3,
+                "derivative": 0
+              },
+              {
+                "location": 0.2,
+                "value": 6.3,
+                "derivative": 0
+              }
+            ]
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      ]
+    },
+    "jaggedness": {
+      "continentalnesses": [
+        -0.11,
+        0.03,
+        0.65
+      ],
+      "erosions": [
+        -1,
+        -0.78,
+        -0.5775,
+        -0.375
+      ],
+      "splines": [
+        [
+          {
+            "coordinate": "weirdness",
+            "points": [
+              {
+                "location": 0,
+                "value": 0,
+                "derivative": 0
+              }
+            ]
+          },
+          null,
+          null,
+          null
+        ],
+        [
+          {
+            "coordinate": "weirdness",
+            "points": [
+              {
+                "location": 0,
+                "value": 0,
+                "derivative": 0
+              }
+            ]
+          },
+          null,
+          null,
+          null
+        ],
+        [
+          {
+            "coordinate": "weirdness",
+            "points": [
+              {
+                "location": 0,
+                "value": 0,
+                "derivative": 0
+              }
+            ]
+          },
+          null,
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "datapackVersion": 41,
+  "version": 6
+}

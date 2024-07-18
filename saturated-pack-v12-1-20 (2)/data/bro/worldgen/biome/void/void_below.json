@@ -1,0 +1,40 @@
+{
+    "temperature": 0.7,
+    "downfall": 0.5,
+    "effects": {
+      "sky_color": 16777215,
+      "fog_color": 16777215,
+      "water_color": 2915744,
+      "water_fog_color": 990997,
+      "grass_color": 0,
+      "foliage_color": 0,
+      "mood_sound": {
+        "sound": "entity.zombie.break_wooden_door",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      }
+    },
+    "spawners": {},
+    "spawn_costs": {},
+    "carvers": {},
+    "features": [
+      [
+        "bro:void_placer"
+      ],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        "minecraft:freeze_top_layer"
+      ]
+    ],
+    "has_precipitation": false
+  }
+  

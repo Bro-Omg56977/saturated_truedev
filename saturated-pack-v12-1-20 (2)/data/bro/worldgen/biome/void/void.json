@@ -9,7 +9,7 @@
     "grass_color": 0,
     "foliage_color": 0,
     "mood_sound": {
-      "sound": "minecraft:entity.player.breath",
+      "sound": "minecraft:entity.arrow.hit",
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2

@@ -1,5 +1,5 @@
 {
-  "feature": "bro:void_placer",
+  "feature": "bro:ivoid_placer",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
