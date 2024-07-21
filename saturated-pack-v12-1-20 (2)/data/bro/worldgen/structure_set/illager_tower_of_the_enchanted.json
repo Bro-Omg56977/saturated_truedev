@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "bro:illager_tower_of_the_enchanted",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 700175256,
+      "spacing": 33,
+      "separation": 31
+    }
+  }
+  

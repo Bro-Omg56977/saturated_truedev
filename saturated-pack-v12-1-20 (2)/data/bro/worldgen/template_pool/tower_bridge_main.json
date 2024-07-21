@@ -6,27 +6,17 @@
         "element": {
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
-          "location": "bro:tower/bridge_small",
+          "location": "bro:tower/bridge_main",
           "override_liquid_settings": "ignore_waterlogging",
           "processors": "minecraft:empty"
         }
       },
       {
-        "weight": 1,
+        "weight": 2,
         "element": {
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
-          "location": "bro:tower/bridge_small_destroyed",
-          "override_liquid_settings": "ignore_waterlogging",
-          "processors": "minecraft:empty"
-        }
-      },
-      {
-        "weight": 1,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "bro:tower/bridge_medium",
+          "location": "bro:tower/bridge_main_destroyed",
           "override_liquid_settings": "ignore_waterlogging",
           "processors": "minecraft:empty"
         }
