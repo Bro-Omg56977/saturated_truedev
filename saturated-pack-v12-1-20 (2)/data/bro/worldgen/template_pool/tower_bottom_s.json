@@ -1,16 +1,25 @@
 {
-    "fallback": "minecraft:empty",
-    "elements": [
-      {
-        "weight": 1,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "bro:tower/bottom_small",
-          "override_liquid_settings": "ignore_waterlogging",
-          "processors": "minecraft:empty"
-        }
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 150,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bro:tower/bottom_small",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
       }
-    ]
-  }
-  
+    },
+          {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "bro:tower/bottom_small0",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

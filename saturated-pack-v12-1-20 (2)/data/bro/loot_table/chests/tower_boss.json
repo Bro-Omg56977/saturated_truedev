@@ -1,0 +1,179 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "weight": 1,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": "28th Wing of the Soupeater"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:mending"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:unbreaking"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "weight": 1,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:power",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:quick_charge",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:piercing",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:multishot",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Erz's Mechanical Bow"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:mace",
+          "weight": 1,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:density",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:wind_burst",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:breach",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:unbreaking",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Denizen's Mace of Swank"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 10,
+      "bonus_rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_ingot",
+          "weight": 2,
+          "quality": 7
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 16,
+          "quality": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 12,
+          "quality": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:totem_of_undying",
+          "weight": 4,
+          "quality": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_block",
+          "weight": 4,
+          "quality": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_iron_block",
+          "weight": 6,
+          "quality": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 6,
+          "quality": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:protection",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:sharpness",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:smite",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:unbreaking",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:mending",
+              "only_compatible": false
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "type": "minecraft:uniform",
+            "min": 1,
+            "max": 5
+          }
+        }
+      ]
+    }
+  ]
+}
