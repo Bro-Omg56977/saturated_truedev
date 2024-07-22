@@ -21,6 +21,12 @@
       "sound": "minecraft:ambient.warped_forest.additions",
       "tick_chance": 0.0111
     },
+    "music": {
+      "sound": "minecraft:music.overworld.forest",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
     "particle": {
       "options": {
         "type": "minecraft:white_ash"

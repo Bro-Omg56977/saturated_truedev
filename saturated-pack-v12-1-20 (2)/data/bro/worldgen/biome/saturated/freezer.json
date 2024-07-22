@@ -11,14 +11,20 @@
     "foliage_color": 43690,
     "ambient_sound": "minecraft:ambient.warped_forest.loop",
     "mood_sound": {
-      "sound": "minecraft:ambient.warped_forest.mood",
+      "sound": "minecraft:ambient.nether_wastes.mood",
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
     },
     "additions_sound": {
-      "sound": "minecraft:ambient.warped_forest.additions",
+      "sound": "minecraft:ambient.nether_wastes.additions",
       "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.overworld.frozen_peaks",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
     },
     "particle": {
       "options": {

@@ -10,7 +10,17 @@
     "water_fog_color": 3014656,
     "grass_color": 8388608,
     "foliage_color": 9043968,
-    "ambient_sound": "minecraft:ambient.warped_forest.loop",
+    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
+    "mood_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.additions",
+      "tick_delay": 0,
+      "block_search_extent": 0,
+      "offset": 0
+    },
+    "additions_sound": {
+      "sound": "minecraft:ambient.soul_sand_valley.additions",
+      "tick_chance": 0
+    },
     "music": {
       "sound": "minecraft:music.overworld.deep_dark",
       "min_delay": 12000,

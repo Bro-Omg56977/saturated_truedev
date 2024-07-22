@@ -10,7 +10,7 @@
     "water_fog_color": 2168894,
     "grass_color": 11206400,
     "foliage_color": 11206400,
-    "ambient_sound": "minecraft:ambient.warped_forest.loop",
+    "ambient_sound": "minecraft:ambient.crimson_forest.loop",
     "mood_sound": {
       "sound": "minecraft:ambient.crimson_forest.mood",
       "tick_delay": 6000,
@@ -22,7 +22,7 @@
       "tick_chance": 0.0111
     },
     "music": {
-      "sound": "minecraft:music.nether.crimson_forest",
+      "sound": "minecraft:music.overworld.swamp",
       "min_delay": 12000,
       "max_delay": 24000,
       "replace_current_music": false

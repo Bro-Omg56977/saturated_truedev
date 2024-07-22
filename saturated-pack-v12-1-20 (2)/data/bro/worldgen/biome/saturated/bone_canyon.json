@@ -12,14 +12,20 @@
     "foliage_color": 10967553,
     "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
     "mood_sound": {
-      "sound": "minecraft:ambient.warped_forest.mood",
+      "sound": "minecraft:ambient.soul_sand_valley.mood",
       "tick_delay": 6000,
       "block_search_extent": 8,
       "offset": 2
     },
     "additions_sound": {
-      "sound": "minecraft:ambient.warped_forest.additions",
+      "sound": "minecraft:ambient.soul_sand_valley.additions",
       "tick_chance": 0.0111
+    },
+    "music": {
+      "sound": "minecraft:music.overworld.badlands",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
     },
     "particle": {
       "options": {
