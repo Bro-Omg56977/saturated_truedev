@@ -2,7 +2,7 @@
     "fallback": "minecraft:empty",
     "elements": [
       {
-        "weight": 2,
+        "weight": 150,
         "element": {
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
@@ -17,16 +17,6 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
           "location": "bro:tower/bridge_small_destroyed",
-          "override_liquid_settings": "ignore_waterlogging",
-          "processors": "minecraft:empty"
-        }
-      },
-      {
-        "weight": 1,
-        "element": {
-          "element_type": "minecraft:single_pool_element",
-          "projection": "rigid",
-          "location": "bro:tower/bridge_medium",
           "override_liquid_settings": "ignore_waterlogging",
           "processors": "minecraft:empty"
         }
