@@ -4,5 +4,3 @@ execute if block ~ ~1 ~ minecraft:gravel run function bro:teleport/wrld_to_lim0
 advancement revoke @a only bro:overworld_to_lim0
 advancement revoke @a only bro:overworld_to_lim1
 advancement revoke @a only bro:overworld_to_lim2
-
-title @s actionbar "§2the player dreamed it was a miner, on the surface of a world that was flat, and infinite."
