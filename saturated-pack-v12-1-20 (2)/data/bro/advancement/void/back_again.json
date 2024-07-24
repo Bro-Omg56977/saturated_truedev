@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:grass_block",
+        "count": 1
+      },
+      "title": "Back again.",
+      "description": "Enter an oak door in the void.",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "bro:void/strangely_familiar",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:enter_block",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "dimension": "bro:void"
+                }
+              }
+            }
+          ],
+          "block": "minecraft:oak_door"
+        }
+      }
+    }
+  }
+  

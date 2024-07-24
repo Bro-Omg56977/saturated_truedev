@@ -7,7 +7,7 @@ scoreboard players set @s sattp 2
 # Weeeeee
 effect give @s slow_falling 30 1 true
 
-# Revoke the advancement bro:lim_to_wrld from all players
+# Revoke the advancement bro:lim_to_sat from all players
 advancement revoke @a only bro:lim_to_sat
 
 # No lore here, just an end poem quote

@@ -97,7 +97,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_ingot",
-          "weight": 2,
+          "weight": 4,
           "quality": 7
         },
         {
@@ -121,34 +121,84 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_block",
-          "weight": 4,
+          "weight": 6,
           "quality": 5
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:raw_iron_block",
-          "weight": 6,
+          "weight": 8,
           "quality": 4
-        },
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "type": "minecraft:uniform",
+            "min": 1,
+            "max": 5
+          }
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 7
+      },
+      "bonus_rolls": {
+        "min": 1,
+        "max": 7
+      },
+      "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_book",
-          "weight": 6,
-          "quality": 3,
+          "weight": 14,
+          "quality": 6,
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "options": "minecraft:protection",
+              "options": [
+                "minecraft:protection",
+                "minecraft:blast_protection",
+                "minecraft:fire_protection",
+                "minecraft:projectile_protection"
+              ],
               "only_compatible": false
             },
             {
               "function": "minecraft:enchant_randomly",
-              "options": "minecraft:sharpness",
+              "options": [
+                "minecraft:sharpness",
+                "minecraft:smite",
+                "minecraft:power"
+              ],
               "only_compatible": false
             },
             {
               "function": "minecraft:enchant_randomly",
-              "options": "minecraft:smite",
+              "options": [
+                "minecraft:knockback",
+                "minecraft:punch"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:flame",
+                "minecraft:fire_aspect"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:looting",
+                "minecraft:fortune"
+              ],
               "only_compatible": false
             },
             {
@@ -162,16 +212,229 @@
               "only_compatible": false
             }
           ]
-        }
-      ],
-      "functions": [
+        },
         {
-          "function": "minecraft:set_count",
-          "count": {
-            "type": "minecraft:uniform",
-            "min": 1,
-            "max": 5
-          }
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_helmet",
+          "weight": 1,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:protection",
+                "minecraft:blast_protection",
+                "minecraft:fire_protection",
+                "minecraft:projectile_protection"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:thorns",
+                "minecraft:unbreaking"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:aqua_affinity",
+                "minecraft:respiration"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_chestplate",
+          "weight": 1,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:protection",
+                "minecraft:blast_protection",
+                "minecraft:fire_protection",
+                "minecraft:projectile_protection"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:thorns",
+                "minecraft:unbreaking"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_leggings",
+          "weight": 1,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:protection",
+                "minecraft:blast_protection",
+                "minecraft:fire_protection",
+                "minecraft:projectile_protection"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:thorns",
+                "minecraft:swift_sneak"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:unbreaking",
+                "minecraft:mending"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_boots",
+          "weight": 1,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:protection",
+                "minecraft:blast_protection",
+                "minecraft:projectile_protection",
+                "minecraft:protection"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:thorns",
+                "minecraft:unbreaking"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:feather_falling",
+                "minecraft:frost_walker"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_pickaxe",
+          "weight": 1,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:efficiency"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:fortune",
+                "minecraft:silk_touch"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:mending",
+                "minecraft:unbreaking"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "weight": 1,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:sharpness",
+                "minecraft:smite"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:sweeping_edge",
+                "minecraft:fire_aspect"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:knockback",
+                "minecraft:looting"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_axe",
+          "weight": 1,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:sharpness",
+                "minecraft:efficiency"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:looting",
+                "minecraft:fortune"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:breach",
+                "minecraft:fire_aspect"
+              ],
+              "only_compatible": false
+            }
+          ]
         }
       ]
     }

@@ -8,25 +8,19 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
-          "weight": 32,
+          "weight": 64,
           "quality": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:emerald",
-          "weight": 16,
+          "weight": 32,
           "quality": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "weight": 8,
-          "quality": 3
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:netherite_scrap",
-          "weight": 6,
+          "weight": 12,
           "quality": 4
         },
         {
@@ -38,38 +32,26 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_block",
-          "weight": 1,
-          "quality": 1
+          "weight": 2,
+          "quality": 6
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:ancient_debris",
-          "weight": 6,
-          "quality": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:raw_iron_block",
-          "weight": 2,
+          "weight": 12,
           "quality": 4
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:raw_copper_block",
+          "name": "minecraft:raw_iron_block",
           "weight": 4,
           "quality": 4
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:ominous_bottle",
-          "weight": 2,
-          "quality": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_ominous_bottle_amplifier",
-              "amplifier": 1
-            }
-          ]
+          "name": "minecraft:raw_copper_block",
+          "weight": 8,
+          "quality": 4
         }
       ],
       "functions": [
@@ -80,6 +62,203 @@
             "min": 1,
             "max": 5
           }
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 7
+      },
+      "bonus_rolls": {
+        "min": 1,
+        "max": 7
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 1,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:protection",
+                "minecraft:blast_protection",
+                "minecraft:fire_protection",
+                "minecraft:projectile_protection"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:respiration",
+                "minecraft:aqua_affinity"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:thorns",
+                "minecraft:unbreaking"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "weight": 1,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:protection",
+                "minecraft:blast_protection",
+                "minecraft:fire_protection",
+                "minecraft:projectile_protection"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:thorns",
+                "minecraft:unbreaking"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 1,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:blast_protection",
+                "minecraft:fire_protection",
+                "minecraft:projectile_protection",
+                "minecraft:protection"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:thorns",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:swift_sneak",
+                "minecraft:unbreaking"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 1,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:blast_protection",
+                "minecraft:fire_protection",
+                "minecraft:projectile_protection",
+                "minecraft:protection"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:feather_falling",
+                "minecraft:frost_walker"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:thorns",
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 1,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:efficiency"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:fortune",
+                "minecraft:silk_touch"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:mending",
+                "minecraft:unbreaking"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "weight": 1,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:sharpness",
+                "minecraft:smite"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:sweeping_edge",
+                "minecraft:fire_aspect"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:knockback",
+                "minecraft:looting"
+              ],
+              "only_compatible": false
+            }
+          ]
         }
       ]
     }

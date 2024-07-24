@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:chiseled_quartz_block",
+        "count": 1
+      },
+      "title": "Strangely Familiar",
+      "description": "Enter the Liminal structure",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "bro:void/where_am_i",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "bro:liminal",
+                  "dimension": "bro:void"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

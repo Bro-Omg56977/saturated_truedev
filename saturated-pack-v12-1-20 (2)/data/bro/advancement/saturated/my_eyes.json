@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:grass_block",
+        "count": 1
+      },
+      "title": "My eyes!",
+      "description": "Enter Saturated",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "bro:void/strangely_familiar",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "dimension": "bro:saturated"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  
