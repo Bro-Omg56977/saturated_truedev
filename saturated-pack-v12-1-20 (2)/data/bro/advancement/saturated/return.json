@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:iron_door",
+        "count": 1
+      },
+      "title": "The Return.",
+      "description": "Enter an iron door in Saturated.",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "bro:saturated/my_eyes",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:enter_block",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "dimension": "bro:void"
+                }
+              }
+            }
+          ],
+          "block": "minecraft:iron_door"
+        }
+      }
+    }
+  }
+  
