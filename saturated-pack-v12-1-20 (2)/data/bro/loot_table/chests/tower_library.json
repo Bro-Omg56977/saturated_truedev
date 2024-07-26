@@ -26,25 +26,22 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_book",
-          "weight": 14,
+          "weight": 4,
           "quality": 6,
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "options": "minecraft:protection",
-              "only_compatible": true
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:enchanted_book",
-          "weight": 2,
-          "quality": 6,
-          "functions": [
+              "options": [
+                "minecraft:protection",
+                "minecraft:blast_protection",
+                "minecraft:fire_protection",
+                "minecraft:projectile_protection"
+              ],
+              "only_compatible": false
+            },
             {
               "function": "minecraft:enchant_randomly",
-              "options": "minecraft:mending",
+              "options": "minecraft:thorns",
               "only_compatible": false
             }
           ]
@@ -52,12 +49,19 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_book",
-          "weight": 1,
+          "weight": 4,
           "quality": 6,
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "options": "minecraft:efficiency",
+              "options": [
+                "minecraft:mending"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:unbreaking",
               "only_compatible": false
             }
           ]
@@ -65,9 +69,16 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_book",
-          "weight": 1,
+          "weight": 4,
           "quality": 6,
           "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:efficiency"
+              ],
+              "only_compatible": false
+            },
             {
               "function": "minecraft:enchant_randomly",
               "options": "minecraft:sharpness",
@@ -78,12 +89,19 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_book",
-          "weight": 1,
+          "weight": 4,
           "quality": 6,
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "options": "minecraft:looting",
+              "options": [
+                "minecraft:looting"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:sharpness",
               "only_compatible": false
             }
           ]
@@ -91,38 +109,17 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_book",
-          "weight": 1,
-          "quality": 6,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "minecraft:fortune",
-              "only_compatible": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:enchanted_book",
-          "weight": 1,
-          "quality": 6,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "minecraft:looting",
-              "only_compatible": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:enchanted_book",
-          "weight": 1,
+          "weight": 4,
           "quality": 6,
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
               "options": "minecraft:power",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:punch",
               "only_compatible": false
             }
           ]
