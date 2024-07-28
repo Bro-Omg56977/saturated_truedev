@@ -4,4 +4,5 @@ function bro:score/lim_to_wrld
 function bro:score/lim_to_sat
 scoreboard objectives add sattp dummy
 team add illeite
-team add covenant
+team add coven
+team add invader
