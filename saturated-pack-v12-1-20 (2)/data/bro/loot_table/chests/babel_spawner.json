@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone",
+          "name": "minecraft:enchanted_golden_apple",
           "weight": 1,
           "quality": 10,
           "functions": [
