@@ -9,19 +9,61 @@
           "type": "minecraft:item",
           "name": "minecraft:paper",
           "weight": 64,
-          "quality": 1
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Paper o' Gibberish",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": true
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
           "weight": 32,
-          "quality": 1
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Book of Gibberish",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": true
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:totem_of_undying",
           "weight": 2,
-          "quality": 5
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "die? no no",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": true
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -29,18 +71,6 @@
           "weight": 4,
           "quality": 6,
           "functions": [
-            {
-              "function": "minecraft:set_name",
-              "target": "item_name",
-              "name": {
-                "text": "Protection",
-                "bold": false,
-                "italic": false,
-                "underlined": false,
-                "strikethrough": false,
-                "obfuscated": true
-              }
-            },
             {
               "function": "minecraft:enchant_randomly",
               "options": [
@@ -65,18 +95,6 @@
           "quality": 6,
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "target": "item_name",
-              "name": {
-                "text": "Mending or Unbreaking",
-                "bold": false,
-                "italic": false,
-                "underlined": false,
-                "strikethrough": false,
-                "obfuscated": true
-              }
-            },
-            {
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:mending"
@@ -96,18 +114,6 @@
           "weight": 4,
           "quality": 6,
           "functions": [
-            {
-              "function": "minecraft:set_name",
-              "target": "item_name",
-              "name": {
-                "text": "Sharpness or Efficiency",
-                "bold": false,
-                "italic": false,
-                "underlined": false,
-                "strikethrough": false,
-                "obfuscated": true
-              }
-            },
             {
               "function": "minecraft:enchant_randomly",
               "options": [
@@ -129,18 +135,6 @@
           "quality": 6,
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "target": "item_name",
-              "name": {
-                "text": "Looting or Fortune",
-                "bold": false,
-                "italic": false,
-                "underlined": false,
-                "strikethrough": false,
-                "obfuscated": true
-              }
-            },
-            {
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:looting"
@@ -149,7 +143,7 @@
             },
             {
               "function": "minecraft:enchant_randomly",
-              "options": "minecraft:fortune",
+              "options": "minecraft:sharpness",
               "only_compatible": false
             }
           ]
@@ -160,18 +154,6 @@
           "weight": 4,
           "quality": 6,
           "functions": [
-            {
-              "function": "minecraft:set_name",
-              "target": "item_name",
-              "name": {
-                "text": "Power or Punch",
-                "bold": false,
-                "italic": false,
-                "underlined": false,
-                "strikethrough": false,
-                "obfuscated": true
-              }
-            },
             {
               "function": "minecraft:enchant_randomly",
               "options": "minecraft:power",
