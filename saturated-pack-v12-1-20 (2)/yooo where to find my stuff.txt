@@ -29,3 +29,6 @@ no curseforge
 -Bracken Pack - I don't remember the biome, but it had floating ice in the air, and i really liked it lol. Also the lamp posts are inspired by the ones in the city biome if i remember correctly
 -crystalized peaks heavily inspired by BetterEnd's crystal mountains
 -verdant spires heavily inspired by lush stacks from BYG
+-Gye20's forge structure looked cool
+-ssneaky's superstructures looked cool aswell
+-Denizen helped me out with some teleporting code
