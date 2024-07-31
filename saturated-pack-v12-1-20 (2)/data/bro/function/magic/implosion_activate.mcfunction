@@ -1,5 +1,5 @@
 # Display particles when implosion, then implode
-execute at @e[tag=implosioneffect] at @s run playsound minecraft:block.bell.resonate ambient
+playsound minecraft:block.bell.resonate ambient @s[tag=powderofguneffect]
 execute as @e[tag=implosioneffect] at @s run particle minecraft:sweep_attack ~0.2 ~1 ~0.2 0 0 0 0.01 10
 execute as @e[tag=implosioneffect] at @s run particle minecraft:sweep_attack ~0.2 ~1 ~-0.2 0 0 0 0.01 10
 execute as @e[tag=implosioneffect] at @s run particle minecraft:sweep_attack ~-0.2 ~1 ~0.2 0 0 0 0.01 10

@@ -6,6 +6,48 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:magic/volitile_defense",
+                "bro:magic/magic_injection"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": "Illagers' Compendium"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_rod",
+          "weight": 1,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:magic/judgement_cut",
+                "bro:magic/creeper_imbue"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": "Illagers' Blaze Wand"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:elytra",
           "weight": 1,
           "quality": 10,
@@ -80,6 +122,11 @@
             {
               "function": "minecraft:enchant_randomly",
               "options": "minecraft:unbreaking",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "bro:magic/delusion",
               "only_compatible": false
             },
             {

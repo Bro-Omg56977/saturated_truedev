@@ -1,5 +1,5 @@
 # Display particles when effect, then flies
-execute at @e[tag=powderofguneffect] at @s run playsound minecraft:block.bell.resonate ambient
+playsound minecraft:block.bell.resonate ambient @s[tag=powderofguneffect]
 execute as @e[tag=powderofguneffect] at @s run particle minecraft:soul_fire_flame ~0.2 ~1 ~0.2 0 0 0 0.01 10
 execute as @e[tag=powderofguneffect] at @s run particle minecraft:soul_fire_flame ~0.2 ~1 ~-0.2 0 0 0 0.01 10
 execute as @e[tag=powderofguneffect] at @s run particle minecraft:soul_fire_flame ~-0.2 ~1 ~0.2 0 0 0 0.01 10

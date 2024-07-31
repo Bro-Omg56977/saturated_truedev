@@ -7,6 +7,48 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:magic/conductivity",
+                "bro:magic/flinging_deterrant"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": "Journal of Babel"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:breeze_rod",
+          "weight": 1,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:magic/electric_osmosis",
+                "bro:magic/big_bang"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": "Babel's Breeze Wand"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:enchanted_golden_apple",
           "weight": 1,
           "quality": 10,
@@ -32,6 +74,11 @@
           "weight": 1,
           "quality": 10,
           "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "bro:magic/purification",
+              "only_compatible": false
+            },
             {
               "function": "minecraft:enchant_randomly",
               "options": "minecraft:unbreaking",

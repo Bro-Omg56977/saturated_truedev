@@ -1,5 +1,5 @@
 # Display particles when activated, then strike
-execute at @e[tag=electriceffect] at @s run playsound minecraft:block.bell.resonate ambient
+playsound minecraft:block.bell.resonate ambient @s[tag=powderofguneffect]
 execute as @e[tag=electriceffect] at @s run particle minecraft:campfire_cosy_smoke ~0.2 ~1 ~0.2 0 0 0 0.01 10
 execute as @e[tag=electriceffect] at @s run particle minecraft:campfire_cosy_smoke ~0.2 ~1 ~-0.2 0 0 0 0.01 10
 execute as @e[tag=electriceffect] at @s run particle minecraft:campfire_cosy_smoke ~-0.2 ~1 ~0.2 0 0 0 0.01 10
