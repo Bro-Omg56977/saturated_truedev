@@ -4,8 +4,14 @@
         "id": "minecraft:iron_door",
         "count": 1
       },
-      "title": "The Return.",
-      "description": "Enter an iron door in Saturated.",
+      "title": {
+        "translate": "advancements.bro.saturated.return_to_void.title",
+        "fallback": "The Return"
+      },
+      "description": {
+        "translate": "advancements.bro.saturated.return_to_void.descr",
+        "fallback": "Enter an Iron Door in Saturated"
+      },
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,

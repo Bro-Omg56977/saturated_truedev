@@ -4,8 +4,14 @@
         "id": "minecraft:dark_oak_wood",
         "count": 1
       },
-      "title": "That's kinda tall...",
-      "description": "Enter the Tower of Sloni",
+      "title": {
+        "translate": "advancements.bro.saturated.find_tower_of_sloni.title",
+        "fallback": "That's kinda tall..."
+      },
+      "description": {
+        "translate": "advancements.bro.saturated.find_tower_of_sloni.descr",
+        "fallback": "Enter the Tower of Sloni"
+      },
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,

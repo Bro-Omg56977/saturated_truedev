@@ -4,8 +4,14 @@
         "id": "minecraft:mossy_stone_bricks",
         "count": 1
       },
-      "title": "That's kinda icky...",
-      "description": "Enter the Sewer",
+      "title": {
+        "translate": "advancements.bro.saturated.find_sewer.title",
+        "fallback": "That's Kinda Icky..."
+      },
+      "description": {
+        "translate": "advancements.bro.saturated.find_sewer.descr",
+        "fallback": "Enter the Sewer"
+      },
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
