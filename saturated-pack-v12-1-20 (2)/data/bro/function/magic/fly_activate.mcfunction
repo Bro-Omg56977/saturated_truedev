@@ -1,12 +1,12 @@
 # Display particles when effect, then flies
 playsound minecraft:block.bell.resonate ambient @s[tag=powderofguneffect]
-execute as @e[tag=bigboomeffect] at @s run particle minecraft:trial_spawner_detection_ominous ~0.2 ~1 ~0.2 0 0 0 0.01 10
-execute as @e[tag=bigboomeffect] at @s run particle minecraft:trial_spawner_detection_ominous ~0.2 ~1 ~-0.2 0 0 0 0.01 10
-execute as @e[tag=bigboomeffect] at @s run particle minecraft:trial_spawner_detection_ominous ~-0.2 ~1 ~0.2 0 0 0 0.01 10
-execute as @e[tag=bigboomeffect] at @s run particle minecraft:trial_spawner_detection_ominous ~-0.2 ~1 ~-0.2 0 0 0 0.01 10
-execute as @e[tag=bigboomeffect] at @s run particle minecraft:trial_spawner_detection_ominous ~ ~1 ~ 0 0 0 0.01 10
-execute as @e[tag=bigboomeffect] at @s run particle minecraft:trial_spawner_detection_ominous ~ ~1.4 ~ 0 0 0 0.01 10
-execute as @e[tag=bigboomeffect] at @s run particle minecraft:trial_spawner_detection_ominous ~ ~0.6 ~ 0 0 0 0.01 10
+execute as @e[tag=bigboomeffect] at @s run particle minecraft:trial_spawner_detection ~0.2 ~1 ~0.2 0 0 0 0.01 10
+execute as @e[tag=bigboomeffect] at @s run particle minecraft:trial_spawner_detection ~0.2 ~1 ~-0.2 0 0 0 0.01 10
+execute as @e[tag=bigboomeffect] at @s run particle minecraft:trial_spawner_detection ~-0.2 ~1 ~0.2 0 0 0 0.01 10
+execute as @e[tag=bigboomeffect] at @s run particle minecraft:trial_spawner_detection ~-0.2 ~1 ~-0.2 0 0 0 0.01 10
+execute as @e[tag=bigboomeffect] at @s run particle minecraft:trial_spawner_detection ~ ~1 ~ 0 0 0 0.01 10
+execute as @e[tag=bigboomeffect] at @s run particle minecraft:trial_spawner_detection ~ ~1.4 ~ 0 0 0 0.01 10
+execute as @e[tag=bigboomeffect] at @s run particle minecraft:trial_spawner_detection ~ ~0.6 ~ 0 0 0 0.01 10
 execute as @e[tag=bigboom] at @s run summon firework_rocket ~1.5 ~ ~0.2 {LifeTime:29,FireworksItem:{id:firework_rocket,count:1,components:{fireworks:{flight_duration:2,explosions:[{shape:"large_ball",colors:[I;4312372,14602026],fade_colors:[I;4312372,14602026]}]}}}}
 execute as @e[tag=bigboom] run effect give @s levitation 1 20 false
 execute as @e[tag=bigboom] run effect give @s minecraft:slowness 30 2 false

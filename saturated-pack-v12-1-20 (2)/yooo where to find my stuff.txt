@@ -32,3 +32,4 @@ no curseforge
 -Gye20's forge structure looked cool
 -ssneaky's superstructures looked cool aswell
 -Denizen helped me out with some teleporting code
+-PMC user Xfulminex, i looked at his enchantment code to figure out how to do it

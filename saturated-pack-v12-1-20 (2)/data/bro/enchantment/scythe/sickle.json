@@ -1,0 +1,64 @@
+{
+    "description": "Sickle",
+    "exclusive_set": [
+      "minecraft:mending",
+      "bro:scythe/soul_scythe"
+    ],
+    "supported_items": [
+      "minecraft:wooden_hoe",
+      "minecraft:stone_hoe",
+      "minecraft:golden_hoe",
+      "minecraft:iron_hoe",
+      "minecraft:diamond_hoe",
+      "minecraft:netherite_hoe"
+    ],
+    "primary_items": [
+      "minecraft:wooden_hoe",
+      "minecraft:stone_hoe",
+      "minecraft:golden_hoe",
+      "minecraft:iron_hoe",
+      "minecraft:diamond_hoe",
+      "minecraft:netherite_hoe"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 1000,
+      "per_level_above_first": 1000
+    },
+    "max_cost": {
+      "base": 1000,
+      "per_level_above_first": 1000
+    },
+    "anvil_cost": 4,
+    "slots": [
+      "any"
+    ],
+    "effects": {
+      "minecraft:damage": [
+        {
+          "effect": {
+            "type": "minecraft:multiply",
+            "factor": 5
+          }
+        }
+      ],
+      "minecraft:mob_experience": [
+        {
+          "effect": {
+            "type": "minecraft:set",
+            "value": 0
+          }
+        }
+      ],
+      "minecraft:armor_effectiveness": [
+        {
+          "effect": {
+            "type": "minecraft:remove_binomial",
+            "chance": 0
+          }
+        }
+      ]
+    }
+  }
+  

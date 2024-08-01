@@ -28,7 +28,7 @@
           "affected": "attacker",
           "effect": {
             "type": "minecraft:run_function",
-            "function": "bro:magic/implosion"
+            "function": "bro:magic/creep"
           }
         }
       ]
