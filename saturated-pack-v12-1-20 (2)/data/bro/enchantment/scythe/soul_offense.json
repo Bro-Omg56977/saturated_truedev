@@ -1,23 +1,16 @@
 {
-    "description": "§4Creeper Imbue",
+    "description": "§9Soul Offensive Defence",
     "exclusive_set": [
-      "bro:magic/judgement_cut",
-            "bro:magic/big_bang",
-                  "bro:magic/electric_osmosis"
+      "bro:scythe/sickle"
     ],
-    "supported_items": [
-      "minecraft:wooden_hoe",
+    "supported_items": "#minecraft:enchantable/sharp_weapon",
+    "primary_items": [
       "minecraft:wooden_hoe",
       "minecraft:stone_hoe",
       "minecraft:golden_hoe",
       "minecraft:iron_hoe",
       "minecraft:diamond_hoe",
       "minecraft:netherite_hoe"
-    ],
-    "primary_items": [
-      "minecraft:stick",
-      "minecraft:breeze_rod",
-      "minecraft:blaze_rod"
     ],
     "weight": 1,
     "max_level": 1,
@@ -29,7 +22,7 @@
       "base": 1000,
       "per_level_above_first": 1000
     },
-    "anvil_cost": 20,
+    "anvil_cost": 4,
     "slots": [
       "any"
     ],
@@ -37,10 +30,10 @@
       "minecraft:post_attack": [
         {
           "enchanted": "attacker",
-          "affected": "victim",
+          "affected": "attacker",
           "effect": {
             "type": "minecraft:run_function",
-            "function": "bro:magic/creep"
+            "function": "bro:scythe/offense_defence"
           }
         }
       ]

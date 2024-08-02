@@ -1,7 +1,8 @@
 {
-    "description": "Soul Vaulting",
+    "description": "§1Soul Vaulting",
     "exclusive_set": [
-      "bro:scythe/sickle"
+      "bro:scythe/sickle",
+      "bro:scythe/soul_rage"
     ],
     "supported_items": "#minecraft:enchantable/sharp_weapon",
     "primary_items": [
