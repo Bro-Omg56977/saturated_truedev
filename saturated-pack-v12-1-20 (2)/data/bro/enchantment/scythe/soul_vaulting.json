@@ -1,10 +1,9 @@
 {
-    "description": "Soul Vampirism",
+    "description": "Soul Vaulting",
     "exclusive_set": [
-      "minecraft:mending",
       "bro:scythe/sickle"
     ],
-    "supported_items": "#minecraft:enchantable/sword",
+    "supported_items": "#minecraft:enchantable/sharp_weapon",
     "primary_items": [
       "minecraft:wooden_hoe",
       "minecraft:stone_hoe",
@@ -34,7 +33,7 @@
           "affected": "attacker",
           "effect": {
             "type": "minecraft:run_function",
-            "function": "bro:scythe/vampirism"
+            "function": "bro:scythe/vaulting"
           }
         }
       ]

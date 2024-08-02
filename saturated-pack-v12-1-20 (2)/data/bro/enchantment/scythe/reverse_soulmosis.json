@@ -1,0 +1,42 @@
+{
+    "description": "Reverse Soul-mosis",
+    "exclusive_set": "minecraft:mending",
+    "supported_items": "#minecraft:enchantable/armor",
+    "primary_items": "#minecraft:enchantable/armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 1000,
+      "per_level_above_first": 1000
+    },
+    "max_cost": {
+      "base": 1000,
+      "per_level_above_first": 1000
+    },
+    "anvil_cost": 4,
+    "slots": [
+      "any"
+    ],
+    "effects": {
+      "minecraft:damage": [],
+      "minecraft:mob_experience": [
+        {
+          "effect": {
+            "type": "minecraft:multiply",
+            "factor": 0.5
+          }
+        }
+      ],
+      "minecraft:post_attack": [
+        {
+          "enchanted": "victim",
+          "affected": "victim",
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "bro:scythe/soul_gather_armor"
+          }
+        }
+      ]
+    }
+  }
+  
