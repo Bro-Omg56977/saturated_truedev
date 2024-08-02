@@ -1,9 +1,10 @@
 {
     "description": "§1Soul Vampirism",
     "exclusive_set": [
-      "bro:scythe/sickle"
+      "bro:scythe/sickle",
+      "bro:scythe/soul_fight"
     ],
-    "supported_items": "#minecraft:enchantable/sharp_weapon",
+    "supported_items": "#minecraft:enchantable/weapon",
     "primary_items": [
       "minecraft:wooden_hoe",
       "minecraft:stone_hoe",
@@ -24,7 +25,7 @@
     },
     "anvil_cost": 4,
     "slots": [
-      "any"
+      "mainhand"
     ],
     "effects": {
       "minecraft:post_attack": [

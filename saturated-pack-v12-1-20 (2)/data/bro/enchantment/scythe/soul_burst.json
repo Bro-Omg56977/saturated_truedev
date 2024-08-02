@@ -1,9 +1,7 @@
 {
-    "description": "§1Soul Rage",
+    "description": "§5Soul Burst",
     "exclusive_set": [
-      "bro:scythe/sickle",
-      "bro:scythe/soul_vampirism",
-      "bro:scythe/soul_vaulting"
+      "bro:scythe/sickle"
     ],
     "supported_items": "#minecraft:enchantable/weapon",
     "primary_items": [
@@ -35,7 +33,7 @@
           "affected": "attacker",
           "effect": {
             "type": "minecraft:run_function",
-            "function": "bro:scythe/rage"
+            "function": "bro:scythe/burst"
           }
         }
       ]

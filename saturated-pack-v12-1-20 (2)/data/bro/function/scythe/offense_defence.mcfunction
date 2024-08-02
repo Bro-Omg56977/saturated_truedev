@@ -1,7 +1,7 @@
 #makes it so that entity hit has around a 20% chance of the effect actually happening
 
 scoreboard objectives add offense_defence_chance dummy
-execute store result score @s offense_defence_chance run random value 1..10
+execute store result score @s offense_defence_chance run random value 1..15
 
 # adds tag and plays sfx
 
@@ -9,7 +9,7 @@ execute if score @s offense_defence_chance matches 1 if score @s soul_count matc
 execute if score @s offense_defence_chance matches 1 if score @s soul_count matches 2..10 run playsound minecraft:block.respawn_anchor.charge ambient @s[tag=offensedefenceeffect]
 execute if score @s offense_defence_chance matches 1 if score @s soul_count matches 2..10 run playsound minecraft:block.anvil.land ambient @s[tag=offensedefenceeffect] ~ ~ ~ 1 0.5
 
-# Display particles when effect, then adds a soul to the count
+# Display particles when effect, adds effects, then removes a soul from count. proceeds to run remove tags function
 
 
 execute as @e[tag=offensedefenceeffect] at @s run particle minecraft:enchanted_hit ~0.2 ~1 ~0.2 0 0 0 0.01 10

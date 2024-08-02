@@ -9,7 +9,7 @@ execute if score @s rage_chance matches 1 if score @s soul_count matches 1..10 r
 execute if score @s rage_chance matches 1 if score @s soul_count matches 1..10 run playsound minecraft:block.respawn_anchor.charge ambient @s[tag=rageeffect]
 execute if score @s rage_chance matches 1 if score @s soul_count matches 1..10 run playsound minecraft:entity.warden.listening_angry ambient @s[tag=rageeffect]
 
-# Display particles when effect, then adds a soul to the count
+# Display particles when effect, adds effects, then removes a soul from count. proceeds to run remove tags function
 
 execute as @e[tag=rageeffect] at @s run particle minecraft:raid_omen ~0.2 ~1 ~0.2 0 0 0 0.01 10
 execute as @e[tag=rageeffect] at @s run particle minecraft:soul_fire_flame ~0.2 ~1 ~-0.2 0 0 0 0.01 10

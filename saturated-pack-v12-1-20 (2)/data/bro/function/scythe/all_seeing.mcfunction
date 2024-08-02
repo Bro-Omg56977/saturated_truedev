@@ -8,7 +8,7 @@ execute store result score @s all_seeing_chance run random value 1..5
 execute if score @s all_seeing_chance matches 1 if score @s soul_count matches 1..10 run tag @s[tag=!allseeingeffect] add allseeingeffect
 execute if score @s all_seeing_chance matches 1 if score @s soul_count matches 1..10 run playsound minecraft:block.respawn_anchor.charge ambient @s[tag=allseeingeffect]
 
-# Display particles when effect, then adds a soul to the count
+# Display particles when effect, adds effects, then removes a soul from count. proceeds to run remove tags function
 
 playsound minecraft:ambient.soul_sand_valley.mood ambient @s[tag=allseeingeffect]
 execute as @e[tag=allseeingeffect] at @s run particle minecraft:dust_plume ~0.2 ~1 ~0.2 0 0 0 0.01 10

@@ -1,6 +1,6 @@
 {
     "description": "§1Reverse Soul-mosis",
-    "exclusive_set": "minecraft:mending",
+    "exclusive_set": ["minecraft:mending"],
     "supported_items": "#minecraft:enchantable/armor",
     "primary_items": "#minecraft:enchantable/armor",
     "weight": 1,
@@ -15,7 +15,7 @@
     },
     "anvil_cost": 4,
     "slots": [
-      "any"
+      "armor"
     ],
     "effects": {
       "minecraft:damage": [],

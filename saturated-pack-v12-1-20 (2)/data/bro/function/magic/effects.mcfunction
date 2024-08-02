@@ -34,3 +34,21 @@ execute as @e[tag=delusioneffect] at @s run particle minecraft:block{block_state
 execute as @e[tag=delusioneffect] at @s run particle minecraft:block{block_state:{Name:black_concrete}} ~0.2 ~1 ~-0.2 0 0 0 0.15 5
 execute as @e[tag=delusioneffect] at @s run particle minecraft:block{block_state:{Name:black_concrete}} ~-0.2 ~1 ~0.2 0 0 0 0.15 5
 execute as @e[tag=delusioneffect] at @s run particle minecraft:block{block_state:{Name:black_concrete}} ~-0.2 ~1 ~-0.2 0 0 0 0.15 5
+
+# super showing effect
+execute as @e[tag=supereffects] at @s run particle minecraft:trial_spawner_detection ~0.2 ~1 ~0.2 0 0 0 0 5
+execute as @e[tag=supereffects] at @s run particle minecraft:trial_spawner_detection ~0.2 ~1 ~-0.2 0 0 0 0 5
+execute as @e[tag=supereffects] at @s run particle minecraft:trial_spawner_detection ~-0.2 ~1 ~0.2 0 0 0 0 5
+execute as @e[tag=supereffects] at @s run particle minecraft:trial_spawner_detection ~-0.2 ~1 ~-0.2 0 0 0 0 5
+
+# marked for death showing effect
+execute as @e[tag=markereffects] at @s run particle minecraft:trial_omen ~0.2 ~1 ~0.2 0 0 0 0.05 5
+execute as @e[tag=markereffects] at @s run particle minecraft:trial_omen ~0.2 ~1 ~-0.2 0 0 0 0.05 5
+execute as @e[tag=markereffects] at @s run particle minecraft:trial_omen ~-0.2 ~1 ~0.2 0 0 0 0.05 5
+execute as @e[tag=markereffects] at @s run particle minecraft:trial_omen ~-0.2 ~1 ~-0.2 0 0 0 0.05 5
+
+# Dirty Fireworks showing effect
+execute as @e[tag=fireworkeffects] at @s run particle minecraft:sculk_charge_pop ~0.2 ~1 ~0.2 0 0 0 0.05 5
+execute as @e[tag=fireworkeffects] at @s run particle minecraft:sculk_charge_pop ~0.2 ~1 ~-0.2 0 0 0 0.05 5
+execute as @e[tag=fireworkeffects] at @s run particle minecraft:sculk_charge_pop ~-0.2 ~1 ~0.2 0 0 0 0.05 5
+execute as @e[tag=fireworkeffects] at @s run particle minecraft:sculk_charge_pop ~-0.2 ~1 ~-0.2 0 0 0 0.05 5

@@ -55,7 +55,7 @@
         {
           "effect": {
             "type": "minecraft:remove_binomial",
-            "chance": 0
+            "chance": 1
           }
         }
       ]

@@ -1,8 +1,8 @@
 {
-    "description": "§9Soul Zooming",
+    "description": "§cSoul Finisher: Nasty Trick",
     "exclusive_set": [
       "bro:scythe/sickle",
-                  "bro:scythe/soul_superjump"
+      "bro:scythe/soul_kamikaze"
     ],
     "supported_items": "#minecraft:enchantable/armor",
     "primary_items": "#minecraft:enchantable/armor",
@@ -27,7 +27,7 @@
           "affected": "victim",
           "effect": {
             "type": "minecraft:run_function",
-            "function": "bro:scythe/zoom"
+            "function": "bro:scythe/fireworks"
           }
         }
       ]
