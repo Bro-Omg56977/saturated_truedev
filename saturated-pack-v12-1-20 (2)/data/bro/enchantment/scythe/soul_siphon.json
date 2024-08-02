@@ -1,6 +1,9 @@
 {
     "description": "§1Soul Siphoning",
-    "exclusive_set": "minecraft:mending",
+    "exclusive_set": [
+      "minecraft:mending",
+      "bro:scythe/soul_siphon"
+  ],
     "supported_items": "#minecraft:enchantable/weapon",
     "primary_items": "#minecraft:enchantable/sword",
     "weight": 1,

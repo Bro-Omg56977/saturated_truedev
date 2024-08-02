@@ -9,6 +9,7 @@ execute if score @s soul_count matches 10 run playsound minecraft:entity.warden.
 execute as @e[tag=fireworkeffect] at @s run particle minecraft:soul_fire_flame ~0.2 ~1 ~-0.2 0 0 0 0.15 10
 execute as @e[tag=fireworkeffect] at @s run particle minecraft:soul_fire_flame ~-0.2 ~1 ~-0.2 0 0 0 0.15 10
 execute as @e[tag=fireworkeffect] at @s run particle minecraft:soul_fire_flame ~ ~1.4 ~ 0 0 0 0.15 10
+execute as @e[tag=fireworkeffect] at @s run particle minecraft:gust_emitter_large ~ ~1.4 ~ 0 0 0 0.15 10
 execute as @e[tag=fireworkeffect] at @s run tag @e[tag=!fireworkeffect,distance=..30] add fireworkeffects
 execute as @e[tag=fireworkeffect] at @s run effect give @e[tag=!fireworkeffect,distance=..30] minecraft:levitation 2 15 false
 execute as @e[tag=fireworkeffect] at @s run tellraw @s "§cAll Souls has been consumed"

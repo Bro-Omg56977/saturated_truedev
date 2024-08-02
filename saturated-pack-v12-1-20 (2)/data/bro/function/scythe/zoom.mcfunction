@@ -18,9 +18,9 @@ execute as @e[tag=zoomeffect] at @s run particle minecraft:soul_fire_flame ~-0.2
 execute as @e[tag=zoomeffect] at @s run particle minecraft:gust_emitter_small ~ ~1 ~ 0 0 0 0.01 10
 execute as @e[tag=zoomeffect] at @s run particle minecraft:soul_fire_flame ~ ~1.4 ~ 0 0 0 0.01 10
 execute as @e[tag=zoomeffect] at @s run particle minecraft:gust_emitter_small ~ ~0.6 ~ 0 0 0 0.01 10
-execute as @e[tag=zoomeffect] run effect give @s minecraft:speed 10 2 false
-execute as @e[tag=zoomeffect] run effect give @s minecraft:levitation 1 20 false
-execute as @e[tag=zoomeffect] run effect give @s minecraft:slow_falling 15 1 false
+execute as @e[tag=zoomeffect] run effect give @s minecraft:speed 10 2 true
+execute as @e[tag=zoomeffect] run effect give @s minecraft:levitation 1 20 true
+execute as @e[tag=zoomeffect] run effect give @s minecraft:slow_falling 15 1 true
 execute as @e[tag=zoomeffect] at @s run effect give @e[tag=!zoomeffect,distance=..15] minecraft:wind_charged 15 2 false
 execute as @e[tag=zoomeffect] at @s run tellraw @s "§9Two Souls has been consumed"
 execute as @e[tag=zoomeffect] run scoreboard players remove @e soul_count 2

@@ -1,10 +1,10 @@
 # Display particles when implosion, then implode
-playsound minecraft:block.bell.resonate ambient @s[tag=powderofguneffect]
-execute as @e[tag=implosioneffect] at @s run particle minecraft:sweep_attack ~0.2 ~1 ~0.2 0 0 0 0.01 10
-execute as @e[tag=implosioneffect] at @s run particle minecraft:sweep_attack ~0.2 ~1 ~-0.2 0 0 0 0.01 10
-execute as @e[tag=implosioneffect] at @s run particle minecraft:sweep_attack ~-0.2 ~1 ~0.2 0 0 0 0.01 10
-execute as @e[tag=implosioneffect] at @s run particle minecraft:sweep_attack ~-0.2 ~1 ~-0.2 0 0 0 0.01 10
-execute as @e[tag=implosioneffect] at @s run particle minecraft:sweep_attack ~ ~1 ~ 0 0 0 0.01 10
+playsound minecraft:block.bell.resonate ambient @s[tag=implosioneffect]
+execute as @e[tag=implosioneffect] at @s run particle minecraft:block{block_state:{Name:red_concrete}} ~0.2 ~1 ~0.2 0 0 0 1 10
+execute as @e[tag=implosioneffect] at @s run particle minecraft:block{block_state:{Name:red_concrete}} ~0.2 ~1 ~-0.2 0 0 0 1 10
+execute as @e[tag=implosioneffect] at @s run particle minecraft:block{block_state:{Name:red_concrete}} ~-0.2 ~1 ~0.2 0 0 0 1 10
+execute as @e[tag=implosioneffect] at @s run particle minecraft:block{block_state:{Name:red_concrete}} ~-0.2 ~1 ~-0.2 0 0 0 1 10
+execute as @e[tag=implosioneffect] at @s run particle minecraft:block{block_state:{Name:red_concrete}} ~ ~1 ~ 0 0 0 1 10
 execute as @e[tag=implosioneffect] at @s run particle minecraft:sweep_attack ~ ~1.4 ~ 0 0 0 0.01 10
 execute as @e[tag=implosioneffect] at @s run particle minecraft:sweep_attack ~ ~0.6 ~ 0 0 0 0.01 10
 execute as @e[tag=implosion] unless entity @s[type=#minecraft:undead] run effect give @s instant_damage 1 1
