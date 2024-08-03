@@ -4,7 +4,7 @@
       "bro:scythe/sickle",
             "bro:scythe/soul_retaliation",
                   "bro:scythe/soul_superjump",
-                  "bro:scythe/soul_zooming"
+                  "bro:scythe/soul_retaliation"
     ],
     "supported_items": "#minecraft:enchantable/armor",
     "primary_items": "#minecraft:enchantable/armor",

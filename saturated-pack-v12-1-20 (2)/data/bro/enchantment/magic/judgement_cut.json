@@ -3,7 +3,7 @@
   "exclusive_set": [
     "bro:magic/judgement_cut",
     "bro:magic/creeper_imbue",
-          "bro:magic/big_bang"
+    "bro:magic/big_bang"
   ],
   "supported_items": [
     "minecraft:wooden_hoe",
@@ -35,6 +35,16 @@
   ],
   "effects": {
     "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:play_sound",
+          "sound": "minecraft:entity.player.attack.sweep",
+          "volume": 1,
+          "pitch": 1
+        }
+      },
       {
         "enchanted": "attacker",
         "affected": "victim",

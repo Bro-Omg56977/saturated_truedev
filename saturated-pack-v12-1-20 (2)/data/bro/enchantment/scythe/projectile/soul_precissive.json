@@ -1,17 +1,15 @@
 {
-    "description": "§1Soul Vampirism",
+    "description": "§1Soul precissive-shot",
     "exclusive_set": [
-      "bro:scythe/sickle",
-            "bro:scythe/soul_rage"
+      "bro:scythe/sickle"
     ],
-    "supported_items": "#minecraft:enchantable/weapon",
+    "supported_items": [
+      "minecraft:crossbow",
+      "minecraft:bow"
+    ],
     "primary_items": [
-      "minecraft:wooden_hoe",
-      "minecraft:stone_hoe",
-      "minecraft:golden_hoe",
-      "minecraft:iron_hoe",
-      "minecraft:diamond_hoe",
-      "minecraft:netherite_hoe"
+      "minecraft:crossbow",
+      "minecraft:bow"
     ],
     "weight": 1,
     "max_level": 1,
@@ -25,7 +23,7 @@
     },
     "anvil_cost": 4,
     "slots": [
-      "mainhand"
+      "hand"
     ],
     "effects": {
       "minecraft:post_attack": [
@@ -34,7 +32,7 @@
           "affected": "attacker",
           "effect": {
             "type": "minecraft:run_function",
-            "function": "bro:scythe/vampirism"
+            "function": "bro:scythe/projectile/soul_gather_projectile"
           }
         }
       ]

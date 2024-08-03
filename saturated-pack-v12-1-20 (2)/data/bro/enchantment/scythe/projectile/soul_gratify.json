@@ -1,18 +1,10 @@
 {
-    "description": "§1Soul Vampirism",
+    "description": "§1Soul Gratification",
     "exclusive_set": [
-      "bro:scythe/sickle",
-            "bro:scythe/soul_rage"
+      "bro:scythe/sickle"
     ],
-    "supported_items": "#minecraft:enchantable/weapon",
-    "primary_items": [
-      "minecraft:wooden_hoe",
-      "minecraft:stone_hoe",
-      "minecraft:golden_hoe",
-      "minecraft:iron_hoe",
-      "minecraft:diamond_hoe",
-      "minecraft:netherite_hoe"
-    ],
+    "supported_items": "#minecraft:enchantable/crossbow",
+    "primary_items": "#minecraft:enchantable/crossbow",
     "weight": 1,
     "max_level": 1,
     "min_cost": {
@@ -34,7 +26,7 @@
           "affected": "attacker",
           "effect": {
             "type": "minecraft:run_function",
-            "function": "bro:scythe/vampirism"
+            "function": "bro:scythe/projectile/gratify"
           }
         }
       ]

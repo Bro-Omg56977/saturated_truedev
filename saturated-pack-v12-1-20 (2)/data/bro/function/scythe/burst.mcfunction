@@ -1,7 +1,7 @@
 #makes it so that entity hit has around a 5% chance of the effect actually happening
 
 scoreboard objectives add burst_chance dummy
-execute store result score @s burst_chance run random value 1..20
+execute store result score @s burst_chance run random value 1..10
 
 # adds tag and plays sfx
 

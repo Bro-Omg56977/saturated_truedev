@@ -2,8 +2,7 @@
     "description": "§1Soul Mobility",
     "exclusive_set": [
       "bro:scythe/sickle",
-      "bro:scythe/soul_superjump",
-      "bro:scythe/soul_zooming"
+      "bro:scythe/soul_fight"
     ],
     "supported_items": "#minecraft:enchantable/armor",
     "primary_items": "#minecraft:enchantable/armor",

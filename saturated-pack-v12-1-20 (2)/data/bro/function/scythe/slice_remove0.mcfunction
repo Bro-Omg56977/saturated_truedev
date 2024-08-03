@@ -1,5 +1,5 @@
 
-execute as @e[tag=atomsliceeffects] at @s run playsound minecraft:entity.player.attack.sweep hostile @s[tag=atomsliceeffects] ~ ~ ~ 3 0.1
+execute as @e[tag=atomsliceeffects] at @s run playsound minecraft:entity.zombie.break_wooden_door hostile @s[tag=atomsliceeffects] ~ ~ ~ 3 0.1
 execute as @e[tag=atomsliceeffects] at @s run particle minecraft:block{block_state:{Name:red_concrete}} ~0.2 ~1 ~0.2 0 0 0 1 10
 execute as @e[tag=atomsliceeffects] at @s run particle minecraft:block{block_state:{Name:red_concrete}} ~0.2 ~1 ~-0.2 0 0 0 1 10
 execute as @e[tag=atomsliceeffects] at @s run particle minecraft:block{block_state:{Name:red_concrete}} ~-0.2 ~1 ~0.2 0 0 0 1 10
