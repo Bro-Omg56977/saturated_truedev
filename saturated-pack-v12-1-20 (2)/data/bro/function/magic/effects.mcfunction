@@ -54,7 +54,7 @@ execute as @e[tag=fireworkeffects] at @s run particle minecraft:sculk_charge_pop
 execute as @e[tag=fireworkeffects] at @s run particle minecraft:sculk_charge_pop ~-0.2 ~1 ~-0.2 0 0 0 0.05 5
 
 #bacteriophage showing effect
-execute as @e[tag=bacterioarrow] at @s run particle block{block_state:{Name:slime_block}} ~0.2 ~1 ~0.2 0 0 0 0.15 5
-execute as @e[tag=bacterioarrow] at @s run particle block{block_state:{Name:black_concrete_powder}} ~0.2 ~1 ~-0.2 0 0 0 0.15 5
-execute as @e[tag=bacterioarrow] at @s run particle block{block_state:{Name:slime_block}} ~-0.2 ~1 ~0.2 0 0 0 0.15 5
-execute as @e[tag=bacterioarrow] at @s run particle block{block_state:{Name:black_concrete_powder}} ~-0.2 ~1 ~-0.2 0 0 0 0.15 5
+execute as @e[tag=bacterioentity] at @s run particle block{block_state:{Name:slime_block}} ~0.2 ~1 ~0.2 0 0 0 0.15 5
+execute as @e[tag=bacterioentity] at @s run particle block{block_state:{Name:black_concrete_powder}} ~0.2 ~1 ~-0.2 0 0 0 0.15 5
+execute as @e[tag=bacterioentity] at @s run particle block{block_state:{Name:slime_block}} ~-0.2 ~1 ~0.2 0 0 0 0.15 5
+execute as @e[tag=bacterioentity] at @s run particle block{block_state:{Name:black_concrete_powder}} ~-0.2 ~1 ~-0.2 0 0 0 0.15 5
