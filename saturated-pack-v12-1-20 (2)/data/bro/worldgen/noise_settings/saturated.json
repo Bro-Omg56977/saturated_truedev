@@ -1056,6 +1056,208 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
+            "bro:saturated/cave/crystalline_cavity"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 0,
+                "surface_type": "ceiling",
+                "add_surface_depth": true,
+                "secondary_depth_range": 0
+              },
+              "then_run": {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:noise_threshold",
+                  "noise": "bro:mountain1",
+                  "min_threshold": -0.15,
+                  "max_threshold": 0.15
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "noise": "bro:mountain2",
+                    "min_threshold": -1e+308,
+                    "max_threshold": 0.1
+                  },
+                  "then_run": {
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:vertical_gradient",
+                          "random_name": "bro:superultramegagilded",
+                          "true_at_and_below": {
+                            "above_bottom": 0
+                          },
+                          "false_at_and_above": {
+                            "below_top": 0
+                          }
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:gilded_blackstone"
+                          }
+                        }
+                      },
+                      {
+                        "type": "minecraft:block",
+                        "result_state": {
+                          "Name": "minecraft:blackstone"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 0,
+                "surface_type": "ceiling",
+                "add_surface_depth": true,
+                "secondary_depth_range": 0
+              },
+              "then_run": {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:noise_threshold",
+                  "noise": "minecraft:packed_ice",
+                  "min_threshold": 0,
+                  "max_threshold": 0.2
+                },
+                "then_run": {
+                  "type": "minecraft:sequence",
+                  "sequence": []
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 0,
+                "surface_type": "floor",
+                "add_surface_depth": true,
+                "secondary_depth_range": 0
+              },
+              "then_run": {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:noise_threshold",
+                  "noise": "minecraft:packed_ice",
+                  "min_threshold": 0,
+                  "max_threshold": 0.2
+                },
+                "then_run": {
+                  "type": "minecraft:sequence",
+                  "sequence": [
+                    {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:vertical_gradient",
+                        "random_name": "bro:superguildedtriope",
+                        "true_at_and_below": {
+                          "above_bottom": 0
+                        },
+                        "false_at_and_above": {
+                          "below_top": 0
+                        }
+                      },
+                      "then_run": {
+                        "type": "minecraft:block",
+                        "result_state": {
+                          "Name": "minecraft:gilded_blackstone"
+                        }
+                      }
+                    },
+                    {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "minecraft:blackstone"
+                      }
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 0,
+                "surface_type": "floor",
+                "add_surface_depth": true,
+                "secondary_depth_range": 0
+              },
+              "then_run": {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:noise_threshold",
+                  "noise": "bro:mountain1",
+                  "min_threshold": -0.15,
+                  "max_threshold": 0.15
+                },
+                "then_run": {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "noise": "bro:mountain2",
+                    "min_threshold": -1e+308,
+                    "max_threshold": 0.1
+                  },
+                  "then_run": {
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:vertical_gradient",
+                          "random_name": "bro:ultrasupergilded",
+                          "true_at_and_below": {
+                            "above_bottom": 0
+                          },
+                          "false_at_and_above": {
+                            "below_top": 0
+                          }
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "minecraft:gilded_blackstone"
+                          }
+                        }
+                      },
+                      {
+                        "type": "minecraft:block",
+                        "result_state": {
+                          "Name": "minecraft:blackstone"
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
             "bro:saturated/crystallized_peaks"
           ]
         },
@@ -1178,7 +1380,7 @@
                 "type": "minecraft:noise_threshold",
                 "noise": "minecraft:calcite",
                 "min_threshold": -0.0125,
-                "max_threshold": -0.0125
+                "max_threshold": 0.0125
               },
               "then_run": {
                 "type": "minecraft:block",
@@ -1571,7 +1773,10 @@
               "then_run": {
                 "type": "minecraft:block",
                 "result_state": {
-                  "Name": "minecraft:grass_block"
+                  "Name": "minecraft:grass_block",
+                  "Properties": {
+                    "snowy": "false"
+                  }
                 }
               }
             }
@@ -1852,7 +2057,7 @@
               "then_run": {
                 "type": "minecraft:block",
                 "result_state": {
-                  "Name": "minecraft:gravel"
+                  "Name": "minecraft:andesite"
                 }
               }
             },
@@ -1869,6 +2074,175 @@
                 "type": "minecraft:block",
                 "result_state": {
                   "Name": "minecraft:cobbled_deepslate"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "bro:saturated/cave/glacial_carve"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 0,
+                "surface_type": "floor",
+                "add_surface_depth": false,
+                "secondary_depth_range": 0
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:packed_ice"
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:vertical_gradient",
+                "random_name": "superglacialicebro2",
+                "true_at_and_below": {
+                  "above_bottom": 0
+                },
+                "false_at_and_above": {
+                  "below_top": 0
+                }
+              },
+              "then_run": {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:stone_depth",
+                  "offset": 0,
+                  "surface_type": "ceiling",
+                  "add_surface_depth": true,
+                  "secondary_depth_range": 0
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:blue_ice"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:vertical_gradient",
+                "random_name": "superglacialicebro",
+                "true_at_and_below": {
+                  "above_bottom": 0
+                },
+                "false_at_and_above": {
+                  "below_top": 0
+                }
+              },
+              "then_run": {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:stone_depth",
+                  "offset": 0,
+                  "surface_type": "floor",
+                  "add_surface_depth": true,
+                  "secondary_depth_range": 0
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:blue_ice"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "bro:saturated/cave/littoral_hollow"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 0,
+                "surface_type": "floor",
+                "add_surface_depth": false,
+                "secondary_depth_range": 0
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:mud"
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 0,
+                "surface_type": "floor",
+                "add_surface_depth": true,
+                "secondary_depth_range": 0
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:smooth_basalt"
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 0,
+                "surface_type": "ceiling",
+                "add_surface_depth": false,
+                "secondary_depth_range": 0
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:deepslate",
+                  "Properties": {
+                    "axis": "y"
+                  }
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 0,
+                "surface_type": "ceiling",
+                "add_surface_depth": true,
+                "secondary_depth_range": 0
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:smooth_basalt"
                 }
               }
             }
@@ -1895,6 +2269,52 @@
               "axis": "y"
             }
           }
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:biome",
+          "biome_is": [
+            "bro:saturated/cave/littoral_hollow"
+          ]
+        },
+        "then_run": {
+          "type": "minecraft:sequence",
+          "sequence": [
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 0,
+                "surface_type": "ceiling",
+                "add_surface_depth": true,
+                "secondary_depth_range": 0
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:smooth_basalt"
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 0,
+                "surface_type": "ceiling",
+                "add_surface_depth": false,
+                "secondary_depth_range": 0
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:stone"
+                }
+              }
+            }
+          ]
         }
       }
     ]

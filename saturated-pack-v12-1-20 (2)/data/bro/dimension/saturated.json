@@ -6817,7 +6817,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              1
+              -0.05
             ],
             "continentalness": [
               -1.2,
@@ -6829,7 +6829,487 @@
             ],
             "temperature": [
               -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/littoral_hollow"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              -1,
+              -0.45
+            ],
+            "humidity": [
+              -1,
+              0.1
+            ],
+            "depth": [
+              0.2,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/glacial_carve"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              -1,
+              -0.45
+            ],
+            "humidity": [
+              0.1,
+              0.3
+            ],
+            "depth": [
+              0.2,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/glacial_carve"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              -1,
+              -0.45
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/glacial_carve"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              -0.45,
               -0.15
+            ],
+            "humidity": [
+              -1,
+              0.1
+            ],
+            "depth": [
+              0.2,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/littoral_hollow"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.1,
+              0.3
+            ],
+            "depth": [
+              0.2,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/littoral_hollow"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              -0.45,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/littoral_hollow"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              0.1
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/littoral_hollow"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.55
+            ],
+            "humidity": [
+              0.1,
+              0.3
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/underground_jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              0.2,
+              0.55
+            ],
+            "humidity": [
+              -1,
+              0.1
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/empty"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.2,
+              0.55
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/underground_jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              0.55,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/crystalline_cavity"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/underground_jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -1.2,
+              -1.05
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.2,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/empty"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -1.05,
+              -0.19
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/empty"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              -0.15
+            ],
+            "humidity": [
+              0.1,
+              1
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/underground_jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.2
             ],
             "humidity": [
               -1,
@@ -6837,7 +7317,187 @@
             ],
             "depth": [
               0.2,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/empty"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.55
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/underground_jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.2,
+              0.55
+            ],
+            "humidity": [
+              0.1,
+              0.3
+            ],
+            "depth": [
+              0.2,
+              0.9
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/empty"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.55,
+              1
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              0.2,
               1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/bone_cavern"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              -1,
+              -0.45
+            ],
+            "humidity": [
+              -1,
+              0.1
+            ],
+            "depth": [
+              0.2,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/glacial_carve"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              0.1
+            ],
+            "depth": [
+              0.2,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/littoral_hollow"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              0.2,
+              0.55
+            ],
+            "humidity": [
+              -1,
+              0.3
+            ],
+            "depth": [
+              0.2,
+              1
             ],
             "offset": 0
           },
@@ -6862,11 +7522,11 @@
               1
             ],
             "humidity": [
-              0.3,
+              -1,
               1
             ],
             "depth": [
-              0.2,
+              0.9,
               1.2
             ],
             "offset": 0
@@ -6880,28 +7540,28 @@
               1
             ],
             "continentalness": [
-              -1.2,
-              -1.05
+              -1.05,
+              1
             ],
             "erosion": [
               -1,
               1
             ],
             "temperature": [
-              -0.15,
-              1
+              -1,
+              -0.45
             ],
             "humidity": [
               -1,
-              1
+              0.1
             ],
             "depth": [
-              0.2,
-              1.2
+              0.9,
+              1
             ],
             "offset": 0
           },
-          "biome": "bro:saturated/cave/empty"
+          "biome": "bro:saturated/cave/glacial_carve"
         },
         {
           "parameters": {
@@ -6919,479 +7579,29 @@
             ],
             "temperature": [
               -1,
-              1
+              -0.45
             ],
             "humidity": [
-              0.3,
-              1
+              0.1,
+              0.3
             ],
             "depth": [
-              0.2,
-              0.9
+              0.9,
+              1
             ],
             "offset": 0
           },
-          "biome": "bro:saturated/cave/empty"
+          "biome": "bro:saturated/cave/glacial_carve"
         },
         {
           "parameters": {
             "weirdness": [
               -1,
-              1
+              -0.05
             ],
             "continentalness": [
               -1.05,
               -0.19
-            ],
-            "erosion": [
-              -1,
-              1
-            ],
-            "temperature": [
-              -0.15,
-              0.2
-            ],
-            "humidity": [
-              -1,
-              0.3
-            ],
-            "depth": [
-              0.2,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/empty"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              1
-            ],
-            "continentalness": [
-              -1.05,
-              -0.19
-            ],
-            "erosion": [
-              -1,
-              1
-            ],
-            "temperature": [
-              0.2,
-              1
-            ],
-            "humidity": [
-              -1,
-              1
-            ],
-            "depth": [
-              0.2,
-              0.9
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/empty"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              1
-            ],
-            "continentalness": [
-              -0.19,
-              1
-            ],
-            "erosion": [
-              -1,
-              0.55
-            ],
-            "temperature": [
-              -1,
-              -0.15
-            ],
-            "humidity": [
-              -1,
-              0.1
-            ],
-            "depth": [
-              0.2,
-              1.2
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/empty"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.05
-            ],
-            "continentalness": [
-              -0.19,
-              1
-            ],
-            "erosion": [
-              -1,
-              1
-            ],
-            "temperature": [
-              -1,
-              1
-            ],
-            "humidity": [
-              0.1,
-              1
-            ],
-            "depth": [
-              0.2,
-              0.9
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/underground_jungle"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              1
-            ],
-            "continentalness": [
-              -0.19,
-              1
-            ],
-            "erosion": [
-              -1,
-              0.55
-            ],
-            "temperature": [
-              -0.15,
-              0.2
-            ],
-            "humidity": [
-              -1,
-              0.1
-            ],
-            "depth": [
-              0.2,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/empty"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              1
-            ],
-            "continentalness": [
-              -0.19,
-              1
-            ],
-            "erosion": [
-              -1,
-              0.55
-            ],
-            "temperature": [
-              0.2,
-              0.55
-            ],
-            "humidity": [
-              -1,
-              0.1
-            ],
-            "depth": [
-              0.2,
-              0.9
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/empty"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.05
-            ],
-            "continentalness": [
-              -0.19,
-              1
-            ],
-            "erosion": [
-              -1,
-              0.55
-            ],
-            "temperature": [
-              0.55,
-              1
-            ],
-            "humidity": [
-              -1,
-              0.1
-            ],
-            "depth": [
-              0.2,
-              0.9
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/empty"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.05
-            ],
-            "continentalness": [
-              -0.19,
-              1
-            ],
-            "erosion": [
-              0.55,
-              1
-            ],
-            "temperature": [
-              -1,
-              1
-            ],
-            "humidity": [
-              -1,
-              1
-            ],
-            "depth": [
-              0.2,
-              0.9
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/underground_jungle"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.05,
-              1
-            ],
-            "continentalness": [
-              -0.19,
-              1
-            ],
-            "erosion": [
-              -1,
-              1
-            ],
-            "temperature": [
-              -1,
-              -0.15
-            ],
-            "humidity": [
-              0.1,
-              0.3
-            ],
-            "depth": [
-              0.2,
-              1.2
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/empty"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.05,
-              1
-            ],
-            "continentalness": [
-              -0.19,
-              1
-            ],
-            "erosion": [
-              -1,
-              1
-            ],
-            "temperature": [
-              -1,
-              0.55
-            ],
-            "humidity": [
-              0.3,
-              1
-            ],
-            "depth": [
-              0.2,
-              0.9
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/underground_jungle"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.05,
-              1
-            ],
-            "continentalness": [
-              -0.19,
-              1
-            ],
-            "erosion": [
-              -1,
-              1
-            ],
-            "temperature": [
-              -0.15,
-              0.2
-            ],
-            "humidity": [
-              0.1,
-              0.3
-            ],
-            "depth": [
-              0.2,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/empty"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.05,
-              1
-            ],
-            "continentalness": [
-              -0.19,
-              1
-            ],
-            "erosion": [
-              -1,
-              1
-            ],
-            "temperature": [
-              0.2,
-              0.55
-            ],
-            "humidity": [
-              0.1,
-              0.3
-            ],
-            "depth": [
-              0.2,
-              0.9
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/empty"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.05,
-              1
-            ],
-            "continentalness": [
-              -0.19,
-              1
-            ],
-            "erosion": [
-              -1,
-              1
-            ],
-            "temperature": [
-              0.55,
-              1
-            ],
-            "humidity": [
-              -1,
-              1
-            ],
-            "depth": [
-              0.2,
-              1.2
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/bone_cavern"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.05,
-              1
-            ],
-            "continentalness": [
-              -0.19,
-              1
-            ],
-            "erosion": [
-              0.55,
-              1
-            ],
-            "temperature": [
-              -1,
-              0.2
-            ],
-            "humidity": [
-              -1,
-              0.3
-            ],
-            "depth": [
-              0.2,
-              1.2
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/empty"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.05,
-              1
-            ],
-            "continentalness": [
-              -0.19,
-              1
-            ],
-            "erosion": [
-              0.55,
-              1
-            ],
-            "temperature": [
-              0.2,
-              0.55
-            ],
-            "humidity": [
-              -1,
-              0.3
-            ],
-            "depth": [
-              0.2,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/empty"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.05
-            ],
-            "continentalness": [
-              -1.05,
-              1
             ],
             "erosion": [
               -1,
@@ -7421,6 +7631,96 @@
             ],
             "continentalness": [
               -1.05,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              0.1
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/littoral_hollow"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.05,
+              -0.19
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.1,
+              0.3
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/littoral_hollow"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.05,
+              -0.19
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              0.3
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/empty"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.05,
               -0.19
             ],
             "erosion": [
@@ -7429,6 +7729,36 @@
             ],
             "temperature": [
               0.2,
+              0.55
+            ],
+            "humidity": [
+              -1,
+              0.3
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/crystalline_cavity"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.05,
+              -0.19
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.55,
               1
             ],
             "humidity": [
@@ -7447,7 +7777,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              1
+              -0.05
             ],
             "continentalness": [
               -0.19,
@@ -7459,19 +7789,19 @@
             ],
             "temperature": [
               -1,
-              -0.15
+              1
             ],
             "humidity": [
-              0.1,
-              0.3
+              0.3,
+              1
             ],
             "depth": [
               0.9,
-              1.2
+              1
             ],
             "offset": 0
           },
-          "biome": "bro:saturated/cave/empty"
+          "biome": "bro:saturated/cave/underground_jungle"
         },
         {
           "parameters": {
@@ -7492,7 +7822,7 @@
               0.2
             ],
             "humidity": [
-              0.1,
+              -1,
               0.3
             ],
             "depth": [
@@ -7519,6 +7849,36 @@
             ],
             "temperature": [
               0.2,
+              0.55
+            ],
+            "humidity": [
+              -1,
+              0.3
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/crystalline_cavity"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              0.55,
               1
             ],
             "humidity": [
@@ -7537,7 +7897,7 @@
           "parameters": {
             "weirdness": [
               -1,
-              1
+              -0.05
             ],
             "continentalness": [
               -0.19,
@@ -7549,11 +7909,11 @@
             ],
             "temperature": [
               -1,
-              0.2
+              -0.45
             ],
             "humidity": [
-              -1,
-              0.1
+              0.1,
+              0.3
             ],
             "depth": [
               0.9,
@@ -7561,7 +7921,7 @@
             ],
             "offset": 0
           },
-          "biome": "bro:saturated/cave/empty"
+          "biome": "bro:saturated/cave/glacial_carve"
         },
         {
           "parameters": {
@@ -7579,11 +7939,131 @@
             ],
             "temperature": [
               -1,
+              -0.45
+            ],
+            "humidity": [
+              0.3,
               1
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/glacial_carve"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
             ],
             "humidity": [
               0.1,
+              0.3
+            ],
+            "depth": [
+              0.9,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/littoral_hollow"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -0.19,
               1
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              -0.45,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/littoral_hollow"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              0.1
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/littoral_hollow"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.55
+            ],
+            "humidity": [
+              0.1,
+              0.3
             ],
             "depth": [
               0.9,
@@ -7627,6 +8107,36 @@
           "parameters": {
             "weirdness": [
               -1,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              0.2,
+              0.55
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/underground_jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
               -0.05
             ],
             "continentalness": [
@@ -7643,7 +8153,7 @@
             ],
             "humidity": [
               -1,
-              0.1
+              1
             ],
             "depth": [
               0.9,
@@ -7651,7 +8161,7 @@
             ],
             "offset": 0
           },
-          "biome": "bro:saturated/cave/empty"
+          "biome": "bro:saturated/cave/crystalline_cavity"
         },
         {
           "parameters": {
@@ -7669,7 +8179,7 @@
             ],
             "temperature": [
               -1,
-              -0.15
+              -0.45
             ],
             "humidity": [
               0.3,
@@ -7677,11 +8187,11 @@
             ],
             "depth": [
               0.9,
-              1.2
+              1
             ],
             "offset": 0
           },
-          "biome": "bro:saturated/cave/empty"
+          "biome": "bro:saturated/cave/glacial_carve"
         },
         {
           "parameters": {
@@ -7728,6 +8238,36 @@
               1
             ],
             "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.3,
+              0.7
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/littoral_hollow"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -1.05,
+              -0.19
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
               -0.15,
               0.2
             ],
@@ -7759,49 +8299,19 @@
             ],
             "temperature": [
               0.2,
-              1
-            ],
-            "humidity": [
-              0.3,
-              1
-            ],
-            "depth": [
-              0.9,
-              1.2
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/bone_cavern"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.05,
-              1
-            ],
-            "continentalness": [
-              -0.19,
-              1
-            ],
-            "erosion": [
-              -1,
               0.55
             ],
-            "temperature": [
-              -1,
-              -0.15
-            ],
             "humidity": [
               0.3,
-              0.7
+              1
             ],
             "depth": [
               0.9,
-              1.2
+              1
             ],
             "offset": 0
           },
-          "biome": "bro:saturated/cave/empty"
+          "biome": "bro:saturated/cave/crystalline_cavity"
         },
         {
           "parameters": {
@@ -7810,233 +8320,23 @@
               1
             ],
             "continentalness": [
-              -0.19,
+              -1.05,
               1
             ],
             "erosion": [
               -1,
-              0.55
+              1
             ],
             "temperature": [
-              -0.15,
-              0.2
-            ],
-            "humidity": [
-              0.3,
-              0.7
-            ],
-            "depth": [
-              0.9,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/empty"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.05,
-              1
-            ],
-            "continentalness": [
-              -0.19,
-              1
-            ],
-            "erosion": [
-              -1,
-              0.55
-            ],
-            "temperature": [
-              0.2,
-              1
-            ],
-            "humidity": [
-              0.3,
-              1
-            ],
-            "depth": [
-              0.9,
-              1.2
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/bone_cavern"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -0.05,
-              1
-            ],
-            "continentalness": [
-              -0.19,
-              1
-            ],
-            "erosion": [
               0.55,
               1
             ],
-            "temperature": [
-              -1,
-              0.55
-            ],
             "humidity": [
               0.3,
               1
             ],
             "depth": [
               0.9,
-              1
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/underground_jungle"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              1
-            ],
-            "continentalness": [
-              -1.05,
-              -0.19
-            ],
-            "erosion": [
-              -1,
-              1
-            ],
-            "temperature": [
-              -1,
-              -0.15
-            ],
-            "humidity": [
-              0.3,
-              0.7
-            ],
-            "depth": [
-              1,
-              1.2
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/empty"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.05
-            ],
-            "continentalness": [
-              -1.05,
-              1
-            ],
-            "erosion": [
-              -1,
-              1
-            ],
-            "temperature": [
-              -1,
-              1
-            ],
-            "humidity": [
-              0.7,
-              1
-            ],
-            "depth": [
-              1,
-              1.2
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/underground_jungle"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.05
-            ],
-            "continentalness": [
-              -1.05,
-              1
-            ],
-            "erosion": [
-              -1,
-              1
-            ],
-            "temperature": [
-              -0.15,
-              0.2
-            ],
-            "humidity": [
-              -1,
-              0.3
-            ],
-            "depth": [
-              1,
-              1.2
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/empty"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.05
-            ],
-            "continentalness": [
-              -1.05,
-              -0.19
-            ],
-            "erosion": [
-              -1,
-              1
-            ],
-            "temperature": [
-              -0.15,
-              0.2
-            ],
-            "humidity": [
-              0.3,
-              0.7
-            ],
-            "depth": [
-              1,
-              1.2
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/empty"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              1
-            ],
-            "continentalness": [
-              -1.05,
-              -0.19
-            ],
-            "erosion": [
-              -1,
-              1
-            ],
-            "temperature": [
-              0.2,
-              1
-            ],
-            "humidity": [
-              0.3,
-              0.7
-            ],
-            "depth": [
-              1,
               1.2
             ],
             "offset": 0
@@ -8046,7 +8346,7 @@
         {
           "parameters": {
             "weirdness": [
-              -1,
+              -0.05,
               1
             ],
             "continentalness": [
@@ -8059,100 +8359,310 @@
             ],
             "temperature": [
               -1,
-              -0.15
-            ],
-            "humidity": [
-              0.3,
-              0.7
-            ],
-            "depth": [
-              1,
-              1.2
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/empty"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              -0.05
-            ],
-            "continentalness": [
-              -0.19,
-              1
-            ],
-            "erosion": [
-              -1,
-              0.55
-            ],
-            "temperature": [
-              -0.15,
-              0.2
-            ],
-            "humidity": [
-              0.3,
-              0.7
-            ],
-            "depth": [
-              1,
-              1.2
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/empty"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              1
-            ],
-            "continentalness": [
-              -0.19,
-              1
-            ],
-            "erosion": [
-              -1,
-              0.55
-            ],
-            "temperature": [
-              0.2,
-              1
-            ],
-            "humidity": [
-              0.3,
-              0.7
-            ],
-            "depth": [
-              1,
-              1.2
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/cave/bone_cavern"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              -1,
-              1
-            ],
-            "continentalness": [
-              -0.19,
-              1
-            ],
-            "erosion": [
-              0.55,
-              1
-            ],
-            "temperature": [
-              -1,
-              0.2
+              -0.45
             ],
             "humidity": [
               0.1,
+              0.7
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/glacial_carve"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              0.1,
+              0.7
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/littoral_hollow"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              0.7
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/empty"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              0.2,
+              0.55
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/crystalline_cavity"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              -1,
+              -0.15
+            ],
+            "humidity": [
+              0.1,
+              1
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/underground_jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.55
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "depth": [
+              0.9,
+              1
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/underground_jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -1.05,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              -0.45
+            ],
+            "humidity": [
+              -1,
+              0.3
+            ],
+            "depth": [
+              1,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/glacial_carve"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -1.05,
+              -0.19
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              -0.45
+            ],
+            "humidity": [
+              0.3,
+              0.7
+            ],
+            "depth": [
+              1,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/glacial_carve"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -1.05,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              0.7,
+              1
+            ],
+            "depth": [
+              1,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/underground_jungle"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.05,
+              -0.19
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              0.7
+            ],
+            "depth": [
+              1,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/empty"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -1.05,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
               0.3
             ],
             "depth": [
@@ -8162,6 +8672,276 @@
             "offset": 0
           },
           "biome": "bro:saturated/cave/empty"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -1.05,
+              -0.19
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              0.7
+            ],
+            "depth": [
+              1,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/empty"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -1.05,
+              1
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.2,
+              0.55
+            ],
+            "humidity": [
+              -1,
+              0.3
+            ],
+            "depth": [
+              1,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/crystalline_cavity"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -1.05,
+              -0.19
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.2,
+              0.55
+            ],
+            "humidity": [
+              0.3,
+              0.7
+            ],
+            "depth": [
+              1,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/crystalline_cavity"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -1.05,
+              -0.19
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.55,
+              1
+            ],
+            "humidity": [
+              0.3,
+              0.7
+            ],
+            "depth": [
+              1,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/bone_cavern"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              -1,
+              -0.45
+            ],
+            "humidity": [
+              0.3,
+              0.7
+            ],
+            "depth": [
+              1,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/glacial_carve"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              0.7
+            ],
+            "depth": [
+              1,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/empty"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              0.7
+            ],
+            "depth": [
+              1,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/empty"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              -0.05
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              0.2,
+              0.55
+            ],
+            "humidity": [
+              0.3,
+              0.7
+            ],
+            "depth": [
+              1,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/crystalline_cavity"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              0.55,
+              1
+            ],
+            "humidity": [
+              0.3,
+              0.7
+            ],
+            "depth": [
+              1,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/bone_cavern"
         },
         {
           "parameters": {
@@ -8208,7 +8988,37 @@
               1
             ],
             "temperature": [
-              0.2,
+              -0.45,
+              -0.15
+            ],
+            "humidity": [
+              -1,
+              0.3
+            ],
+            "depth": [
+              1,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/littoral_hollow"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -1,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              0.55,
               1
             ],
             "humidity": [
@@ -8239,6 +9049,36 @@
             ],
             "temperature": [
               -1,
+              -0.45
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              1,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/littoral_hollow"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -1.05,
+              -0.19
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              -0.45,
               -0.15
             ],
             "humidity": [
@@ -8269,6 +9109,36 @@
             ],
             "temperature": [
               -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              1,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/crystalline_cavity"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -1.05,
+              -0.19
+            ],
+            "erosion": [
+              -1,
+              1
+            ],
+            "temperature": [
+              0.2,
               1
             ],
             "humidity": [
@@ -8299,6 +9169,36 @@
             ],
             "temperature": [
               -1,
+              -0.45
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              1,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/littoral_hollow"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              -0.45,
               -0.15
             ],
             "humidity": [
@@ -8329,6 +9229,36 @@
             ],
             "temperature": [
               -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              1
+            ],
+            "depth": [
+              1,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/crystalline_cavity"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              0.2,
               1
             ],
             "humidity": [
@@ -8359,10 +9289,10 @@
             ],
             "temperature": [
               -1,
-              0.2
+              -0.45
             ],
             "humidity": [
-              0.3,
+              0.1,
               0.7
             ],
             "depth": [
@@ -8371,7 +9301,7 @@
             ],
             "offset": 0
           },
-          "biome": "bro:saturated/cave/empty"
+          "biome": "bro:saturated/cave/glacial_carve"
         },
         {
           "parameters": {
@@ -8418,11 +9348,71 @@
               1
             ],
             "temperature": [
-              0.2,
-              1
+              -0.45,
+              -0.15
             ],
             "humidity": [
               0.3,
+              0.7
+            ],
+            "depth": [
+              1,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/littoral_hollow"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -1,
+              0.7
+            ],
+            "depth": [
+              1,
+              1.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/cave/empty"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              0.2,
+              0.55
+            ],
+            "humidity": [
+              -1,
               1
             ],
             "depth": [
@@ -8431,7 +9421,7 @@
             ],
             "offset": 0
           },
-          "biome": "bro:saturated/cave/bone_cavern"
+          "biome": "bro:saturated/cave/crystalline_cavity"
         }
       ],
       "type": "minecraft:multi_noise"
