@@ -10,3 +10,4 @@ team add illeite
 team add coven
 team add invader
 team add golemancy
+team add skeletown

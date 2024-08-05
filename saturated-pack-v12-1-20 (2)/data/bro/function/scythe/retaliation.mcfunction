@@ -18,10 +18,10 @@ execute as @e[tag=vampirismeffect] at @s run particle minecraft:soul_fire_flame 
 execute as @e[tag=vampirismeffect] at @s run particle minecraft:trial_spawner_detection_ominous ~ ~1 ~ 0 0 0 0.01 10
 execute as @e[tag=vampirismeffect] at @s run particle minecraft:soul_fire_flame ~ ~1.4 ~ 0 0 0 0.01 10
 execute as @e[tag=vampirismeffect] at @s run particle minecraft:trial_spawner_detection_ominous ~ ~0.6 ~ 0 0 0 0.01 10
-execute as @e[tag=vampirismeffect] run effect give @s minecraft:regeneration 10 2 false
-execute as @e[tag=vampirismeffect] run effect give @s minecraft:strength 10 2 false
-execute as @e[tag=vampirismeffect] at @s run effect give @e[tag=!vampirismeffect,distance=..10] wither 10 4 false
-execute as @e[tag=vampirismeffect] at @s run effect give @e[tag=!vampirismeffect,distance=..10] weakness 10 4 false
+execute as @e[tag=vampirismeffect] run effect give @s minecraft:regeneration 10 1 false
+execute as @e[tag=vampirismeffect] run effect give @s minecraft:strength 10 1 false
+execute as @e[tag=vampirismeffect] at @s run effect give @e[tag=!vampirismeffect,distance=..10] wither 10 2 false
+execute as @e[tag=vampirismeffect] at @s run effect give @e[tag=!vampirismeffect,distance=..10] weakness 10 2 false
 execute as @e[tag=vampirismeffect] at @s run tellraw @s "§1One Soul has been consumed"
 execute as @e[tag=vampirismeffect] run scoreboard players remove @e soul_count 1
 execute as @e[tag=vampirismeffect] run function bro:scythe/vampirism_remove1

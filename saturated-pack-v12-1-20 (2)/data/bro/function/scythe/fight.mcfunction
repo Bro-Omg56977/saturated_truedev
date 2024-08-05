@@ -18,10 +18,10 @@ execute as @e[tag=rageeffect] at @s run particle minecraft:soul_fire_flame ~-0.2
 execute as @e[tag=rageeffect] at @s run particle minecraft:raid_omen ~ ~1 ~ 0 0 0 0.01 10
 execute as @e[tag=rageeffect] at @s run particle minecraft:soul_fire_flame ~ ~1.4 ~ 0 0 0 0.01 10
 execute as @e[tag=rageeffect] at @s run particle minecraft:raid_omen ~ ~0.6 ~ 0 0 0 0.01 10
-execute as @e[tag=rageeffect] run effect give @s minecraft:strength 10 2 false
-execute as @e[tag=rageeffect] run effect give @s minecraft:speed 10 2 false
-execute as @e[tag=rageeffect] at @s run effect give @e[tag=!rageeffect,distance=..10] slowness 10 4 false
-execute as @e[tag=rageeffect] at @s run effect give @e[tag=!rageeffect,distance=..10] weakness 10 4 false
+execute as @e[tag=rageeffect] run effect give @s minecraft:strength 10 1 false
+execute as @e[tag=rageeffect] run effect give @s minecraft:speed 10 1 false
+execute as @e[tag=rageeffect] at @s run effect give @e[tag=!rageeffect,distance=..10] slowness 10 2 false
+execute as @e[tag=rageeffect] at @s run effect give @e[tag=!rageeffect,distance=..10] weakness 10 2 false
 execute as @e[tag=rageeffect] at @s run tellraw @s "§1One Soul has been consumed"
 execute as @e[tag=rageeffect] run scoreboard players remove @e soul_count 1
 execute as @e[tag=rageeffect] run function bro:scythe/rage_remove
