@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:random_selector",
+    "config": {
+      "features": [
+        {
+          "chance": 1,
+          "feature": "bro:cave/watery/pillar_floor"
+        }
+      ],
+      "default": "bro:na"
+    }
+  }
+  

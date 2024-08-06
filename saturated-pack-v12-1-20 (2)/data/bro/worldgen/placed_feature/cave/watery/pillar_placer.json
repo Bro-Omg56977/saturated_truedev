@@ -1,0 +1,31 @@
+{
+    "feature": "bro:cave/watery/pillar",
+    "placement": [
+      {
+        "type": "minecraft:count_on_every_layer",
+        "count": 7
+      },
+      {
+        "type": "minecraft:block_predicate_filter",
+        "predicate": {
+          "type": "minecraft:matching_blocks",
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "blocks": [
+            "minecraft:smooth_basalt",
+            "minecraft:mud",
+            "minecraft:stone",
+            "minecraft:deepslate",
+            "minecraft:grass_block"
+          ]
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+  

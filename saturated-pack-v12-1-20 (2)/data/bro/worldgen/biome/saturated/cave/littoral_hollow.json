@@ -4,12 +4,12 @@
     "has_precipitation": true,
     "temperature_modifier": "none",
     "effects": {
-      "sky_color": 11178666,
-      "fog_color": 15262695,
+      "sky_color": 5795205,
+      "fog_color": 8029550,
       "water_color": 8163755,
       "water_fog_color": 4016465,
-      "grass_color": 2385455,
-      "foliage_color": 2385455,
+      "grass_color": 4870731,
+      "foliage_color": 4870731,
       "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
       "mood_sound": {
         "sound": "minecraft:ambient.nether_wastes.mood",
@@ -118,16 +118,26 @@
         "minecraft:lake_lava_underground",
         "minecraft:lake_lava_surface"
       ],
-      [],
+      [
+        "bro:cave/watery/pillar_placer",
+        "bro:cave/watery/hanging_basalt",
+        "bro:cave/replace_lava"
+      ],
       [
         "minecraft:monster_room",
         "minecraft:monster_room_deep"
       ],
       [
-        "minecraft:glow_lichen"
+        "minecraft:glow_lichen",
+        "bro:cave/watery/glass1",
+        "bro:cave/watery/glass2",
+       "bro:cave/watery/light"
       ],
-      [],
       [
+        "bro:cave/watery/tree_placer"
+      ],
+      [
+        "bro:cave/watery/watery_delta",
         "minecraft:ore_gravel",
         "minecraft:ore_granite_upper",
         "minecraft:ore_granite_lower",
