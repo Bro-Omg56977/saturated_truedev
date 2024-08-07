@@ -8,14 +8,34 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:paper",
-          "weight": 64,
-          "quality": 1
+          "weight": 128,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 32,
-          "quality": 1
+          "weight": 64,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -26,7 +46,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_book",
-          "weight": 4,
+          "weight": 8,
           "quality": 6,
           "functions": [
             {
@@ -49,7 +69,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_book",
-          "weight": 4,
+          "weight": 8,
           "quality": 6,
           "functions": [
             {
@@ -69,7 +89,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_book",
-          "weight": 4,
+          "weight": 8,
           "quality": 6,
           "functions": [
             {
@@ -89,7 +109,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_book",
-          "weight": 4,
+          "weight": 8,
           "quality": 6,
           "functions": [
             {
@@ -123,16 +143,131 @@
               "only_compatible": false
             }
           ]
-        }
-      ],
-      "functions": [
+        },
         {
-          "function": "minecraft:set_count",
-          "count": {
-            "type": "minecraft:uniform",
-            "min": 1,
-            "max": 5
-          }
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 4,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Crude Soul spells",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": true
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:scythe/soul_vampirism",
+                "bro:scythe/soul_rage",
+                "bro:scythe/soul_vaulting",
+                "bro:scythe/soul_retaliation",
+                "bro:scythe/soul_fight",
+                "bro:scythe/soul_superjump",
+                "bro:scythe/projectile/soul_gratify",
+                "bro:scythe/projectile/soul_degrade"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 2,
+          "quality": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Greater Soul",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": true
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:scythe/soul_burst",
+                "bro:scythe/soul_offense",
+                "bro:scythe/soul_zooming",
+                "bro:scythe/soul_kamikaze",
+                "bro:scythe/projectile/soul_adversity",
+                "bro:scythe/projectile/soul_auspiciousness"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Mythic Soul",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": true
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:scythe/soul_super",
+                "bro:scythe/soul_marker",
+                "bro:scythe/projectile/soul_infection",
+                "bro:scythe/projectile/soul_fauxshot"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 8,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Soul containment",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": true
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:scythe/soul_siphon",
+                "bro:scythe/reverse_soulmosis",
+                "bro:scythe/projectile/soul_precissive"
+              ],
+              "only_compatible": false
+            }
+          ]
         }
       ]
     }
