@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "bro:prosperous_skeletown",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 2635916018326013437,
+      "spacing": 40,
+      "separation": 18
+    }
+  }
+  
