@@ -113,17 +113,6 @@
     ]
   },
   "features": [
-    [
-      "bro:icy/tree_placer1",
-      "bro:icy/tall_tree_placer",
-      "bro:icy/big_tree_placer",
-      "bro:icy/lamp1"
-    ],
-    [
-      "bro:icy/glass_icy",
-      "bro:icy/floating_ice",
-      "bro:icy/light_icy"
-    ],
     [],
     [],
     [
@@ -166,6 +155,17 @@
       "minecraft:red_mushroom_taiga",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin"
+    ],
+    [
+      "bro:icy/tree_placer1",
+      "bro:icy/tall_tree_placer",
+      "bro:icy/big_tree_placer",
+      "bro:icy/lamp1"
+    ],
+    [
+      "bro:icy/glass_icy",
+      "bro:icy/floating_ice",
+      "bro:icy/light_icy"
     ],
     [
       "minecraft:freeze_top_layer"
