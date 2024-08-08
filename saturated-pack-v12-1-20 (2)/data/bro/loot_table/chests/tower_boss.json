@@ -6,6 +6,29 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:iron_hoe",
+          "weight": 1,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": "Scythe of Reaping"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:sweeping_edge",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "bro:scythe/soul_scythe",
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:enchanted_book",
           "weight": 1,
           "quality": 10,
@@ -58,7 +81,8 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "bro:magic/judgement_cut",
-                "bro:magic/creeper_imbue"
+                "bro:magic/creeper_imbue",
+                "bro:magic/basic/illager_summon"
               ],
               "only_compatible": false
             },
