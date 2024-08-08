@@ -4,8 +4,14 @@
         "id": "minecraft:chiseled_quartz_block",
         "count": 1
       },
-      "title": "Strangely Familiar",
-      "description": "Enter the Liminal structure",
+      "title": {
+        "translate": "advancements.bro.saturated.find_liminal.title",
+        "fallback": "Strangely Familiar"
+      },
+      "description": {
+        "translate": "advancements.bro.saturated.find_liminal.descr",
+        "fallback": "Enter the Liminal Structure"
+      },
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,

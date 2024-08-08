@@ -4,8 +4,14 @@
         "id": "minecraft:grass_block",
         "count": 1
       },
-      "title": "Back again.",
-      "description": "Enter an oak door in the void.",
+      "title": {
+        "translate": "advancements.bro.saturated.return_to_overworld.title",
+        "fallback": "Back Again"
+      },
+      "description": {
+        "translate": "advancements.bro.saturated.return_to_overworld.descr",
+        "fallback": "Enter an Oak Door in the Void"
+      },
       "frame": "challenge",
       "show_toast": true,
       "announce_to_chat": true,
