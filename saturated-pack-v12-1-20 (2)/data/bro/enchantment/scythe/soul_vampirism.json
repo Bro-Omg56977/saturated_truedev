@@ -1,0 +1,43 @@
+{
+    "description": "§1Soul Vampirism",
+    "exclusive_set": [
+      "bro:scythe/sickle",
+            "bro:scythe/soul_rage"
+    ],
+    "supported_items": "#minecraft:enchantable/weapon",
+    "primary_items": [
+      "minecraft:wooden_hoe",
+      "minecraft:stone_hoe",
+      "minecraft:golden_hoe",
+      "minecraft:iron_hoe",
+      "minecraft:diamond_hoe",
+      "minecraft:netherite_hoe"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 1000,
+      "per_level_above_first": 1000
+    },
+    "max_cost": {
+      "base": 1000,
+      "per_level_above_first": 1000
+    },
+    "anvil_cost": 4,
+    "slots": [
+      "mainhand"
+    ],
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "enchanted": "attacker",
+          "affected": "attacker",
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "bro:scythe/vampirism"
+          }
+        }
+      ]
+    }
+  }
+  

@@ -6,6 +6,95 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:iron_hoe",
+          "weight": 1,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": "Scythe of Reaping"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:sweeping_edge",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "bro:scythe/soul_scythe",
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": "Ultimate Soul Compendium"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:scythe/soul_cleave",
+                "bro:scythe/soul_dirty_fireworks",
+                "bro:scythe/projectile/soul_bacterio",
+                "bro:scythe/projectile/soul_deus"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:magic/volitile_defense",
+                "bro:magic/magic_injection"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": "Illagers' Compendium"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_rod",
+          "weight": 1,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:magic/judgement_cut",
+                "bro:magic/creeper_imbue",
+                "bro:magic/basic/illager_summon"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": "Illagers' Blaze Wand"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:elytra",
           "weight": 1,
           "quality": 10,
@@ -80,6 +169,11 @@
             {
               "function": "minecraft:enchant_randomly",
               "options": "minecraft:unbreaking",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "bro:magic/delusion",
               "only_compatible": false
             },
             {
@@ -225,7 +319,8 @@
                 "minecraft:protection",
                 "minecraft:blast_protection",
                 "minecraft:fire_protection",
-                "minecraft:projectile_protection"
+                "minecraft:projectile_protection",
+                "bro:scythe/soul_marker"
               ],
               "only_compatible": false
             },
@@ -233,7 +328,8 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:thorns",
-                "minecraft:unbreaking"
+                "minecraft:unbreaking",
+                "bro:scythe/soul_zooming"
               ],
               "only_compatible": false
             },
@@ -241,7 +337,8 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:aqua_affinity",
-                "minecraft:respiration"
+                "minecraft:respiration",
+                "bro:scythe/reverse_soulmosis"
               ],
               "only_compatible": false
             }
@@ -259,7 +356,8 @@
                 "minecraft:protection",
                 "minecraft:blast_protection",
                 "minecraft:fire_protection",
-                "minecraft:projectile_protection"
+                "minecraft:projectile_protection",
+                "bro:scythe/soul_marker"
               ],
               "only_compatible": false
             },
@@ -267,7 +365,8 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:thorns",
-                "minecraft:unbreaking"
+                "minecraft:unbreaking",
+                "bro:scythe/reverse_soulmosis"
               ],
               "only_compatible": false
             }
@@ -285,7 +384,8 @@
                 "minecraft:protection",
                 "minecraft:blast_protection",
                 "minecraft:fire_protection",
-                "minecraft:projectile_protection"
+                "minecraft:projectile_protection",
+                "bro:scythe/soul_marker"
               ],
               "only_compatible": false
             },
@@ -293,7 +393,8 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:thorns",
-                "minecraft:swift_sneak"
+                "minecraft:swift_sneak",
+                "bro:scythe/soul_zooming"
               ],
               "only_compatible": false
             },
@@ -301,7 +402,8 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:unbreaking",
-                "minecraft:mending"
+                "minecraft:mending",
+                "bro:scythe/reverse_soulmosis"
               ],
               "only_compatible": false
             }
@@ -319,7 +421,8 @@
                 "minecraft:protection",
                 "minecraft:blast_protection",
                 "minecraft:projectile_protection",
-                "minecraft:protection"
+                "minecraft:protection",
+                "bro:scythe/soul_marker"
               ],
               "only_compatible": false
             },
@@ -327,7 +430,8 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:thorns",
-                "minecraft:unbreaking"
+                "minecraft:unbreaking",
+                "bro:scythe/soul_zooming"
               ],
               "only_compatible": false
             },
@@ -335,7 +439,8 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:feather_falling",
-                "minecraft:frost_walker"
+                "minecraft:frost_walker",
+                "bro:scythe/reverse_soulmosis"
               ],
               "only_compatible": false
             }
@@ -375,14 +480,15 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_sword",
-          "weight": 1,
+          "weight": 2,
           "quality": 6,
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:sharpness",
-                "minecraft:smite"
+                "minecraft:smite",
+                "bro:scythe/soul_super"
               ],
               "only_compatible": false
             },
@@ -390,7 +496,8 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:sweeping_edge",
-                "minecraft:fire_aspect"
+                "minecraft:fire_aspect",
+                "bro:scythe/soul_offense"
               ],
               "only_compatible": false
             },
@@ -398,7 +505,8 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:knockback",
-                "minecraft:looting"
+                "minecraft:looting",
+                "bro:scythe/soul_siphon"
               ],
               "only_compatible": false
             }
@@ -407,14 +515,15 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:netherite_axe",
-          "weight": 1,
+          "weight": 2,
           "quality": 6,
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:sharpness",
-                "minecraft:efficiency"
+                "minecraft:efficiency",
+                "bro:scythe/soul_offense"
               ],
               "only_compatible": false
             },
@@ -422,7 +531,8 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:looting",
-                "minecraft:fortune"
+                "minecraft:fortune",
+                "bro:scythe/soul_super"
               ],
               "only_compatible": false
             },
@@ -430,7 +540,77 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:breach",
-                "minecraft:fire_aspect"
+                "minecraft:fire_aspect",
+                "bro:scythe/soul_siphon"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "weight": 1,
+          "quality": 8,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:scythe/projectile/soul_fauxshot",
+                "minecraft:mending",
+                "minecraft:unbreaking"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:scythe/projectile/soul_auspiciousness",
+                "minecraft:multishot",
+                "minecraft:piercing"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:scythe/projectile/soul_precissive",
+                "minecraft:quick_charge"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 1,
+          "quality": 8,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:scythe/projectile/soul_infection",
+                "minecraft:power",
+                "minecraft:punch"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:scythe/projectile/soul_adversity",
+                "minecraft:infinity",
+                "minecraft:flame"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:scythe/projectile/soul_precissive",
+                "minecraft:mending",
+                "minecraft:unbreaking"
               ],
               "only_compatible": false
             }

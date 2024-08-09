@@ -37,12 +37,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_scrap",
-          "weight": 3,
-          "quality": 5
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:string",
           "weight": 26,
           "quality": 1

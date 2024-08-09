@@ -1,0 +1,36 @@
+{
+    "description": "§0Master Spell: Delusion",
+    "supported_items": [
+      "minecraft:mace"
+    ],
+    "primary_items": [
+      "minecraft:mace"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 1000,
+      "per_level_above_first": 1000
+    },
+    "max_cost": {
+      "base": 1000,
+      "per_level_above_first": 1000
+    },
+    "anvil_cost": 1000,
+    "slots": [
+      "any"
+    ],
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "enchanted": "attacker",
+          "affected": "victim",
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "bro:magic/delusion"
+          }
+        }
+      ]
+    }
+  }
+  

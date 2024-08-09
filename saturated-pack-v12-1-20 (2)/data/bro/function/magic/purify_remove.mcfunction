@@ -1,0 +1,1 @@
+execute as @e[tag=purifyeffect] run tag @s remove purifyeffect

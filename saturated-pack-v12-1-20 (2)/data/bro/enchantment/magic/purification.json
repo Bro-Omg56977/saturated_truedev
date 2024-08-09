@@ -1,0 +1,47 @@
+{
+  "description": "§6Master Spell: Purification",
+  "supported_items": [
+    "minecraft:iron_sword",
+    "minecraft:golden_axe"
+  ],
+  "primary_items": [
+    "minecraft:iron_sword",
+    "minecraft:golden_axe"
+  ],
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1000,
+    "per_level_above_first": 1000
+  },
+  "max_cost": {
+    "base": 1000,
+    "per_level_above_first": 1000
+  },
+  "anvil_cost": 1000,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:play_sound",
+          "sound": "minecraft:entity.wither.hurt",
+          "volume": 0.5,
+          "pitch": 1
+        }
+      },
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "bro:magic/purify"
+        }
+      }
+    ]
+  }
+}

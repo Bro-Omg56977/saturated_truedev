@@ -1,0 +1,46 @@
+{
+  "description": "§mMaster Spell: §4Magic Injection",
+  "exclusive_set": [
+    "bro:magic/volitile_defense",
+    "bro:magic/conductivity",
+    "bro:magic/flinging_deterrant"
+  ],
+  "supported_items": "#minecraft:enchantable/armor",
+  "primary_items": "#minecraft:enchantable/armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 1000,
+    "per_level_above_first": 1000
+  },
+  "max_cost": {
+    "base": 1000,
+    "per_level_above_first": 1000
+  },
+  "anvil_cost": 20,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "victim",
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:play_sound",
+          "sound": "minecraft:entity.player.attack.sweep",
+          "volume": 1,
+          "pitch": 1
+        }
+      },
+      {
+        "enchanted": "victim",
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "bro:magic/implosion"
+        }
+      }
+    ]
+  }
+}
