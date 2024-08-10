@@ -4,6 +4,10 @@
 execute as @e[tag=resident] run team join skeletown
 execute as @e[tag=resident] run tag @s remove skeletown
 
+#herobrine mobs
+execute as @e[tag=satherobrine] run team join invader
+execute as @e[tag=satherobrine] run tag @s remove satherobrine
+
 #babel mobs
 execute as @e[tag=babelcoven] run team join coven
 execute as @e[tag=babelcoven] run tag @s remove babelcoven
