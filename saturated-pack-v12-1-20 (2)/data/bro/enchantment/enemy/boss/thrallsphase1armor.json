@@ -1,0 +1,42 @@
+{
+    "description": "summon a phase 1 herobrine thrall (armor)",
+    "supported_items": "#minecraft:enchantable/armor",
+    "primary_items": "#minecraft:enchantable/armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 1000,
+      "per_level_above_first": 1000
+    },
+    "max_cost": {
+      "base": 1000,
+      "per_level_above_first": 1000
+    },
+    "anvil_cost": 20,
+    "slots": [
+      "any"
+    ],
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "enchanted": "victim",
+          "affected": "attacker",
+          "effect": {
+            "type": "minecraft:play_sound",
+            "sound": "minecraft:block.copper_grate.break",
+            "volume": 1,
+            "pitch": 1
+          }
+        },
+        {
+          "enchanted": "victim",
+          "affected": "victim",
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "bro:enemy/boss/herobrine_summon"
+          }
+        }
+      ]
+    }
+  }
+  
