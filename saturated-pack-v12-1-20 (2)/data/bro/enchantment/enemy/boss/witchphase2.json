@@ -1,7 +1,19 @@
 {
-    "description": "summon duplicate on thralls (armor)",
-    "supported_items": "#minecraft:enchantable/armor",
-    "primary_items": "#minecraft:enchantable/armor",
+    "description": "thrall debuff (weapon)",
+    "supported_items": [
+      "minecraft:wooden_hoe",
+      "minecraft:wooden_hoe",
+      "minecraft:stone_hoe",
+      "minecraft:golden_hoe",
+      "minecraft:iron_hoe",
+      "minecraft:diamond_hoe",
+      "minecraft:netherite_hoe"
+    ],
+    "primary_items": [
+      "minecraft:stick",
+      "minecraft:breeze_rod",
+      "minecraft:blaze_rod"
+    ],
     "weight": 1,
     "max_level": 1,
     "min_cost": {
@@ -19,8 +31,8 @@
     "effects": {
       "minecraft:post_attack": [
         {
-          "enchanted": "victim",
-          "affected": "attacker",
+          "enchanted": "attacker",
+          "affected": "victim",
           "effect": {
             "type": "minecraft:play_sound",
             "sound": "minecraft:block.copper_grate.break",
@@ -29,11 +41,11 @@
           }
         },
         {
-          "enchanted": "victim",
-          "affected": "victim",
+          "enchanted": "attacker",
+          "affected": "attacker",
           "effect": {
             "type": "minecraft:run_function",
-            "function": "bro:enemy/boss/herobrine_duplicate"
+            "function": "bro:enemy/boss/0herobrine_witch"
           }
         }
       ]

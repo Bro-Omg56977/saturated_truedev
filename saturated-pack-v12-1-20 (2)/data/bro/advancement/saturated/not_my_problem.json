@@ -1,0 +1,17 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:skeleton_skull",
+        "count": 1
+      },
+      "title": "Not My Problem",
+      "description": "Vanquish an enemy using Evil Disintigration Wave",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "bro:saturated/my_eyes",
+    "criteria": {}
+  }
+  

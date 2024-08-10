@@ -1,5 +1,5 @@
 {
-    "description": "summon duplicate on thralls (armor)",
+    "description": "berserk mode (armor)",
     "supported_items": "#minecraft:enchantable/armor",
     "primary_items": "#minecraft:enchantable/armor",
     "weight": 1,
@@ -33,7 +33,7 @@
           "affected": "victim",
           "effect": {
             "type": "minecraft:run_function",
-            "function": "bro:enemy/boss/herobrine_duplicate"
+            "function": "bro:enemy/boss/2herobrine_berserk"
           }
         }
       ]

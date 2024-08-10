@@ -58,3 +58,9 @@ execute as @e[tag=bacterioentity] at @s run particle block{block_state:{Name:sli
 execute as @e[tag=bacterioentity] at @s run particle block{block_state:{Name:black_concrete_powder}} ~0.2 ~1 ~-0.2 0 0 0 0.15 5
 execute as @e[tag=bacterioentity] at @s run particle block{block_state:{Name:slime_block}} ~-0.2 ~1 ~0.2 0 0 0 0.15 5
 execute as @e[tag=bacterioentity] at @s run particle block{block_state:{Name:black_concrete_powder}} ~-0.2 ~1 ~-0.2 0 0 0 0.15 5
+
+#EVIL CONTAINMENT WAVE showing effect
+execute as @e[tag=evilwave] at @s run particle glow_squid_ink ~0.2 ~1 ~0.2 0 0 0 0.15 5
+execute as @e[tag=evilwave] at @s run particle glow_squid_ink ~0.2 ~1 ~-0.2 0 0 0 0.15 5
+execute as @e[tag=evilwave] at @s run particle glow_squid_ink ~-0.2 ~1 ~0.2 0 0 0 0.15 5
+execute as @e[tag=evilwave] at @s run particle glow_squid_ink ~-0.2 ~1 ~-0.2 0 0 0 0.15 5

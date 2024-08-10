@@ -1,0 +1,17 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:wither_skeleton_skull",
+        "count": 1
+      },
+      "title": "Fair and Square",
+      "description": "Kill all phases of the Hero of the Brine",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "bro:saturated/my_eyes",
+    "criteria": {}
+  }
+  
