@@ -8,5 +8,5 @@ execute as @e[tag=skeletonberserk3] at @s run particle minecraft:angry_villager 
 execute as @e[tag=skeletonberserk3] at @s run particle minecraft:angry_villager ~ ~0.6 ~ 0 0 0 0.01 10
 execute as @e[tag=skeletonberserk3] at @s run effect give @s strength 10 1 true
 execute as @e[tag=skeletonberserk3] at @s run effect give @s resistance 10 1 true
-execute as @e[tag=skeletonberserk3] at @s run effect give @s speed 10 5 true
+execute as @e[tag=skeletonberserk3] at @s run effect give @s speed 10 2 true
 execute as @e[tag=skeletonberserk3] run function bro:enemy/berserk_remove
