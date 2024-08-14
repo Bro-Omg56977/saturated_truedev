@@ -16,5 +16,9 @@ execute as @e[tag=babelcoven] run tag @s remove babelcoven
 execute as @e[tag=illite] run team join illeite
 execute as @e[tag=illite] run tag @s remove illeite
 
+#villantis mobs
+execute as @e[tag=villantis] run team join villantis
+execute as @e[tag=villantis] run tag @s remove villantis
+
 #restarts function
 schedule function bro:join_team 1s
