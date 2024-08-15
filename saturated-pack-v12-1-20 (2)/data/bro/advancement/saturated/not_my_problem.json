@@ -12,6 +12,22 @@
       "hidden": false
     },
     "parent": "bro:saturated/my_eyes",
-    "criteria": {}
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "#minecraft:skeletons",
+                "nbt": "{Tags:['satthistagdoesnotexist']}"
+              }
+            }
+          ]
+        }
+      }
+    }
   }
   

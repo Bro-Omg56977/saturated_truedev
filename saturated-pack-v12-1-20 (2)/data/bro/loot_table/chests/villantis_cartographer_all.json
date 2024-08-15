@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "bro:chests/villantis_explorer1",
+            "weight": 1,
+            "quality": 1
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "bro:chests/villantis_explorer2",
+            "weight": 1,
+            "quality": 1
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "bro:chests/villantis_explorer3",
+            "weight": 1,
+            "quality": 1
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "bro:chests/villantis_explorer4",
+            "weight": 1,
+            "quality": 1
+          }
+        ]
+      }
+    ]
+  }
+  

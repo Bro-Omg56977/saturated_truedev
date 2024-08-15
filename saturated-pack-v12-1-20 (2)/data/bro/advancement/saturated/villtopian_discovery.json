@@ -1,12 +1,12 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:wither_skeleton_skull",
+        "id": "minecraft:prismarine",
         "count": 1
       },
-      "title": "Fair and Square",
-      "description": "Kill all phases of the Hero of the Brine",
-      "frame": "challenge",
+      "title": "Villtopian Discovery",
+      "description": "Discover Villantis",
+      "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
@@ -14,15 +14,17 @@
     "parent": "bro:saturated/my_eyes",
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:player_killed_entity",
+        "trigger": "minecraft:location",
         "conditions": {
-          "entity": [
+          "player": [
             {
               "condition": "minecraft:entity_properties",
               "entity": "this",
               "predicate": {
-                "type": "#minecraft:skeletons",
-                "nbt": "{Tags:['satthistagdoesnotexist']}"
+                "location": {
+                  "structures": "bro:villantis",
+                  "dimension": "bro:saturated"
+                }
               }
             }
           ]
@@ -30,3 +32,4 @@
       }
     }
   }
+  

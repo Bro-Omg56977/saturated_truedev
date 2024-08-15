@@ -1,0 +1,17 @@
+{
+    "parent": "bro:saturated/my_eyes",
+    "criteria": {
+      "asda": {
+        "trigger": "minecraft:villager_trade",
+        "conditions": {
+          "villager": {
+                "nbt": "{Tags:['villantiscartographer']}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "bro:enemy/cartotrade0"
+    }
+  }
+  

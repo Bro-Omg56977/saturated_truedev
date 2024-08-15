@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:map",
+            "weight": 1,
+            "quality": 1,
+            "functions": [
+              {
+                "function": "minecraft:exploration_map",
+                "destination": "bro:sewer",
+                "decoration": "red_x",
+                "zoom": 4,
+                "skip_existing_chunks": false
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": "Sewer Explorer Map"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
