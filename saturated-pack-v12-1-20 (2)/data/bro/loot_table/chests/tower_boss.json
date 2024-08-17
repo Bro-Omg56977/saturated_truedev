@@ -44,7 +44,8 @@
                 "bro:scythe/soul_cleave",
                 "bro:scythe/soul_dirty_fireworks",
                 "bro:scythe/projectile/soul_bacterio",
-                "bro:scythe/projectile/soul_deus"
+                "bro:scythe/projectile/soul_deus",
+                "bro:scythe/trident/soul_runic"
               ],
               "only_compatible": false
             }

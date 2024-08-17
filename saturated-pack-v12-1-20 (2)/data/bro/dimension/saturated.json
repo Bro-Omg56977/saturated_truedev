@@ -1237,15 +1237,15 @@
           "parameters": {
             "weirdness": [
               -0.93333334,
-              1
+              0.93333334
             ],
             "continentalness": [
               -1.05,
-              -0.19
+              -0.525
             ],
             "erosion": [
               -1,
-              1
+              -0.375
             ],
             "temperature": [
               -1,
@@ -1261,7 +1261,7 @@
             ],
             "offset": 0
           },
-          "biome": "bro:saturated/oceanic"
+          "biome": "bro:saturated/oceanic_deep"
         },
         {
           "parameters": {
@@ -1802,6 +1802,36 @@
             "offset": 0
           },
           "biome": "bro:saturated/sunken_depths"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.7666667,
+              0.7666667
+            ],
+            "continentalness": [
+              -1.05,
+              -0.525
+            ],
+            "erosion": [
+              -0.375,
+              -0.2225
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -0.1,
+              0.7
+            ],
+            "depth": [
+              -0.2,
+              0.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/oceanic_deep"
         },
         {
           "parameters": {
@@ -2612,6 +2642,36 @@
             "offset": 0
           },
           "biome": "bro:saturated/sunken_depths"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.4,
+              0.4
+            ],
+            "continentalness": [
+              -1.05,
+              -0.525
+            ],
+            "erosion": [
+              -0.2225,
+              1
+            ],
+            "temperature": [
+              -1,
+              1
+            ],
+            "humidity": [
+              -0.1,
+              0.7
+            ],
+            "depth": [
+              -0.2,
+              0.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/oceanic_deep"
         },
         {
           "parameters": {

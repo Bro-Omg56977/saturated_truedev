@@ -579,7 +579,8 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bro:saturated/oceanic"
+            "bro:saturated/oceanic",
+                        "bro:saturated/oceanic_deep"
           ]
         },
         "then_run": {

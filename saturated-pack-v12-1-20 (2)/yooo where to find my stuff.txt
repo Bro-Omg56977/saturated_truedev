@@ -35,3 +35,5 @@ no curseforge
 -PMC user Xfulminex, i looked at his enchantment code to figure out how to do it
 -PMC user Ercerus, some parts of the skeletown are heavily inspired by his illager fortresses
 -discord user Latte gave me a couple of ideas i may or may not use in the future
+-Nova and Whity from nova structures, they let me use their cartographer code
+-Ercerus, i got inspired by their building style from their illager fortresses
