@@ -19,12 +19,6 @@
           },
           {
             "type": "minecraft:item",
-            "name": "minecraft:golden_apple",
-            "weight": 8,
-            "quality": 4
-          },
-          {
-            "type": "minecraft:item",
             "name": "minecraft:apple",
             "weight": 16,
             "quality": 2

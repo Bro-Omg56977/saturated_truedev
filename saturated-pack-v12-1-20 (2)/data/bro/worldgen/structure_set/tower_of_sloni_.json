@@ -1,15 +1,14 @@
 {
-    "structures": [
-      {
-        "structure": "bro:tower_of_sloni",
-        "weight": 1
-      }
-    ],
-    "placement": {
-      "type": "minecraft:random_spread",
-      "salt": 670017525,
-      "spacing": 155,
-      "separation": 18
+  "structures": [
+    {
+      "structure": "bro:tower_of_sloni",
+      "weight": 1
     }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 786276759,
+    "spacing": 155,
+    "separation": 18
   }
-  
+}

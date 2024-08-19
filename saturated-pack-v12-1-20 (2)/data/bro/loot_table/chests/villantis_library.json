@@ -39,12 +39,6 @@
           },
           {
             "type": "minecraft:item",
-            "name": "minecraft:totem_of_undying",
-            "weight": 1,
-            "quality": 5
-          },
-          {
-            "type": "minecraft:item",
             "name": "minecraft:enchanted_book",
             "weight": 4,
             "quality": 6,
