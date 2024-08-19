@@ -1,0 +1,41 @@
+{
+    "description": "§1Soul precissive-shot",
+    "exclusive_set": [
+      "bro:scythe/sickle"
+    ],
+    "supported_items": [
+      "minecraft:crossbow",
+      "minecraft:bow"
+    ],
+    "primary_items": [
+      "minecraft:crossbow",
+      "minecraft:bow"
+    ],
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 1000,
+      "per_level_above_first": 1000
+    },
+    "max_cost": {
+      "base": 1000,
+      "per_level_above_first": 1000
+    },
+    "anvil_cost": 4,
+    "slots": [
+      "hand"
+    ],
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "enchanted": "attacker",
+          "affected": "attacker",
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "bro:scythe/projectile/soul_gather_projectile"
+          }
+        }
+      ]
+    }
+  }
+  

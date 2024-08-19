@@ -1,0 +1,38 @@
+{
+    "description": "§1Soul Fight",
+    "exclusive_set": [
+      "bro:scythe/sickle",
+            "bro:scythe/soul_retaliation",
+                  "bro:scythe/soul_superjump",
+                  "bro:scythe/soul_retaliation"
+    ],
+    "supported_items": "#minecraft:enchantable/armor",
+    "primary_items": "#minecraft:enchantable/armor",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 1000,
+      "per_level_above_first": 1000
+    },
+    "max_cost": {
+      "base": 1000,
+      "per_level_above_first": 1000
+    },
+    "anvil_cost": 4,
+    "slots": [
+      "armor"
+    ],
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "enchanted": "victim",
+          "affected": "victim",
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "bro:scythe/fight"
+          }
+        }
+      ]
+    }
+  }
+  

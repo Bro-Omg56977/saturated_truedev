@@ -1,0 +1,377 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 10,
+      "bonus_rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 64,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 8,
+          "quality": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 1,
+          "quality": 4
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "type": "minecraft:uniform",
+            "min": 1,
+            "max": 5
+          }
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 7
+      },
+      "bonus_rolls": {
+        "min": 1,
+        "max": 7
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 1,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Helmet",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": true
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:protection",
+                "minecraft:blast_protection",
+                "minecraft:fire_protection",
+                "minecraft:projectile_protection",
+                "bro:scythe/all_seeing"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:respiration",
+                "minecraft:aqua_affinity",
+                "bro:scythe/soul_fight"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:thorns",
+                "minecraft:unbreaking",
+                "bro:scythe/reverse_soulmosis"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "weight": 1,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Chestplate",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": true
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:protection",
+                "minecraft:blast_protection",
+                "minecraft:fire_protection",
+                "minecraft:projectile_protection",
+                "bro:scythe/soul_retaliation"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:thorns",
+                "minecraft:unbreaking",
+                "bro:scythe/reverse_soulmosis"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 1,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Leggings",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": true
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:blast_protection",
+                "minecraft:fire_protection",
+                "minecraft:projectile_protection",
+                "minecraft:protection",
+                "bro:scythe/soul_kamikaze"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:thorns",
+                "bro:scythe/reverse_soulmosis"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:swift_sneak",
+                "minecraft:unbreaking",
+                "bro:scythe/soul_superjump"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 1,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Boots",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": true
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:blast_protection",
+                "minecraft:fire_protection",
+                "minecraft:projectile_protection",
+                "minecraft:protection",
+                "bro:scythe/soul_zooming"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:feather_falling",
+                "minecraft:frost_walker",
+                "bro:scythe/soul_superjump"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:thorns",
+                "bro:scythe/reverse_soulmosis"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 2,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Pickaxe",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": true
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:efficiency"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:fortune",
+                "minecraft:silk_touch"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:mending",
+                "minecraft:unbreaking"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "weight": 2,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "sword",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": true
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:sharpness",
+                "minecraft:smite",
+                "bro:scythe/soul_rage"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:sweeping_edge",
+                "minecraft:fire_aspect",
+                "bro:scythe/soul_vampirism"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:knockback",
+                "minecraft:looting",
+                "bro:scythe/soul_siphon"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 1,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:power",
+                "minecraft:punch",
+                "bro:scythe/projectile/soul_degrade"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:flame",
+                "minecraft:infinity",
+                "bro:scythe/projectile/soul_precissive"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "weight": 1,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:multishot",
+                "minecraft:piercing",
+                "bro:scythe/projectile/soul_gratify"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:quick_charge",
+                "bro:scythe/projectile/soul_precissive"
+              ],
+              "only_compatible": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

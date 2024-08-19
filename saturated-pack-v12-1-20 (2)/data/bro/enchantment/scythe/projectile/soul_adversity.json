@@ -1,0 +1,43 @@
+{
+    "description": "§9Soul Adversity",
+    "exclusive_set": [
+      "bro:scythe/sickle"
+    ],
+    "supported_items": "#minecraft:enchantable/bow",
+    "primary_items": "#minecraft:enchantable/bow",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 1000,
+      "per_level_above_first": 1000
+    },
+    "max_cost": {
+      "base": 1000,
+      "per_level_above_first": 1000
+    },
+    "anvil_cost": 4,
+    "slots": [
+      "mainhand"
+    ],
+    "effects": {
+      "minecraft:post_attack": [
+        {
+          "enchanted": "attacker",
+          "affected": "attacker",
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "bro:scythe/projectile/adversity"
+          }
+        },
+        {
+            "enchanted": "attacker",
+            "affected": "victim",
+            "effect": {
+              "type": "minecraft:run_function",
+              "function": "bro:scythe/projectile/adversity_arrow"
+            }
+          }
+      ]
+    }
+  }
+  

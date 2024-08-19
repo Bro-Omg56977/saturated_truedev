@@ -1,0 +1,56 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "bro:babel/room_sidew_pipe",
+              "override_liquid_settings": "ignore_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          },
+          {
+            "weight": 150,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "bro:babel/room_side1_pipe",
+              "override_liquid_settings": "ignore_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          },
+          {
+            "weight": 150,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "bro:babel/room_side2_pipe",
+              "override_liquid_settings": "ignore_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          },
+          {
+            "weight": 150,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "bro:babel/room_side3_pipe",
+              "override_liquid_settings": "ignore_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          },
+      {
+        "weight": 150,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:babel/room_side4_pipe",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  
