@@ -1,7 +1,6 @@
 {
     "description": "§1Sickle",
     "exclusive_set": [
-      "minecraft:mending",
       "bro:scythe/soul_scythe"
     ],
     "supported_items": [

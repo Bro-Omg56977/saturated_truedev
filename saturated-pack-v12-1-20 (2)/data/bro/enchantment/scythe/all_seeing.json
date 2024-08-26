@@ -1,8 +1,7 @@
 {
     "description": "§1Soul All Seeing",
     "exclusive_set": [
-      "bro:scythe/sickle",
-      "minecraft:mending"
+      "bro:scythe/sickle"
     ],
     "supported_items": "#minecraft:enchantable/armor",
     "primary_items": "#minecraft:enchantable/head_armor",
