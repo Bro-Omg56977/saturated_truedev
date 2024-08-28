@@ -1,5 +1,5 @@
 {
-    "description": "thrall debuff (weapon)",
+    "description": "thrall debuff (weapon, debug)",
     "supported_items": [
       "minecraft:wooden_hoe",
       "minecraft:wooden_hoe",

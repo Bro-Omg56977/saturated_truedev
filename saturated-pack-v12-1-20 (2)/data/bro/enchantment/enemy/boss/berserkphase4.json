@@ -1,5 +1,5 @@
 {
-    "description": "berserk mode (weapon)",
+    "description": "berserk mode (weapon, debug)",
     "supported_items": [
       "minecraft:wooden_hoe",
       "minecraft:wooden_hoe",

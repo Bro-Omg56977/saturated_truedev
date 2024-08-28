@@ -1,5 +1,5 @@
 {
-    "description": "Heal Self (undead weapon)",
+    "description": "debug weapon (undead weapon, debug)",
     "supported_items": [
       "minecraft:wooden_hoe",
       "minecraft:wooden_hoe",

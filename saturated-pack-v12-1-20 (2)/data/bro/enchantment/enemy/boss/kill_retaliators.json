@@ -1,5 +1,5 @@
 {
-    "description": "kills entities that arrows hit (so they dont fight back)",
+    "description": "kills entities that arrows hit (so they dont fight back, debug)",
     "supported_items": [
       "minecraft:wooden_hoe",
       "minecraft:wooden_hoe",

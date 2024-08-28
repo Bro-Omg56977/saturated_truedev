@@ -1,5 +1,5 @@
 {
-    "description": "summon duplicate on thralls (undead weapon)",
+    "description": "summon duplicate on thralls (undead weapon, debug)",
     "supported_items": [
       "minecraft:wooden_hoe",
       "minecraft:wooden_hoe",

@@ -1,5 +1,5 @@
 {
-    "description": "summon a phase 2 herobrine thrall (weapon)",
+    "description": "summon a phase 2 herobrine thrall (weapon, debug)",
     "supported_items": [
       "minecraft:wooden_hoe",
       "minecraft:wooden_hoe",

@@ -1,5 +1,5 @@
 {
-    "description": "summon illusions (weapon)",
+    "description": "summon illusions (weapon, debug)",
     "supported_items": [
       "minecraft:wooden_hoe",
       "minecraft:wooden_hoe",

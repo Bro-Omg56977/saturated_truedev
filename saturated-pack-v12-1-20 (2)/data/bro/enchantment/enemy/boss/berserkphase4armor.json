@@ -1,5 +1,5 @@
 {
-    "description": "berserk mode (armor)",
+    "description": "berserk mode (armor, debug)",
     "supported_items": "#minecraft:enchantable/armor",
     "primary_items": "#minecraft:enchantable/armor",
     "weight": 1,
