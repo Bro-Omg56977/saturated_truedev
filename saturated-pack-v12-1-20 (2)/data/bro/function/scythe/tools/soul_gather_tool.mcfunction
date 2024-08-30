@@ -1,12 +1,12 @@
 #makes it so that entity hit has around a 10% chance of the effect actually happening
 
-scoreboard objectives add soul_gather_chance dummy
-execute store result score @s soul_gather_chance run random value 1..5
+scoreboard objectives add soul_gather_tool_chance dummy
+execute store result score @s soul_gather_tool_chance run random value 1..128
 
 # adds tag and plays sfx
 
-execute if score @s soul_gather_chance matches 1 run tag @s[tag=!soulgathereffect] add soulgathereffect
-execute if score @s soul_gather_chance matches 1 run playsound minecraft:entity.zombie.attack_iron_door ambient @s[tag=soulgathereffect]
+execute if score @s soul_gather_tool_chance matches 1 run tag @s[tag=!soulgathereffect] add soulgathereffect
+execute if score @s soul_gather_tool_chance matches 1 run playsound minecraft:ambient.cave ambient @s[tag=soulgathereffect]
 
 # Display particles when effect, then adds a soul to the count
 
