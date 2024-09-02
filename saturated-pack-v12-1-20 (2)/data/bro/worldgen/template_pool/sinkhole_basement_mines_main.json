@@ -6,7 +6,7 @@
         "element": {
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
-          "location": "bro:sinkhole/basement_normal_side",
+          "location": "bro:sinkhole/basement_mines_sidemain",
           "override_liquid_settings": "ignore_waterlogging",
           "processors": "minecraft:empty"
         }
@@ -16,7 +16,7 @@
         "element": {
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
-          "location": "bro:sinkhole/basement_normal_fallback",
+          "location": "bro:sinkhole/basement_mines_side_main_fallback",
           "override_liquid_settings": "ignore_waterlogging",
           "processors": "minecraft:empty"
         }
