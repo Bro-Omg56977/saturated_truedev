@@ -13,3 +13,4 @@ team add invader
 team add golemancy
 team add skeletown
 team add villantis
+team add sinkhole

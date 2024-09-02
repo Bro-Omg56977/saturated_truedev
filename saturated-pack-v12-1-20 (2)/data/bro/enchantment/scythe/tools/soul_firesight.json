@@ -1,10 +1,10 @@
 {
-    "description": "§bSoul Firesight",
+    "description": "§1Soul Firesight",
     "exclusive_set": [
       "bro:scythe/soul_scythe"
     ],
-    "supported_items": "#minecraft:shovels",
-    "primary_items": "#minecraft:pickaxes",
+    "supported_items": "#minecraft:pickaxes",
+    "primary_items": "#minecraft:shovels",
     "weight": 1,
     "max_level": 1,
     "min_cost": {
