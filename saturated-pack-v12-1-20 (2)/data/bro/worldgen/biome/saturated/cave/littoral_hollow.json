@@ -168,7 +168,9 @@
       ],
       [],
       [],
-      [],
+      [
+        "bro:cave/watery/littoral_locator"
+      ],
       [
         "minecraft:spring_water"
       ],
