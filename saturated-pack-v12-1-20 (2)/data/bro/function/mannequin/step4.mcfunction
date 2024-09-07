@@ -1,0 +1,1 @@
+execute positioned ^ ^ ^-2 as @e[tag=bropresentinvoid] at @s run playsound block.wood.step block @s ^ ^ ^-2 1
