@@ -9,9 +9,9 @@ execute as @e[tag=sattimeacceleffect] at @s run execute if score @s sat.timeacce
 execute as @e[tag=sattimeacceleffect] at @s run execute if score @s sat.timeaccel.0 matches 1 run execute if score @s sat.timeaccel.randomize matches 4 run particle minecraft:sweep_attack ~-0.2 ~1.25 ~-0.2 0 0 0 0.1 1
 
 #refreshes the buffs the user gets
-execute as @e[tag=sattimeacceleffect] at @s run execute if score @s sat.timeaccel.0 matches 1 run effect give @s strength 4 1 true
-execute as @e[tag=sattimeacceleffect] at @s run execute if score @s sat.timeaccel.0 matches 1 run effect give @s resistance 4 1 true
-execute as @e[tag=sattimeacceleffect] at @s run execute if score @s sat.timeaccel.0 matches 1 run effect give @s speed 4 3 true
+execute as @e[tag=sattimeacceleffect] at @s run execute if score @s sat.timeaccel.0 matches 1 run effect give @s strength 4 0 true
+execute as @e[tag=sattimeacceleffect] at @s run execute if score @s sat.timeaccel.0 matches 1 run effect give @s resistance 4 0 true
+execute as @e[tag=sattimeacceleffect] at @s run execute if score @s sat.timeaccel.0 matches 1 run effect give @s speed 4 2 true
 
 #restarts the function
 execute as @e[tag=sattimeacceleffect] at @s run execute if score @s sat.timeaccel.0 matches 1 run schedule function bro:magic/timeaccel_buffer 5 replace

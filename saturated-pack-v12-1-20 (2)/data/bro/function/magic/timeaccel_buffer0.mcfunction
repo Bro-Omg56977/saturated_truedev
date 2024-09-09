@@ -6,6 +6,7 @@ execute as @e[tag=sattimeaccelenemyeffectbuffer] at @s run particle minecraft:bl
 execute as @e[tag=sattimeaccelenemyeffectbuffer] at @s run particle minecraft:block{block_state:{Name:red_concrete}} ~-0.2 ~1 ~-0.2 0 0 0 1 10
 execute as @e[tag=sattimeaccelenemyeffectbuffer] at @s run particle minecraft:block{block_state:{Name:red_concrete}} ~ ~1 ~ 0 0 0 1 10
 execute as @e[tag=sattimeaccelenemyeffectbuffer] at @s run particle minecraft:sweep_attack ~ ~1.4 ~ 0 0 0 0 10
+execute as @e[tag=sattimeaccelenemyeffectbuffer] at @s run playsound entity.player.attack.sweep ambient 1 ~ ~ ~ 1
 
 #debuffs those enemies
 execute as @e[tag=sattimeaccelenemyeffectbuffer] at @s run effect give @s slowness 4 0

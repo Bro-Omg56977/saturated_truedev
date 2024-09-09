@@ -1,0 +1,36 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sinkhole/spawner_minion",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sinkhole/spawner_minion0",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sinkhole/spawner_minion1",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  
