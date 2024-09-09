@@ -1,0 +1,1 @@
+execute as @e[tag=satsinkholebossplayer] at @s run tag @s remove satsinkholebossplayer

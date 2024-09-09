@@ -9,5 +9,5 @@ execute as @e[tag=runicprojectile] at @s run particle minecraft:gust_emitter_lar
 execute as @e[tag=runicprojectile,tag=!runicimmune] at @s run summon end_crystal ~ ~ ~ {CustomName:'[{"text":"Unstable Runic Data"}]',Tags:["runicdetonate"]}
 execute as @e[tag=runicprojectile] at @s run effect give @e[tag=runicprojectile,type=!#minecraft:undead] minecraft:instant_damage 1 10 false
 execute as @e[tag=runicprojectile] at @s run effect give @e[tag=runicprojectile,type=#minecraft:undead] minecraft:instant_health 1 10 false
-execute as @e[tag=runicimmune] run schedule function bro:scythe/trident/runid_detonate 10s
+execute as @e[tag=runicimmune] run schedule function bro:scythe/trident/runid_detonate 10s replace
 execute as @e[tag=runicimmune] run function bro:scythe/trident/runic_remove1

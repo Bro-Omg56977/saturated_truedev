@@ -21,5 +21,5 @@ execute as @e[tag=machinaeffect] at @s run effect give @s slow_falling 25 20 tru
 execute as @e[tag=machinaeffect] at @s run effect give @s resistance 10 20 true
 execute as @e[tag=machinaeffect] at @s run tellraw @s "§cAll Souls has been consumed"
 execute as @e[tag=machinaeffect] run scoreboard players remove @e soul_count 10
-execute as @e[tag=machinaeffect] run schedule function bro:scythe/projectile/deus_activate 2s
+execute as @e[tag=machinaeffect] run schedule function bro:scythe/projectile/deus_activate 2s replace
 execute as @e[tag=machinaeffect] run function bro:scythe/projectile/deus_remove1

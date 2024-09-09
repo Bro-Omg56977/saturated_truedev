@@ -10,7 +10,7 @@ execute as @e[tag=bropresentinvoid] at @s if score @s bro.soundsrandomizer.2 mat
 execute as @e[tag=bropresentinvoid] at @s if score @s bro.soundsrandomizer.2 matches 5 run summon wither_skeleton ~24 ~50 ~25 {Invulnerable:1b,PersistenceRequired:1b,Silent:1b,Tags:["brostalker"],active_effects:[{id:slow_falling,duration:200,amplifier:1,show_particles:0b},{id:slowness,duration:999999,amplifier:2,show_particles:0b}]}
 execute as @e[tag=bropresentinvoid] at @s if score @s bro.soundsrandomizer.2 matches 6 run summon wither_skeleton ~-18 ~50 ~21 {Invulnerable:1b,PersistenceRequired:1b,Silent:1b,Tags:["brostalker"],active_effects:[{id:slow_falling,duration:200,amplifier:1,show_particles:0b},{id:slowness,duration:999999,amplifier:2,show_particles:0b}]}
 execute as @e[tag=brostalker] at @s run fill ~1 ~1 ~1 ~-1 ~-1 ~-1 air destroy
-execute as @e[tag=brostalker] at @s run schedule function bro:stalk/damage 1s
+execute as @e[tag=brostalker] at @s run schedule function bro:stalk/damage 1s replace
 execute as @e[tag=brostalker] at @s run tp @s ^ ^ ^-2 facing entity @e[tag=bropresentinvoid,limit=1]
 #teleports the mannequin behind then and then plays sound effects
 execute as @e[tag=brostalker] run function bro:stalk/check_approach

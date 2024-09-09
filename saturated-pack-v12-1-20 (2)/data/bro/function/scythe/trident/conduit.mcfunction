@@ -12,4 +12,4 @@ execute if score @s conduit_chance matches 1 if score @s soul_count matches 2..1
 # Display particles when effect, adds effects, then removes a soul from count. proceeds to run remove tags function
 
 playsound minecraft:block.conduit.activate ambient @s[tag=conduiteffect]
-execute as @e[tag=conduiteffect] run schedule function bro:scythe/trident/conduit_activate 5t
+execute as @e[tag=conduiteffect] run schedule function bro:scythe/trident/conduit_activate 5t replace

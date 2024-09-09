@@ -18,5 +18,5 @@ execute as @e[tag=bacterioeffect] at @s run particle minecraft:soul_fire_flame ~
 execute as @e[tag=bacterioeffect] at @s run particle minecraft:raid_omen ~ ~0.6 ~ 0 0 0 0.01 10
 execute as @e[tag=bacterioeffect] at @s run tellraw @s "§cAll Souls has been consumed"
 execute as @e[tag=bacterioeffect] run scoreboard players remove @e soul_count 10
-execute as @e[tag=bacterioeffect] run schedule function bro:scythe/projectile/bacterio_buffer1 1s
+execute as @e[tag=bacterioeffect] run schedule function bro:scythe/projectile/bacterio_buffer1 1s replace
 execute as @e[tag=bacterioeffect] run function bro:scythe/projectile/bacterio_remove1

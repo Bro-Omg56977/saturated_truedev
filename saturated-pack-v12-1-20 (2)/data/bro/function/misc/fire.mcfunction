@@ -9,4 +9,4 @@ execute as @e[tag=bropresentinvoid] at @s if score @s bro.firerandomizer.1 match
 execute as @e[tag=bropresentinvoid] at @s if score @s bro.firerandomizer.1 matches 3 run scoreboard objectives add bro.firetick.1 dummy
 execute as @e[tag=bropresentinvoid] at @s if score @s bro.firerandomizer.1 matches 3 run scoreboard players set @s bro.firetick.1 1
 execute as @e[tag=bropresentinvoid] at @s if score @s bro.firerandomizer.1 matches 3 run function bro:misc/fire0
-execute as @e[tag=bropresentinvoid] at @s if score @s bro.firerandomizer.1 matches 3 run schedule function bro:misc/fire_stop 5s
+execute as @e[tag=bropresentinvoid] at @s if score @s bro.firerandomizer.1 matches 3 run schedule function bro:misc/fire_stop 5s replace

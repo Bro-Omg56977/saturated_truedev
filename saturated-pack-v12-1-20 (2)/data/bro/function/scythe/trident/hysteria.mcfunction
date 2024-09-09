@@ -11,4 +11,4 @@ execute if score @s hysteria_chance matches 1 if score @s soul_count matches 5..
 # Display particles when effect, adds effects, then removes a soul from count. proceeds to run remove tags function
 
 playsound minecraft:entity.warden.angry ambient @s[tag=hysteriaeffect]
-execute as @e[tag=hysteriaeffect] run schedule function bro:scythe/trident/hysteria_activate 5t
+execute as @e[tag=hysteriaeffect] run schedule function bro:scythe/trident/hysteria_activate 5t replace

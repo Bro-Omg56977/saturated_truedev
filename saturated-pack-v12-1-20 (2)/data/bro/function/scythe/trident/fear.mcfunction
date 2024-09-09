@@ -11,4 +11,4 @@ execute if score @s fear_chance matches 1 if score @s soul_count matches 1..10 r
 # Display particles when effect, adds effects, then removes a soul from count. proceeds to run remove tags function
 
 playsound minecraft:ambient.soul_sand_valley.mood ambient @s[tag=feareffect]
-execute as @e[tag=feareffect] run schedule function bro:scythe/trident/fear_activate 5t
+execute as @e[tag=feareffect] run schedule function bro:scythe/trident/fear_activate 5t replace
