@@ -9,19 +9,18 @@ discord: https://discord.gg/zFCy2sT3zJ
 if you didnt get the datapack or mod versions from the links here then you didn't download an official version and you probably have a virus ¯\_(ツ)_/¯
 
 no curseforge
+_______________________________________________________________________________________________________________________________________________________________________
 
+NOTE ABOUT COMPATABILITY:
 
+while there should be little to no incompatabilities for basically anything as far as i can tell, there's a few exceptions that apply to generally anything
 
+MODS THAT ALTER LOOT: Saturated contains some enchantments that are only supposed to be used by certain enemies and bosses. These enchantments (in the enemy folder) could be potentially accessable to survival players when it usually shouldn't be in any circumstance
 
+MODS THAT ALTER OVERWORLD NOISE: i forgot the specific file name, but the saturated dimension uses overworld noises to generate, like temperture, erosion, depth, etc. if a different mod modifies those values, then it will probably also chance how saturated generates
 
-
-
-
-
-
-
-
-
+MODS THAT USE THE TEAMS COMMAND: saturated adds certain mobs to teams, and some functions cause players to join or leave teams.
+_______________________________________________________________________________________________________________________________________________________________________
 
 -_humanoid lets me use altered versions their wubflies, lushrooms, and pumpkins
 -WilliamWythers lets me use a modified version of their coral discs, and their Phantasmal Forest add-on is a huge inspiration to the enchanted forest
