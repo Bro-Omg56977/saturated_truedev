@@ -17,5 +17,5 @@ execute as @e[tag=sattimeacceleffect] at @s run scoreboard players set @s sat.ti
 #schedules the next functions
 execute as @e[tag=sattimeaccelenemyeffect] run function bro:magic/timeaccel_remove0
 execute as @e[tag=sattimeacceleffect] run schedule function bro:magic/timeaccel_buffer 5 replace
-execute as @e[tag=sattimeacceleffect] run schedule function bro:magic/timeaccel_buffer0 10 replace
-execute as @e[tag=sattimeacceleffect] run schedule function bro:magic/timeaccel_stop 360s replace
+execute as @e[tag=sattimeacceleffect] run schedule function bro:magic/timeaccel_buffer0 4s replace
+execute as @e[tag=sattimeacceleffect] run schedule function bro:magic/timeaccel_stop 300s replace

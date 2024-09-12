@@ -1,7 +1,6 @@
 {
   "type": "minecraft:jigsaw",
   "biomes": [
-    "bro:saturated/moss_basin",
     "bro:saturated/stranger_flats",
     "bro:saturated/the_enchanted"
   ],
