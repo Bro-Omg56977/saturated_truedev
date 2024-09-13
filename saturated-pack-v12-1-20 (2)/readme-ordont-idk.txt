@@ -11,7 +11,7 @@ if you didnt get the datapack or mod versions from the links here then you didn'
 no curseforge
 _______________________________________________________________________________________________________________________________________________________________________
 
-NOTE ABOUT COMPATABILITY:
+NOTE ABOUT POTENTIAL COMPATABILITY AND/OR INCOMPATABILITIES:
 
 while there should be little to no incompatabilities for basically anything as far as i can tell, there's a few exceptions that apply to generally anything
 
@@ -20,6 +20,15 @@ MODS THAT ALTER LOOT: Saturated contains some enchantments that are only suppose
 MODS THAT ALTER OVERWORLD NOISE: i forgot the specific file name, but the saturated dimension uses overworld noises to generate, like temperture, erosion, depth, etc. if a different mod modifies those values, then it will probably also chance how saturated generates
 
 MODS THAT USE THE TEAMS COMMAND: saturated adds certain mobs to teams, and some functions cause players to join or leave teams.
+
+(only sometimes break thinks) MODS THAT USE TAGS OR SCOREBOARDS: Saturated uses alot of scoreboards and tags. like 40+ i think. unfortunatly i didnt have the foresight to label then beforehand (like sat.soul_count instead of just soul_count) so that may cause some weird interactions
+
+
+_______________________________________________________________________________________________________________________________________________________________________
+NOTES ABOUT COPYRIGHT:
+
+
+
 _______________________________________________________________________________________________________________________________________________________________________
 
 -_humanoid lets me use altered versions their wubflies, lushrooms, and pumpkins
