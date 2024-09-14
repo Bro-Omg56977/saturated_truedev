@@ -172,7 +172,8 @@
                 "bro:scythe/soul_fight",
                 "bro:scythe/soul_superjump",
                 "bro:scythe/projectile/soul_gratify",
-                "bro:scythe/projectile/soul_degrade"
+                "bro:scythe/projectile/soul_degrade",
+                "bro:scythe/tools/soul_firesight"
               ],
               "only_compatible": false
             }
@@ -204,7 +205,8 @@
                 "bro:scythe/soul_zooming",
                 "bro:scythe/soul_kamikaze",
                 "bro:scythe/projectile/soul_adversity",
-                "bro:scythe/projectile/soul_auspiciousness"
+                "bro:scythe/projectile/soul_auspiciousness",
+                "bro:scythe/tools/soul_mining_fever"
               ],
               "only_compatible": false
             }
@@ -234,7 +236,8 @@
                 "bro:scythe/soul_super",
                 "bro:scythe/soul_marker",
                 "bro:scythe/projectile/soul_infection",
-                "bro:scythe/projectile/soul_fauxshot"
+                "bro:scythe/projectile/soul_fauxshot",
+                "bro:scythe/tools/soul_strip_destruction"
               ],
               "only_compatible": false
             }
@@ -263,7 +266,8 @@
               "options": [
                 "bro:scythe/soul_siphon",
                 "bro:scythe/reverse_soulmosis",
-                "bro:scythe/projectile/soul_precissive"
+                "bro:scythe/projectile/soul_precissive",
+                "bro:scythe/tools/soul_chisel"
               ],
               "only_compatible": false
             }

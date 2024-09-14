@@ -301,7 +301,8 @@
               "options": [
                 "bro:scythe/soul_siphon",
                 "bro:scythe/reverse_soulmosis",
-                "bro:scythe/projectile/soul_precissive"
+                "bro:scythe/projectile/soul_precissive",
+                "bro:scythe/tools/soul_chisel"
               ],
               "only_compatible": false
             }

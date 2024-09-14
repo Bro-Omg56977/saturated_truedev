@@ -219,7 +219,8 @@
             {
               "function": "minecraft:enchant_randomly",
               "options": [
-                "minecraft:efficiency"
+                "minecraft:efficiency",
+                "bro:scythe/tools/soul_chisel"
               ],
               "only_compatible": false
             },
@@ -227,7 +228,9 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:fortune",
-                "minecraft:silk_touch"
+                "minecraft:silk_touch",
+                "bro:scythe/tools/soul_firesight",
+                "bro:scythe/tools/soul_mining_fever"
               ],
               "only_compatible": false
             },
@@ -235,7 +238,8 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:mending",
-                "minecraft:unbreaking"
+                "minecraft:unbreaking",
+                "bro:scythe/tools/soul_strip_destruction"
               ],
               "only_compatible": false
             }
