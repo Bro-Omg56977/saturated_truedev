@@ -2,6 +2,9 @@
 
 tag @s[tag=!satobliteration] add satobliteration
 
+#should delete what is in their hand
+execute as @e[tag=satobliterationuser] at @s run item replace entity @s[tag=satobliterationuser] weapon with air
+
 #summons some stuff and then does 100 damage
 
 playsound entity.glow_squid.squirt ambient @s[tag=satobliteration]
