@@ -5,5 +5,5 @@ loot replace entity @s weapon.mainhand loot bro:chests/villantis_explorer1
 
 data modify entity @s Offers.Recipes[0].sell merge from entity @s HandItems[0]
 
-execute as @s run function bro:enemy/cartotrade2
-
+execute as @e[tag=villagercartographer] run tag @s add villager
+execute as @e[tag=villagercartographer] run tag @s remove villagercartographer

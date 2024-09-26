@@ -1,31 +1,99 @@
 {
-    "type": "minecraft:chest",
-    "pools": [
-      {
-        "rolls": 1,
-        "bonus_rolls": 0,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:map",
-            "weight": 1,
-            "quality": 1,
-            "functions": [
-              {
-                "function": "minecraft:exploration_map",
-                "destination": "bro:sinkhole_ruins",
-                "decoration": "red_x",
-                "zoom": 4,
-                "skip_existing_chunks": false
-              },
-              {
-                "function": "minecraft:set_name",
-                "name": "Sinkhole Ruins Explorer Map"
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "bro:tower_of_sloni",
+              "decoration": "red_x",
+              "zoom": 4,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Sloni Exploration Map"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:map_color": 9717688
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "bro:babel_coven_hideout",
+              "decoration": "red_x",
+              "zoom": 4,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Babel Explorer Map"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:map_color": 5378440
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "bro:skeletown",
+              "decoration": "red_x",
+              "zoom": 4,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Skeletown Explorer Map"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "bro:sewer",
+              "decoration": "red_x",
+              "zoom": 4,
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Sewer Explorer Map"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
