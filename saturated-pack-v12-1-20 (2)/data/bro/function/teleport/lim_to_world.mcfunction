@@ -14,4 +14,4 @@ advancement revoke @s only bro:lim_to_wrld
 tag @s remove bropresentinvoid
 
 #reduces scoreboard to 0 i think
-scoreboard players set @s sat.invoid 0
+scoreboard players reset @s sat.invoid

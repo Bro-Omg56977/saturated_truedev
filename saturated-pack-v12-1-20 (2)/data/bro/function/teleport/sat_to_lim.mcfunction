@@ -1,4 +1,4 @@
-execute in bro:void align xz run tp @s ~ 64 ~
+execute in bro:void run tp @s ~ 64 ~
 advancement revoke @s only bro:sat_to_lim
 
 # should give player the nessessary tag
