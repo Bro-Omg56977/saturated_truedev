@@ -3,3 +3,4 @@ execute as @e[tag=sattimeacceleffect] at @s run scoreboard players set @s sat.ti
 
 #if that doesn't work, then just gets rid of the tag
 execute as @e[tag=sattimeacceleffect] at @s run tag @s remove sattimeacceleffect
+execute as @e[tag=sattimeaccelenemyeffect] run tag @s remove sattimeaccelenemyeffect

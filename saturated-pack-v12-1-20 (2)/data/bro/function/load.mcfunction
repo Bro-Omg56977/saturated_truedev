@@ -4,6 +4,7 @@ function bro:score/lim_to_sat
 function bro:magic/effects
 function bro:magic/basic/effects
 function bro:join_team
+function bro:magic/timeaccel_stop
 scoreboard objectives add sattp dummy
 scoreboard objectives add soul_count dummy
 scoreboard objectives add vampirism_chance dummy

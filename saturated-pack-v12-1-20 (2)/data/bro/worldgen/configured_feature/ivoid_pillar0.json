@@ -69,6 +69,30 @@
       "offset": 0,
       "height": 0
     },
-    "decorators": []
+    "decorators": [
+      {
+        "type": "minecraft:alter_ground",
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 2,
+              "data": {
+                "Name": "minecraft:black_concrete_powder"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:grass_block",
+                "Properties": {
+                  "snowy": "false"
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
   }
 }
