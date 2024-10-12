@@ -3,7 +3,7 @@
 tag @s[tag=!satobliteration] add satobliteration
 
 #should delete what is in their hand
-execute as @e[tag=satobliterationuser] at @s run item replace entity @s[tag=satobliterationuser] weapon with air
+execute as @e[tag=satobliterationuser] at @s run item replace entity @s[tag=satobliterationuser] weapon with air 1
 
 #summons some stuff and then does 100 damage
 
