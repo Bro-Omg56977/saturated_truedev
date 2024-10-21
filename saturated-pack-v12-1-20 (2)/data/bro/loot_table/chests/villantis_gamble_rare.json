@@ -1,0 +1,252 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 8,
+        "max": 16
+      },
+      "bonus_rolls": {
+        "type": "minecraft:uniform",
+        "min": 8,
+        "max": 16
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "weight": 100,
+          "quality": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 1,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 1,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_scrap",
+          "weight": 1,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "weight": 1,
+          "quality": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald_block",
+          "weight": 1,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_block",
+          "weight": 1,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ancient_debris",
+          "weight": 1,
+          "quality": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 1,
+          "quality": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "weight": 1,
+          "quality": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 1,
+          "quality": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 1,
+          "quality": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:scythe/soul_siphon",
+                "bro:scythe/projectile/soul_precissive",
+                "bro:scythe/reverse_soulmosis"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:scythe/soul_vampirism",
+                "bro:scythe/soul_rage",
+                "bro:scythe/soul_vaulting",
+                "bro:scythe/soul_retaliation",
+                "bro:scythe/soul_fight",
+                "bro:scythe/soul_superjump",
+                "bro:scythe/projectile/soul_gratify",
+                "bro:scythe/projectile/soul_degrade"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:scythe/soul_burst",
+                "bro:scythe/soul_offense",
+                "bro:scythe/soul_zooming",
+                "bro:scythe/soul_kamikaze",
+                "bro:scythe/projectile/soul_adversity",
+                "bro:scythe/projectile/soul_auspiciousness"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:scythe/soul_super",
+                "bro:scythe/soul_marker",
+                "bro:scythe/projectile/soul_infection",
+                "bro:scythe/projectile/soul_fauxshot"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:danger_pottery_sherd",
+          "weight": 1,
+          "quality": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Mysterious Spell Fragment",
+                "bold": true,
+                "italic": true,
+                "underlined": true,
+                "strikethrough": false,
+                "obfuscated": false
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "bro:magic/ihateyou",
+              "only_compatible": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

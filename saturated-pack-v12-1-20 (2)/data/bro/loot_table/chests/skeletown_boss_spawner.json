@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": "Spooky Tome of Animation"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:magic/basic/skeleton_summon",
+                "bro:magic/basic/zombie_summon"
+              ],
+              "only_compatible": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:danger_pottery_sherd",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "bro:magic/evil_disintegration_wave",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "custom_name",
+              "name": {
+                "text": "Mysterious Spell Fragment",
+                "bold": true,
+                "italic": true,
+                "underlined": true,
+                "strikethrough": false,
+                "obfuscated": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "\"§kHerobrine§r, you are a fool. I am going §lcrush§r you, and throw you into the wind.\""
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

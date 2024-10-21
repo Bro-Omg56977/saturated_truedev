@@ -1,6 +1,6 @@
 {
-    "description": "§1Reverse Soul-mosis",
-    "exclusive_set": ["minecraft:mending"],
+    "description": "§bReverse Soul-mosis",
+    "exclusive_set": [],
     "supported_items": "#minecraft:enchantable/armor",
     "primary_items": "#minecraft:enchantable/armor",
     "weight": 1,

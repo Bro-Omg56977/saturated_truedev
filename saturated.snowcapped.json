@@ -808,12 +808,28 @@
       "name": "Caves Top",
       "array": [
         [
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
+          "biome_lzhc08rx",
+          "biome_lzhc08rx",
+          "biome_lzhc08rx",
+          "biome_lzhc08rx/biome_l3dx4fva",
+          "biome_lzhc08rx/biome_l3dx4fva",
+          "biome_lzhc08rx/biome_l3dx4fva"
+        ],
+        [
+          "biome_lzhbzz18",
+          "biome_lzhbzz18",
+          "biome_lzhbzz18",
+          "biome_lzhbzz18/biome_l3dx4fva",
+          "biome_lzhbzz18/biome_l3dx4fva",
+          "biome_lzhbzz18/biome_l3dx4fva"
+        ],
+        [
+          "biome_lzhbzz18/biome_l2o9udms",
+          "biome_lzhbzz18/biome_l2o9udms",
+          "biome_lzhbzz18/biome_l2o9udms",
           "biome_l3dx4fva/biome_l2o9udms",
-          "biome_l3dx4fva",
-          "biome_l3dx4fva"
+          "biome_lzhbzz18/biome_l3dx4fva",
+          "biome_lzhbzz18/biome_l3dx4fva"
         ],
         [
           "biome_l2o9udms",
@@ -824,28 +840,12 @@
           "biome_l3dx4fva"
         ],
         [
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l3dx4fva/biome_l2o9udms",
-          "biome_l3dx4fva",
-          "biome_l3dx4fva"
-        ],
-        [
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l3dx4fva/biome_l2o9udms",
-          "biome_l3dx4fva",
-          "biome_l3dx4fva"
-        ],
-        [
-          "biome_l2o9udms/biome_l3dx5v8m",
-          "biome_l2o9udms/biome_l3dx5v8m",
-          "biome_l2o9udms/biome_l3dx5v8m",
-          "biome_l3dx4fva/biome_l3dx5v8m",
-          "biome_l3dx4fva/biome_l3dx5v8m",
-          "biome_l3dx4fva/biome_l3dx5v8m"
+          "biome_lzhc0u1b/biome_l3dx5v8m",
+          "biome_lzhc0u1b/biome_l3dx5v8m",
+          "biome_lzhc0u1b/biome_l3dx5v8m",
+          "biome_lzhc0u1b/biome_l3dx5v8m",
+          "biome_lzhc0u1b/biome_l3dx5v8m",
+          "biome_lzhc0u1b/biome_l3dx5v8m"
         ]
       ]
     },
@@ -854,12 +854,12 @@
       "name": "caves low",
       "array": [
         [
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l3dx4fva/biome_l2o9udms"
+          "biome_lzhc08rx/biome_lzhbzz18",
+          "biome_lzhc08rx/biome_lzhbzz18",
+          "biome_lzhc08rx/biome_lzhbzz18",
+          "biome_lzhc08rx/biome_lzhbzz18",
+          "biome_lzhc08rx/biome_lzhbzz18",
+          "biome_l3dx4fva/biome_lzhbzz18"
         ],
         [
           "biome_l2o9udms",
@@ -870,19 +870,19 @@
           "biome_l3dx4fva/biome_l2o9udms"
         ],
         [
-          "biome_l2o9udms/biome_l3dx5v8m",
-          "biome_l2o9udms/biome_l3dx5v8m",
-          "biome_l2o9udms/biome_l3dx5v8m",
-          "biome_l2o9udms/biome_l3dx5v8m",
-          "biome_l2o9udms/biome_l3dx5v8m",
-          "biome_l3dx4fva/biome_l3dx5v8m"
+          "biome_l2o9udms/biome_lzhc0u1b",
+          "biome_l2o9udms/biome_lzhc0u1b",
+          "biome_l2o9udms/biome_lzhc0u1b",
+          "biome_l2o9udms/biome_lzhc0u1b",
+          "biome_l2o9udms/biome_lzhc0u1b",
+          "biome_l3dx4fva/biome_lzhc0u1b"
         ],
         [
-          "biome_l3dx5v8m",
-          "biome_l3dx5v8m",
-          "biome_l3dx5v8m",
-          "biome_l3dx5v8m",
-          "biome_l3dx5v8m",
+          "biome_lzhc0u1b/biome_l3dx5v8m",
+          "biome_lzhc0u1b/biome_l3dx5v8m",
+          "biome_lzhc0u1b/biome_l3dx5v8m",
+          "biome_lzhc0u1b/biome_l3dx5v8m",
+          "biome_lzhc0u1b/biome_l3dx5v8m",
           "biome_l3dx4fva/biome_l3dx5v8m"
         ],
         [
@@ -900,11 +900,19 @@
       "name": "caves mid",
       "array": [
         [
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l3dx4fva/biome_l2o9udms",
+          "biome_lzhc08rx",
+          "biome_lzhc08rx",
+          "biome_lzhc08rx",
+          "biome_lzhc08rx",
+          "biome_l3dx4fva/biome_lzhc08rx",
+          "biome_l3dx4fva"
+        ],
+        [
+          "biome_lzhbzz18",
+          "biome_lzhbzz18",
+          "biome_lzhbzz18",
+          "biome_lzhbzz18",
+          "biome_l3dx4fva/biome_lzhbzz18",
           "biome_l3dx4fva"
         ],
         [
@@ -916,20 +924,12 @@
           "biome_l3dx4fva"
         ],
         [
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l3dx4fva/biome_l2o9udms",
-          "biome_l3dx4fva"
-        ],
-        [
-          "biome_l3dx5v8m",
-          "biome_l3dx5v8m",
-          "biome_l3dx5v8m",
-          "biome_l3dx5v8m",
-          "biome_l3dx4fva/biome_l3dx5v8m",
-          "biome_l3dx4fva/biome_l3dx5v8m"
+          "biome_lzhc0u1b",
+          "biome_lzhc0u1b",
+          "biome_lzhc0u1b",
+          "biome_lzhc0u1b",
+          "biome_l3dx4fva/biome_lzhc0u1b",
+          "biome_l3dx4fva/biome_lzhc0u1b"
         ],
         [
           "biome_l3dx5v8m",
@@ -1040,41 +1040,41 @@
         [
           "biome_lqraqal3",
           "biome_lqraqal3",
-          "biome_l1u9i0vj",
-          "biome_l1u9i0vj",
-          "biome_l1u9i0vj",
+          "biome_lzvo996r",
+          "biome_lzvo996r",
+          "biome_lzvo996r",
           "biome_lqraqal3"
         ],
         [
           "biome_lqraqal3",
           "biome_lqraqal3",
-          "biome_l1u9i0vj",
-          "biome_l1u9i0vj",
-          "biome_l1u9i0vj",
+          "biome_lzvo996r",
+          "biome_lzvo996r",
+          "biome_lzvo996r",
           "biome_lqraqal3"
         ],
         [
           "biome_lqraqal3",
           "biome_lqraqal3",
-          "biome_l1u9i0vj",
-          "biome_l1u9i0vj",
-          "biome_l1u9i0vj",
+          "biome_lzvo996r",
+          "biome_lzvo996r",
+          "biome_lzvo996r",
           "biome_lqraqal3"
         ],
         [
           "biome_lqraqal3",
           "biome_lqraqal3",
-          "biome_l1u9i0vj",
-          "biome_l1u9i0vj",
-          "biome_l1u9i0vj",
+          "biome_lzvo996r",
+          "biome_lzvo996r",
+          "biome_lzvo996r",
           "biome_lqraqal3"
         ],
         [
           "biome_lqraqal3",
           "biome_lqraqal3",
-          "biome_l1u9i0vj",
-          "biome_l1u9i0vj",
-          "biome_l1u9i0vj",
+          "biome_lzvo996r",
+          "biome_lzvo996r",
+          "biome_lzvo996r",
           "biome_lqraqal3"
         ]
       ]
@@ -1476,31 +1476,31 @@
       "name": "Caves",
       "array": [
         [
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms"
+          "biome_lzhbzz18/biome_l2o9udms",
+          "biome_lzhbzz18/biome_l2o9udms",
+          "biome_lzhbzz18/biome_l2o9udms",
+          "biome_lzhbzz18/biome_l2o9udms",
+          "biome_lzhbzz18/biome_l2o9udms",
+          "biome_lzhbzz18/biome_l2o9udms",
+          "biome_lzhbzz18/biome_l2o9udms"
         ],
         [
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms"
+          "biome_lzhbzz18/biome_l2o9udms",
+          "biome_lzhbzz18/biome_l2o9udms",
+          "biome_lzhbzz18/biome_l2o9udms",
+          "biome_lzhbzz18/biome_l2o9udms",
+          "biome_lzhbzz18/biome_l2o9udms",
+          "biome_lzhbzz18/biome_l2o9udms",
+          "biome_lzhbzz18/biome_l2o9udms"
         ],
         [
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms",
-          "biome_l2o9udms"
+          "biome_lzhbzz18/biome_l2o9udms",
+          "biome_lzhbzz18/biome_l2o9udms",
+          "biome_lzhbzz18/biome_l2o9udms",
+          "biome_lzhbzz18/biome_l2o9udms",
+          "biome_lzhbzz18/biome_l2o9udms",
+          "biome_lzhbzz18/biome_l2o9udms",
+          "biome_lzhbzz18/biome_l2o9udms"
         ],
         [
           "layout_l2o9w8z8",
@@ -1945,12 +1945,33 @@
       "key": "biome_lqraqal3",
       "name": "bro:saturated/sunken_depths",
       "color": "#037265"
+    },
+    {
+      "key": "biome_lzhbzz18",
+      "name": "bro:saturated/cave/littoral_hollow",
+      "color": "#52ffb4"
+    },
+    {
+      "key": "biome_lzhc08rx",
+      "name": "bro:saturated/cave/glacial_carve",
+      "color": "#b3fff6"
+    },
+    {
+      "key": "biome_lzhc0u1b",
+      "name": "bro:saturated/cave/crystalline_cavity",
+      "color": "#382929"
+    },
+    {
+      "key": "biome_lzvo996r",
+      "name": "bro:saturated/oceanic_deep",
+      "color": "#2c1f61"
     }
   ],
   "targetVersion": "1_19",
   "exportSplines": true,
   "exportBiomeColors": false,
   "noiseSettingsName": "minecraft:overworld",
+  "dimensionTypeName": "minecraft:overworld",
   "splines": {
     "offset": {
       "continentalnesses": [

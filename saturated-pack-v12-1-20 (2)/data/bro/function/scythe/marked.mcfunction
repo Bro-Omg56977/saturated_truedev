@@ -19,13 +19,13 @@ execute as @e[tag=markereffect] at @s run particle minecraft:trial_omen ~ ~1 ~ 0
 execute as @e[tag=markereffect] at @s run particle minecraft:soul_fire_flame ~ ~1.4 ~ 0 0 0 0.15 10
 execute as @e[tag=markereffect] at @s run particle minecraft:trial_omen ~ ~0.6 ~ 0 0 0 0.15 10
 execute as @e[tag=markereffect] at @s run tag @e[tag=!markereffect,distance=..20] add markereffects
-execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:weakness 20 5 false
-execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:slowness 20 5 false
-execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:mining_fatigue 20 5 false
-execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:hunger 20 5 false
-execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:blindness 20 5 false
-execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:glowing 20 5 false
-execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:darkness 20 5 false
+execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:weakness 20 4 false
+execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:slowness 20 4 false
+execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:mining_fatigue 20 4 false
+execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:hunger 20 4 false
+execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:blindness 20 4 false
+execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:glowing 20 4 false
+execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:darkness 20 4 false
 execute as @e[tag=markereffect] at @s run tellraw @s "§5Five Souls has been consumed"
 execute as @e[tag=markereffect] run scoreboard players remove @e soul_count 5
 execute as @e[tag=markereffect] run function bro:scythe/marked_remove

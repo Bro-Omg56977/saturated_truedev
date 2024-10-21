@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": "Prime's Diary"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:magic/vindication",
+                "bro:magic/evocation"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "A Strange journal that glows with enigmatic power."
+                },
+                {
+                  "text": "At one point, it probably belonged to someone powerful with rich history about this place."
+                },
+                {
+                  "text": "Unfortunately, it is mostly filled with gibberish scribbles of a madman."
+                },
+                {
+                  "text": "However, there is some strange emphasis on 14 phrases, which seem to be a spell of some sort."
+                },
+                {
+                  "text": "Maybe you could use them for your own benefit..."
+                }
+              ],
+              "mode": "replace_all"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

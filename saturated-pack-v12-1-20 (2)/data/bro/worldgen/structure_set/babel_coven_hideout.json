@@ -1,15 +1,14 @@
 {
-    "structures": [
-      {
-        "structure": "bro:babel_coven_hideout",
-        "weight": 1
-      }
-    ],
-    "placement": {
-      "type": "minecraft:random_spread",
-      "salt": 2635916018326013437,
-      "spacing": 155,
-      "separation": 18
+  "structures": [
+    {
+      "structure": "bro:babel_coven_hideout",
+      "weight": 1
     }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1905774848,
+    "spacing": 90,
+    "separation": 18
   }
-  
+}

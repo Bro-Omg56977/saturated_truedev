@@ -1,0 +1,1 @@
+execute as @e[tag=brosoundeffectmaker] at @s run damage @s 1 generic by @e[limit=1,tag=bropresentinvoid]

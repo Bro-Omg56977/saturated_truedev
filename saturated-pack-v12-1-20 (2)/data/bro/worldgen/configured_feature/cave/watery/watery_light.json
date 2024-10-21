@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:netherrack_replace_blobs",
+    "config": {
+      "state": {
+        "Name": "minecraft:ochre_froglight"
+      },
+      "target": {
+        "Name": "minecraft:air"
+      },
+      "radius": 0
+    }
+  }
+  

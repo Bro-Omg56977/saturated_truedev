@@ -1,0 +1,52 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 10,
+        "bonus_rolls": 5,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cooked_beef",
+            "weight": 32,
+            "quality": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bread",
+            "weight": 32,
+            "quality": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:apple",
+            "weight": 16,
+            "quality": 2
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:raw_iron",
+            "weight": 16,
+            "quality": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "weight": 8,
+            "quality": 2
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_count",
+            "count": {
+              "type": "minecraft:uniform",
+              "min": 1,
+              "max": 5
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

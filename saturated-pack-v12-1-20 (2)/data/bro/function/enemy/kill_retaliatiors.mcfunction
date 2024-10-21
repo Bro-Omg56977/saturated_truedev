@@ -1,0 +1,1 @@
+execute as @s[type=#bro:evil] at @s run damage @s 100 arrow

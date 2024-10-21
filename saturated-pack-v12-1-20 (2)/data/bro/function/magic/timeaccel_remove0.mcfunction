@@ -1,0 +1,1 @@
+execute as @e[tag=sattimeaccelenemyeffect] run tag @s remove sattimeaccelenemyeffect

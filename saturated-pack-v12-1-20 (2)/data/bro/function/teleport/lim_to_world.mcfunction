@@ -10,4 +10,8 @@ effect give @s slow_falling 30 1 true
 # Revoke the advancement bro:lim_to_wrld from all players
 advancement revoke @s only bro:lim_to_wrld
 
-# No lore here, just an end poem quote
+# removes a tag lmao
+tag @s remove bropresentinvoid
+
+#reduces scoreboard to 0 i think
+scoreboard players reset @s sat.invoid

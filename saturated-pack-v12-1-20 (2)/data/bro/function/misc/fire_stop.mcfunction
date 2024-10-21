@@ -1,0 +1,1 @@
+execute as @e[tag=bropresentinvoid] at @s run scoreboard players set @s bro.firetick.1 0

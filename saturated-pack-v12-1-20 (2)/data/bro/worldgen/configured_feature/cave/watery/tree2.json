@@ -1,0 +1,115 @@
+{
+    "type": "minecraft:tree",
+    "config": {
+      "minimum_size": {
+        "type": "minecraft:two_layers_feature_size"
+      },
+      "dirt_provider": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:dirt"
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:mud"
+            }
+          }
+        ]
+      },
+      "trunk_provider": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 3,
+            "data": {
+              "Name": "minecraft:mangrove_wood",
+              "Properties": {
+                "axis": "y"
+              }
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:stripped_mangrove_wood",
+              "Properties": {
+                "axis": "y"
+              }
+            }
+          }
+        ]
+      },
+      "foliage_provider": {
+        "type": "minecraft:weighted_state_provider",
+        "entries": [
+          {
+            "weight": 36,
+            "data": {
+              "Name": "minecraft:mangrove_leaves",
+              "Properties": {
+                "distance": "7",
+                "waterlogged": "false",
+                "persistent": "true"
+              }
+            }
+          },
+          {
+            "weight": 12,
+            "data": {
+              "Name": "minecraft:azalea_leaves",
+              "Properties": {
+                "distance": "7",
+                "persistent": "true",
+                "waterlogged": "false"
+              }
+            }
+          },
+          {
+            "weight": 12,
+            "data": {
+              "Name": "minecraft:flowering_azalea_leaves",
+              "Properties": {
+                "waterlogged": "false",
+                "distance": "7",
+                "persistent": "true"
+              }
+            }
+          },
+          {
+            "weight": 12,
+            "data": {
+              "Name": "minecraft:air"
+            }
+          },
+          {
+            "weight": 1,
+            "data": {
+              "Name": "minecraft:ochre_froglight",
+              "Properties": {
+                "axis": "y"
+              }
+            }
+          }
+        ]
+      },
+      "trunk_placer": {
+        "type": "minecraft:forking_trunk_placer",
+        "base_height": 4,
+        "height_rand_a": 2,
+        "height_rand_b": 4
+      },
+      "foliage_placer": {
+        "type": "minecraft:blob_foliage_placer",
+        "radius": 3,
+        "offset": 0,
+        "height": 2
+      },
+      "decorators": []
+    }
+  }
+  

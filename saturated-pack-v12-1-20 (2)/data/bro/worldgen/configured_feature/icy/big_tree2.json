@@ -23,6 +23,15 @@
               "axis": "y"
             }
           }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:stripped_spruce_log",
+            "Properties": {
+              "axis": "y"
+            }
+          }
         }
       ]
     },
