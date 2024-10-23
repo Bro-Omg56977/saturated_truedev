@@ -82,7 +82,7 @@
             "attributes": [
               {
                 "base": 40,
-                "id": "generic.max_health"
+                "id": "max_health"
               }
             ],
             "ArmorDropChances": [
