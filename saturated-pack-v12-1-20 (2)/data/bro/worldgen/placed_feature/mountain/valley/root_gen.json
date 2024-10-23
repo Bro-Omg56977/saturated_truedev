@@ -2,10 +2,6 @@
   "feature": "bro:mountain/valley/root_gen",
   "placement": [
     {
-      "type": "minecraft:carving_mask",
-      "step": "liquid"
-    },
-    {
       "type": "minecraft:count",
       "count": {
         "type": "minecraft:weighted_list",

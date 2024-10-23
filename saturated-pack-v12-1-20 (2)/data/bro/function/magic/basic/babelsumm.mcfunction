@@ -9,3 +9,5 @@ execute as @e[tag=babelanimate4] if entity @s[tag=babelanimate4] run scoreboard 
 execute as @e[tag=babelanimate4] if entity @s[tag=babelanimate4] run execute store result score @s babelsuper_randomizer run random value 3..5
 execute as @e[tag=babelanimate4] if entity @s[tag=babelanimate4] run schedule function bro:magic/basic/babelsumm_activate 5 replace
 playsound minecraft:entity.zombie.attack_iron_door ambient @s[tag=babelanimate]
+
+execute as @a[distance=..10] run function bro:magic/basic/summoner

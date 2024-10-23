@@ -17,7 +17,7 @@
     },
     "spawners": {},
     "spawn_costs": {},
-    "carvers": {},
+    "carvers": [],
     "features": [
       [
         "bro:ivoid_placer"

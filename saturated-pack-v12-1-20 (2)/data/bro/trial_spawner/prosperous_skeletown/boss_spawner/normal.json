@@ -1,0 +1,145 @@
+{
+    "spawn_potentials": [
+      {
+        "weight": 1,
+        "data": {
+          "entity": {
+            "ArmorItems": [
+              {
+                "id": "iron_boots",
+                "count": 1,
+                "components": {
+                  "unbreakable": {},
+                  "enchantments": {
+                    "levels": {
+                      "protection": 1
+                    }
+                  },
+                  "trim": {
+                    "material": "netherite",
+                    "pattern": "silence"
+                  }
+                }
+              },
+              {
+                "id": "iron_leggings",
+                "count": 1,
+                "components": {
+                  "unbreakable": {},
+                  "enchantments": {
+                    "levels": {
+                      "protection": 1
+                    }
+                  },
+                  "trim": {
+                    "material": "netherite",
+                    "pattern": "silence"
+                  }
+                }
+              },
+              {
+                "id": "diamond_chestplate",
+                "count": 1,
+                "components": {
+                  "unbreakable": {},
+                  "enchantments": {
+                    "levels": {
+                      "protection": 2,
+                      "bro:enemy/boss/duplicatephase1armor": 1,
+                      "bro:enemy/boss/thrallsphase1armor": 1
+                    }
+                  },
+                  "trim": {
+                    "material": "netherite",
+                    "pattern": "silence"
+                  }
+                }
+              },
+              {
+                "id": "iron_helmet",
+                "count": 1,
+                "components": {
+                  "unbreakable": {},
+                  "enchantments": {
+                    "levels": {
+                      "protection": 1
+                    }
+                  },
+                  "trim": {
+                    "material": "netherite",
+                    "pattern": "silence"
+                  }
+                }
+              }
+            ],
+            "Team": "invader",
+            "Tags": [
+              "satherobrine",
+              "satskeletonbossphase1",
+              "satimmune"
+            ],
+            "id": "minecraft:skeleton",
+            "attributes": [
+              {
+                "base": 40,
+                "id": "generic.max_health"
+              }
+            ],
+            "ArmorDropChances": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "HandDropChances": [
+              0,
+              0
+            ],
+            "HandItems": [
+              {
+                "id": "bow",
+                "count": 1,
+                "components": {
+                  "enchantments": {
+                    "levels": {
+                      "bro:enemy/boss/kill_retaliators": 1,
+                      "bro:enemy/boss/duplicatephase1": 1,
+                      "bro:enemy/boss/thrallsphase1": 1
+                    }
+                  },
+                  "unbreakable": {}
+                }
+              },
+              {
+                "id": "air",
+                "count": 1
+              }
+            ],
+            "Health": 40,
+            "PersistenceRequired": 1,
+            "active_effects": [
+              {
+                "amplifier": 1,
+                "id": "fire_resistance",
+                "show_particles": 0,
+                "duration": 999999
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "simultaneous_mobs": 1.0000100135803223,
+    "ticks_between_spawn": 4,
+    "total_mobs": 1.0000100135803223,
+    "loot_tables_to_eject": [
+      {
+        "weight": 1,
+        "data": "bro:chests/skeletown_boss_spawner"
+      },
+      {
+        "weight": 1,
+        "data": "bro:chests/skeletown_boss_spawner"
+      }
+    ]
+  }

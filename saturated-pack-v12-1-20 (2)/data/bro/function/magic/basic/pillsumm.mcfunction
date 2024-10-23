@@ -7,3 +7,5 @@ execute as @e[tag=pillageranimate] if entity @s[tag=pillageranimate] run schedul
 execute as @e[tag=pillageranimate4] if entity @s[tag=pillageranimate4] run tag @s add sattarget
 execute as @e[tag=pillageranimate4] if entity @s[tag=pillageranimate4] run schedule function bro:magic/basic/pillsumm_activate 5 replace
 playsound minecraft:entity.zombie.attack_iron_door ambient @s[tag=pillageranimate]
+
+execute as @a[distance=..10] run function bro:magic/basic/summoner

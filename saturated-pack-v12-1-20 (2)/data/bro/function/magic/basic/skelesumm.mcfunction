@@ -7,3 +7,5 @@ execute as @e[tag=skeletonanimate] if entity @s[tag=skeletonanimate] run schedul
 execute as @e[tag=skeletonanimate4] if entity @s[tag=skeletonanimate4] run tag @s add sattarget
 execute as @e[tag=skeletonanimate4] if entity @s[tag=skeletonanimate4] run schedule function bro:magic/basic/skelesumm_activate 5 replace
 playsound minecraft:entity.zombie.attack_iron_door ambient @s[tag=skeletonanimate]
+
+execute as @a[distance=..10] run function bro:magic/basic/summoner
