@@ -3769,7 +3769,7 @@
             ],
             "temperature": [
               -0.45,
-              0.2
+              -0.15
             ],
             "humidity": [
               -0.1,
@@ -3782,6 +3782,66 @@
             "offset": 0
           },
           "biome": "bro:saturated/the_enchanted"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.26666668
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.78
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -0.1,
+              0.3
+            ],
+            "depth": [
+              -0.2,
+              0.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/the_enchanted"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              -0.05,
+              0.26666668
+            ],
+            "continentalness": [
+              0.03,
+              1
+            ],
+            "erosion": [
+              -1,
+              -0.78
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "depth": [
+              -0.2,
+              0.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/stardust_enchanted"
         },
         {
           "parameters": {
@@ -4189,7 +4249,7 @@
             ],
             "temperature": [
               -0.45,
-              0.2
+              -0.15
             ],
             "humidity": [
               -0.1,
@@ -4202,6 +4262,66 @@
             "offset": 0
           },
           "biome": "bro:saturated/the_enchanted"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.26666668
+            ],
+            "continentalness": [
+              -0.11,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -0.1,
+              0.3
+            ],
+            "depth": [
+              -0.2,
+              0.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/the_enchanted"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.05,
+              0.26666668
+            ],
+            "continentalness": [
+              -0.11,
+              1
+            ],
+            "erosion": [
+              -1,
+              0.55
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "depth": [
+              -0.2,
+              0.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/stardust_enchanted"
         },
         {
           "parameters": {
@@ -4429,7 +4549,7 @@
             ],
             "temperature": [
               -0.45,
-              0.2
+              -0.15
             ],
             "humidity": [
               -0.1,
@@ -4442,6 +4562,66 @@
             "offset": 0
           },
           "biome": "bro:saturated/the_enchanted"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.26666668,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -0.2225,
+              0.55
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -0.1,
+              0.3
+            ],
+            "depth": [
+              -0.2,
+              0.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/the_enchanted"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.26666668,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              1
+            ],
+            "erosion": [
+              -0.2225,
+              0.55
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "depth": [
+              -0.2,
+              0.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/stardust_enchanted"
         },
         {
           "parameters": {
@@ -4669,7 +4849,7 @@
             ],
             "temperature": [
               -0.45,
-              0.2
+              -0.15
             ],
             "humidity": [
               -0.1,
@@ -4682,6 +4862,66 @@
             "offset": 0
           },
           "biome": "bro:saturated/the_enchanted"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.26666668,
+              0.4
+            ],
+            "continentalness": [
+              -0.11,
+              1
+            ],
+            "erosion": [
+              -0.78,
+              0.55
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -0.1,
+              0.3
+            ],
+            "depth": [
+              -0.2,
+              0.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/the_enchanted"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.26666668,
+              0.4
+            ],
+            "continentalness": [
+              -0.11,
+              1
+            ],
+            "erosion": [
+              -0.78,
+              0.55
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "depth": [
+              -0.2,
+              0.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/stardust_enchanted"
         },
         {
           "parameters": {
@@ -4807,36 +5047,6 @@
           "parameters": {
             "weirdness": [
               0.26666668,
-              0.4
-            ],
-            "continentalness": [
-              0.3,
-              1
-            ],
-            "erosion": [
-              -0.78,
-              0.55
-            ],
-            "temperature": [
-              -0.15,
-              0.2
-            ],
-            "humidity": [
-              -0.1,
-              1
-            ],
-            "depth": [
-              -0.2,
-              0.2
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/the_enchanted"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.26666668,
               0.56666666
             ],
             "continentalness": [
@@ -4879,7 +5089,7 @@
             ],
             "temperature": [
               -0.45,
-              0.2
+              -0.15
             ],
             "humidity": [
               -0.1,
@@ -5183,7 +5393,7 @@
             ],
             "humidity": [
               -0.1,
-              1
+              0.3
             ],
             "depth": [
               -0.2,
@@ -5192,6 +5402,36 @@
             "offset": 0
           },
           "biome": "bro:saturated/the_enchanted"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.4,
+              0.93333334
+            ],
+            "continentalness": [
+              -0.19,
+              -0.11
+            ],
+            "erosion": [
+              -0.78,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "depth": [
+              -0.2,
+              0.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/stardust_enchanted"
         },
         {
           "parameters": {
@@ -5509,7 +5749,7 @@
             ],
             "temperature": [
               -0.45,
-              0.2
+              -0.15
             ],
             "humidity": [
               -0.1,
@@ -5522,6 +5762,66 @@
             "offset": 0
           },
           "biome": "bro:saturated/the_enchanted"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.4,
+              1
+            ],
+            "continentalness": [
+              -0.11,
+              1
+            ],
+            "erosion": [
+              -0.375,
+              0.55
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -0.1,
+              0.3
+            ],
+            "depth": [
+              -0.2,
+              0.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/the_enchanted"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.4,
+              1
+            ],
+            "continentalness": [
+              -0.11,
+              1
+            ],
+            "erosion": [
+              -0.375,
+              0.55
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "depth": [
+              -0.2,
+              0.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/stardust_enchanted"
         },
         {
           "parameters": {
@@ -5707,36 +6007,6 @@
           "parameters": {
             "weirdness": [
               0.4,
-              1
-            ],
-            "continentalness": [
-              0.03,
-              1
-            ],
-            "erosion": [
-              -0.375,
-              0.55
-            ],
-            "temperature": [
-              -0.15,
-              0.2
-            ],
-            "humidity": [
-              -0.1,
-              1
-            ],
-            "depth": [
-              -0.2,
-              0.2
-            ],
-            "offset": 0
-          },
-          "biome": "bro:saturated/the_enchanted"
-        },
-        {
-          "parameters": {
-            "weirdness": [
-              0.4,
               0.93333334
             ],
             "continentalness": [
@@ -5869,7 +6139,7 @@
             ],
             "temperature": [
               -0.45,
-              0.2
+              -0.15
             ],
             "humidity": [
               -0.1,
@@ -6079,7 +6349,7 @@
             ],
             "temperature": [
               -0.45,
-              0.2
+              -0.15
             ],
             "humidity": [
               -0.1,
@@ -6092,6 +6362,66 @@
             "offset": 0
           },
           "biome": "bro:saturated/the_enchanted"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.56666666,
+              1
+            ],
+            "continentalness": [
+              -0.11,
+              0.03
+            ],
+            "erosion": [
+              -0.78,
+              0.55
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              -0.1,
+              0.3
+            ],
+            "depth": [
+              -0.2,
+              0.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/the_enchanted"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.56666666,
+              1
+            ],
+            "continentalness": [
+              -0.11,
+              0.03
+            ],
+            "erosion": [
+              -0.78,
+              0.55
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "depth": [
+              -0.2,
+              0.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/stardust_enchanted"
         },
         {
           "parameters": {
@@ -6623,7 +6953,7 @@
             ],
             "humidity": [
               -0.1,
-              1
+              0.3
             ],
             "depth": [
               -0.2,
@@ -6632,6 +6962,36 @@
             "offset": 0
           },
           "biome": "bro:saturated/the_enchanted"
+        },
+        {
+          "parameters": {
+            "weirdness": [
+              0.93333334,
+              1
+            ],
+            "continentalness": [
+              -0.19,
+              -0.11
+            ],
+            "erosion": [
+              0.55,
+              1
+            ],
+            "temperature": [
+              -0.15,
+              0.2
+            ],
+            "humidity": [
+              0.3,
+              1
+            ],
+            "depth": [
+              -0.2,
+              0.2
+            ],
+            "offset": 0
+          },
+          "biome": "bro:saturated/stardust_enchanted"
         },
         {
           "parameters": {
@@ -6679,7 +7039,7 @@
             ],
             "temperature": [
               -0.45,
-              0.2
+              -0.15
             ],
             "humidity": [
               -0.1,
@@ -6829,7 +7189,7 @@
             ],
             "temperature": [
               -0.45,
-              0.2
+              -0.15
             ],
             "humidity": [
               -0.1,

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": "bro:pale/forest/mushroom_red",
+        "chance": 0.05
+      },
+      {
+        "feature": "bro:pale/forest/mushroom_brown",
+        "chance": 0.05
+      },
+      {
+        "feature": "bro:pale/forest/mushroom_jack",
+        "chance": 0.003
+      },
+      {
+        "feature": "bro:pale/forest/mushroom_moss",
+        "chance": 0.008
+      }
+    ],
+    "default": "bro:na"
+  }
+}

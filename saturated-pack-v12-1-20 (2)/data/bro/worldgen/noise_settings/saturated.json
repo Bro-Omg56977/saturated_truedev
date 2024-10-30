@@ -580,7 +580,7 @@
           "type": "minecraft:biome",
           "biome_is": [
             "bro:saturated/oceanic",
-                        "bro:saturated/oceanic_deep"
+            "bro:saturated/oceanic_deep"
           ]
         },
         "then_run": {
@@ -917,7 +917,8 @@
         "if_true": {
           "type": "minecraft:biome",
           "biome_is": [
-            "bro:saturated/the_enchanted"
+            "bro:saturated/the_enchanted",
+            "bro:saturated/stardust_enchanted"
           ]
         },
         "then_run": {
@@ -1532,7 +1533,8 @@
                 "bro:saturated/boreal_valley",
                 "bro:saturated/moss_basin",
                 "bro:saturated/stranger_flats",
-                "bro:saturated/the_enchanted"
+                "bro:saturated/the_enchanted",
+                "bro:saturated/stardust_enchanted"
               ]
             },
             "then_run": {
@@ -1578,7 +1580,8 @@
                         "bro:saturated/boreal_valley",
                         "bro:saturated/moss_basin",
                         "bro:saturated/stranger_flats",
-                        "bro:saturated/the_enchanted"
+                        "bro:saturated/the_enchanted",
+                        "bro:saturated/stardust_enchanted"
                       ]
                     },
                     "then_run": {
@@ -1629,7 +1632,8 @@
                 "bro:saturated/boreal_valley",
                 "bro:saturated/moss_basin",
                 "bro:saturated/stranger_flats",
-                "bro:saturated/the_enchanted"
+                "bro:saturated/the_enchanted",
+                "bro:saturated/stardust_enchanted"
               ]
             },
             "then_run": {
