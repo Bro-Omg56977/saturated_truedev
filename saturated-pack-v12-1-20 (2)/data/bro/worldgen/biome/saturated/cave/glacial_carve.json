@@ -4,12 +4,12 @@
     "has_precipitation": true,
     "temperature_modifier": "none",
     "effects": {
-      "sky_color": 11178666,
+      "sky_color": 13221084,
       "fog_color": 15262695,
       "water_color": 8163755,
-      "water_fog_color": 4016465,
-      "grass_color": 2385455,
-      "foliage_color": 2385455,
+      "water_fog_color": 9674921,
+      "grass_color": 15334388,
+      "foliage_color": 16777215,
       "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
       "mood_sound": {
         "sound": "minecraft:ambient.nether_wastes.mood",
@@ -29,9 +29,9 @@
       },
       "particle": {
         "options": {
-          "type": "minecraft:white_ash"
+          "type": "minecraft:snowflake"
         },
-        "probability": 0.115
+        "probability": 0.0115
       }
     },
     "spawners": {
@@ -161,16 +161,26 @@
         "minecraft:lake_lava_underground",
         "minecraft:lake_lava_surface"
       ],
-      [],
+      [
+        "bro:cave/glacial/ice_hanging",
+        "bro:cave/glacial/replace_lava",
+        "bro:cave/glacial/replace_water"
+      ],
       [
         "minecraft:monster_room",
         "minecraft:monster_room_deep"
       ],
       [
+        "minecraft:glow_lichen",
+        "bro:cave/glacial/glacial_glass1",
+        "bro:cave/glacial/glacial_glass2",
+       "bro:cave/glacial/glacial_light"
+      ],
+      [
         "minecraft:glow_lichen"
       ],
-      [],
       [
+        "bro:cave/glacial/glacial_delta",
         "minecraft:ore_gravel",
         "minecraft:ore_granite_upper",
         "minecraft:ore_granite_lower",
@@ -199,9 +209,13 @@
         "minecraft:disk_clay",
         "minecraft:disk_gravel"
       ],
-      [],
-      [],
-      [],
+      [
+        "bro:cave/glacial/tree_placer"
+      ],
+      [
+        "bro:cave/glacial/ice_floor",
+        "bro:cave/glacial/glacial_locator"
+      ],
       [
         "minecraft:spring_water"
       ],

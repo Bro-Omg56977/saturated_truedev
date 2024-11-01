@@ -29,7 +29,7 @@
       },
       "particle": {
         "options": {
-          "type": "minecraft:white_ash"
+          "type": "minecraft:enchant"
         },
         "probability": 0.115
       }
@@ -131,13 +131,20 @@
         "minecraft:lake_lava_underground",
         "minecraft:lake_lava_surface"
       ],
-      [],
+      [
+        "bro:cave/crystal/spike_lime_ceiling"
+      ],
       [
         "minecraft:monster_room",
         "minecraft:monster_room_deep"
       ],
       [
-        "minecraft:glow_lichen"
+        "minecraft:glow_lichen",
+        "bro:cave/crystal/crystal_glass1",
+        "bro:cave/crystal/crystal_glass2",
+        "bro:cave/crystal/crystal_glass3",
+        "bro:cave/crystal/crystal_glass4",
+        "bro:cave/crystal/crystal_light"
       ],
       [],
       [
@@ -170,8 +177,13 @@
         "minecraft:disk_gravel"
       ],
       [],
-      [],
-      [],
+      [
+        "bro:cave/crystal/blackstone_shroom0",
+        "bro:cave/crystal/blackstone_shroom1"
+      ],
+      [
+        "bro:cave/crystal/spike_lime_floor"
+      ],
       [
         "minecraft:spring_water",
         "minecraft:spring_lava"

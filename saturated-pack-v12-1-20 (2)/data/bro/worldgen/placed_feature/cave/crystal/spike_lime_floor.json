@@ -1,0 +1,28 @@
+{
+    "feature": "bro:cave/crystal/spike_lime_floor",
+    "placement": [
+      {
+        "type": "minecraft:count",
+        "count": 20
+      },
+      {
+        "type": "minecraft:block_predicate_filter",
+        "predicate": {
+          "type": "minecraft:matching_blocks",
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "blocks": [
+            "minecraft:deepslate",
+            "minecraft:stone"
+          ]
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+  

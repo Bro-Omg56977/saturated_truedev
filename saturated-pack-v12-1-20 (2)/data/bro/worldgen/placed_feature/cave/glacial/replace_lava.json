@@ -1,0 +1,13 @@
+{
+    "feature": "bro:cave/glacial/replace_lava",
+    "placement": [
+      {
+        "type": "minecraft:count_on_every_layer",
+        "count": 60
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+  

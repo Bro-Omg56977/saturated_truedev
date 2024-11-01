@@ -1,0 +1,29 @@
+{
+    "feature": "bro:cave/glacial/ice_floor1",
+    "placement": [
+      {
+        "type": "minecraft:count_on_every_layer",
+        "count": 35
+      },
+      {
+        "type": "minecraft:block_predicate_filter",
+        "predicate": {
+          "type": "minecraft:matching_blocks",
+          "offset": [
+            0,
+            -1,
+            0
+          ],
+          "blocks": [
+            "minecraft:packed_ice",
+            "minecraft:blue_ice",
+            "minecraft:ice"
+          ]
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }
+  
