@@ -1,125 +1,197 @@
 {
-    "type": "minecraft:tree",
-    "config": {
-      "minimum_size": {
-        "type": "minecraft:two_layers_feature_size"
-      },
-      "dirt_provider": {
-        "type": "minecraft:weighted_state_provider",
-        "entries": [
-          {
-            "weight": 1,
-            "data": {
-              "Name": "minecraft:dirt"
-            }
-          },
-          {
-            "weight": 1,
-            "data": {
-              "Name": "minecraft:mud"
-            }
+  "type": "minecraft:tree",
+  "config": {
+    "minimum_size": {
+      "type": "minecraft:two_layers_feature_size"
+    },
+    "dirt_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:dirt"
           }
-        ]
-      },
-      "trunk_provider": {
-        "type": "minecraft:weighted_state_provider",
-        "entries": [
-          {
-            "weight": 3,
-            "data": {
-              "Name": "minecraft:mangrove_wood",
-              "Properties": {
-                "axis": "y"
-              }
-            }
-          },
-          {
-            "weight": 1,
-            "data": {
-              "Name": "minecraft:stripped_mangrove_wood",
-              "Properties": {
-                "axis": "y"
-              }
-            }
-          }
-        ]
-      },
-      "foliage_provider": {
-        "type": "minecraft:weighted_state_provider",
-        "entries": [
-          {
-            "weight": 36,
-            "data": {
-              "Name": "minecraft:mangrove_leaves",
-              "Properties": {
-                "waterlogged": "false",
-                "persistent": "true",
-                "distance": "7"
-              }
-            }
-          },
-          {
-            "weight": 12,
-            "data": {
-              "Name": "minecraft:azalea_leaves",
-              "Properties": {
-                "distance": "7",
-                "persistent": "true",
-                "waterlogged": "false"
-              }
-            }
-          },
-          {
-            "weight": 12,
-            "data": {
-              "Name": "minecraft:flowering_azalea_leaves",
-              "Properties": {
-                "waterlogged": "false",
-                "distance": "7",
-                "persistent": "true"
-              }
-            }
-          },
-          {
-            "weight": 12,
-            "data": {
-              "Name": "minecraft:air"
-            }
-          },
-          {
-            "weight": 1,
-            "data": {
-              "Name": "minecraft:ochre_froglight",
-              "Properties": {
-                "axis": "y"
-              }
-            }
-          }
-        ]
-      },
-      "trunk_placer": {
-        "type": "minecraft:cherry_trunk_placer",
-        "base_height": 4,
-        "height_rand_a": 2,
-        "height_rand_b": 4,
-        "branch_count": 1,
-        "branch_horizontal_length": {
-          "type": "minecraft:uniform",
-          "min_inclusive": 2,
-          "max_inclusive": 4
         },
-        "branch_start_offset_from_top": {
-          "min_inclusive": -1,
-          "max_inclusive": 0
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:mud"
+          }
+        }
+      ]
+    },
+    "trunk_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 3,
+          "data": {
+            "Name": "minecraft:mangrove_wood",
+            "Properties": {
+              "axis": "y"
+            }
+          }
         },
-        "branch_end_offset_from_top": 1
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:stripped_mangrove_wood",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        }
+      ]
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 36,
+          "data": {
+            "Name": "minecraft:mangrove_leaves",
+            "Properties": {
+              "waterlogged": "false",
+              "persistent": "true",
+              "distance": "7"
+            }
+          }
+        },
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:azalea_leaves",
+            "Properties": {
+              "distance": "7",
+              "persistent": "true",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:flowering_azalea_leaves",
+            "Properties": {
+              "waterlogged": "false",
+              "distance": "7",
+              "persistent": "true"
+            }
+          }
+        },
+        {
+          "weight": 12,
+          "data": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:ochre_froglight",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        }
+      ]
+    },
+    "trunk_placer": {
+      "type": "minecraft:cherry_trunk_placer",
+      "base_height": 4,
+      "height_rand_a": 2,
+      "height_rand_b": 4,
+      "branch_count": 1,
+      "branch_horizontal_length": {
+        "type": "minecraft:uniform",
+        "min_inclusive": 2,
+        "max_inclusive": 4
       },
-      "foliage_placer": {
-        "type": "minecraft:acacia_foliage_placer",
-        "radius": 3,
-        "offset": 1
+      "branch_start_offset_from_top": {
+        "min_inclusive": -1,
+        "max_inclusive": 0
       },
-      "decorators": []
-    }
+      "branch_end_offset_from_top": 1
+    },
+    "foliage_placer": {
+      "type": "minecraft:acacia_foliage_placer",
+      "radius": 3,
+      "offset": 1
+    },
+    "decorators": [
+      {
+        "type": "minecraft:attached_to_leaves",
+        "probability": 1,
+        "exclusion_radius_xz": 1,
+        "exclusion_radius_y": 1,
+        "required_empty_blocks": 1,
+        "block_provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 36,
+              "data": {
+                "Name": "minecraft:mangrove_leaves",
+                "Properties": {
+                  "waterlogged": "false",
+                  "persistent": "true",
+                  "distance": "7"
+                }
+              }
+            },
+            {
+              "weight": 12,
+              "data": {
+                "Name": "minecraft:flowering_azalea_leaves",
+                "Properties": {
+                  "waterlogged": "false",
+                  "persistent": "true",
+                  "distance": "7"
+                }
+              }
+            },
+            {
+              "weight": 12,
+              "data": {
+                "Name": "minecraft:azalea_leaves",
+                "Properties": {
+                  "distance": "7",
+                  "persistent": "true",
+                  "waterlogged": "false"
+                }
+              }
+            },
+            {
+              "weight": 12,
+              "data": {
+                "Name": "minecraft:air"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:ochre_froglight",
+                "Properties": {
+                  "axis": "y"
+                }
+              }
+            }
+          ]
+        },
+        "directions": [
+          "down",
+          "up",
+          "north",
+          "east",
+          "south",
+          "west"
+        ]
+      },
+      {
+        "type": "minecraft:leave_vine",
+        "probability": 0.25
+      }
+    ]
   }
-  
+}

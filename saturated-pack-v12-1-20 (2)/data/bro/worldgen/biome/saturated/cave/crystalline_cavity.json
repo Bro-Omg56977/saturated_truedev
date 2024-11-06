@@ -132,7 +132,10 @@
         "minecraft:lake_lava_surface"
       ],
       [
-        "bro:cave/crystal/spike_lime_ceiling"
+        "bro:cave/crystal/spike_lime_ceiling",
+          "bro:cave/crystal/spike_red_ceiling",
+          "bro:cave/crystal/spike_magenta_ceiling",
+          "bro:cave/crystal/spike_light_blue_ceiling"
       ],
       [
         "minecraft:monster_room",
@@ -182,7 +185,10 @@
         "bro:cave/crystal/blackstone_shroom1"
       ],
       [
-        "bro:cave/crystal/spike_lime_floor"
+        "bro:cave/crystal/spike_lime_floor",
+         "bro:cave/crystal/spike_light_blue_floor",
+         "bro:cave/crystal/spike_red_floor",
+        "bro:cave/crystal/spike_magenta_floor"
       ],
       [
         "minecraft:spring_water",

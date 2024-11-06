@@ -1,5 +1,5 @@
 {
-    "feature": "bro:cave/crystal/spike_lime_floor",
+    "feature": "bro:cave/crystal/spike_magenta_floor",
     "placement": [
       {
         "type": "minecraft:count_on_every_layer",
