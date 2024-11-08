@@ -1,5 +1,5 @@
 # Do the thing
-execute as @s in bro:saturated run tp @s ~ 320 ~
+execute as @s in bro:saturated run tp @s ~ 300 ~
 
 # sets scoreboard to teleport after 3 seconds
 scoreboard players set @s sattp 2

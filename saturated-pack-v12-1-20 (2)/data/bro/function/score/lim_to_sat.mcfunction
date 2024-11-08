@@ -2,7 +2,7 @@
 schedule function bro:score/lim_to_sat 1s replace
 
 #teleports the player to where they're supposed to be
-execute as @e[scores={sattp=1}] at @s run tp @s ~ 320 ~
+execute as @e[scores={sattp=1}] at @s run tp @s ~ 300 ~
 
 #-1 score ever second
 scoreboard players remove @e[scores={sattp=1..}] sattp 1
