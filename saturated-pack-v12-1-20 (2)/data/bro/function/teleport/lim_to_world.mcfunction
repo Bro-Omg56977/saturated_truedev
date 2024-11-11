@@ -1,8 +1,11 @@
+#part 1 i guess
+execute in minecraft:overworld run forceload add ~ ~ ~ ~
+
 # Do the thing
-execute as @s in minecraft:overworld run tp @s ~ 300 ~
+execute in minecraft:overworld run tp @s ~ 300 ~
 
 # sets scoreboard to teleport after 3 seconds
-scoreboard players set @s sattp 2
+#scoreboard players set @s sattp 2
 
 # Weeeeee
 effect give @s slow_falling 30 1 true

@@ -5,6 +5,9 @@ advancement revoke @s only bro:overworld_to_lim0
 advancement revoke @s only bro:overworld_to_lim1
 advancement revoke @s only bro:overworld_to_lim2
 
+#part 1 i guess
+execute in bro:void run forceload add ~ ~ ~ ~
+
 # should give player the nessessary tag
 tag @s add bropresentinvoid
 
@@ -13,3 +16,6 @@ scoreboard players set @s sat.invoid 1
 
 #hehehehaw spookers time
 schedule function bro:root/rootfunction 360s
+
+#rip forceload lol
+forceload remove ~ ~ ~ ~

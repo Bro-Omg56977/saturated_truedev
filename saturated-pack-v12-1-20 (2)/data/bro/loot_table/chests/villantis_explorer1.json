@@ -82,14 +82,14 @@
           "functions": [
             {
               "function": "minecraft:exploration_map",
-              "destination": "bro:sewer",
+              "destination": "bro:sinkhole_ruins",
               "decoration": "red_x",
               "zoom": 4,
               "skip_existing_chunks": false
             },
             {
               "function": "minecraft:set_name",
-              "name": "Sewer Explorer Map"
+              "name": "Sinkhole Explorer Map"
             }
           ]
         }

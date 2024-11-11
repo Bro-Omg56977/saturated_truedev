@@ -1,3 +1,6 @@
+#part 1 i guess
+execute in bro:void run forceload add ~ ~ ~ ~
+
 execute in bro:void run tp @s ~ 64 ~
 advancement revoke @s only bro:sat_to_lim
 
