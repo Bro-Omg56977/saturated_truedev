@@ -1,6 +1,9 @@
 {
     "pack": {
         "pack_format": 48,
-        "description": "§b Singes eyeballs since day 1"
+        "description": {
+            "translate": "datapack.bro.saturated.descr",
+            "fallback": "§b Singes eyeballs since day 1"
+        }
     }
 }

@@ -4,8 +4,14 @@
       "id": "minecraft:grass_block",
       "count": 1
     },
-    "title": "My eyes!",
-    "description": "Enter Saturated",
+    "title": {
+      "translate": "advancements.bro.saturated.enter_saturated.title",
+      "fallback": "My Eyes!"
+    },
+    "description": {
+      "translate": "advancements.bro.saturated.enter_saturated.descr",
+      "fallback": "Enter Saturated"
+    },
     "background": "minecraft:textures/block/netherite_block.png",
     "frame": "challenge",
     "show_toast": true,

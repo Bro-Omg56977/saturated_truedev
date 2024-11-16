@@ -4,8 +4,14 @@
       "id": "minecraft:black_concrete_powder",
       "count": 1
     },
-    "title": "Where am I?",
-    "description": "End up in the Void",
+    "title": {
+      "translate": "advancements.bro.saturated.enter_void.title",
+      "fallback": "Where am I?"
+    },
+    "description": {
+      "translate": "advancements.bro.saturated.enter_void.descr",
+      "fallback": "End up in the Void"
+    },
     "background": "minecraft:textures/block/netherite_block.png",
     "frame": "task",
     "show_toast": true,
