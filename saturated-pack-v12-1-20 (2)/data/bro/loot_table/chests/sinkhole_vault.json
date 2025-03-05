@@ -78,30 +78,6 @@
               "function": "minecraft:enchant_randomly",
               "options": "minecraft:sweeping_edge",
               "only_compatible": false
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": "bro:scythe/soul_scythe",
-              "only_compatible": false
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:enchanted_book",
-          "weight": 1,
-          "quality": 10,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": [
-                "bro:scythe/projectile/soul_deus",
-                "bro:scythe/projectile/soul_bacterio",
-                "bro:scythe/soul_cleave",
-                "bro:scythe/soul_dirty_fireworks",
-                "bro:scythe/trident/soul_runic"
-              ],
-              "only_compatible": false
             }
           ]
         }
@@ -238,8 +214,7 @@
                 "minecraft:protection",
                 "minecraft:blast_protection",
                 "minecraft:fire_protection",
-                "minecraft:projectile_protection",
-                "bro:scythe/soul_marker"
+                "minecraft:projectile_protection"
               ],
               "only_compatible": false
             },
@@ -247,8 +222,7 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:thorns",
-                "minecraft:unbreaking",
-                "bro:scythe/soul_zooming"
+                "minecraft:unbreaking"
               ],
               "only_compatible": false
             },
@@ -256,8 +230,7 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:aqua_affinity",
-                "minecraft:respiration",
-                "bro:scythe/reverse_soulmosis"
+                "minecraft:respiration"
               ],
               "only_compatible": false
             }
@@ -275,8 +248,7 @@
                 "minecraft:protection",
                 "minecraft:blast_protection",
                 "minecraft:fire_protection",
-                "minecraft:projectile_protection",
-                "bro:scythe/soul_marker"
+                "minecraft:projectile_protection"
               ],
               "only_compatible": false
             },
@@ -284,8 +256,7 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:thorns",
-                "minecraft:unbreaking",
-                "bro:scythe/reverse_soulmosis"
+                "minecraft:unbreaking"
               ],
               "only_compatible": false
             }
@@ -303,8 +274,7 @@
                 "minecraft:protection",
                 "minecraft:blast_protection",
                 "minecraft:fire_protection",
-                "minecraft:projectile_protection",
-                "bro:scythe/soul_marker"
+                "minecraft:projectile_protection"
               ],
               "only_compatible": false
             },
@@ -312,8 +282,7 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:thorns",
-                "minecraft:swift_sneak",
-                "bro:scythe/soul_zooming"
+                "minecraft:swift_sneak"
               ],
               "only_compatible": false
             },
@@ -321,8 +290,7 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:unbreaking",
-                "minecraft:mending",
-                "bro:scythe/reverse_soulmosis"
+                "minecraft:mending"
               ],
               "only_compatible": false
             }
@@ -340,8 +308,7 @@
                 "minecraft:protection",
                 "minecraft:blast_protection",
                 "minecraft:projectile_protection",
-                "minecraft:protection",
-                "bro:scythe/soul_marker"
+                "minecraft:protection"
               ],
               "only_compatible": false
             },
@@ -349,8 +316,7 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:thorns",
-                "minecraft:unbreaking",
-                "bro:scythe/soul_zooming"
+                "minecraft:unbreaking"
               ],
               "only_compatible": false
             },
@@ -358,8 +324,7 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:feather_falling",
-                "minecraft:frost_walker",
-                "bro:scythe/reverse_soulmosis"
+                "minecraft:frost_walker"
               ],
               "only_compatible": false
             }
@@ -406,8 +371,7 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:sharpness",
-                "minecraft:smite",
-                "bro:scythe/soul_super"
+                "minecraft:smite"
               ],
               "only_compatible": false
             },
@@ -415,8 +379,7 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:sweeping_edge",
-                "minecraft:fire_aspect",
-                "bro:scythe/soul_offense"
+                "minecraft:fire_aspect"
               ],
               "only_compatible": false
             },
@@ -424,8 +387,7 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:knockback",
-                "minecraft:looting",
-                "bro:scythe/soul_siphon"
+                "minecraft:looting"
               ],
               "only_compatible": false
             }
@@ -441,8 +403,7 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:sharpness",
-                "minecraft:efficiency",
-                "bro:scythe/soul_offense"
+                "minecraft:efficiency"
               ],
               "only_compatible": false
             },
@@ -450,8 +411,7 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:looting",
-                "minecraft:fortune",
-                "bro:scythe/soul_super"
+                "minecraft:fortune"
               ],
               "only_compatible": false
             },
@@ -459,8 +419,7 @@
               "function": "minecraft:enchant_randomly",
               "options": [
                 "minecraft:breach",
-                "minecraft:fire_aspect",
-                "bro:scythe/soul_siphon"
+                "minecraft:fire_aspect"
               ],
               "only_compatible": false
             }
@@ -475,7 +434,6 @@
             {
               "function": "minecraft:enchant_randomly",
               "options": [
-                "bro:scythe/projectile/soul_fauxshot",
                 "minecraft:mending",
                 "minecraft:unbreaking"
               ],
@@ -484,7 +442,6 @@
             {
               "function": "minecraft:enchant_randomly",
               "options": [
-                "bro:scythe/projectile/soul_auspiciousness",
                 "minecraft:multishot",
                 "minecraft:piercing"
               ],
@@ -493,7 +450,6 @@
             {
               "function": "minecraft:enchant_randomly",
               "options": [
-                "bro:scythe/projectile/soul_precissive",
                 "minecraft:quick_charge"
               ],
               "only_compatible": false
@@ -509,7 +465,6 @@
             {
               "function": "minecraft:enchant_randomly",
               "options": [
-                "bro:scythe/projectile/soul_infection",
                 "minecraft:power",
                 "minecraft:punch"
               ],
@@ -518,7 +473,6 @@
             {
               "function": "minecraft:enchant_randomly",
               "options": [
-                "bro:scythe/projectile/soul_adversity",
                 "minecraft:infinity",
                 "minecraft:flame"
               ],
@@ -527,7 +481,6 @@
             {
               "function": "minecraft:enchant_randomly",
               "options": [
-                "bro:scythe/projectile/soul_precissive",
                 "minecraft:mending",
                 "minecraft:unbreaking"
               ],

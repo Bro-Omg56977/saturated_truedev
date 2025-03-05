@@ -11,19 +11,6 @@
           "quality": 1,
           "functions": [
             {
-              "function": "minecraft:set_name",
-              "target": "item_name",
-              "name": "Prime's Diary"
-            },
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": [
-                "bro:magic/vindication",
-                "bro:magic/evocation"
-              ],
-              "only_compatible": false
-            },
-            {
               "function": "minecraft:set_lore",
               "lore": [
                 {
