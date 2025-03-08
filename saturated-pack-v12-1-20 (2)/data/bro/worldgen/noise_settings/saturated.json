@@ -375,9 +375,9 @@
               "type": "minecraft:condition",
               "if_true": {
                 "type": "minecraft:noise_threshold",
-                "noise": "minecraft:calcite",
-                "min_threshold": -0.0015,
-                "max_threshold": 0.0015
+                "noise": "minecraft:surface",
+                "min_threshold": 0.115,
+                "max_threshold": 0.185
               },
               "then_run": {
                 "type": "minecraft:condition",
@@ -400,9 +400,9 @@
               "type": "minecraft:condition",
               "if_true": {
                 "type": "minecraft:noise_threshold",
-                "noise": "minecraft:calcite",
-                "min_threshold": -0.0025,
-                "max_threshold": 0.0025
+                "noise": "minecraft:surface",
+                "min_threshold": 0.115,
+                "max_threshold": 0.185
               },
               "then_run": {
                 "type": "minecraft:condition",
@@ -425,9 +425,9 @@
               "type": "minecraft:condition",
               "if_true": {
                 "type": "minecraft:noise_threshold",
-                "noise": "minecraft:calcite",
-                "min_threshold": -0.0075,
-                "max_threshold": 0.0075
+                "noise": "minecraft:surface",
+                "min_threshold": 0.1,
+                "max_threshold": 0.2
               },
               "then_run": {
                 "type": "minecraft:condition",
@@ -450,9 +450,9 @@
               "type": "minecraft:condition",
               "if_true": {
                 "type": "minecraft:noise_threshold",
-                "noise": "minecraft:calcite",
-                "min_threshold": -0.0125,
-                "max_threshold": 0.0125
+                "noise": "minecraft:surface",
+                "min_threshold": 0,
+                "max_threshold": 0.3
               },
               "then_run": {
                 "type": "minecraft:condition",
@@ -475,9 +475,9 @@
               "type": "minecraft:condition",
               "if_true": {
                 "type": "minecraft:noise_threshold",
-                "noise": "minecraft:calcite",
-                "min_threshold": -0.0015,
-                "max_threshold": 0.0015
+                "noise": "minecraft:surface",
+                "min_threshold": 0.115,
+                "max_threshold": 0.185
               },
               "then_run": {
                 "type": "minecraft:condition",
@@ -500,9 +500,9 @@
               "type": "minecraft:condition",
               "if_true": {
                 "type": "minecraft:noise_threshold",
-                "noise": "minecraft:calcite",
-                "min_threshold": -0.0025,
-                "max_threshold": 0.0025
+                "noise": "minecraft:surface",
+                "min_threshold": 0.115,
+                "max_threshold": 0.185
               },
               "then_run": {
                 "type": "minecraft:condition",
@@ -525,9 +525,9 @@
               "type": "minecraft:condition",
               "if_true": {
                 "type": "minecraft:noise_threshold",
-                "noise": "minecraft:calcite",
-                "min_threshold": -0.0075,
-                "max_threshold": 0.0075
+                "noise": "minecraft:surface",
+                "min_threshold": 0.1,
+                "max_threshold": 0.2
               },
               "then_run": {
                 "type": "minecraft:condition",
@@ -550,9 +550,9 @@
               "type": "minecraft:condition",
               "if_true": {
                 "type": "minecraft:noise_threshold",
-                "noise": "minecraft:calcite",
-                "min_threshold": -0.0125,
-                "max_threshold": 0.0125
+                "noise": "minecraft:surface",
+                "min_threshold": 0,
+                "max_threshold": 0.3
               },
               "then_run": {
                 "type": "minecraft:condition",
@@ -580,7 +580,7 @@
           "type": "minecraft:biome",
           "biome_is": [
             "bro:saturated/oceanic",
-                        "bro:saturated/oceanic_deep"
+            "bro:saturated/oceanic_deep"
           ]
         },
         "then_run": {

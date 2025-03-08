@@ -13,13 +13,13 @@
     "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
     "mood_sound": {
       "sound": "minecraft:ambient.soul_sand_valley.additions",
-      "tick_delay": 0,
-      "block_search_extent": 0,
-      "offset": 0
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
     },
     "additions_sound": {
       "sound": "minecraft:ambient.soul_sand_valley.additions",
-      "tick_chance": 0
+      "tick_chance": 0.0111
     },
     "music": {
       "sound": "minecraft:music.overworld.deep_dark",
@@ -137,7 +137,8 @@
     [
       "minecraft:monster_room",
       "minecraft:monster_room_deep",
-      "bro:cave/blood_glass_placer"
+      "bro:cave/blood_glass_placer",
+            "bro:cave/desert_grass"
     ],
     [
       "minecraft:ore_gravel",

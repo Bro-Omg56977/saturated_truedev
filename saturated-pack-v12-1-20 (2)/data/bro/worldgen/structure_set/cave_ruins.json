@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "bro:cave_ruins",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 537266712,
+      "spacing": 14,
+      "separation": 10
+    }
+  }
+  

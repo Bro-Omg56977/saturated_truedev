@@ -1,0 +1,33 @@
+{
+    "type": "minecraft:random_patch",
+    "config": {
+      "tries": 24,
+      "xz_spread": 4,
+      "y_spread": 1,
+      "feature": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "type": "minecraft:weighted_state_provider",
+              "entries": [
+                {
+                  "weight": 2,
+                  "data": {
+                    "Name": "minecraft:crimson_roots"
+                  }
+                },
+                {
+                  "weight": 1,
+                  "data": {
+                    "Name": "minecraft:crimson_fungus"
+                  }
+                }
+              ]
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": []
+      }
+    }
+  }

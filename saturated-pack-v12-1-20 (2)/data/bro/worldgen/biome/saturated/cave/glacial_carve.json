@@ -179,7 +179,8 @@
        "bro:cave/glacial/glacial_light"
       ],
       [
-        "minecraft:glow_lichen"
+        "minecraft:glow_lichen",
+        "bro:cave/grass_hopefully"
       ],
       [
         "bro:cave/glacial/glacial_delta",

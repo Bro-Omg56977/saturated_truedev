@@ -172,7 +172,8 @@
     ],
     [
       "minecraft:glow_lichen",
-      "minecraft:patch_tall_grass_2"
+      "minecraft:patch_tall_grass_2",
+      "bro:cave/grass_hopefully"
     ],
     [
       "minecraft:ore_gravel",

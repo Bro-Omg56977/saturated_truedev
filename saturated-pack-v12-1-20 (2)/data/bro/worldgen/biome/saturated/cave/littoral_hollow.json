@@ -202,7 +202,8 @@
         "minecraft:glow_lichen",
         "bro:cave/watery/glass1",
         "bro:cave/watery/glass2",
-       "bro:cave/watery/light"
+       "bro:cave/watery/light",
+             "bro:cave/grass_hopefully"
       ],
       [
         "bro:cave/watery/tree_placer"

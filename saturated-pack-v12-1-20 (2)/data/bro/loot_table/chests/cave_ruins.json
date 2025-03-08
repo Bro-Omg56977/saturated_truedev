@@ -1,0 +1,178 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:map",
+            "weight": 1,
+            "quality": 10,
+            "functions": [
+              {
+                "function": "minecraft:exploration_map",
+                "destination": "bro:tower_of_sloni",
+                "decoration": "red_x",
+                "zoom": 4,
+                "skip_existing_chunks": false
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": "Sloni Exploration Map"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:map_color": 9717688
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:map",
+            "weight": 1,
+            "quality": 10,
+            "functions": [
+              {
+                "function": "minecraft:exploration_map",
+                "destination": "bro:babel_coven_hideout",
+                "decoration": "red_x",
+                "zoom": 4,
+                "skip_existing_chunks": false
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": "Babel Explorer Map"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:map_color": 5378440
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:map",
+            "weight": 1,
+            "quality": 10,
+            "functions": [
+              {
+                "function": "minecraft:exploration_map",
+                "destination": "bro:sinkhole_ruins",
+                "decoration": "red_x",
+                "zoom": 4,
+                "skip_existing_chunks": false
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": "Sinkhole Explorer Map"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:map",
+            "weight": 10,
+            "quality": 1,
+            "functions": [
+              {
+                "function": "minecraft:exploration_map",
+                "destination": "bro:skeletown",
+                "decoration": "red_x",
+                "zoom": 4,
+                "skip_existing_chunks": false
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": "Skeletown Explorer Map"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:map",
+            "weight": 10,
+            "quality": 1,
+            "functions": [
+              {
+                "function": "minecraft:exploration_map",
+                "destination": "bro:villantis",
+                "decoration": "red_x",
+                "zoom": 4,
+                "skip_existing_chunks": false
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": "Villantic Explorer Map"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:map",
+            "weight": 10,
+            "quality": 1,
+            "functions": [
+              {
+                "function": "minecraft:exploration_map",
+                "destination": "bro:sewer",
+                "decoration": "red_x",
+                "zoom": 4,
+                "skip_existing_chunks": false
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": "Sewer Explorer Map"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "type": "minecraft:uniform",
+          "min": 4,
+          "max": 8
+        },
+        "bonus_rolls": {
+          "type": "minecraft:uniform",
+          "min": 4,
+          "max": 8
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:string",
+            "weight": 50,
+            "quality": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:gunpowder",
+            "weight": 25,
+            "quality": 1
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cobweb",
+            "weight": 25,
+            "quality": 1
+          }
+        ]
+      }
+    ]
+  }
