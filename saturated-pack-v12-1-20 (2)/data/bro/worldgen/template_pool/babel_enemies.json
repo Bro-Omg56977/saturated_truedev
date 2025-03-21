@@ -2,6 +2,16 @@
     "fallback": "minecraft:empty",
     "elements": [
       {
+        "weight": 18,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:babel/noenemy",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
         "weight": 3,
         "element": {
           "element_type": "minecraft:single_pool_element",
@@ -42,7 +52,7 @@
         }
       },
       {
-        "weight": 3,
+        "weight": 1,
         "element": {
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
@@ -52,7 +62,7 @@
         }
       },
       {
-        "weight": 3,
+        "weight": 1,
         "element": {
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
@@ -62,7 +72,7 @@
         }
       },
       {
-        "weight": 3,
+        "weight": 2,
         "element": {
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
@@ -72,7 +82,7 @@
         }
       },
       {
-        "weight": 3,
+        "weight": 2,
         "element": {
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
