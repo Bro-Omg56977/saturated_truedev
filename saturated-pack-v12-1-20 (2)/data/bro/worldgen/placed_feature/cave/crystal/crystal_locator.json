@@ -1,5 +1,5 @@
 {
-    "feature": "bro:cave/glacial/glacial_locator",
+    "feature": "bro:cave/crystal/crystal_locator",
     "placement": [
       {
         "type": "minecraft:count",

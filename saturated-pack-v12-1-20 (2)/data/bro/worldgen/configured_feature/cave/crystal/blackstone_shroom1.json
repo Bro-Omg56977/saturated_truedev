@@ -2,10 +2,7 @@
     "type": "minecraft:huge_fungus",
     "config": {
       "hat_state": {
-        "Name": "minecraft:blackstone",
-        "Properties": {
-          "axis": "y"
-        }
+        "Name": "minecraft:blackstone"
       },
       "decor_state": {
         "Name": "minecraft:glowstone"

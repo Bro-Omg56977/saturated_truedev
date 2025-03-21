@@ -29,9 +29,9 @@
     },
     "particle": {
       "options": {
-        "type": "minecraft:white_ash"
+        "type": "minecraft:underwater"
       },
-      "probability": 0.115
+      "probability": 0.058
     }
   },
   "spawners": {

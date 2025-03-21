@@ -1,7 +1,6 @@
 {
   "type": "minecraft:jigsaw",
   "biomes": [
-    "bro:saturated/stranger_flats",
     "bro:saturated/the_enchanted"
   ],
   "step": "surface_structures",

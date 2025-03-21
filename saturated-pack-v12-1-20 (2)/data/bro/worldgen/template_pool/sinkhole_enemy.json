@@ -2,7 +2,17 @@
     "fallback": "minecraft:empty",
     "elements": [
       {
-        "weight": 1,
+        "weight": 16,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "bro:sinkhole/noenemy",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 3,
         "element": {
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
@@ -12,7 +22,7 @@
         }
       },
       {
-        "weight": 1,
+        "weight": 3,
         "element": {
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
@@ -42,7 +52,7 @@
         }
       },
       {
-        "weight": 1,
+        "weight": 3,
         "element": {
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
@@ -52,7 +62,7 @@
         }
       },
       {
-        "weight": 1,
+        "weight": 3,
         "element": {
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",

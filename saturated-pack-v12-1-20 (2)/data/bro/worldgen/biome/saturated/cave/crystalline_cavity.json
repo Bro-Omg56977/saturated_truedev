@@ -31,7 +31,7 @@
         "options": {
           "type": "minecraft:enchant"
         },
-        "probability": 0.115
+        "probability": 0.058
       }
     },
     "spawners": {
@@ -130,6 +130,9 @@
     },
     "features": [
       [
+        "bro:cave/crystal/crystal_locator"
+      ],
+      [
         "minecraft:lake_lava_underground",
         "minecraft:lake_lava_surface"
       ],
@@ -181,7 +184,6 @@
         "minecraft:disk_clay",
         "minecraft:disk_gravel"
       ],
-      [],
       [
         "bro:cave/crystal/blackstone_shroom0",
         "bro:cave/crystal/blackstone_shroom1"
