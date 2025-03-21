@@ -19,6 +19,10 @@ github with source code and dev versions: https://github.com/Bro-Omg56977/satura
 
 youtube channel: https://www.youtube.com/channel/UCHfUM22UfLiTycQ5hHglDeg
 
+KO-FI: https://ko-fi.com/broomg
+
+PATREON: https://www.patreon.com/c/BroOmg
+
 _______________________________________________________________________________________________________________________________________________________________________
 NOTE ABOUT POTENTIAL COMPATABILITY AND/OR INCOMPATABILITIES:
 
@@ -70,3 +74,7 @@ INSPIRATIONS AND CREDITS:
 -Ercerus, i got inspired by their building style from their illager fortresses
 -Sunken city from cataclysm
 -Sluda builds' futuristic city building
+
+_______________________________________________________________________________________________________________________________________________________________________
+THANK YOU TO MY PATREON AND/OR KO-FI SUPPORTERS:
+-none yet :(
