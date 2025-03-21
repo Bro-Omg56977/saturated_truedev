@@ -27,7 +27,8 @@
       "target_condition": {
         "type": "minecraft:matching_blocks",
         "blocks": [
-          "minecraft:dark_oak_log"
+          "minecraft:dark_oak_log",
+          "minecraft:stripped_dark_oak_log"
         ]
       },
       "allowed_search_condition": {
