@@ -1,0 +1,1 @@
+execute as @e[tag=brobursteffect] run tag @s remove brobursteffect
