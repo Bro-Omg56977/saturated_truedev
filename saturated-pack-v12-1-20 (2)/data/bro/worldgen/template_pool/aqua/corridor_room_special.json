@@ -6,7 +6,7 @@
         "element": {
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
-          "location": "bro:aqua/corridor_start",
+          "location": "bro:aqua/corridor_rom_special",
           "override_liquid_settings": "ignore_waterlogging",
           "processors": "minecraft:empty"
         }

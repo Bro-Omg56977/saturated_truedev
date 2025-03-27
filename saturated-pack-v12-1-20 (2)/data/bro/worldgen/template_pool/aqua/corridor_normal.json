@@ -2,12 +2,12 @@
     "fallback": "minecraft:empty",
     "elements": [
       {
-        "weight": 4,
+        "weight": 16,
         "element": {
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
-          "location": "bro:aqua/corridor_normal_transition",
-          "override_liquid_settings": "apply_waterlogging",
+          "location": "bro:aqua/corridor_room",
+          "override_liquid_settings": "ignore_waterlogging",
           "processors": "minecraft:empty"
         }
       },
@@ -17,7 +17,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
           "location": "bro:aqua/corridor_straight",
-          "override_liquid_settings": "apply_waterlogging",
+          "override_liquid_settings": "ignore_waterlogging",
           "processors": "minecraft:empty"
         }
       },
@@ -27,7 +27,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
           "location": "bro:aqua/corridor_turn_1",
-          "override_liquid_settings": "apply_waterlogging",
+          "override_liquid_settings": "ignore_waterlogging",
           "processors": "minecraft:empty"
         }
       },
@@ -37,7 +37,7 @@
           "element_type": "minecraft:single_pool_element",
           "projection": "rigid",
           "location": "bro:aqua/corridor_turn_2",
-          "override_liquid_settings": "apply_waterlogging",
+          "override_liquid_settings": "ignore_waterlogging",
           "processors": "minecraft:empty"
         }
       }
