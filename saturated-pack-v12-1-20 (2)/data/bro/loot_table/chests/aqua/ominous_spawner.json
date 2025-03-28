@@ -1,0 +1,604 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 1,
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:ominous_trial_key",
+            "weight": 9,
+            "quality": 15,
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Sinkhole Ruins Ominous Trial Key",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "A strange key used in the Sinkhole Ruins",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:trial_key",
+            "weight": 9,
+            "quality": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "target": "item_name",
+                "name": {
+                  "text": "Sinkhole Ruins Trial Key",
+                  "bold": true,
+                  "italic": false,
+                  "underlined": false,
+                  "strikethrough": false,
+                  "obfuscated": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "A strange key used in the Sinkhole Ruins",
+                    "bold": false,
+                    "italic": false,
+                    "underlined": false,
+                    "strikethrough": false,
+                    "obfuscated": false
+                  }
+                ],
+                "mode": "replace_all"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:white_shulker_box",
+            "weight": 1,
+            "quality": 8,
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": "Stateus' convenient storage"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_chestplate",
+            "weight": 1,
+            "quality": 8,
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": "Dat1 Chestplate"
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": "minecraft:projectile_protection",
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": "minecraft:protection",
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": "minecraft:unbreaking",
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": "minecraft:thorns",
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": "minecraft:blast_protection",
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": "minecraft:fire_protection",
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": "minecraft:mending",
+                "only_compatible": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "weight": 1,
+            "quality": 10,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "bro:scythe/projectile/soul_deus",
+                  "bro:scythe/projectile/soul_bacterio",
+                  "bro:scythe/soul_cleave",
+                  "bro:scythe/soul_dirty_fireworks",
+                  "bro:scythe/trident/soul_runic"
+                ],
+                "only_compatible": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_scrap",
+            "weight": 1,
+            "quality": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_golden_apple",
+            "weight": 1,
+            "quality": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 2,
+                  "max": 6
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:totem_of_undying",
+            "weight": 1,
+            "quality": 6
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_ingot",
+            "weight": 1,
+            "quality": 6,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "weight": 1,
+            "quality": 6,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:protection",
+                  "minecraft:blast_protection",
+                  "minecraft:fire_protection",
+                  "minecraft:projectile_protection"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:sharpness",
+                  "minecraft:smite",
+                  "minecraft:power"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:knockback",
+                  "minecraft:punch"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:flame",
+                  "minecraft:fire_aspect"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:looting",
+                  "minecraft:fortune"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": "minecraft:unbreaking",
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": "minecraft:mending",
+                "only_compatible": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_helmet",
+            "weight": 1,
+            "quality": 6,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:protection",
+                  "minecraft:blast_protection",
+                  "minecraft:fire_protection",
+                  "minecraft:projectile_protection",
+                  "bro:scythe/soul_marker"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:thorns",
+                  "minecraft:unbreaking",
+                  "bro:scythe/soul_zooming"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:aqua_affinity",
+                  "minecraft:respiration",
+                  "bro:scythe/reverse_soulmosis"
+                ],
+                "only_compatible": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_chestplate",
+            "weight": 1,
+            "quality": 6,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:protection",
+                  "minecraft:blast_protection",
+                  "minecraft:fire_protection",
+                  "minecraft:projectile_protection",
+                  "bro:scythe/soul_marker"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:thorns",
+                  "minecraft:unbreaking",
+                  "bro:scythe/reverse_soulmosis"
+                ],
+                "only_compatible": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_leggings",
+            "weight": 1,
+            "quality": 6,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:protection",
+                  "minecraft:blast_protection",
+                  "minecraft:fire_protection",
+                  "minecraft:projectile_protection",
+                  "bro:scythe/soul_marker"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:thorns",
+                  "minecraft:swift_sneak",
+                  "bro:scythe/soul_zooming"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:unbreaking",
+                  "minecraft:mending",
+                  "bro:scythe/reverse_soulmosis"
+                ],
+                "only_compatible": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_boots",
+            "weight": 1,
+            "quality": 6,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:protection",
+                  "minecraft:blast_protection",
+                  "minecraft:projectile_protection",
+                  "minecraft:protection",
+                  "bro:scythe/soul_marker"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:thorns",
+                  "minecraft:unbreaking",
+                  "bro:scythe/soul_zooming"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:feather_falling",
+                  "minecraft:frost_walker",
+                  "bro:scythe/reverse_soulmosis"
+                ],
+                "only_compatible": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_pickaxe",
+            "weight": 1,
+            "quality": 6,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:efficiency"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:fortune",
+                  "minecraft:silk_touch"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:mending",
+                  "minecraft:unbreaking"
+                ],
+                "only_compatible": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_sword",
+            "weight": 1,
+            "quality": 6,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:sharpness",
+                  "minecraft:smite",
+                  "bro:scythe/soul_super"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:sweeping_edge",
+                  "minecraft:fire_aspect",
+                  "bro:scythe/soul_offense"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:knockback",
+                  "minecraft:looting",
+                  "bro:scythe/soul_siphon"
+                ],
+                "only_compatible": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_axe",
+            "weight": 1,
+            "quality": 6,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:sharpness",
+                  "minecraft:efficiency",
+                  "bro:scythe/soul_offense"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:looting",
+                  "minecraft:fortune",
+                  "bro:scythe/soul_super"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:breach",
+                  "minecraft:fire_aspect",
+                  "bro:scythe/soul_siphon"
+                ],
+                "only_compatible": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:crossbow",
+            "weight": 1,
+            "quality": 8,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "bro:scythe/projectile/soul_fauxshot",
+                  "minecraft:mending",
+                  "minecraft:unbreaking"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "bro:scythe/projectile/soul_auspiciousness",
+                  "minecraft:multishot",
+                  "minecraft:piercing"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "bro:scythe/projectile/soul_precissive",
+                  "minecraft:quick_charge"
+                ],
+                "only_compatible": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow",
+            "weight": 1,
+            "quality": 8,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "bro:scythe/projectile/soul_infection",
+                  "minecraft:power",
+                  "minecraft:punch"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "bro:scythe/projectile/soul_adversity",
+                  "minecraft:infinity",
+                  "minecraft:flame"
+                ],
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "bro:scythe/projectile/soul_precissive",
+                  "minecraft:mending",
+                  "minecraft:unbreaking"
+                ],
+                "only_compatible": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_hoe",
+            "weight": 1,
+            "quality": 10,
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "target": "item_name",
+                "name": "Scythe of Reaping"
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": "minecraft:sweeping_edge",
+                "only_compatible": false
+              },
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": "bro:scythe/soul_scythe",
+                "only_compatible": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

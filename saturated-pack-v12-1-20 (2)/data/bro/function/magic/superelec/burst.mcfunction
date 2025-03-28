@@ -1,10 +1,10 @@
 # Display particles when effect
 
-execute as @e[tag=brobursteffect] at @s run particle minecraft:electric_spark ~0.2 ~1 ~0.2 0 0 0 1 10
+execute as @e[tag=brobursteffect] at @s run particle minecraft:glow ~0.2 ~1 ~0.2 0 0 0 1 10
 execute as @e[tag=brobursteffect] at @s run particle minecraft:end_rod ~0.2 ~1 ~-0.2 0 0 0 1 10
-execute as @e[tag=brobursteffect] at @s run particle minecraft:electric_spark ~-0.2 ~1 ~0.2 0 0 0 1 10
+execute as @e[tag=brobursteffect] at @s run particle minecraft:glow ~-0.2 ~1 ~0.2 0 0 0 1 10
 execute as @e[tag=brobursteffect] at @s run particle minecraft:end_rod ~-0.2 ~1 ~-0.2 0 0 0 1 10
-execute as @e[tag=brobursteffect] at @s run particle minecraft:electric_spark ~ ~1 ~ 0 0 0 1 10
+execute as @e[tag=brobursteffect] at @s run particle minecraft:glow ~ ~1 ~ 0 0 0 1 10
 execute as @e[tag=brobursteffect] at @s run particle minecraft:end_rod ~ ~1.4 ~ 0 0 0 1 10
 execute as @e[tag=brobursteffect] at @s run particle minecraft:flash ~ ~0.6 ~ 0 0 0 0.01 10
 

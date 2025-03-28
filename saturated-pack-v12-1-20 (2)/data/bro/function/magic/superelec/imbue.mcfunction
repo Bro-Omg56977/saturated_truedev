@@ -1,9 +1,9 @@
 # Display particles when effect
 
 particle minecraft:end_rod ~0.2 ~1 ~0.2 0 0 0 0.1 10
-particle minecraft:end_rod ~-0.2 ~1 ~0.2 0 0 0 0.1 10
+particle minecraft:glow ~-0.2 ~1 ~0.2 0 0 0 0.1 10
 particle minecraft:end_rod ~ ~1 ~ 0 0 0 0.1 10
-particle minecraft:end_rod ~ ~0.6 ~ 0 0 0 0.1 10
+particle minecraft:glow ~ ~0.6 ~ 0 0 0 0.1 10
 
 #additional sound effects
 playsound minecraft:entity.enderman.teleport ambient @a[distance=..30] ~ ~ ~ 1 0.1
