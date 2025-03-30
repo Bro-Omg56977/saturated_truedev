@@ -1,0 +1,1 @@
+execute as @e[tag=sat.dimensional.disorintation] run tag @s remove sat.dimensional.disorintation

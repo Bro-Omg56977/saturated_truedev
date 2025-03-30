@@ -14,7 +14,7 @@
               {
                 "function": "minecraft:set_name",
                 "name": {
-                  "text": "Sinkhole Ruins Ominous Trial Key",
+                  "text": "Aquarius Ominous Key",
                   "bold": true,
                   "italic": false,
                   "underlined": false,
@@ -26,7 +26,7 @@
                 "function": "minecraft:set_lore",
                 "lore": [
                   {
-                    "text": "A strange key used in the Sinkhole Ruins",
+                    "text": "An odd key used in the Aquarius Digsite",
                     "bold": false,
                     "italic": false,
                     "underlined": false,

@@ -15,7 +15,7 @@
                 "function": "minecraft:set_name",
                 "target": "item_name",
                 "name": {
-                  "text": "Sinkhole Ruins Trial Key",
+                  "text": "Aquarius Vault Key",
                   "bold": true,
                   "italic": false,
                   "underlined": false,
@@ -27,7 +27,7 @@
                 "function": "minecraft:set_lore",
                 "lore": [
                   {
-                    "text": "A strange key used in the Sinkhole Ruins",
+                    "text": "An odd key used in the Aquarius Digsite",
                     "bold": false,
                     "italic": false,
                     "underlined": false,
