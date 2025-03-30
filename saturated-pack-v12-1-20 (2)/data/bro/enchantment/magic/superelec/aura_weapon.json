@@ -1,18 +1,11 @@
 {
-    "description": "Master Spell: Galvanized Edge",
+    "description": "§fMaster Spell: Galvanized Edge",
     "exclusive_set": [
       "bro:scythe/sickle",
       "bro:magic/vindication"
     ],
     "supported_items": "#minecraft:enchantable/weapon",
-    "primary_items": [
-      "minecraft:wooden_hoe",
-      "minecraft:stone_hoe",
-      "minecraft:golden_hoe",
-      "minecraft:iron_hoe",
-      "minecraft:diamond_hoe",
-      "minecraft:netherite_hoe"
-    ],
+    "primary_items": "#minecraft:enchantable/weapon",
     "weight": 1,
     "max_level": 1,
     "min_cost": {

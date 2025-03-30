@@ -1,0 +1,35 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:waxed_oxidized_copper_grate",
+        "count": 1
+      },
+      "title": "Dreadful Feeling",
+      "description": "Find the site of an Aquarius Digsite",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "bro:saturated/my_eyes",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "bro:aquarius_digsite",
+                  "dimension": "bro:saturated"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

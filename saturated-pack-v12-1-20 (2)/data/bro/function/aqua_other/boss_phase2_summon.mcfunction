@@ -1,0 +1,9 @@
+#sound effects
+summon piglin_brute ~ ~ ~ {CustomName:'[{"text":"electri-psycher"}]',Health:40,Glowing:1b,PersistenceRequired:1b,Silent:1b,Tags:["sat.aquaboss.phase2"],Team:sunken,active_effects:[{id:invisibility,duration:999999,amplifier:0,show_particles:0b},{id:fire_resistance,duration:999999,amplifier:0,show_particles:0b}],HandItems:[{id:iron_sword,components:{enchantments:{"bro:magic/superelec/imbue_weapon":1,"bro:enemy/boss/aqua/phase2_weapon":1}},count:1},{}],HandDropChances:[0f,0f],ArmorItems:[{id:iron_boots,components:{trim:{pattern:rib,material:copper},enchantments:{protection:1}}},{id:iron_leggings,components:{trim:{pattern:rib,material:copper},enchantments:{protection:1}}},{id:diamond_chestplate,components:{trim:{pattern:rib,material:copper},enchantments:{levels:{"bro:enemy/boss/aqua/phase2_armor":1,"bro:magic/superelec/imbue_armor":1,protection:2}},unbreakable:{}},count:1},{id:iron_helmet,components:{trim:{pattern:rib,material:copper},enchantments:{protection:1}}}],ArmorDropChances:[0f,0f,0f,0f],attributes:[{id:max_health,base:40f}]}
+playsound minecraft:entity.firework_rocket.blast hostile @a[distance=..32] ~ ~ ~ 1 .5
+playsound minecraft:entity.firework_rocket.blast hostile @a[distance=..32] ~ ~ ~ 1 .5
+playsound minecraft:entity.generic.explode hostile @a[distance=..32] ~ ~ ~ 3 .7
+playsound minecraft:entity.generic.explode hostile @a[distance=..32] ~ ~ ~ 3 2
+playsound minecraft:entity.wither.hurt hostile @a[distance=..32] ~ ~ ~ 3 .5
+playsound minecraft:entity.wither.hurt hostile @a[distance=..32] ~ ~ ~ 3 .5
+playsound minecraft:item.totem.use hostile @a[distance=..32] ~ ~ ~ 3 .5

@@ -13,6 +13,31 @@
             "functions": [
               {
                 "function": "minecraft:exploration_map",
+                "destination": "bro:aquarius_digsite",
+                "decoration": "red_x",
+                "zoom": 4,
+                "skip_existing_chunks": false
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": "Aquarius Exploration Map"
+              },
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:map_color": 752759
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:map",
+            "weight": 1,
+            "quality": 1,
+            "functions": [
+              {
+                "function": "minecraft:exploration_map",
                 "destination": "bro:tower_of_sloni",
                 "decoration": "red_x",
                 "zoom": 4,

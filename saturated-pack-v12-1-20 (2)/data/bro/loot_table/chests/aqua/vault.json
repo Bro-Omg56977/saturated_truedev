@@ -6,6 +6,60 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "name": "minecraft:enchanted_book",
+          "weight": 1,
+          "quality": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Sogged Tome",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": false
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:magic/superelec/bomb_armor",
+                "bro:magic/superelec/aoe_armor"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "weight": 1,
+          "quality": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Strange Wand",
+                "bold": false,
+                "italic": false,
+                "underlined": false,
+                "strikethrough": false,
+                "obfuscated": false
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "bro:magic/superelec/bomb_weapon",
+                "bro:magic/superelec/aoe_weapon"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:diamond_axe",
           "weight": 1,
           "quality": 8,
@@ -68,13 +122,23 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:white_shulker_box",
+          "name": "minecraft:netherite_hoe",
           "weight": 1,
           "quality": 8,
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": "Stateus' convenient storage"
+              "name": "paradigm's Paradox"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:unbreaking",
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "minecraft:mending",
+              "only_compatible": false
             }
           ]
         },
@@ -254,7 +318,8 @@
                 "minecraft:blast_protection",
                 "minecraft:fire_protection",
                 "minecraft:projectile_protection",
-                "bro:scythe/soul_marker"
+                "bro:scythe/soul_marker",
+                "bro:magic/superelec/burst_armor"
               ],
               "only_compatible": false
             },
@@ -263,7 +328,8 @@
               "options": [
                 "minecraft:thorns",
                 "minecraft:unbreaking",
-                "bro:scythe/soul_zooming"
+                "bro:scythe/soul_zooming",
+                "bro:magic/superelec/imbue_armor"
               ],
               "only_compatible": false
             },
@@ -291,7 +357,8 @@
                 "minecraft:blast_protection",
                 "minecraft:fire_protection",
                 "minecraft:projectile_protection",
-                "bro:scythe/soul_marker"
+                "bro:scythe/soul_marker",
+                "bro:magic/superelec/burst_armor"
               ],
               "only_compatible": false
             },
@@ -300,7 +367,8 @@
               "options": [
                 "minecraft:thorns",
                 "minecraft:unbreaking",
-                "bro:scythe/reverse_soulmosis"
+                "bro:scythe/reverse_soulmosis",
+                "bro:magic/superelec/imbue_armor"
               ],
               "only_compatible": false
             }
@@ -319,7 +387,8 @@
                 "minecraft:blast_protection",
                 "minecraft:fire_protection",
                 "minecraft:projectile_protection",
-                "bro:scythe/soul_marker"
+                "bro:scythe/soul_marker",
+                "bro:magic/superelec/burst_armor"
               ],
               "only_compatible": false
             },
@@ -328,7 +397,8 @@
               "options": [
                 "minecraft:thorns",
                 "minecraft:swift_sneak",
-                "bro:scythe/soul_zooming"
+                "bro:scythe/soul_zooming",
+                "bro:magic/superelec/imbue_armor"
               ],
               "only_compatible": false
             },
@@ -356,7 +426,8 @@
                 "minecraft:blast_protection",
                 "minecraft:projectile_protection",
                 "minecraft:protection",
-                "bro:scythe/soul_marker"
+                "bro:scythe/soul_marker",
+                "bro:magic/superelec/burst_armor"
               ],
               "only_compatible": false
             },
@@ -365,7 +436,8 @@
               "options": [
                 "minecraft:thorns",
                 "minecraft:unbreaking",
-                "bro:scythe/soul_zooming"
+                "bro:scythe/soul_zooming",
+                "bro:magic/superelec/imbue_armor"
               ],
               "only_compatible": false
             },
@@ -422,7 +494,8 @@
               "options": [
                 "minecraft:sharpness",
                 "minecraft:smite",
-                "bro:scythe/soul_super"
+                "bro:scythe/soul_super",
+                "bro:magic/superelec/burst_weapon"
               ],
               "only_compatible": false
             },
@@ -431,7 +504,8 @@
               "options": [
                 "minecraft:sweeping_edge",
                 "minecraft:fire_aspect",
-                "bro:scythe/soul_offense"
+                "bro:scythe/soul_offense",
+                "bro:magic/superelec/imbue_weapon"
               ],
               "only_compatible": false
             },
@@ -457,7 +531,8 @@
               "options": [
                 "minecraft:sharpness",
                 "minecraft:efficiency",
-                "bro:scythe/soul_offense"
+                "bro:scythe/soul_offense",
+                "bro:magic/superelec/imbue_weapon"
               ],
               "only_compatible": false
             },
@@ -466,7 +541,8 @@
               "options": [
                 "minecraft:looting",
                 "minecraft:fortune",
-                "bro:scythe/soul_super"
+                "bro:scythe/soul_super",
+                "bro:magic/superelec/burst_weapon"
               ],
               "only_compatible": false
             },
@@ -492,7 +568,8 @@
               "options": [
                 "bro:scythe/projectile/soul_fauxshot",
                 "minecraft:mending",
-                "minecraft:unbreaking"
+                "minecraft:unbreaking",
+                "bro:magic/superelec/burst_weapon"
               ],
               "only_compatible": false
             },
@@ -501,7 +578,8 @@
               "options": [
                 "bro:scythe/projectile/soul_auspiciousness",
                 "minecraft:multishot",
-                "minecraft:piercing"
+                "minecraft:piercing",
+                "bro:magic/superelec/imbue_weapon"
               ],
               "only_compatible": false
             },
@@ -526,7 +604,8 @@
               "options": [
                 "bro:scythe/projectile/soul_infection",
                 "minecraft:power",
-                "minecraft:punch"
+                "minecraft:punch",
+                "bro:magic/superelec/imbue_weapon"
               ],
               "only_compatible": false
             },
@@ -535,7 +614,8 @@
               "options": [
                 "bro:scythe/projectile/soul_adversity",
                 "minecraft:infinity",
-                "minecraft:flame"
+                "minecraft:flame",
+                "bro:magic/superelec/burst_weapon"
               ],
               "only_compatible": false
             },
@@ -545,6 +625,37 @@
                 "bro:scythe/projectile/soul_precissive",
                 "minecraft:mending",
                 "minecraft:unbreaking"
+              ],
+              "only_compatible": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "weight": 1,
+          "quality": 10,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:loyalty",
+                "minecraft:channeling",
+                "minecraft:riptide",
+                "minecraft:impaling",
+                "bro:scythe/trident/soul_hysteria",
+                "bro:magic/superelec/burst_weapon"
+              ],
+              "only_compatible": false
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:unbreaking",
+                "minecraft:mending",
+                "bro:scythe/trident/soul_liquify",
+                "bro:scythe/trident/soul_conduit",
+                "bro:magic/superelec/imbue_weapon"
               ],
               "only_compatible": false
             }
