@@ -1,6 +1,6 @@
 #particles ig
-execute as @e[type=marker,tag=sat.aquaboss.summonphase2.placeholder] at @s run particle end_rod ~ ~ ~ 0 0 0 .2 10 force @a[distance=..32]
-execute as @e[type=marker,tag=sat.aquaboss.summonphase2.placeholder] at @s run particle glow ~ ~ ~ 0 0 0 .2 10 force @a[distance=..32]
+execute as @e[type=marker,tag=sat.aquaboss.summonphase2.placeholder] at @s run particle end_rod ~ ~ ~ 0 0 0 .02 15 force @a[distance=..32]
+execute as @e[type=marker,tag=sat.aquaboss.summonphase2.placeholder] at @s run particle glow ~ ~ ~ 0 0 0 .02 15 force @a[distance=..32]
 
 
 #if successfully detects a block
@@ -12,7 +12,7 @@ execute as @e[tag=sat.aquaboss.summonphase2.placeholder,type=marker] at @s run e
 execute as @e[tag=sat.aquaboss.summonphase2.placeholder,type=marker] at @s run execute at @s unless block ~ ~-.25 ~ air run kill @s
 
 
-execute as @e[tag=sat.aquaboss.summonphase2.placeholder,type=marker] at @s run execute at @s run tp @s ~ ~-.5 ~
+execute as @e[tag=sat.aquaboss.summonphase2.placeholder,type=marker] at @s run execute at @s run tp @s ~ ~-.30 ~
 execute as @e[tag=sat.aquaboss.summonphase2.placeholder,type=marker] at @s run execute at @s run playsound entity.glow_squid.ambient hostile @a[distance=..80] ~ ~ ~ 8 0.5
 
 execute as @e[tag=sat.aquaboss.summonphase2.placeholder,type=marker] at @s run schedule function bro:aqua_other/boss_phase2_summontick 0.25s replace

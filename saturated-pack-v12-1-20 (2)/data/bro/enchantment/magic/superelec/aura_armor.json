@@ -25,7 +25,7 @@
     },
     "anvil_cost": 4,
     "slots": [
-      "mainhand"
+      "armor"
     ],
     "effects": {
       "minecraft:post_attack": [
