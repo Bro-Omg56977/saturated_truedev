@@ -15,19 +15,17 @@ execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.
 
 #randomizes a scoreboard
 execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run scoreboard objectives add sat.elecaura.randombuffchance dummy
-execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run execute store result score @s sat.elecaura.randombuffchance run random value 1..10
+execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run execute store result score @s sat.elecaura.randombuffchance run random value 1..8
 
 #gives a random effect based on scoreboard
 execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run execute if score @s sat.elecaura.randombuffchance matches 1 run effect give @s saturation 2 1 true
-execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run execute if score @s sat.elecaura.randombuffchance matches 2 run effect give @s absorption 2 1 true
-execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run execute if score @s sat.elecaura.randombuffchance matches 3 run effect give @s haste 2 1 true
-execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run execute if score @s sat.elecaura.randombuffchance matches 4 run effect give @s jump_boost 2 1 true
-execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run execute if score @s sat.elecaura.randombuffchance matches 5 run effect give @s regeneration 2 1 true
-execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run execute if score @s sat.elecaura.randombuffchance matches 6 run effect give @s fire_resistance 2 1 true
-execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run execute if score @s sat.elecaura.randombuffchance matches 7 run effect give @s water_breathing 2 1 true
-execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run execute if score @s sat.elecaura.randombuffchance matches 8 run effect give @s invisibility 2 1 true
-execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run execute if score @s sat.elecaura.randombuffchance matches 9 run effect give @s dolphins_grace 2 1 true
-execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run execute if score @s sat.elecaura.randombuffchance matches 10 run effect give @s conduit_power 2 1 true
+execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run execute if score @s sat.elecaura.randombuffchance matches 2 run effect give @s haste 2 1 true
+execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run execute if score @s sat.elecaura.randombuffchance matches 3 run effect give @s jump_boost 2 1 true
+execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run execute if score @s sat.elecaura.randombuffchance matches 4 run effect give @s fire_resistance 2 1 true
+execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run execute if score @s sat.elecaura.randombuffchance matches 5 run effect give @s water_breathing 2 1 true
+execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run execute if score @s sat.elecaura.randombuffchance matches 6 run effect give @s invisibility 2 1 true
+execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run execute if score @s sat.elecaura.randombuffchance matches 7 run effect give @s dolphins_grace 2 1 true
+execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run execute if score @s sat.elecaura.randombuffchance matches 8 run effect give @s conduit_power 2 1 true
 
 #restarts the function
 execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run schedule function bro:magic/superelec/aura_buffer1 5 replace

@@ -28,7 +28,7 @@
           "affected": "victim",
           "effect": {
             "type": "minecraft:run_function",
-            "function": "bro:magic/superelec/boss_phase2"
+            "function": "bro:magic/superelec/boss_phase3"
           }
         }
       ]

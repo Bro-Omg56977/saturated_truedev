@@ -13,5 +13,6 @@ execute as @e[type=marker,limit=1,tag=sat.aquaboss.keyinteract.readdlater,sort=n
 execute as @e[type=interaction,limit=1,tag=sat.aquaboss.keyinteract.interaction.readdlater,sort=nearest] at @s run tag @s add sat.aquaboss.keyinteract.interaction
 execute as @e[type=interaction,limit=1,tag=sat.aquaboss.keyinteract.interaction.readdlater,sort=nearest] at @s run tag @s remove sat.aquaboss.keyinteract.interaction.readdlater
 
+execute as @e[type=marker,tag=sat.superelec.auradecor] run kill @s
 advancement revoke @s only bro:boss/aqua/detectphase3death
 advancement grant @s only bro:saturated/electric_avenue

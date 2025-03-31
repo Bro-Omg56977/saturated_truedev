@@ -7,6 +7,6 @@ execute as @e[type=marker,tag=sat.superelec.aoe] at @s run particle minecraft:gl
 execute as @e[type=marker,tag=sat.superelec.aoe] at @s run particle minecraft:end_rod ~-0.2 ~1 ~-0.2 0 0 0 0.1 10
 execute as @e[type=marker,tag=sat.superelec.aoe] at @s run particle minecraft:glow ~ ~1.4 ~ 0 0 0 0.1 10
 
-execute as @e[type=marker,tag=sat.superelec.aoe] at @s unless score @s sat.other matches 10.. run schedule function bro:magic/superelec/aoe_tick 0.5s replace
-execute as @e[type=marker,tag=sat.superelec.aoe] at @s if score @s sat.other matches 10.. run function bro:magic/superelec/aoe1
-execute as @e[type=marker,tag=sat.superelec.aoe] at @s if score @s sat.other matches 10.. run scoreboard players reset @s sat.other
+execute as @e[type=marker,tag=sat.superelec.aoe] at @s unless score @s sat.other matches 18.. run schedule function bro:magic/superelec/aoe_tick 0.5s replace
+execute as @e[type=marker,tag=sat.superelec.aoe] at @s if score @s sat.other matches 18.. run function bro:magic/superelec/aoe1
+execute as @e[type=marker,tag=sat.superelec.aoe] at @s if score @s sat.other matches 18.. run scoreboard players reset @s sat.other

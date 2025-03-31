@@ -1,5 +1,6 @@
 #plays sounds to player and removes key
-playsound minecraft:block.vault.reject_rewarded_player ambient @s ~ ~ ~ 2 0.5
+playsound minecraft:entity.witch.ambient ambient @s ~ ~ ~ 2 0.5
+playsound minecraft:block.respawn_anchor.deplete ambient @s ~ ~ ~ 2 0.5
 item replace entity @s weapon.mainhand with air 1 
 
 #functions for the arena marker

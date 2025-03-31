@@ -1,7 +1,9 @@
 #summons a marker which gets a random teleport
 execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run summon marker ~ ~1 ~ {Tags:["sat.superelec.auradecor"],Rotation:[0f,-180f]}
+execute as @e[tag=sat.elecaura.user] at @s run execute if score @s sat.elecaura.0 matches 1 run summon marker ~ ~1 ~ {Tags:["sat.superelec.auradecor","sat.superelec.auradecor2"],Rotation:[0f,-180f]}
 execute as @e[type=marker,tag=sat.superelec.auradecor,tag=!sat.superelec.auradecor.modified] at @s run data modify entity @e[tag=sat.superelec.auradecor,sort=nearest,limit=1,type=marker] data.Owner set from entity @s UUID
-execute as @e[type=marker,tag=sat.superelec.auradecor,tag=!sat.superelec.auradecor.modified] at @s run spreadplayers ~ ~ 0 20 false @e[type=marker,tag=sat.superelec.auradecor,tag=!sat.superelec.auradecor.modified]
+execute as @e[type=marker,tag=sat.superelec.auradecor,tag=!sat.superelec.auradecor.modified] at @s run spreadplayers ~ ~ 0 20 false @e[type=marker,tag=sat.superelec.auradecor,tag=!sat.superelec.auradecor.modified,tag=!sat.superelec.auradecor]
+execute as @e[type=marker,tag=sat.superelec.auradecor2,tag=!sat.superelec.auradecor.modified] at @s run spreadplayers ~ ~ 0 20 under 0 false @e[type=marker,tag=sat.superelec.auradecor,tag=!sat.superelec.auradecor.modified]
 
 #summons a small and short lasting particle cloud
 execute as @e[type=marker,tag=sat.superelec.auradecor,tag=!sat.superelec.auradecor.modified] at @s run summon area_effect_cloud ~ ~.25 ~ {Particle:{type:electric_spark},Radius:1,RadiusPerTick:0.02,Duration:100,potion_contents:{custom_effects:[{id:wither,duration:100,amplifier:1,show_particles:1b,show_icon:1b}]}}

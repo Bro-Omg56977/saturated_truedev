@@ -15,7 +15,6 @@ execute as @e[tag=brobursteffect] at @s run playsound minecraft:block.furnace.fi
 execute as @e[tag=brobursteffect] at @s run playsound minecraft:entity.ender_dragon.ambient ambient @a[distance=..30] ~ ~ ~ 1 2
 
 #simple damage
-execute as @e[tag=brobursteffect] at @s run effect give @e[tag=!atomsliceeffects,type=!#minecraft:undead,distance=..6] minecraft:instant_damage 1 1 false
 execute as @e[tag=brobursteffect] at @s run execute as @e[distance=..5,tag=!brobursteffect] run damage @s 6 lightning_bolt
 
 #final part ig

@@ -19,4 +19,4 @@ execute as @e[tag=sat.aquaboss.activate.4] at @s run execute if score @s sat.aqu
 execute as @e[tag=sat.aquaboss.activate.4] at @s run execute if score @s sat.aquaboss.attackchances matches 4 run function bro:magic/superelec/aura_start
 
 #generic remove function
-execute if entity @s[tag=sat.aquaboss.activate.4] run function bro:magic/superelec/boss_removetags
+execute as @e[tag=sat.aquaboss.activate.4] at @s run function bro:magic/superelec/boss_removetags
