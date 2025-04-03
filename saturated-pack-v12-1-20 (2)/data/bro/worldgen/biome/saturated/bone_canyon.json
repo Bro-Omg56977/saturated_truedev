@@ -34,9 +34,9 @@
     ],
     "particle": {
       "options": {
-        "type": "minecraft:enchant"
+        "type": "minecraft:crimson_spore"
       },
-      "probability": 0.005
+      "probability": 0.0005
     }
   },
   "spawners": {

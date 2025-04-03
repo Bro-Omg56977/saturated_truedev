@@ -63,6 +63,24 @@
                 "bro:magic/superelec/aoe_armor"
               ],
               "only_compatible": false
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "A strange magic-related item.",
+                  "type": "text"
+                },
+                {
+                  "text": "It seems to be able to create an unpredicable,",
+                  "type": "text"
+                },
+                {
+                  "text": "electric-based spell that goes on armor."
+                }
+              ],
+              "mode": "replace_all"
             }
           ]
         },
@@ -90,6 +108,25 @@
                 "bro:magic/superelec/aoe_weapon"
               ],
               "only_compatible": false
+            },
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                {
+                  "text": "A strange magic-related item.",
+                  "type": "text"
+                },
+                {
+                  "text": "It seems to be infused with an unpredicable,",
+                  "type": "text"
+                },
+                {
+                  "text": "electric-based spell.",
+                  "type": "text"
+                }
+              ],
+              "mode": "replace_all"
             }
           ]
         },

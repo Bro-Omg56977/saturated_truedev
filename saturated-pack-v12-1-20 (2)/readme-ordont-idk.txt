@@ -72,8 +72,11 @@ INSPIRATIONS AND CREDITS:
 -discord user Latte gave me a couple of ideas i may or may not use in the future
 -Nova and Whity from nova structures, they let me use their cartographer code
 -Ercerus, i got inspired by their building style from their illager fortresses
--Sunken city from cataclysm
+-Sinkhole ruins is inspired from the Sunken city from cataclysm
 -Sluda builds' futuristic city building
+-limesplatus, i looked into some of their Ultris code to figure out how to make some of my effects look cool
+-Hardel, looked into their Yggrasil code to figure out how to use an interaction entity
+-pandora.rar and pandora.avi arg series
 
 _______________________________________________________________________________________________________________________________________________________________________
 THANK YOU TO MY PATREON AND/OR KO-FI SUPPORTERS:
