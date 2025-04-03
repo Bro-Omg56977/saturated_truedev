@@ -21,17 +21,12 @@
         "sound": "minecraft:ambient.basalt_deltas.additions",
         "tick_chance": 0.0111
       },
-      "music": [
-        {
-          "weight": 1,
-          "data": {
-            "sound": "minecraft:music.overworld.lush_caves",
-            "min_delay": 12000,
-            "max_delay": 24000,
-            "replace_current_music": false
-          }
-        }
-      ],
+      "music": {
+        "sound": "minecraft:music.overworld.dripstone_caves",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": false
+      },
       "particle": {
         "options": {
           "type": "minecraft:snowflake"
@@ -156,11 +151,13 @@
       "water_creature": []
     },
     "spawn_costs": {},
-    "carvers": [
-      "minecraft:cave",
-      "minecraft:canyon",
-      "minecraft:cave_extra_underground"
-    ],
+    "carvers": {
+      "air": [
+        "minecraft:cave",
+        "minecraft:cave_extra_underground",
+        "minecraft:canyon"
+      ]
+    },
     "features": [
       [
         "bro:cave/glacial/glacial_locator"

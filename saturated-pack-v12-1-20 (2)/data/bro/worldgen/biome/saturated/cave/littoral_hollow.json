@@ -21,17 +21,12 @@
         "sound": "minecraft:ambient.basalt_deltas.additions",
         "tick_chance": 0.0111
       },
-      "music": [
-        {
-          "weight": 1,
-          "data": {
-            "sound": "minecraft:music.overworld.lush_caves",
-            "min_delay": 12000,
-            "max_delay": 24000,
-            "replace_current_music": false
-          }
-        }
-      ],
+      "music": {
+        "sound": "minecraft:music.overworld.dripstone_caves",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": false
+      },
       "particle": {
         "options": {
           "type": "minecraft:ash"
@@ -176,11 +171,13 @@
       ]
     },
     "spawn_costs": {},
-    "carvers": [
-      "minecraft:cave",
-      "minecraft:canyon",
-      "minecraft:cave_extra_underground"
-    ],
+    "carvers": {
+      "air": [
+        "minecraft:cave",
+        "minecraft:cave_extra_underground",
+        "minecraft:canyon"
+      ]
+    },
     "features": [
       [
         "minecraft:lake_lava_underground",
@@ -234,8 +231,8 @@
         "minecraft:disk_sand",
         "minecraft:disk_clay",
         "minecraft:disk_gravel",
-        "bro:cave/watery/watery_iron",
-        "bro:cave/watery/watery_iron_deep"
+                "bro:cave/watery/watery_iron",
+                "bro:cave/watery/watery_iron_deep"
       ],
       [],
       [],

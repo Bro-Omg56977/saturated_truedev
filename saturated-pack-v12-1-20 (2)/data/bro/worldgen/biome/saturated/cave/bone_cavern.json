@@ -21,17 +21,12 @@
       "sound": "minecraft:ambient.soul_sand_valley.additions",
       "tick_chance": 0.0111
     },
-    "music": [
-      {
-        "weight": 1,
-        "data": {
-          "sound": "minecraft:music.overworld.deep_dark",
-          "min_delay": 12000,
-          "max_delay": 24000,
-          "replace_current_music": false
-        }
-      }
-    ],
+    "music": {
+      "sound": "minecraft:music.overworld.deep_dark",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
     "particle": {
       "options": {
         "type": "minecraft:crimson_spore"
