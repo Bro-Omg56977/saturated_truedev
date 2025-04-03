@@ -19,7 +19,7 @@ execute as @e[tag=markereffect] at @s run particle minecraft:trial_omen ~ ~1 ~ 0
 execute as @e[tag=markereffect] at @s run particle minecraft:soul_fire_flame ~ ~1.4 ~ 0 0 0 0.15 10
 execute as @e[tag=markereffect] at @s run particle minecraft:trial_omen ~ ~0.6 ~ 0 0 0 0.15 10
 execute as @e[tag=markereffect] at @s run tag @e[tag=!markereffect,distance=..20] add markereffects
-execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:weakness 20 4 false
+execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:weakness 20 3 false
 execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:slowness 20 4 false
 execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:mining_fatigue 20 4 false
 execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:hunger 20 4 false

@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:cyan_shulker_box",
+        "count": 1
+      },
+      "title": "Electric Avenue",
+      "description": "Kill all phases of The Electri-Psycher",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "bro:saturated/my_eyes",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:wither",
+                "nbt": "{Tags:['satthistagdoesnotexist']}"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }

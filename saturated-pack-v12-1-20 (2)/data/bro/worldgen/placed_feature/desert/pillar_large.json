@@ -21,8 +21,27 @@
 			}
 		},
 		{
-			"type": "minecraft:heightmap",
-			"heightmap": "OCEAN_FLOOR_WG"
+			"type": "heightmap",
+			"heightmap": "WORLD_SURFACE"
+		},
+		{
+			"type": "minecraft:block_predicate_filter",
+			"predicate": {
+				"type": "minecraft:matching_blocks",
+				"offset": [
+					0,
+					-1,
+					0
+				],
+				"blocks": [
+					"minecraft:red_sand",
+          "minecraft:red_sandstone",
+          "minecraft:smooth_red_sandstone",
+          "minecraft:cut_red_sandstone",
+          "minecraft:chiseled_red_sandstone",
+		  "orange_terracotta"
+				]
+			}
 		},
 		{
 			"type": "minecraft:biome"

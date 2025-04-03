@@ -529,6 +529,18 @@
               "only_compatible": false
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ominous_bottle",
+          "weight": 1,
+          "quality": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_ominous_bottle_amplifier",
+              "amplifier": 1
+            }
+          ]
         }
       ]
     }

@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "bro:aquarius_digsite",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 90,
+      "separation": 18,
+      "salt": 24838509
+    }
+  }

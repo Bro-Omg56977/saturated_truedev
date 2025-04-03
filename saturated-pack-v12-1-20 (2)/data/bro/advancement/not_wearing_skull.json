@@ -9,5 +9,5 @@
 			}
 		}]}
 	}},
-	"rewards": { "function": "bro:not_wearing_skull" }
+	"rewards": { "function": "bro:placeholder" }
 }

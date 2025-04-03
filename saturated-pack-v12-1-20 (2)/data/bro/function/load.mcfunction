@@ -9,6 +9,7 @@ scoreboard objectives add sattp dummy
 scoreboard objectives add soul_count dummy
 scoreboard objectives add vampirism_chance dummy
 scoreboard objectives add sat.invoid dummy
+scoreboard objectives add sat.other dummy
 team add illeite
 team add coven
 team add invader
@@ -16,3 +17,4 @@ team add golemancy
 team add skeletown
 team add villantis
 team add sinkhole
+team add sunken

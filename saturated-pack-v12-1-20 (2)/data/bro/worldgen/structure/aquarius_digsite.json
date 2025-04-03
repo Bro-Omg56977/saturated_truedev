@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": [
+      "bro:saturated/sunken_depths"
+    ],
+    "step": "underground_structures",
+    "spawn_overrides": {},
+    "terrain_adaptation": "beard_box",
+    "start_pool": "bro:aqua/entrance_top",
+    "size": 20,
+    "start_height": {
+      "absolute": 0
+    },
+    "max_distance_from_center": 116,
+    "use_expansion_hack": false,
+    "project_start_to_heightmap": "OCEAN_FLOOR_WG",
+    "pool_aliases": []
+  }

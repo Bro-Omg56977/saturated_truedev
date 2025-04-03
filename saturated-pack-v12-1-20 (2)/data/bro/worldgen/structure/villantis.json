@@ -1,8 +1,7 @@
 {
     "type": "minecraft:jigsaw",
     "biomes": [
-      "bro:saturated/oceanic_deep",
-            "bro:saturated/sunken_depths"
+      "bro:saturated/oceanic_deep"
     ],
     "step": "surface_structures",
     "spawn_overrides": {},

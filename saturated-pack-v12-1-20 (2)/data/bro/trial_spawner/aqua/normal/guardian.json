@@ -1,0 +1,113 @@
+{
+    "spawn_potentials": [
+      {
+        "weight": 1,
+        "data": {
+          "entity": {
+            "Glowing": true,
+            "ArmorItems": [
+              {
+                "id": "minecraft:chainmail_boots",
+                "count": 1,
+                "components": {
+                  "unbreakable": {},
+                  "trim": {
+                    "material": "minecraft:copper",
+                    "pattern": "minecraft:eye"
+                  }
+                }
+              },
+              {
+                "id": "minecraft:chainmail_leggings",
+                "count": 1,
+                "components": {
+                  "unbreakable": {},
+                  "trim": {
+                    "material": "minecraft:copper",
+                    "pattern": "minecraft:eye"
+                  }
+                }
+              },
+              {
+                "id": "minecraft:iron_chestplate",
+                "count": 1,
+                "components": {
+                  "unbreakable": {},
+                  "trim": {
+                    "material": "minecraft:copper",
+                    "pattern": "minecraft:eye"
+                  }
+                }
+              },
+              {
+                "id": "minecraft:chainmail_helmet",
+                "count": 1,
+                "components": {
+                  "unbreakable": {},
+                  "trim": {
+                    "material": "minecraft:copper",
+                    "pattern": "minecraft:eye"
+                  }
+                }
+              }
+            ],
+            "Team": "sunken",
+            "Tags": [
+              "sat.sunken"
+            ],
+            "id": "minecraft:guardian",
+            "attributes": [
+              {
+                "base": 20,
+                "id": "max_health"
+              }
+            ],
+            "ArmorDropChances": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "HandDropChances": [
+              0,
+              0
+            ],
+            "HandItems": [
+              {
+                "id": "wooden_sword",
+                "count": 1,
+                "components": {
+                  "enchantments": {
+                    "levels": {
+                      "bro:magic/superelec/imbue_weapon": 1
+                    }
+                  },
+                  "unbreakable": {}
+                }
+              },
+              {}
+            ],
+            "PersistenceRequired": true,
+            "active_effects": [
+              {
+                "amplifier": 1,
+                "id": "fire_resistance",
+                "ambient": false,
+                "show_particles": false,
+                "duration": 999999
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "simultaneous_mobs": 4.000010013580322,
+    "ticks_between_spawn": 20,
+    "total_mobs": 10.000010013580322,
+    "loot_tables_to_eject": [
+      {
+        "weight": 1,
+        "data": "bro:chests/aqua/spawner"
+      }
+    ]
+  }
