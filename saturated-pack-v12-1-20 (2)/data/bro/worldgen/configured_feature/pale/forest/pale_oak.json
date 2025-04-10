@@ -1,0 +1,122 @@
+{
+  "type": "minecraft:tree",
+  "config": {
+    "ignore_vines": true,
+    "force_dirt": false,
+    "minimum_size": {
+      "type": "minecraft:three_layers_feature_size",
+      "limit": 1,
+      "upper_limit": 1,
+      "lower_size": 1,
+      "middle_size": 1,
+      "upper_size": 2
+    },
+    "dirt_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:dirt"
+      }
+    },
+    "trunk_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 60,
+          "data": {
+            "Name": "minecraft:pale_oak_log",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:stripped_pale_oak_log",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        }
+      ]
+    },
+    "foliage_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 15,
+          "data": {
+            "Name": "minecraft:pale_oak_leaves",
+            "Properties": {
+              "distance": "7",
+              "persistent": "true",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "weight": 15,
+          "data": {
+            "Name": "minecraft:dark_oak_leaves",
+            "Properties": {
+              "persistent": "true",
+              "distance": "7",
+              "waterlogged": "false"
+            }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:pale_moss_block"
+          }
+        },
+        {
+          "weight": 30,
+          "data": {
+            "Name": "minecraft:air"
+          }
+        }
+      ]
+    },
+    "trunk_placer": {
+      "type": "minecraft:dark_oak_trunk_placer",
+      "base_height": 12,
+      "height_rand_a": 3,
+      "height_rand_b": 4
+    },
+    "foliage_placer": {
+      "type": "minecraft:dark_oak_foliage_placer",
+      "radius": 5,
+      "offset": 0
+    },
+    "decorators": [
+      {
+        "type": "minecraft:pale_moss",
+        "ground_probability": 0.8,
+        "leaves_probability": 0.15,
+        "trunk_probability": 0.4
+      },
+      {
+        "type": "minecraft:alter_ground",
+        "provider": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 2,
+              "data": {
+                "Name": "minecraft:pale_moss_block"
+              }
+            },
+            {
+              "weight": 1,
+              "data": {
+                "Name": "minecraft:grass_block"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

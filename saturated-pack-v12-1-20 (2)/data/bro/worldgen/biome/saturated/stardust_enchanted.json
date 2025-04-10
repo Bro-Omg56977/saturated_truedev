@@ -1,0 +1,192 @@
+{
+    "temperature": 0.7,
+    "downfall": 0.8,
+    "has_precipitation": true,
+    "temperature_modifier": "none",
+    "effects": {
+      "sky_color": 10393491,
+      "fog_color": 10393491,
+      "water_color": 8883574,
+      "water_fog_color": 3290416,
+      "grass_color": 10462620,
+      "foliage_color": 10462620,
+      "ambient_sound": "minecraft:ambient.warped_forest.loop",
+      "mood_sound": {
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions_sound": {
+        "sound": "minecraft:block.pale_hanging_moss.idle",
+        "tick_chance": 0.0111
+      },
+      "music": [
+        {
+          "weight": 1,
+          "data": {
+            "sound": "minecraft:music.overworld.flower_forest",
+            "min_delay": 12000,
+            "max_delay": 24000,
+            "replace_current_music": false
+          }
+        }
+      ],
+      "particle": {
+        "options": {
+          "type": "minecraft:end_rod"
+        },
+        "probability": 0.005
+      }
+    },
+    "spawners": {
+      "ambient": [
+        {
+          "type": "minecraft:bat",
+          "maxCount": 8,
+          "minCount": 8,
+          "weight": 10
+        }
+      ],
+      "axolotls": [],
+      "creature": [
+        {
+          "type": "minecraft:sheep",
+          "maxCount": 4,
+          "minCount": 4,
+          "weight": 12
+        },
+        {
+          "type": "minecraft:pig",
+          "maxCount": 4,
+          "minCount": 4,
+          "weight": 10
+        },
+        {
+          "type": "minecraft:chicken",
+          "maxCount": 4,
+          "minCount": 4,
+          "weight": 10
+        },
+        {
+          "type": "minecraft:cow",
+          "maxCount": 4,
+          "minCount": 4,
+          "weight": 8
+        }
+      ],
+      "misc": [],
+      "monster": [
+        {
+          "type": "minecraft:cave_spider",
+          "maxCount": 4,
+          "minCount": 4,
+          "weight": 100
+        },
+        {
+          "type": "minecraft:zombie",
+          "maxCount": 4,
+          "minCount": 4,
+          "weight": 100
+        },
+        {
+          "type": "minecraft:skeleton",
+          "maxCount": 4,
+          "minCount": 4,
+          "weight": 100
+        },
+        {
+          "type": "minecraft:creeper",
+          "maxCount": 4,
+          "minCount": 4,
+          "weight": 100
+        },
+        {
+          "type": "minecraft:slime",
+          "maxCount": 4,
+          "minCount": 4,
+          "weight": 100
+        },
+        {
+          "type": "minecraft:enderman",
+          "maxCount": 1,
+          "minCount": 1,
+          "weight": 15
+        }
+      ],
+      "underground_water_creature": [
+        {
+          "type": "minecraft:glow_squid",
+          "maxCount": 6,
+          "minCount": 4,
+          "weight": 10
+        }
+      ],
+      "water_ambient": [],
+      "water_creature": []
+    },
+    "spawn_costs": {},
+    "carvers": [
+      "minecraft:canyon",
+      "minecraft:cave",
+      "minecraft:cave_extra_underground"
+    ],
+    "features": [
+      [],
+      [],
+      [
+        "minecraft:monster_room",
+        "minecraft:monster_room_deep"
+      ],
+      [],
+      [
+        "minecraft:ore_gravel",
+        "minecraft:ore_andesite_upper",
+        "minecraft:ore_andesite_lower",
+        "minecraft:ore_tuff",
+        "minecraft:ore_coal_upper",
+        "minecraft:ore_coal_lower",
+        "minecraft:ore_iron_upper",
+        "minecraft:ore_iron_middle",
+        "minecraft:ore_iron_small",
+        "minecraft:ore_gold",
+        "minecraft:ore_gold_lower",
+        "minecraft:ore_redstone",
+        "minecraft:ore_redstone_lower",
+        "minecraft:ore_diamond",
+        "minecraft:ore_diamond_large",
+        "minecraft:ore_diamond_buried",
+        "minecraft:ore_lapis",
+        "minecraft:ore_lapis_buried",
+        "minecraft:ore_copper",
+        "minecraft:underwater_magma",
+        "minecraft:disk_sand",
+        "minecraft:disk_clay",
+        "minecraft:disk_gravel"
+      ],
+      [
+        "bro:pale/forest/mushrooms_placer",
+        "bro:pale/forest/pumpkin_placer"
+      ],
+      [
+        "bro:pale/forest/placer_test",
+        "bro:pale/forest/placer_two"
+      ],
+      [
+        "bro:pale/forest/fruit",
+        "bro:pale/forest/lantern_wip",
+        "bro:pale/forest/glass_pale1",
+        "bro:pale/forest/glass_pale2"
+      ],
+      [
+        "minecraft:freeze_top_layer"
+      ],
+      [
+        "minecraft:spring_water",
+        "minecraft:patch_tall_grass_2",
+        "minecraft:patch_grass_plain",
+        "minecraft:patch_waterlily"
+      ]
+    ]
+  }
+  
