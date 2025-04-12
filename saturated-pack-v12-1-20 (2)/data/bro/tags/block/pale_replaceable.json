@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:sculk_replaceable_world_gen",
+        "#minecraft:sculk_replaceable",
+        "#minecraft:dirt",
+      "minecraft:grass_block",
+      "minecraft:short_grass",
+      "minecraft:tall_grass",
+      "minecraft:pale_moss_block",
+      "minecraft:pale_hanging_moss",
+      "minecraft:pale_moss_carpet",
+      "minecraft:dark_oak_leaves",
+      "minecraft:air"
+    ]
+  }
+  

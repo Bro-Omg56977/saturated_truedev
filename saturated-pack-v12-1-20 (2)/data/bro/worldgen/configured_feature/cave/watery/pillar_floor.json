@@ -25,7 +25,7 @@
           {
             "weight": 1,
             "data": {
-              "Name": "minecraft:dirt"
+              "Name": "minecraft:grass_block"
             }
           }
         ]

@@ -3,8 +3,24 @@
   "config": {
     "features": [
       {
-        "chance": 1,
+        "chance": 0.5,
         "feature": "bro:pale/forest/pale_oak"
+      },
+      {
+        "chance": 0.125,
+        "feature": "bro:pale/forest/pale_oak_alt"
+      },
+      {
+        "chance": 0.125,
+        "feature": "bro:pale/forest/pale_oak_alt0"
+      },
+      {
+        "chance": 0.125,
+        "feature": "bro:pale/forest/pale_oak_alt1"
+      },
+      {
+        "chance": 0.125,
+        "feature": "bro:pale/forest/pale_oak_alt2"
       }
     ],
     "default": "bro:pale/forest/pale_oak"

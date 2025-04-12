@@ -35,8 +35,7 @@
 				],
 				"blocks": [
 					"minecraft:grass_block",
-					"minecraft:coarse_dirt",
-                    "minecraft:pale_moss_block"
+					"minecraft:coarse_dirt"
 				]
 			}
 		},

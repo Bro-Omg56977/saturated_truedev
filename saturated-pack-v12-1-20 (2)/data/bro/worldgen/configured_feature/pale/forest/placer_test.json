@@ -4,11 +4,7 @@
     "features": [
       {
         "feature": "bro:pale/forest/big_tree",
-        "chance": 0.07
-      },
-      {
-        "feature": "bro:pale/forest/patch_tree_patch",
-        "chance": 0.07
+        "chance": 0.15
       }
     ],
     "default": "bro:na"
