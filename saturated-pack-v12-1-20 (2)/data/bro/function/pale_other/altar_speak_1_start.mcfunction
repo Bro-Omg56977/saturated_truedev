@@ -1,0 +1,1 @@
+execute as @a[tag=sat.altar.theonewhointeracted] at @s run execute as @e[type=marker,limit=1,tag=sat.altar.interaction.marker.activated,sort=nearest,distance=..32] at @s run function bro:pale_other/altar_speak_1

@@ -1,0 +1,6 @@
+#even more particles, and changes the marker to "#"activated," increasing particle count and changing future interactions probably
+execute as @a[tag=sat.altar.theonewhointeracted] at @s run execute as @e[type=marker,limit=1,tag=sat.altar.interaction.marker,sort=nearest,distance=..32] at @s run playsound entity.wither.spawn ambient @a[distance=..32] ~ ~ ~ 1 0.5
+execute as @a[tag=sat.altar.theonewhointeracted] at @s run execute as @e[type=marker,limit=1,tag=sat.altar.interaction.marker,sort=nearest,distance=..32] at @s run function bro:pale_other/altar_activated_particleburst
+execute as @a[tag=sat.altar.theonewhointeracted] at @s run execute as @e[type=marker,limit=1,tag=sat.altar.interaction.marker,sort=nearest,distance=..32] at @s run function bro:pale_other/altar_changeinteractmarker
+
+execute as @a[tag=sat.altar.theonewhointeracted] at @s run execute as @e[type=marker,limit=1,tag=sat.altar.interaction.marker.activated,sort=nearest,distance=..32] at @s run schedule function bro:pale_other/altar_activate_speak2 4s replace

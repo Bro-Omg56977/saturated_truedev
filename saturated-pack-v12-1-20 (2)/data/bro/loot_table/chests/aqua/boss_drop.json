@@ -52,6 +52,10 @@
                 }
               ],
               "mode": "replace_all"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{sat.altar.importantitem:1}"
             }
           ],
           "conditions": []

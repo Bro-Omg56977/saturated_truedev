@@ -130,9 +130,9 @@
         "above_root_placement_chance": 0.5
       },
       "mangrove_root_placement": {
-        "max_root_width": 1,
-        "max_root_length": 1,
-        "random_skew_chance": 0,
+        "max_root_width": 2,
+        "max_root_length": 3,
+        "random_skew_chance": 0.1,
         "can_grow_through": [
           "minecraft:coarse_dirt"
         ],
