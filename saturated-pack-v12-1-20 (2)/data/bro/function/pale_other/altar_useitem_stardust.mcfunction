@@ -14,10 +14,10 @@ execute as @e[type=marker,limit=1,tag=sat.altar.interaction.marker,sort=nearest,
 
 #functions for the interaction entitymarker but for real
 execute as @e[type=marker,limit=1,tag=sat.altar.interaction.marker.activated,sort=nearest,distance=..32] at @s run function bro:pale_other/altar_activated_particleburst
-execute as @e[type=marker,limit=1,tag=sat.altar.interaction.marker.activated,sort=nearest,distance=..32] at @s run function bro:pale_other/altar_speak_root
+execute as @e[type=marker,limit=1,tag=sat.altar.interaction.marker.activated,sort=nearest,distance=..32] at @s run function bro:pale_other/altar_speak_root0
 
 #functions for the interaction entity
 execute as @e[type=interaction,limit=1,tag=sat.altar.interaction.entity,sort=nearest,distance=..32] at @s run function bro:pale_other/altar_interact_disable
 
 #revoke advancement to potentially redo the boss fight in the future
-advancement revoke @s only bro:pale/technical/altar_interact
+advancement revoke @s only bro:pale/technical/altar_interact_stardust

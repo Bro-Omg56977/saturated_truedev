@@ -12,7 +12,7 @@ execute if score @s sat.other matches 4 run tellraw @a[distance=..32] "§8§kThi
 execute if score @s sat.other matches 5 run tellraw @a[distance=..32] "§8§kOh yeah§r§8, §kyour reward§r§8."
 
 #entity gives player a rfeward
-setblock ~ ~-4 ~ minecraft:black_shulker_box{LootTable:"bro:chests/pale/altar_entity_drop"} destroy
+setblock ~ ~-4 ~ minecraft:white_shulker_box{LootTable:"bro:chests/pale/altar_entity_drop_stardust"} destroy
 
 #resets the interact
 execute as @e[type=interaction,tag=sat.altar.interaction.entity.readdlater] at @s run function bro:pale_other/altar_interact_enable
