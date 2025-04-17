@@ -1,0 +1,15 @@
+{
+    "structures": [
+      {
+        "structure": "bro:stardust_asylum",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "salt": 81513509,
+      "spacing": 38,
+      "separation": 18
+    }
+  }
+  
