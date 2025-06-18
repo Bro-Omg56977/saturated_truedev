@@ -20,6 +20,7 @@ execute as @e[tag=soulgathereffect] at @s run particle minecraft:soul_fire_flame
 execute as @e[tag=soulgathereffect] at @s run particle minecraft:sculk_soul ~ ~0.6 ~ 0 0 0 0.01 10
 execute as @e[tag=soulgathereffect] run scoreboard players add @s soul_count 1
 execute as @e[tag=soulgathereffect] run scoreboard players set @s[scores={soul_count=11..}] soul_count 10
+execute as @e[tag=soulgathereffect] run scoreboard players set @s[scores={soul_count=..-1}] soul_count 0
 execute if score @s soul_count matches 1 run title @s actionbar "§1Soul Count: 1"
 execute if score @s soul_count matches 2 run title @s actionbar "§9Soul Count: 2"
 execute if score @s soul_count matches 3 run title @s actionbar "§9Soul Count: 3"

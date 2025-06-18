@@ -1,113 +1,93 @@
 {
-    "spawn_potentials": [
-      {
-        "weight": 1,
-        "data": {
-          "entity": {
-            "Glowing": true,
-            "ArmorItems": [
-              {
-                "id": "minecraft:chainmail_boots",
-                "count": 1,
-                "components": {
-                  "unbreakable": {},
-                  "trim": {
-                    "material": "minecraft:copper",
-                    "pattern": "minecraft:eye"
-                  }
+  "spawn_potentials": [
+    {
+      "weight": 1,
+      "data": {
+        "entity": {
+          "Glowing": true,
+          "Team": "sunken",
+          "Tags": [
+            "sat.sunken"
+          ],
+          "id": "minecraft:drowned",
+          "attributes": [
+            {
+              "base": 20,
+              "id": "max_health"
+            }
+          ],
+          "equipment": {
+            "head": {
+              "id": "minecraft:chainmail_helmet",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:copper",
+                  "pattern": "minecraft:eye"
                 }
               },
-              {
-                "id": "minecraft:chainmail_leggings",
-                "count": 1,
-                "components": {
-                  "unbreakable": {},
-                  "trim": {
-                    "material": "minecraft:copper",
-                    "pattern": "minecraft:eye"
-                  }
+              "count": 1
+            },
+            "chest": {
+              "id": "minecraft:iron_chestplate",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:copper",
+                  "pattern": "minecraft:eye"
                 }
               },
-              {
-                "id": "minecraft:iron_chestplate",
-                "count": 1,
-                "components": {
-                  "unbreakable": {},
-                  "trim": {
-                    "material": "minecraft:copper",
-                    "pattern": "minecraft:eye"
-                  }
+              "count": 1
+            },
+            "legs": {
+              "id": "minecraft:chainmail_leggings",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:copper",
+                  "pattern": "minecraft:eye"
                 }
               },
-              {
-                "id": "minecraft:chainmail_helmet",
-                "count": 1,
-                "components": {
-                  "unbreakable": {},
-                  "trim": {
-                    "material": "minecraft:copper",
-                    "pattern": "minecraft:eye"
-                  }
-                }
-              }
-            ],
-            "Team": "sunken",
-            "Tags": [
-              "sat.sunken"
-            ],
-            "id": "minecraft:drowned",
-            "attributes": [
-              {
-                "base": 20,
-                "id": "max_health"
-              }
-            ],
-            "ArmorDropChances": [
-              0,
-              0,
-              0,
-              0
-            ],
-            "HandDropChances": [
-              0,
-              0
-            ],
-            "HandItems": [
-              {
-                "id": "stone_sword",
-                "count": 1,
-                "components": {
-                  "enchantments": {
-                    "levels": {
-                      "bro:magic/superelec/imbue_weapon": 1
-                    }
-                  },
-                  "unbreakable": {}
+              "count": 1
+            },
+            "feet": {
+              "id": "minecraft:chainmail_boots",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:copper",
+                  "pattern": "minecraft:eye"
                 }
               },
-              {}
-            ],
-            "PersistenceRequired": true,
-            "active_effects": [
-              {
-                "amplifier": 1,
-                "id": "fire_resistance",
-                "ambient": false,
-                "show_particles": false,
-                "duration": 999999
-              }
-            ]
-          }
+              "count": 1
+            },
+            "mainhand": {
+              "id": "minecraft:stone_sword",
+              "components": {
+                "minecraft:enchantments": {
+                  "bro:magic/superelec/imbue_weapon": 1
+                }
+              },
+              "count": 1
+            }
+          },
+          "PersistenceRequired": true,
+          "active_effects": [
+            {
+              "amplifier": 1,
+              "id": "fire_resistance",
+              "ambient": false,
+              "show_particles": false,
+              "duration": 999999
+            }
+          ]
         }
       }
-    ],
-    "simultaneous_mobs": 4.000010013580322,
-    "ticks_between_spawn": 20,
-    "total_mobs": 10.000010013580322,
-    "loot_tables_to_eject": [
-      {
-        "weight": 1,
-        "data": "bro:chests/aqua/spawner"
-      }
-    ]
-  }
+    }
+  ],
+  "simultaneous_mobs": 4.000010013580322,
+  "ticks_between_spawn": 20,
+  "total_mobs": 10.000010013580322,
+  "loot_tables_to_eject": [
+    {
+      "weight": 1,
+      "data": "bro:chests/aqua/spawner"
+    }
+  ]
+}
