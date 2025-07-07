@@ -10,6 +10,7 @@
     "water_fog_color": 4016465,
     "grass_color": 2385455,
     "foliage_color": 2385455,
+    "dry_foliage_color": 2385455,
     "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
     "mood_sound": {
       "sound": "minecraft:ambient.nether_wastes.mood",

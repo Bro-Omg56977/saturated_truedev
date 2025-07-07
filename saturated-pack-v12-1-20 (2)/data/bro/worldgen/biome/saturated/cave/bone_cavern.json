@@ -10,6 +10,7 @@
     "water_fog_color": 3014656,
     "grass_color": 8388608,
     "foliage_color": 9043968,
+    "dry_foliage_color": 8388608,
     "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
     "mood_sound": {
       "sound": "minecraft:ambient.soul_sand_valley.additions",
@@ -170,7 +171,11 @@
       "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "minecraft:patch_dead_bush_badlands",
+      "minecraft:patch_dry_grass_badlands",
+      "minecraft:patch_dry_grass_desert",
+      "minecraft:patch_bush"
     ],
     [],
     [],

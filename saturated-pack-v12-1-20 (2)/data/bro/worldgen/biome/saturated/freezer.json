@@ -9,6 +9,7 @@
     "water_fog_color": 2168894,
     "grass_color": 43690,
     "foliage_color": 43690,
+                "dry_foliage_color": 43690,
     "ambient_sound": "minecraft:ambient.warped_forest.loop",
     "mood_sound": {
       "sound": "minecraft:ambient.nether_wastes.mood",
@@ -171,7 +172,9 @@
       "minecraft:disk_gravel"
     ],
     [
-      "minecraft:spring_water"
+      "minecraft:spring_water",
+      "minecraft:patch_firefly_bush_near_water",
+      "minecraft:patch_bush"
     ],
     [
       "minecraft:freeze_top_layer"

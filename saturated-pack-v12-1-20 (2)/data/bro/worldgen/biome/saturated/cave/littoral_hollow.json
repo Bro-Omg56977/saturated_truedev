@@ -10,6 +10,7 @@
       "water_fog_color": 4016465,
       "grass_color": 4870731,
       "foliage_color": 4870731,
+      "dry_foliage_color": 4870731,
       "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
       "mood_sound": {
         "sound": "minecraft:ambient.nether_wastes.mood",
@@ -235,7 +236,12 @@
         "minecraft:disk_clay",
         "minecraft:disk_gravel",
         "bro:cave/watery/watery_iron",
-        "bro:cave/watery/watery_iron_deep"
+        "bro:cave/watery/watery_iron_deep",
+      "minecraft:patch_firefly_bush_near_water",
+      "minecraft:patch_bush",
+      "minecraft:patch_leaf_litter",
+      "minecraft:patch_firefly_bush_near_water_swamp",
+      "minecraft:patch_firefly_bush_swamp"
       ],
       [],
       [],

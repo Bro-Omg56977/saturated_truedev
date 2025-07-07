@@ -10,6 +10,7 @@
       "water_fog_color": 27571,
       "grass_color": 5635925,
       "foliage_color": 5635925,
+                  "dry_foliage_color": 5635925,
       "ambient_sound": "minecraft:ambient.underwater.loop",
       "mood_sound": {
         "sound": "minecraft:ambient.underwater.loop.additions",
@@ -203,7 +204,9 @@
       [
         "minecraft:spring_water",
         "minecraft:spring_lava",
-          "bro:icy/glass_icy"
+          "bro:icy/glass_icy",
+      "minecraft:patch_firefly_bush_near_water",
+      "minecraft:patch_bush"
       ],
       [
         "minecraft:freeze_top_layer"

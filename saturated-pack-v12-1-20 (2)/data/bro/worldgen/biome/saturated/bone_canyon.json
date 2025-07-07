@@ -10,6 +10,7 @@
     "water_fog_color": 3086852,
     "grass_color": 10967553,
     "foliage_color": 10967553,
+    "dry_foliage_color": 10967553,
     "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
     "mood_sound": {
       "sound": "minecraft:ambient.soul_sand_valley.mood",
@@ -169,7 +170,10 @@
       "minecraft:spring_water",
       "minecraft:spring_lava",
       "minecraft:patch_cactus_desert",
-      "minecraft:patch_dead_bush_badlands"
+      "minecraft:patch_dead_bush_badlands",
+      "minecraft:patch_dry_grass_badlands",
+      "minecraft:patch_dry_grass_desert",
+      "minecraft:patch_bush"
     ],
     [
       "minecraft:freeze_top_layer"

@@ -10,6 +10,7 @@
       "water_fog_color": 9674921,
       "grass_color": 15334388,
       "foliage_color": 16777215,
+      "dry_foliage_color": 15334388,
       "ambient_sound": "minecraft:ambient.soul_sand_valley.loop",
       "mood_sound": {
         "sound": "minecraft:ambient.nether_wastes.mood",
@@ -216,7 +217,10 @@
         "minecraft:underwater_magma",
         "minecraft:disk_sand",
         "minecraft:disk_clay",
-        "minecraft:disk_gravel"
+        "minecraft:disk_gravel",
+      "minecraft:patch_firefly_bush_near_water",
+      "minecraft:patch_bush",
+      "minecraft:patch_leaf_litter"
       ],
       [
         "bro:cave/glacial/tree_placer"

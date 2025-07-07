@@ -8,6 +8,7 @@
     "water_fog_color": 990997,
     "grass_color": 0,
     "foliage_color": 0,
+        "dry_foliage_color": 0,
     "mood_sound": {
       "sound": "entity.zombie.break_wooden_door",
       "tick_delay": 6000,

@@ -10,6 +10,7 @@
     "water_fog_color": 2168894,
     "grass_color": 10251977,
     "foliage_color": 15703807,
+                "dry_foliage_color": 10251977,
     "ambient_sound": "minecraft:ambient.warped_forest.loop",
     "mood_sound": {
       "sound": "minecraft:ambient.warped_forest.mood",
@@ -199,7 +200,10 @@
     [
       "minecraft:spring_water",
       "minecraft:patch_tall_grass_2",
-      "minecraft:patch_grass_plain"
+      "minecraft:patch_grass_plain",
+      "minecraft:patch_firefly_bush_near_water",
+      "minecraft:patch_bush",
+      "minecraft:patch_leaf_litter"
     ],
     [
       "minecraft:freeze_top_layer"

@@ -8,6 +8,7 @@
     "water_fog_color": 6406277,
     "grass_color": 16777215,
     "foliage_color": 16777215,
+            "dry_foliage_color": 16777215,
     "mood_sound": {
       "sound": "minecraft:entity.creeper.primed",
       "tick_delay": 6000,

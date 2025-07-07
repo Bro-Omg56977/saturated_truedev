@@ -9,6 +9,7 @@
     "water_fog_color": 9674921,
     "grass_color": 15334388,
     "foliage_color": 16777215,
+                "dry_foliage_color": 15334388,
     "ambient_sound": "minecraft:ambient.crimson_forest.loop",
     "mood_sound": {
       "sound": "minecraft:ambient.soul_sand_valley.mood",
@@ -202,7 +203,10 @@
       "minecraft:brown_mushroom_taiga",
       "minecraft:red_mushroom_taiga",
       "minecraft:patch_sugar_cane",
-      "minecraft:patch_pumpkin"
+      "minecraft:patch_pumpkin",
+      "minecraft:patch_firefly_bush_near_water",
+      "minecraft:patch_bush",
+      "minecraft:patch_leaf_litter"
     ],
     [
       "bro:icy/tree_placer1",
