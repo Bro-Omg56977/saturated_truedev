@@ -22,6 +22,6 @@ execute as @e[tag=offensedefenceeffect] at @s run particle minecraft:enchanted_h
 execute as @e[tag=offensedefenceeffect] run effect give @s minecraft:saturation 15 0 true
 execute as @e[tag=offensedefenceeffect] run effect give @s minecraft:resistance 15 2 true
 execute as @e[tag=offensedefenceeffect] at @s run effect give @e[tag=!offensedefenceeffect,distance=..15] minecraft:hunger 15 0 false
-execute as @e[tag=offensedefenceeffect] at @s run tellraw @s "§9Two Souls has been consumed"
-execute as @e[tag=offensedefenceeffect] run scoreboard players remove @e soul_count 2
+execute as @e[tag=offensedefenceeffect] at @s run title @s actionbar "§9Two Souls has been consumed"
+execute as @e[tag=offensedefenceeffect] run scoreboard players remove @s soul_count 2
 execute as @e[tag=offensedefenceeffect] run function bro:scythe/offense_defence_remove

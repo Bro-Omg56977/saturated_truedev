@@ -26,6 +26,6 @@ execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,dista
 execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:blindness 20 4 false
 execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:glowing 20 4 false
 execute as @e[tag=markereffect] at @s run effect give @e[tag=!markereffect,distance=..20] minecraft:darkness 20 4 false
-execute as @e[tag=markereffect] at @s run tellraw @s "§5Five Souls has been consumed"
-execute as @e[tag=markereffect] run scoreboard players remove @e soul_count 5
+execute as @e[tag=markereffect] at @s run title @s actionbar "§5Five Souls has been consumed"
+execute as @e[tag=markereffect] run scoreboard players remove @s soul_count 5
 execute as @e[tag=markereffect] run function bro:scythe/marked_remove

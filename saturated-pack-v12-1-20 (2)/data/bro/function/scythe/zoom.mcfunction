@@ -22,6 +22,6 @@ execute as @e[tag=zoomeffect] run effect give @s minecraft:speed 15 0 true
 execute as @e[tag=zoomeffect] run effect give @s minecraft:levitation 1 20 true
 execute as @e[tag=zoomeffect] run effect give @s minecraft:slow_falling 15 1 true
 execute as @e[tag=zoomeffect] at @s run effect give @e[tag=!zoomeffect,distance=..15] minecraft:wind_charged 15 2 false
-execute as @e[tag=zoomeffect] at @s run tellraw @s "§9Two Souls has been consumed"
-execute as @e[tag=zoomeffect] run scoreboard players remove @e soul_count 2
+execute as @e[tag=zoomeffect] at @s run title @s actionbar "§9Two Souls has been consumed"
+execute as @e[tag=zoomeffect] run scoreboard players remove @s soul_count 2
 execute as @e[tag=zoomeffect] run function bro:scythe/zoom_remove

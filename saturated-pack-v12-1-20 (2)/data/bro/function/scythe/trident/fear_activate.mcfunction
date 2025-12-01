@@ -13,6 +13,6 @@ execute as @e[tag=fearprojectile,tag=!feareffect] at @s run effect give @s minec
 execute as @e[tag=fearprojectile,tag=!feareffect] at @s run effect give @s minecraft:slowness 10 0
 execute as @e[tag=fearprojectile,tag=!feareffect] at @s run effect give @s minecraft:weakness 10 0
 execute as @e[tag=fearprojectile,tag=!feareffect] at @s run effect give @s minecraft:mining_fatigue 10 3
-execute as @e[tag=feareffect] at @s run tellraw @s "§1One Soul has been consumed"
-execute as @e[tag=feareffect] run scoreboard players remove @e soul_count 1
+execute as @e[tag=feareffect] at @s run title @s actionbar "§1One Soul has been consumed"
+execute as @e[tag=feareffect] run scoreboard players remove @s soul_count 1
 execute as @e[tag=feareffect] run function bro:scythe/trident/fear_remove

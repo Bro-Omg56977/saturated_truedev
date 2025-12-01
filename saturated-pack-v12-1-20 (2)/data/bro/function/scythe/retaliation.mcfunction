@@ -22,6 +22,6 @@ execute as @e[tag=vampirismeffect] run effect give @s minecraft:regeneration 10 
 execute as @e[tag=vampirismeffect] run effect give @s minecraft:strength 10 0 false
 execute as @e[tag=vampirismeffect] at @s run effect give @e[tag=!vampirismeffect,distance=..10] wither 10 1 false
 execute as @e[tag=vampirismeffect] at @s run effect give @e[tag=!vampirismeffect,distance=..10] weakness 10 1 false
-execute as @e[tag=vampirismeffect] at @s run tellraw @s "§1One Soul has been consumed"
-execute as @e[tag=vampirismeffect] run scoreboard players remove @e soul_count 1
+execute as @e[tag=vampirismeffect] at @s run title @s actionbar "§1One Soul has been consumed"
+execute as @e[tag=vampirismeffect] run scoreboard players remove @s soul_count 1
 execute as @e[tag=vampirismeffect] run function bro:scythe/vampirism_remove1

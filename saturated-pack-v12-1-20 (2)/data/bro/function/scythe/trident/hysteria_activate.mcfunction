@@ -16,6 +16,6 @@ execute as @e[tag=hysteriaprojectile,tag=!hysteriaeffect] at @s run effect give 
 execute as @e[tag=hysteriaeffect] at @s run effect give @s speed 20 1 true
 execute as @e[tag=hysteriaeffect] at @s run effect give @s jump_boost 20 1 true
 execute as @e[tag=hysteriaeffect] at @s run effect give @s strength 20 1 true
-execute as @e[tag=hysteriaeffect] at @s run tellraw @s "§5Five Souls have been consumed"
-execute as @e[tag=hysteriaeffect] run scoreboard players remove @e soul_count 5
+execute as @e[tag=hysteriaeffect] at @s run title @s actionbar "§5Five Souls have been consumed"
+execute as @e[tag=hysteriaeffect] run scoreboard players remove @s soul_count 5
 execute as @e[tag=hysteriaeffect] run function bro:scythe/trident/hysteria_remove

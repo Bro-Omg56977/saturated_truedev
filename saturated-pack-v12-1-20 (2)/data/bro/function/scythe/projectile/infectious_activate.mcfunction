@@ -15,6 +15,6 @@ execute as @e[tag=infectarrow,tag=!infecteffect] unless entity @e[type=#undead] 
 execute as @e[tag=infectarrow,tag=!infecteffect] unless entity @e[type=#undead] run effect give @s minecraft:wither 20 4
 execute as @e[tag=infectarrow,tag=!infecteffect] run effect give @s minecraft:slowness 20 4
 execute as @e[tag=infectarrow,tag=!infecteffect] run effect give @s minecraft:weakness 20 4
-execute as @e[tag=infecteffect] at @s run tellraw @s "§5Five Souls has been consumed"
-execute as @e[tag=infecteffect] run scoreboard players remove @e soul_count 5
+execute as @e[tag=infecteffect] at @s run title @s actionbar "§5Five Souls has been consumed"
+execute as @e[tag=infecteffect] run scoreboard players remove @s soul_count 5
 execute as @e[tag=infecteffect] run function bro:scythe/projectile/infectious_remove

@@ -14,6 +14,6 @@ execute as @e[tag=adversityarrow,tag=!adversityeffect] as @s at @s if score @s a
 execute as @e[tag=adversityarrow,tag=!adversityeffect] as @s at @s if score @s adversity_randomizer matches 4 run effect give @s minecraft:slowness 15 2
 execute as @e[tag=adversityarrow,tag=!adversityeffect] as @s at @s if score @s adversity_randomizer matches 5 run effect give @s minecraft:darkness 15 2
 execute as @e[tag=adversityarrow,tag=!adversityeffect] as @s at @s if score @s adversity_randomizer matches 6 run effect give @s minecraft:nausea 15 2
-execute as @e[tag=adversityeffect] at @s run tellraw @s "§9Two Souls has been consumed"
-execute as @e[tag=adversityeffect] run scoreboard players remove @e soul_count 2
+execute as @e[tag=adversityeffect] at @s run title @s actionbar "§9Two Souls has been consumed"
+execute as @e[tag=adversityeffect] run scoreboard players remove @s soul_count 2
 execute as @e[tag=adversityeffect] run function bro:scythe/projectile/adversity_remove

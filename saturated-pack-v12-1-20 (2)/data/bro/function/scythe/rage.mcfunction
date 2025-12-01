@@ -22,6 +22,6 @@ execute as @e[tag=rageeffect] run effect give @s minecraft:strength 10 1 true
 execute as @e[tag=rageeffect] run effect give @s minecraft:speed 10 1 true
 execute as @e[tag=rageeffect] at @s run effect give @e[tag=!rageeffect,distance=..10] slowness 10 0 false
 execute as @e[tag=rageeffect] at @s run effect give @e[tag=!rageeffect,distance=..10] weakness 10 0 false
-execute as @e[tag=rageeffect] at @s run tellraw @s "§1One Soul has been consumed"
-execute as @e[tag=rageeffect] run scoreboard players remove @e soul_count 1
+execute as @e[tag=rageeffect] at @s run title @s actionbar "§1One Soul has been consumed"
+execute as @e[tag=rageeffect] run scoreboard players remove @s soul_count 1
 execute as @e[tag=rageeffect] run function bro:scythe/rage_remove

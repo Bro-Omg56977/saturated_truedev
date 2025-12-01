@@ -9,8 +9,8 @@ execute as @e[tag=conduiteffect] at @s run particle minecraft:soul_fire_flame ~ 
 execute as @e[tag=conduiteffect] at @s run particle minecraft:nautilus ~ ~0.6 ~ 0 0 0 0.01 10
 execute as @e[tag=conduitprojectile,tag=!conduiteffect] at @s run tag @e[tag=!conduitprojectile,tag=!conduiteffect,distance=..10] add conduitprojectile
 execute as @e[tag=conduiteffect] at @s run tag @e[tag=!conduitprojectile,tag=!conduiteffect,distance=..10] add conduitprojectile
-execute as @e[tag=conduiteffect] at @s run tellraw @s "§9Two Souls have been consumed"
-execute as @e[tag=conduiteffect] run scoreboard players remove @e soul_count 5
+execute as @e[tag=conduiteffect] at @s run title @s actionbar "§9Two Souls have been consumed"
+execute as @e[tag=conduiteffect] run scoreboard players remove @s soul_count 5
 execute as @e[tag=conduiteffect] run function bro:scythe/trident/conduit_remove
 execute as @e[tag=conduitprojectile] run schedule function bro:scythe/trident/conduit_buffer 2s replace
 execute as @e[tag=conduitprojectile] run schedule function bro:scythe/trident/conduit_buffer0 4s replace

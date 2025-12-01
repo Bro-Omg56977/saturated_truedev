@@ -9,6 +9,6 @@ execute as @e[tag=degradearrow,tag=!degradeeffect] at @s run tag @e[tag=!degrade
 execute as @e[tag=degradearrow,tag=!degradeeffect] at @s run effect give @s minecraft:wither 10 2
 execute as @e[tag=degradearrow,tag=!degradeeffect] at @s if entity @s[type=#minecraft:undead] run effect give @s instant_health 1 1
 execute as @e[tag=degradearrow,tag=!degradeeffect] at @s if entity @s[type=!#minecraft:undead] run effect give @s instant_damage 1 1
-execute as @e[tag=degradeeffect] at @s run tellraw @s "§1One Soul has been consumed"
-execute as @e[tag=degradeeffect] run scoreboard players remove @e soul_count 1
+execute as @e[tag=degradeeffect] at @s run title @s actionbar "§1One Soul has been consumed"
+execute as @e[tag=degradeeffect] run scoreboard players remove @s soul_count 1
 execute as @e[tag=degradeeffect] run function bro:scythe/projectile/soul_degrade_remove

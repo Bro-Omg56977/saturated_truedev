@@ -1,6 +1,8 @@
 {
-    "pack": {
-        "pack_format": 71,
-        "description": "§b Saturated is a datapack that adds a dimension, structures, magic things, and stuff like that. Created by Bro Omg"
-    }
+  "pack": {
+    "pack_format": 88,
+    "description": "§b Saturated is a datapack that adds a dimension, structures, magic things, and stuff like that. Created by Bro Omg",
+    "min_format": 88,
+    "max_format": 88
+  }
 }

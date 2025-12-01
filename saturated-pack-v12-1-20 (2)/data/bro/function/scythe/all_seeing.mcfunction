@@ -21,6 +21,6 @@ execute as @e[tag=allseeingeffect] at @s run particle minecraft:dust_plume ~ ~0.
 execute as @e[tag=allseeingeffect] at @s run effect give @e[tag=!allseeingeffect,distance=..25] minecraft:blindness 30 1 false
 execute as @e[tag=allseeingeffect] at @s run effect give @e[tag=!allseeingeffect,distance=..25] minecraft:darkness 30 1 false
 execute as @e[tag=allseeingeffect] at @s run effect give @e[tag=!allseeingeffect,distance=..25] minecraft:glowing 30 1 false
-execute as @e[tag=allseeingeffect] at @s run tellraw @s "§1One Soul has been consumed"
-execute as @e[tag=allseeingeffect] run scoreboard players remove @e soul_count 1
+execute as @e[tag=allseeingeffect] at @s run title @s actionbar "§1One Soul has been consumed"
+execute as @e[tag=allseeingeffect] run scoreboard players remove @s soul_count 1
 execute as @e[tag=allseeingeffect] run function bro:scythe/all_seeing_remove

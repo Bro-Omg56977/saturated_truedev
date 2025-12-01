@@ -13,6 +13,6 @@ execute as @e[tag=atomsliceeffect] at @s run particle minecraft:explosion_emitte
 execute as @e[tag=atomsliceeffect] at @s run tag @e[tag=!atomsliceeffect,distance=..30] add atomsliceeffects
 execute as @e[tag=atomsliceeffect] at @s run effect give @e[tag=!atomsliceeffect,distance=..30] minecraft:slowness 2 10 false
 execute as @e[tag=atomsliceeffect] at @s run effect give @e[tag=atomsliceeffect] minecraft:resistance 2 10 true
-execute as @e[tag=atomsliceeffect] at @s run tellraw @s "§cAll Souls has been consumed"
-execute as @e[tag=atomsliceeffect] run scoreboard players remove @e soul_count 10
+execute as @e[tag=atomsliceeffect] at @s run title @s actionbar "§cAll Souls has been consumed"
+execute as @e[tag=atomsliceeffect] run scoreboard players remove @s soul_count 10
 execute as @e[tag=atomsliceeffect] run function bro:scythe/slice_remove

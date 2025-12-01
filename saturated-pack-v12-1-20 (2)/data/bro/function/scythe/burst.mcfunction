@@ -22,6 +22,6 @@ execute as @e[tag=bursteffect] at @s run particle minecraft:sculk_soul ~ ~0.6 ~ 
 execute as @e[tag=bursteffect] run effect give @s minecraft:instant_damage 1 0 false
 execute as @e[tag=bursteffect] at @s run effect give @e[tag=!bursteffect,type=!#minecraft:undead,distance=..20] instant_damage 1 2 false
 execute as @e[tag=bursteffect] at @s run effect give @e[tag=!bursteffect,type=#minecraft:undead,distance=..20] instant_health 1 2 false
-execute as @e[tag=bursteffect] at @s run tellraw @s "§9Two Souls has been consumed"
-execute as @e[tag=bursteffect] run scoreboard players remove @e soul_count 2
+execute as @e[tag=bursteffect] at @s run title @s actionbar "§9Two Souls has been consumed"
+execute as @e[tag=bursteffect] run scoreboard players remove @s soul_count 2
 execute as @e[tag=bursteffect] run function bro:scythe/burst_remove

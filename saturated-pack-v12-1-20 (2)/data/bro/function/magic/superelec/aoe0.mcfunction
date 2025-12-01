@@ -4,18 +4,8 @@ playsound minecraft:item.firecharge.use ambient @a[distance=..32] ~ ~ ~ 1 0.1
  
 #summons a ton of aoe markers
 summon marker ~ ~1 ~ {Tags:["sat.superelec.aoe"],Rotation:[0f,-180f]}
-summon marker ~ ~1 ~ {Tags:["sat.superelec.aoe"],Rotation:[0f,-180f]}
-summon marker ~ ~1 ~ {Tags:["sat.superelec.aoe"],Rotation:[0f,-180f]}
-summon marker ~ ~1 ~ {Tags:["sat.superelec.aoe"],Rotation:[0f,-180f]}
-summon marker ~ ~1 ~ {Tags:["sat.superelec.aoe"],Rotation:[0f,-180f]}
-summon marker ~ ~1 ~ {Tags:["sat.superelec.aoe"],Rotation:[0f,-180f]}
 
 #same as above but for underground
-summon marker ~ ~1 ~ {Tags:["sat.superelec.aoe","sat.superelec.aoe2"],Rotation:[0f,-180f]}
-summon marker ~ ~1 ~ {Tags:["sat.superelec.aoe","sat.superelec.aoe2"],Rotation:[0f,-180f]}
-summon marker ~ ~1 ~ {Tags:["sat.superelec.aoe","sat.superelec.aoe2"],Rotation:[0f,-180f]}
-summon marker ~ ~1 ~ {Tags:["sat.superelec.aoe","sat.superelec.aoe2"],Rotation:[0f,-180f]}
-summon marker ~ ~1 ~ {Tags:["sat.superelec.aoe","sat.superelec.aoe2"],Rotation:[0f,-180f]}
 summon marker ~ ~1 ~ {Tags:["sat.superelec.aoe","sat.superelec.aoe2"],Rotation:[0f,-180f]}
 
 spreadplayers ~ ~ 0 10 false @e[type=marker,tag=sat.superelec.aoe,tag=!sat.superelec.aoe2]

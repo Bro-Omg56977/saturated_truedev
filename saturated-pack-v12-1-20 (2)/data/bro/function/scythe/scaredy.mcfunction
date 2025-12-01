@@ -21,6 +21,6 @@ execute as @e[tag=vaultingeffect] at @s run particle minecraft:gust ~ ~0.6 ~ 0 0
 execute as @e[tag=vaultingeffect] run effect give @s minecraft:speed 10 0 true
 execute as @e[tag=vaultingeffect] run effect give @s minecraft:jump_boost 10 0 true
 execute as @e[tag=vaultingeffect] at @s run effect give @e[tag=!vaultingeffect,distance=..10] minecraft:slowness 10 1 false
-execute as @e[tag=vaultingeffect] at @s run tellraw @s "§1One Soul has been consumed"
-execute as @e[tag=vaultingeffect] run scoreboard players remove @e soul_count 1
+execute as @e[tag=vaultingeffect] at @s run title @s actionbar "§1One Soul has been consumed"
+execute as @e[tag=vaultingeffect] run scoreboard players remove @s soul_count 1
 execute as @e[tag=vaultingeffect] run function bro:scythe/vaulting_remove

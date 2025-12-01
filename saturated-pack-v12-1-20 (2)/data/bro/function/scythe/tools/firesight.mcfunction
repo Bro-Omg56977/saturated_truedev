@@ -21,6 +21,6 @@ execute as @e[tag=satfiresighteffect] at @s run particle minecraft:flame ~ ~0.6 
 execute as @e[tag=satfiresighteffect] at @s run effect give @s minecraft:fire_resistance 15 0 true
 execute as @e[tag=satfiresighteffect] at @s run effect give @s minecraft:regeneration 15 2 true
 execute as @e[tag=satfiresighteffect] at @s run effect give @e[tag=!satfiresighteffect,distance=..50] glowing 10 0 false
-execute as @e[tag=satfiresighteffect] at @s run tellraw @s "§1One Soul has been consumed"
-execute as @e[tag=satfiresighteffect] run scoreboard players remove @e soul_count 1
+execute as @e[tag=satfiresighteffect] at @s run title @s actionbar "§1One Soul has been consumed"
+execute as @e[tag=satfiresighteffect] run scoreboard players remove @s soul_count 1
 execute as @e[tag=satfiresighteffect] run function bro:scythe/tools/firesight_remove

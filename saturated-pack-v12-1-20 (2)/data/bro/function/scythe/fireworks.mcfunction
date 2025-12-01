@@ -13,6 +13,6 @@ execute as @e[tag=fireworkeffect] at @s run particle minecraft:gust_emitter_larg
 execute as @e[tag=fireworkeffect] at @s run tag @e[tag=!fireworkeffect,distance=..30] add fireworkeffects
 execute as @e[tag=fireworkeffect] at @s run effect give @e[tag=fireworkeffect] minecraft:resistance 2 10 true
 execute as @e[tag=fireworkeffect] at @s run effect give @e[tag=!fireworkeffect,distance=..30] minecraft:levitation 2 15 false
-execute as @e[tag=fireworkeffect] at @s run tellraw @s "§cAll Souls has been consumed"
-execute as @e[tag=fireworkeffect] run scoreboard players remove @e soul_count 10
+execute as @e[tag=fireworkeffect] at @s run title @s actionbar "§cAll Souls has been consumed"
+execute as @e[tag=fireworkeffect] run scoreboard players remove @s soul_count 10
 execute as @e[tag=fireworkeffect] run function bro:scythe/fireworks_remove
