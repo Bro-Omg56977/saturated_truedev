@@ -4,7 +4,7 @@
       "bro:scythe/soul_scythe"
   ],
     "supported_items": "#minecraft:enchantable/weapon",
-    "primary_items": "#minecraft:enchantable/sword",
+    "primary_items": "#minecraft:enchantable/sharp_weapon",
     "weight": 1,
     "max_level": 1,
     "min_cost": {

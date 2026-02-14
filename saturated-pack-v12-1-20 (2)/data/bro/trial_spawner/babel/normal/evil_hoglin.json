@@ -5,9 +5,9 @@
       "data": {
         "entity": {
           "Glowing": true,
-          "Team": "sunken",
+          "Team": "coven",
           "Tags": [
-            "sat.sunken"
+            "coven"
           ],
           "id": "minecraft:zoglin",
           "attributes": [
